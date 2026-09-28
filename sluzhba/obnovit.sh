@@ -14,6 +14,7 @@ SEYCHAS=$(date "+%Y-%m-%dT%H:%M:%S")
 python3 sluzhba/prinyat.py      >> "$ZHURNAL" 2>&1
 python3 sluzhba/sobrat_fayly.py >> "$ZHURNAL" 2>&1
 python3 sluzhba/indeks.py       >> "$ZHURNAL" 2>&1
+python3 sluzhba/svodka.py       >> "$ZHURNAL" 2>&1
 
 # Закрепляем всегда: это дёшево и делает историю восстановимой по дням.
 if [ -n "$(git status --porcelain 2>/dev/null)" ]; then
