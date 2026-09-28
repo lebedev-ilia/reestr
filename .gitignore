@@ -1,0 +1,6 @@
+# Производное: строится из сырого за минуту, в хранилище не нужно
+ukazatel/reestr.db
+ukazatel/obnovlenie.log
+syroe/besedy/**/*.otpechatok
+__pycache__/
+.DS_Store
