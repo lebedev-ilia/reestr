@@ -1,0 +1,20 @@
+{
+ "id": "job-016",
+ "title": "bl-046: переписать индивидуальную часть партии U",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T13:19:40+10:00",
+ "started": "2026-08-25T13:19:40+10:00",
+ "finished": "2026-08-25T13:28:16+10:00",
+ "sec": 516.0,
+ "pid": 241811,
+ "cost_usd": 1.6655810000000002,
+ "turns": 37,
+ "result": "memory/jobs/job-016/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T13:33:13+10:00"
+}

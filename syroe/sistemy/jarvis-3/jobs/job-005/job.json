@@ -1,0 +1,20 @@
+{
+ "id": "job-005",
+ "title": "Сбор вакансий hh.ru для холодной рассылки: производство/опт стройматериалов и оборудования",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T10:08:33+10:00",
+ "started": "2026-08-25T10:11:02+10:00",
+ "finished": "2026-08-25T10:21:16+10:00",
+ "sec": 614.7,
+ "pid": 58834,
+ "cost_usd": 1.556342,
+ "turns": 61,
+ "result": "memory/jobs/job-005/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T10:22:29+10:00"
+}

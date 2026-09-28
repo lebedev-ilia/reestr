@@ -1,0 +1,34 @@
+{
+ "id": "t-004",
+ "project": "vnutrennii",
+ "title": "Проба веток (bl-149)",
+ "teamlead": "jarvis",
+ "executor": "sonnet-job-114",
+ "created": "2026-08-30",
+ "planned_due": "2026-08-30",
+ "started": "2026-08-31T14:46:52+10:00",
+ "finished": "2026-08-31T14:46:56+10:00",
+ "accepted_at": "2026-08-31T14:47:01+10:00",
+ "accepted_by": "jarvis",
+ "status": "done",
+ "rounds": [],
+ "artifacts": [
+  "memory/projects/vnutrennii/tasks/t-004/progress.md"
+ ],
+ "criteria": [
+  {
+   "id": "c-01",
+   "text": "ветка agent/t-004-... заведена и в ней есть коммит с id задачи",
+   "passes": true,
+   "checked_at": "2026-08-31T14:47:01+10:00",
+   "checked_by": "jarvis"
+  },
+  {
+   "id": "c-02",
+   "text": "слияние сделано командой branch-merge под ролью teamlead",
+   "passes": true,
+   "checked_at": "2026-08-31T14:47:01+10:00",
+   "checked_by": "jarvis"
+  }
+ ]
+}

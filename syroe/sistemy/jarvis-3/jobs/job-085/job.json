@@ -1,0 +1,21 @@
+{
+ "id": "job-085",
+ "title": "этап0-протокол-задачи-и-проект-в-памяти",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-30T09:00:49+10:00",
+ "started": "2026-08-30T09:00:49+10:00",
+ "finished": "2026-08-30T09:13:51+10:00",
+ "sec": 782.0,
+ "pid": 861338,
+ "cost_usd": 3.487344,
+ "turns": 79,
+ "result": "memory/jobs/job-085/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T09:17:31+10:00"
+}

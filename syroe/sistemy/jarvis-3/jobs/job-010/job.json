@@ -1,0 +1,20 @@
+{
+ "id": "job-010",
+ "title": "Заливка лета 2026 в Finance Notion (ob-019)",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T10:34:07+10:00",
+ "started": "2026-08-25T10:41:23+10:00",
+ "finished": "2026-08-25T10:47:23+10:00",
+ "sec": 360.0,
+ "pid": 86942,
+ "cost_usd": 0.9942926000000002,
+ "turns": 22,
+ "result": "memory/jobs/job-010/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T10:50:20+10:00"
+}

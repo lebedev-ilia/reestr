@@ -1,0 +1,20 @@
+{
+ "id": "job-009",
+ "title": "seg3-partiya-AD: первые карточки T3 — живые люди из сообществ",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T10:26:31+10:00",
+ "started": "2026-08-25T10:40:38+10:00",
+ "finished": "2026-08-25T10:48:14+10:00",
+ "sec": 456.7,
+ "pid": 86093,
+ "cost_usd": 1.6002506,
+ "turns": 48,
+ "result": "memory/jobs/job-009/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T10:50:20+10:00"
+}

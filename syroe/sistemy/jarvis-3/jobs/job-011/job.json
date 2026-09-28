@@ -1,0 +1,20 @@
+{
+ "id": "job-011",
+ "title": "СЫРЬЁ: клиенты СБИС/Такском из кейсов ЭДО (не вендоры, не гиганты)",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T10:58:59+10:00",
+ "started": "2026-08-25T10:58:59+10:00",
+ "finished": "2026-08-25T11:07:30+10:00",
+ "sec": 511.9,
+ "pid": 103987,
+ "cost_usd": 1.3006242,
+ "turns": 40,
+ "result": "memory/jobs/job-011/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T11:14:53+10:00"
+}

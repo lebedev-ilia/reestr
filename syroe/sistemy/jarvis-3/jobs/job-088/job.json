@@ -1,0 +1,22 @@
+{
+ "id": "job-088",
+ "title": "Этап 0-A: тимлид как постоянный процесс со сторожем живости",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "",
+ "created": "2026-08-30T10:18:28+10:00",
+ "started": "2026-08-30T10:18:28+10:00",
+ "finished": "2026-08-30T10:35:23+10:00",
+ "sec": 1015.4,
+ "pid": 939115,
+ "cost_usd": 3.161018,
+ "turns": 77,
+ "result": "memory/jobs/job-088/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T10:45:45+10:00"
+}

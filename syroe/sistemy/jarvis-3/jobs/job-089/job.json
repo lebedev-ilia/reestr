@@ -1,0 +1,22 @@
+{
+ "id": "job-089",
+ "title": "Этап 0-B: сборка сводок по проекту кодом и счётчик расхода",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "",
+ "created": "2026-08-30T10:19:01+10:00",
+ "started": "2026-08-30T10:19:01+10:00",
+ "finished": "2026-08-30T10:26:09+10:00",
+ "sec": 428.7,
+ "pid": 939867,
+ "cost_usd": 1.750874,
+ "turns": 49,
+ "result": "memory/jobs/job-089/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T10:30:22+10:00"
+}

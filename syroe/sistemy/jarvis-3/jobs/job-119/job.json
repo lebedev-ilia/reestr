@@ -1,0 +1,22 @@
+{
+ "id": "job-119",
+ "title": "bl-148 четвёртый заход проверки изоляции",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "vnutrennii",
+ "created": "2026-08-30T21:02:06+10:00",
+ "started": "2026-08-30T21:02:06+10:00",
+ "finished": "2026-08-30T21:08:46+10:00",
+ "sec": 401.0,
+ "pid": 1526737,
+ "cost_usd": 1.251753,
+ "turns": 48,
+ "result": "memory/jobs/job-119/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T21:11:55+10:00"
+}

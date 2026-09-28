@@ -1,0 +1,29 @@
+{
+ "id": "job-092",
+ "title": "teamlead-vnutrennii:work Новая цель проекта от Jarvis — этап 1 по разделу 1",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 40,
+ "timeout": 3000,
+ "origin": "role",
+ "zone": [
+  "memory/agents/teamlead-vnutrennii/knowledge",
+  "memory/agents/teamlead-vnutrennii/journal",
+  "memory/agents/teamlead-vnutrennii/STATUS.md",
+  "memory/agents/teamlead-vnutrennii/LESSONS.md",
+  "memory/projects/vnutrennii/queue.md",
+  "memory/projects/vnutrennii/tasks"
+ ],
+ "project": "",
+ "created": "2026-08-30T10:54:17+10:00",
+ "started": "2026-08-30T10:54:17+10:00",
+ "finished": "2026-08-30T11:00:42+10:00",
+ "sec": 385.3,
+ "pid": 976712,
+ "cost_usd": 1.215781,
+ "turns": 34,
+ "result": "memory/jobs/job-092/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T11:01:39+10:00"
+}

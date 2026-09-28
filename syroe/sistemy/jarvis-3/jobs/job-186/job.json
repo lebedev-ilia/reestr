@@ -1,0 +1,31 @@
+{
+ "id": "job-186",
+ "title": "critic:work по расписанию",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 25,
+ "timeout": 1800,
+ "origin": "schedule",
+ "zone": [
+  "memory/agents/critic/findings",
+  "memory/agents/critic/journal",
+  "memory/agents/critic/STATUS.md",
+  "memory/agents/critic/LESSONS.md"
+ ],
+ "project": "",
+ "parent": null,
+ "depth": 0,
+ "maxed": false,
+ "continued": null,
+ "created": "2026-09-01T13:59:44+10:00",
+ "started": "2026-09-01T13:59:44+10:00",
+ "finished": "2026-09-01T14:02:23+10:00",
+ "sec": 159.1,
+ "pid": 3624047,
+ "cost_usd": 0.791097,
+ "turns": 23,
+ "result": "memory/jobs/job-186/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-09-01T14:02:43+10:00"
+}

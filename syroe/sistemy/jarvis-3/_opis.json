@@ -1,0 +1,7077 @@
+{
+ "imya": "jarvis-3",
+ "istok": "/Users/user/Downloads/Agent/jarvis/memory",
+ "prinyato": "2026-09-28 23:50",
+ "faylov": 1178,
+ "zatyorto_sekretov": 0,
+ "fayly": [
+  {
+   "put": "README.md",
+   "razdel": "koren",
+   "znakov": 69,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/README.md",
+   "razdel": "agents",
+   "znakov": 586,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/LESSONS.md",
+   "razdel": "agents",
+   "znakov": 12360,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/PROMPT.md",
+   "razdel": "agents",
+   "znakov": 4313,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/ROLE.yaml",
+   "razdel": "agents",
+   "znakov": 3003,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/STATUS.md",
+   "razdel": "agents",
+   "znakov": 7323,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-25-23-2.md",
+   "razdel": "agents",
+   "znakov": 4742,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-25-23.md",
+   "razdel": "agents",
+   "znakov": 4584,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-01.md",
+   "razdel": "agents",
+   "znakov": 3453,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-02.md",
+   "razdel": "agents",
+   "znakov": 5189,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-03.md",
+   "razdel": "agents",
+   "znakov": 3469,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-04.md",
+   "razdel": "agents",
+   "znakov": 4698,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-05.md",
+   "razdel": "agents",
+   "znakov": 4264,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-06.md",
+   "razdel": "agents",
+   "znakov": 1480,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-07.md",
+   "razdel": "agents",
+   "znakov": 2934,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-08.md",
+   "razdel": "agents",
+   "znakov": 4630,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-09.md",
+   "razdel": "agents",
+   "znakov": 5475,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-10.md",
+   "razdel": "agents",
+   "znakov": 3466,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-11.md",
+   "razdel": "agents",
+   "znakov": 3969,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-12.md",
+   "razdel": "agents",
+   "znakov": 4119,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-13.md",
+   "razdel": "agents",
+   "znakov": 6026,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-14.md",
+   "razdel": "agents",
+   "znakov": 5871,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-15.md",
+   "razdel": "agents",
+   "znakov": 3456,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-16.md",
+   "razdel": "agents",
+   "znakov": 6690,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-17.md",
+   "razdel": "agents",
+   "znakov": 5299,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-18.md",
+   "razdel": "agents",
+   "znakov": 3530,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-19.md",
+   "razdel": "agents",
+   "znakov": 5618,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-20.md",
+   "razdel": "agents",
+   "znakov": 3486,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-21.md",
+   "razdel": "agents",
+   "znakov": 3850,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-22.md",
+   "razdel": "agents",
+   "znakov": 1831,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-26-23.md",
+   "razdel": "agents",
+   "znakov": 2561,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-00.md",
+   "razdel": "agents",
+   "znakov": 2867,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-01.md",
+   "razdel": "agents",
+   "znakov": 6467,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-02.md",
+   "razdel": "agents",
+   "znakov": 4526,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-03.md",
+   "razdel": "agents",
+   "znakov": 4510,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-04.md",
+   "razdel": "agents",
+   "znakov": 5966,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-05.md",
+   "razdel": "agents",
+   "znakov": 5209,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-06.md",
+   "razdel": "agents",
+   "znakov": 2609,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-07.md",
+   "razdel": "agents",
+   "znakov": 2461,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-08.md",
+   "razdel": "agents",
+   "znakov": 3571,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-09.md",
+   "razdel": "agents",
+   "znakov": 4947,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-10.md",
+   "razdel": "agents",
+   "znakov": 2591,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-11.md",
+   "razdel": "agents",
+   "znakov": 2178,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-12.md",
+   "razdel": "agents",
+   "znakov": 1734,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-13.md",
+   "razdel": "agents",
+   "znakov": 2107,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-27-14.md",
+   "razdel": "agents",
+   "znakov": 4523,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-08.md",
+   "razdel": "agents",
+   "znakov": 4185,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-09.md",
+   "razdel": "agents",
+   "znakov": 4233,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-10.md",
+   "razdel": "agents",
+   "znakov": 6181,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-11.md",
+   "razdel": "agents",
+   "znakov": 5836,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-12.md",
+   "razdel": "agents",
+   "znakov": 6345,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-13.md",
+   "razdel": "agents",
+   "znakov": 4749,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-14.md",
+   "razdel": "agents",
+   "znakov": 4652,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-15.md",
+   "razdel": "agents",
+   "znakov": 3587,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-17.md",
+   "razdel": "agents",
+   "znakov": 4712,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-18.md",
+   "razdel": "agents",
+   "znakov": 4221,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-19.md",
+   "razdel": "agents",
+   "znakov": 3416,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-20.md",
+   "razdel": "agents",
+   "znakov": 4060,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-21.md",
+   "razdel": "agents",
+   "znakov": 5278,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-30-23.md",
+   "razdel": "agents",
+   "znakov": 4694,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-01.md",
+   "razdel": "agents",
+   "znakov": 3740,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-03.md",
+   "razdel": "agents",
+   "znakov": 4892,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-05.md",
+   "razdel": "agents",
+   "znakov": 4482,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-07.md",
+   "razdel": "agents",
+   "znakov": 3727,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-08.md",
+   "razdel": "agents",
+   "znakov": 3641,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-09.md",
+   "razdel": "agents",
+   "znakov": 4307,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-10.md",
+   "razdel": "agents",
+   "znakov": 4505,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-11.md",
+   "razdel": "agents",
+   "znakov": 3358,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-12.md",
+   "razdel": "agents",
+   "znakov": 3112,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-13.md",
+   "razdel": "agents",
+   "znakov": 4390,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-14.md",
+   "razdel": "agents",
+   "znakov": 4334,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-15.md",
+   "razdel": "agents",
+   "znakov": 4071,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-16.md",
+   "razdel": "agents",
+   "znakov": 3192,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-17.md",
+   "razdel": "agents",
+   "znakov": 2052,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-18.md",
+   "razdel": "agents",
+   "znakov": 3877,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-19.md",
+   "razdel": "agents",
+   "znakov": 4572,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-21.md",
+   "razdel": "agents",
+   "znakov": 3832,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-08-31-23.md",
+   "razdel": "agents",
+   "znakov": 3117,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-01.md",
+   "razdel": "agents",
+   "znakov": 3293,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-03.md",
+   "razdel": "agents",
+   "znakov": 3028,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-05.md",
+   "razdel": "agents",
+   "znakov": 5205,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-07.md",
+   "razdel": "agents",
+   "znakov": 3035,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-09.md",
+   "razdel": "agents",
+   "znakov": 6749,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-11.md",
+   "razdel": "agents",
+   "znakov": 3394,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-13.md",
+   "razdel": "agents",
+   "znakov": 4733,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-16.md",
+   "razdel": "agents",
+   "znakov": 4352,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-18.md",
+   "razdel": "agents",
+   "znakov": 3208,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-20.md",
+   "razdel": "agents",
+   "znakov": 5425,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-01-22.md",
+   "razdel": "agents",
+   "znakov": 4192,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-02-00.md",
+   "razdel": "agents",
+   "znakov": 3502,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-02-02.md",
+   "razdel": "agents",
+   "znakov": 4203,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-02-04.md",
+   "razdel": "agents",
+   "znakov": 3527,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-02-06.md",
+   "razdel": "agents",
+   "znakov": 3859,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-02-08.md",
+   "razdel": "agents",
+   "znakov": 4240,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-02-10.md",
+   "razdel": "agents",
+   "znakov": 5004,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-02-12.md",
+   "razdel": "agents",
+   "znakov": 2559,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-02-16.md",
+   "razdel": "agents",
+   "znakov": 3723,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-02-20.md",
+   "razdel": "agents",
+   "znakov": 4228,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/2026-09-02-22.md",
+   "razdel": "agents",
+   "znakov": 3864,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/findings/README.md",
+   "razdel": "agents",
+   "znakov": 148,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-25.md",
+   "razdel": "agents",
+   "znakov": 2034,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-26.md",
+   "razdel": "agents",
+   "znakov": 6410,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-27-11.md",
+   "razdel": "agents",
+   "znakov": 1479,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-27-12.md",
+   "razdel": "agents",
+   "znakov": 1190,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-27-13.md",
+   "razdel": "agents",
+   "znakov": 1092,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-27-14.md",
+   "razdel": "agents",
+   "znakov": 1064,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-27.md",
+   "razdel": "agents",
+   "znakov": 1913,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-30-11.md",
+   "razdel": "agents",
+   "znakov": 1036,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-30-12.md",
+   "razdel": "agents",
+   "znakov": 1397,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-30-13.md",
+   "razdel": "agents",
+   "znakov": 883,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-30-14.md",
+   "razdel": "agents",
+   "znakov": 1362,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-30-15.md",
+   "razdel": "agents",
+   "znakov": 826,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-31-12.md",
+   "razdel": "agents",
+   "znakov": 556,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-31-19.md",
+   "razdel": "agents",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-31-21.md",
+   "razdel": "agents",
+   "znakov": 562,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-08-31-23.md",
+   "razdel": "agents",
+   "znakov": 478,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-09-01-01.md",
+   "razdel": "agents",
+   "znakov": 938,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-09-01-03.md",
+   "razdel": "agents",
+   "znakov": 619,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-09-01-11.md",
+   "razdel": "agents",
+   "znakov": 938,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-09-01-13.md",
+   "razdel": "agents",
+   "znakov": 1136,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/critic/journal/2026-09-02-08.md",
+   "razdel": "agents",
+   "znakov": 1391,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/LESSONS.md",
+   "razdel": "agents",
+   "znakov": 1127,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/PROMPT.md",
+   "razdel": "agents",
+   "znakov": 5852,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/ROLE.yaml",
+   "razdel": "agents",
+   "znakov": 4912,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/STATUS.md",
+   "razdel": "agents",
+   "znakov": 1117,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/journal/2026-08-25.md",
+   "razdel": "agents",
+   "znakov": 746,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/journal/2026-08-27.md",
+   "razdel": "agents",
+   "znakov": 1970,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/journal/2026-08-31.md",
+   "razdel": "agents",
+   "znakov": 3534,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/journal/2026-09-01.md",
+   "razdel": "agents",
+   "znakov": 713,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/knowledge/README.md",
+   "razdel": "agents",
+   "znakov": 239,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/knowledge/dogovor-razrabotka-po.md",
+   "razdel": "agents",
+   "znakov": 17433,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/knowledge/holodnaya-rassylka-pravo.md",
+   "razdel": "agents",
+   "znakov": 8647,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/knowledge/podpisanie-nda-edo-samozanyatyy.md",
+   "razdel": "agents",
+   "znakov": 5786,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/knowledge/prava-na-rezultat.md",
+   "razdel": "agents",
+   "znakov": 12438,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/legal/knowledge/samozanyatyy-npd.md",
+   "razdel": "agents",
+   "znakov": 13919,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/teamlead-vnutrennii/LESSONS.md",
+   "razdel": "agents",
+   "znakov": 4124,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/teamlead-vnutrennii/PROMPT.md",
+   "razdel": "agents",
+   "znakov": 5959,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/teamlead-vnutrennii/ROLE.yaml",
+   "razdel": "agents",
+   "znakov": 5837,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/teamlead-vnutrennii/STATUS.md",
+   "razdel": "agents",
+   "znakov": 4637,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/teamlead-vnutrennii/journal/2026-08-30.md",
+   "razdel": "agents",
+   "znakov": 13700,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/teamlead-vnutrennii/journal/2026-08-31.md",
+   "razdel": "agents",
+   "znakov": 3700,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/teamlead-vnutrennii/journal/2026-09-01.md",
+   "razdel": "agents",
+   "znakov": 4294,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/teamlead-vnutrennii/journal/2026-09-02.md",
+   "razdel": "agents",
+   "znakov": 4174,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/teamlead-vnutrennii/journal/README.md",
+   "razdel": "agents",
+   "znakov": 102,
+   "zatyorto": 0
+  },
+  {
+   "put": "agents/teamlead-vnutrennii/knowledge/README.md",
+   "razdel": "agents",
+   "znakov": 303,
+   "zatyorto": 0
+  },
+  {
+   "put": "backlog.md",
+   "razdel": "koren",
+   "znakov": 176562,
+   "zatyorto": 0
+  },
+  {
+   "put": "core_changes.md",
+   "razdel": "koren",
+   "znakov": 345538,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/README.md",
+   "razdel": "drafts",
+   "znakov": 584,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-2026-08-25-koncept.md",
+   "razdel": "drafts",
+   "znakov": 2087,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-2026-08-26-otvet-2.md",
+   "razdel": "drafts",
+   "znakov": 3862,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-2026-08-26-pismo-otpravleno.md",
+   "razdel": "drafts",
+   "znakov": 5216,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-2026-08-26-razbor.md",
+   "razdel": "drafts",
+   "znakov": 19629,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-2026-08-27-otvet.md",
+   "razdel": "drafts",
+   "znakov": 4307,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-2026-08-31-nda-pismo.md",
+   "razdel": "drafts",
+   "znakov": 3308,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-2026-09-01-edo.md",
+   "razdel": "drafts",
+   "znakov": 2910,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-2026-09-02-diadok-priglashenie.md",
+   "razdel": "drafts",
+   "znakov": 1231,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-figma-mcp-proverka.md",
+   "razdel": "drafts",
+   "znakov": 5575,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-klyuch-modeli.md",
+   "razdel": "drafts",
+   "znakov": 10998,
+   "zatyorto": 0
+  },
+  {
+   "put": "drafts/nologo-nda-nasha-forma.md",
+   "razdel": "drafts",
+   "znakov": 19421,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/README.md",
+   "razdel": "facts",
+   "znakov": 68,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/agent-sobytiyniy.md",
+   "razdel": "facts",
+   "znakov": 1207,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/agenty-postoyannye-roli.md",
+   "razdel": "facts",
+   "znakov": 14715,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/alverra-predlozhenie.md",
+   "razdel": "facts",
+   "znakov": 3679,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/arhitektura-pamyati-trebovaniya.md",
+   "razdel": "facts",
+   "znakov": 4857,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/avtonomnaya-rabota-ustroystvo.md",
+   "razdel": "facts",
+   "znakov": 3158,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/avtonomnye-agenty-vneshniy-opyt.md",
+   "razdel": "facts",
+   "znakov": 1900,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/brend-kompanii-avtomatizacii.md",
+   "razdel": "facts",
+   "znakov": 1672,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/bystryy-put-bez-mehanizma.md",
+   "razdel": "facts",
+   "znakov": 2162,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/cena-hoda-iz-chego-sostoit.md",
+   "razdel": "facts",
+   "znakov": 5597,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/cena-hoda-uchyot.md",
+   "razdel": "facts",
+   "znakov": 2447,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/dengi-kto-est-kto.md",
+   "razdel": "facts",
+   "znakov": 5593,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/dolgi-kontur.md",
+   "razdel": "facts",
+   "znakov": 2478,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/farpost-dostup.md",
+   "razdel": "facts",
+   "znakov": 4650,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/figma-mcp-zapis.md",
+   "razdel": "facts",
+   "znakov": 2403,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/fl-ru-dostup.md",
+   "razdel": "facts",
+   "znakov": 3525,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/frilans-paket-otklikov.md",
+   "razdel": "facts",
+   "znakov": 2451,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/gmail-imap-dostup.md",
+   "razdel": "facts",
+   "znakov": 1083,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/golos-stek.md",
+   "razdel": "facts",
+   "znakov": 2501,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/granicy-razdela-8-chem-zashchishcheny.md",
+   "razdel": "facts",
+   "znakov": 8795,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/hh-browser-sessiya.md",
+   "razdel": "facts",
+   "znakov": 1306,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/hh-ru-dostup.md",
+   "razdel": "facts",
+   "znakov": 3807,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/ilya-polozhenie-del-avgust.md",
+   "razdel": "facts",
+   "znakov": 1622,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/ilya.md",
+   "razdel": "facts",
+   "znakov": 1797,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/istochniki-sbora-kontaktov.md",
+   "razdel": "facts",
+   "znakov": 2082,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/istoriya-perepiski-po-kontaktam.md",
+   "razdel": "facts",
+   "znakov": 4455,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/izolyaciya-po-proektu-dyry.md",
+   "razdel": "facts",
+   "znakov": 4192,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/kalendar-do-pereezda.md",
+   "razdel": "facts",
+   "znakov": 1720,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/komanda-protokol-proektov.md",
+   "razdel": "facts",
+   "znakov": 9111,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/kvartira-kriterii.md",
+   "razdel": "facts",
+   "znakov": 1727,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/limit-podpiski-prostoy.md",
+   "razdel": "facts",
+   "znakov": 2711,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/log-uehal-v-derived.md",
+   "razdel": "facts",
+   "znakov": 2922,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/mailrisk-sito-adresov.md",
+   "razdel": "facts",
+   "znakov": 3282,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/mashina-doma.md",
+   "razdel": "facts",
+   "znakov": 1233,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/max-messenger-dostup.md",
+   "razdel": "facts",
+   "znakov": 3276,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/nochnoy-cikl-ustroystvo.md",
+   "razdel": "facts",
+   "znakov": 2898,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/nologo-zakaz-agent-dizayner.md",
+   "razdel": "facts",
+   "znakov": 12081,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/notion-metodichki.md",
+   "razdel": "facts",
+   "znakov": 1699,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/notion-ustroystvo.md",
+   "razdel": "facts",
+   "znakov": 2112,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/oplata-modeley-iz-rossii.md",
+   "razdel": "facts",
+   "znakov": 3148,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/otkliki-uchyot.md",
+   "razdel": "facts",
+   "znakov": 2053,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/pamyat-agentov-vneshniy-opyt.md",
+   "razdel": "facts",
+   "znakov": 2578,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/pamyat-uzkie-mesta.md",
+   "razdel": "facts",
+   "znakov": 1467,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/pc-dostup-ustroystvo.md",
+   "razdel": "facts",
+   "znakov": 11034,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/pisma-shablony-i-otkliki.md",
+   "razdel": "facts",
+   "znakov": 5787,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/planirovshchik-rassylki-po-poyasam.md",
+   "razdel": "facts",
+   "znakov": 6112,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/podagenty-arhitektura.md",
+   "razdel": "facts",
+   "znakov": 7680,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/podpis-ilyi-elektronnaya.md",
+   "razdel": "facts",
+   "znakov": 4589,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/poisk-po-pamyati-ustroystvo.md",
+   "razdel": "facts",
+   "znakov": 3293,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/potolok-sistemnogo-prompta.md",
+   "razdel": "facts",
+   "znakov": 2824,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/preryvanie-hoda-ustroystvo.md",
+   "razdel": "facts",
+   "znakov": 1894,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/rassylka-otpravka-ustroystvo.md",
+   "razdel": "facts",
+   "znakov": 4618,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/reestr-zanyatoy-raboty.md",
+   "razdel": "facts",
+   "znakov": 4324,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/sborka-konteksta-ustroystvo.md",
+   "razdel": "facts",
+   "znakov": 6683,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/spisok-60-kontaktov-kachestvo.md",
+   "razdel": "facts",
+   "znakov": 1821,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/spisok-60-kontaktov.md",
+   "razdel": "facts",
+   "znakov": 1842,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/stt-svoyo-raspoznavanie.md",
+   "razdel": "facts",
+   "znakov": 1717,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/telegram-dostup.md",
+   "razdel": "facts",
+   "znakov": 4720,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/trendflow-komanda-agentov.md",
+   "razdel": "facts",
+   "znakov": 5405,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/tts-podgotovka-teksta.md",
+   "razdel": "facts",
+   "znakov": 1822,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/uchyot-primeneniya-ne-vedyotsya.md",
+   "razdel": "facts",
+   "znakov": 2397,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/vk-api-osobennosti.md",
+   "razdel": "facts",
+   "znakov": 1833,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/vk-kanal-rekvizity.md",
+   "razdel": "facts",
+   "znakov": 1510,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/vk-kartinki-zrenie.md",
+   "razdel": "facts",
+   "znakov": 2426,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/vk-otvet-skorost-i-obyom.md",
+   "razdel": "facts",
+   "znakov": 2345,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/vypiska-sber-15-23-avgusta.md",
+   "razdel": "facts",
+   "znakov": 3151,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/vypiska-sber-leto-2026.md",
+   "razdel": "facts",
+   "znakov": 7158,
+   "zatyorto": 0
+  },
+  {
+   "put": "facts/zarabotok-kanaly.md",
+   "razdel": "facts",
+   "znakov": 2061,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/README.md",
+   "razdel": "jobs",
+   "znakov": 1070,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/dyadok-nep/issledovanie.md",
+   "razdel": "jobs",
+   "znakov": 17439,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-001/brief.md",
+   "razdel": "jobs",
+   "znakov": 743,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-001/job.json",
+   "razdel": "jobs",
+   "znakov": 474,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-001/result.md",
+   "razdel": "jobs",
+   "znakov": 437,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-002/brief.md",
+   "razdel": "jobs",
+   "znakov": 8904,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-002/job.json",
+   "razdel": "jobs",
+   "znakov": 521,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-002/result.md",
+   "razdel": "jobs",
+   "znakov": 242,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-003/brief.md",
+   "razdel": "jobs",
+   "znakov": 7838,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-003/job.json",
+   "razdel": "jobs",
+   "znakov": 523,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-003/result.md",
+   "razdel": "jobs",
+   "znakov": 1999,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-004/brief.md",
+   "razdel": "jobs",
+   "znakov": 8495,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-004/job.json",
+   "razdel": "jobs",
+   "znakov": 519,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-004/result.md",
+   "razdel": "jobs",
+   "znakov": 864,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-005/brief.md",
+   "razdel": "jobs",
+   "znakov": 7621,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-005/job.json",
+   "razdel": "jobs",
+   "znakov": 533,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-005/result.md",
+   "razdel": "jobs",
+   "znakov": 964,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-006/brief.md",
+   "razdel": "jobs",
+   "znakov": 3742,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-006/job.json",
+   "razdel": "jobs",
+   "znakov": 533,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-006/result.md",
+   "razdel": "jobs",
+   "znakov": 904,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-007/brief.md",
+   "razdel": "jobs",
+   "znakov": 3435,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-007/job.json",
+   "razdel": "jobs",
+   "znakov": 511,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-007/result.md",
+   "razdel": "jobs",
+   "znakov": 243,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-008/brief.md",
+   "razdel": "jobs",
+   "znakov": 3536,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-008/job.json",
+   "razdel": "jobs",
+   "znakov": 498,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-008/result.md",
+   "razdel": "jobs",
+   "znakov": 207,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-009/brief.md",
+   "razdel": "jobs",
+   "znakov": 3379,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-009/job.json",
+   "razdel": "jobs",
+   "znakov": 505,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-009/result.md",
+   "razdel": "jobs",
+   "znakov": 1228,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-010/brief.md",
+   "razdel": "jobs",
+   "znakov": 4392,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-010/job.json",
+   "razdel": "jobs",
+   "znakov": 496,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-010/result.md",
+   "razdel": "jobs",
+   "znakov": 1249,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-011/brief.md",
+   "razdel": "jobs",
+   "znakov": 3878,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-011/job.json",
+   "razdel": "jobs",
+   "znakov": 511,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-011/result.md",
+   "razdel": "jobs",
+   "znakov": 760,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-012/brief.md",
+   "razdel": "jobs",
+   "znakov": 4615,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-012/job.json",
+   "razdel": "jobs",
+   "znakov": 519,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-012/result.md",
+   "razdel": "jobs",
+   "znakov": 948,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-013/brief.md",
+   "razdel": "jobs",
+   "znakov": 3562,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-013/job.json",
+   "razdel": "jobs",
+   "znakov": 512,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-013/result.md",
+   "razdel": "jobs",
+   "znakov": 717,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-014/brief.md",
+   "razdel": "jobs",
+   "znakov": 7036,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-014/job.json",
+   "razdel": "jobs",
+   "znakov": 528,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-014/result.md",
+   "razdel": "jobs",
+   "znakov": 2488,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-015/brief.md",
+   "razdel": "jobs",
+   "znakov": 4210,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-015/job.json",
+   "razdel": "jobs",
+   "znakov": 521,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-015/result.md",
+   "razdel": "jobs",
+   "znakov": 1243,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-016/brief.md",
+   "razdel": "jobs",
+   "znakov": 4011,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-016/job.json",
+   "razdel": "jobs",
+   "znakov": 502,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-016/result.md",
+   "razdel": "jobs",
+   "znakov": 697,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-017/brief.md",
+   "razdel": "jobs",
+   "znakov": 5830,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-017/job.json",
+   "razdel": "jobs",
+   "znakov": 508,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-017/result.md",
+   "razdel": "jobs",
+   "znakov": 1000,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-018/brief.md",
+   "razdel": "jobs",
+   "znakov": 5855,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-018/claim.txt",
+   "razdel": "jobs",
+   "znakov": 360,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-018/job.json",
+   "razdel": "jobs",
+   "znakov": 508,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-018/result.md",
+   "razdel": "jobs",
+   "znakov": 178,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-019/brief.md",
+   "razdel": "jobs",
+   "znakov": 5871,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-019/claim.txt",
+   "razdel": "jobs",
+   "znakov": 376,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-019/job.json",
+   "razdel": "jobs",
+   "znakov": 508,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-019/result.md",
+   "razdel": "jobs",
+   "znakov": 847,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-020/brief.md",
+   "razdel": "jobs",
+   "znakov": 6247,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-020/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-020/job.json",
+   "razdel": "jobs",
+   "znakov": 631,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-020/result.md",
+   "razdel": "jobs",
+   "znakov": 1320,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-021/brief.md",
+   "razdel": "jobs",
+   "znakov": 10240,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-021/claim.txt",
+   "razdel": "jobs",
+   "znakov": 600,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-021/job.json",
+   "razdel": "jobs",
+   "znakov": 687,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-021/result.md",
+   "razdel": "jobs",
+   "znakov": 2158,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-022/brief.md",
+   "razdel": "jobs",
+   "znakov": 6233,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-022/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-022/job.json",
+   "razdel": "jobs",
+   "znakov": 631,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-022/result.md",
+   "razdel": "jobs",
+   "znakov": 2759,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-023/brief.md",
+   "razdel": "jobs",
+   "znakov": 6233,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-023/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-023/job.json",
+   "razdel": "jobs",
+   "znakov": 631,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-023/result.md",
+   "razdel": "jobs",
+   "znakov": 291,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-024/brief.md",
+   "razdel": "jobs",
+   "znakov": 6233,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-024/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-024/job.json",
+   "razdel": "jobs",
+   "znakov": 631,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-024/result.md",
+   "razdel": "jobs",
+   "znakov": 1515,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-025/brief.md",
+   "razdel": "jobs",
+   "znakov": 6233,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-025/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-025/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-025/result.md",
+   "razdel": "jobs",
+   "znakov": 1250,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-026/brief.md",
+   "razdel": "jobs",
+   "znakov": 6233,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-026/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-026/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-026/result.md",
+   "razdel": "jobs",
+   "znakov": 1111,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-027/brief.md",
+   "razdel": "jobs",
+   "znakov": 7170,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-027/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-027/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-027/result.md",
+   "razdel": "jobs",
+   "znakov": 1759,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-028/brief.md",
+   "razdel": "jobs",
+   "znakov": 7170,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-028/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-028/job.json",
+   "razdel": "jobs",
+   "znakov": 631,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-028/result.md",
+   "razdel": "jobs",
+   "znakov": 713,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-029/brief.md",
+   "razdel": "jobs",
+   "znakov": 7170,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-029/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-029/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-029/result.md",
+   "razdel": "jobs",
+   "znakov": 1026,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-030/brief.md",
+   "razdel": "jobs",
+   "znakov": 7170,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-030/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-030/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-030/result.md",
+   "razdel": "jobs",
+   "znakov": 896,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-031/brief.md",
+   "razdel": "jobs",
+   "znakov": 3004,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-031/job.json",
+   "razdel": "jobs",
+   "znakov": 501,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-031/result.md",
+   "razdel": "jobs",
+   "znakov": 818,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-032/brief.md",
+   "razdel": "jobs",
+   "znakov": 7170,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-032/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-032/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-032/result.md",
+   "razdel": "jobs",
+   "znakov": 1386,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-033/brief.md",
+   "razdel": "jobs",
+   "znakov": 3483,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-033/job.json",
+   "razdel": "jobs",
+   "znakov": 513,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-033/result.md",
+   "razdel": "jobs",
+   "znakov": 960,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-034/brief.md",
+   "razdel": "jobs",
+   "znakov": 7569,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-034/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-034/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-034/result.md",
+   "razdel": "jobs",
+   "znakov": 1227,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-035/brief.md",
+   "razdel": "jobs",
+   "znakov": 2715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-035/job.json",
+   "razdel": "jobs",
+   "znakov": 500,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-035/result.md",
+   "razdel": "jobs",
+   "znakov": 2547,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-036/brief.md",
+   "razdel": "jobs",
+   "znakov": 3015,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-036/job.json",
+   "razdel": "jobs",
+   "znakov": 506,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-036/result.md",
+   "razdel": "jobs",
+   "znakov": 2268,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-037/brief.md",
+   "razdel": "jobs",
+   "znakov": 3539,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-037/job.json",
+   "razdel": "jobs",
+   "znakov": 511,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-037/result.md",
+   "razdel": "jobs",
+   "znakov": 2078,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-038/brief.md",
+   "razdel": "jobs",
+   "znakov": 2224,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-038/job.json",
+   "razdel": "jobs",
+   "znakov": 519,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-038/result.md",
+   "razdel": "jobs",
+   "znakov": 845,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-039/brief.md",
+   "razdel": "jobs",
+   "znakov": 7569,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-039/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-039/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-039/result.md",
+   "razdel": "jobs",
+   "znakov": 1855,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-040/brief.md",
+   "razdel": "jobs",
+   "znakov": 3500,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-040/job.json",
+   "razdel": "jobs",
+   "znakov": 519,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-040/result.md",
+   "razdel": "jobs",
+   "znakov": 677,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-041/brief.md",
+   "razdel": "jobs",
+   "znakov": 3455,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-041/job.json",
+   "razdel": "jobs",
+   "znakov": 520,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-041/result.md",
+   "razdel": "jobs",
+   "znakov": 1456,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-042/brief.md",
+   "razdel": "jobs",
+   "znakov": 7569,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-042/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-042/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-042/result.md",
+   "razdel": "jobs",
+   "znakov": 2023,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-043/brief.md",
+   "razdel": "jobs",
+   "znakov": 4214,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-043/job.json",
+   "razdel": "jobs",
+   "znakov": 538,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-043/result.md",
+   "razdel": "jobs",
+   "znakov": 1050,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-044/brief.md",
+   "razdel": "jobs",
+   "znakov": 7569,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-044/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-044/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-044/result.md",
+   "razdel": "jobs",
+   "znakov": 1672,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-045/brief.md",
+   "razdel": "jobs",
+   "znakov": 7569,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-045/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-045/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-045/result.md",
+   "razdel": "jobs",
+   "znakov": 1567,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-046/brief.md",
+   "razdel": "jobs",
+   "znakov": 4582,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-046/job.json",
+   "razdel": "jobs",
+   "znakov": 533,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-046/result.md",
+   "razdel": "jobs",
+   "znakov": 1440,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-047/brief.md",
+   "razdel": "jobs",
+   "znakov": 7985,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-047/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-047/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-047/result.md",
+   "razdel": "jobs",
+   "znakov": 1977,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-048/brief.md",
+   "razdel": "jobs",
+   "znakov": 8065,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-048/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-048/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-048/result.md",
+   "razdel": "jobs",
+   "znakov": 1455,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-049/brief.md",
+   "razdel": "jobs",
+   "znakov": 5570,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-049/job.json",
+   "razdel": "jobs",
+   "znakov": 511,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-049/result.md",
+   "razdel": "jobs",
+   "znakov": 1368,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-050/brief.md",
+   "razdel": "jobs",
+   "znakov": 8947,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-050/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-050/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-050/result.md",
+   "razdel": "jobs",
+   "znakov": 1771,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-051/brief.md",
+   "razdel": "jobs",
+   "znakov": 9671,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-051/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-051/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-051/result.md",
+   "razdel": "jobs",
+   "znakov": 1155,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-052/brief.md",
+   "razdel": "jobs",
+   "znakov": 10001,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-052/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-052/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-052/result.md",
+   "razdel": "jobs",
+   "znakov": 1124,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-053/brief.md",
+   "razdel": "jobs",
+   "znakov": 10486,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-053/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-053/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-053/result.md",
+   "razdel": "jobs",
+   "znakov": 1269,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-054/brief.md",
+   "razdel": "jobs",
+   "znakov": 10822,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-054/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-054/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-054/result.md",
+   "razdel": "jobs",
+   "znakov": 1322,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-055/brief.md",
+   "razdel": "jobs",
+   "znakov": 10822,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-055/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-055/job.json",
+   "razdel": "jobs",
+   "znakov": 631,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-055/result.md",
+   "razdel": "jobs",
+   "znakov": 1061,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-056/brief.md",
+   "razdel": "jobs",
+   "znakov": 10822,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-056/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-056/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-056/result.md",
+   "razdel": "jobs",
+   "znakov": 699,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-057/brief.md",
+   "razdel": "jobs",
+   "znakov": 10822,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-057/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-057/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-057/result.md",
+   "razdel": "jobs",
+   "znakov": 1412,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-058/brief.md",
+   "razdel": "jobs",
+   "znakov": 4052,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-058/job.json",
+   "razdel": "jobs",
+   "znakov": 531,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-058/result.md",
+   "razdel": "jobs",
+   "znakov": 726,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-059/brief.md",
+   "razdel": "jobs",
+   "znakov": 3727,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-059/job.json",
+   "razdel": "jobs",
+   "znakov": 523,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-059/result.md",
+   "razdel": "jobs",
+   "znakov": 598,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-060/brief.md",
+   "razdel": "jobs",
+   "znakov": 10822,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-060/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-060/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-060/result.md",
+   "razdel": "jobs",
+   "znakov": 1312,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-061/brief.md",
+   "razdel": "jobs",
+   "znakov": 11871,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-061/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-061/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-061/result.md",
+   "razdel": "jobs",
+   "znakov": 1261,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-062/brief.md",
+   "razdel": "jobs",
+   "znakov": 11871,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-062/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-062/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-062/result.md",
+   "razdel": "jobs",
+   "znakov": 1252,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-063/brief.md",
+   "razdel": "jobs",
+   "znakov": 11871,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-063/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-063/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-063/result.md",
+   "razdel": "jobs",
+   "znakov": 1588,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-064/brief.md",
+   "razdel": "jobs",
+   "znakov": 435,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-064/job.json",
+   "razdel": "jobs",
+   "znakov": 521,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-064/result.md",
+   "razdel": "jobs",
+   "znakov": 51,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-065/brief.md",
+   "razdel": "jobs",
+   "znakov": 435,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-065/job.json",
+   "razdel": "jobs",
+   "znakov": 482,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-065/result.md",
+   "razdel": "jobs",
+   "znakov": 117,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-066/brief.md",
+   "razdel": "jobs",
+   "znakov": 11871,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-066/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-066/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-066/result.md",
+   "razdel": "jobs",
+   "znakov": 1590,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-067/brief.md",
+   "razdel": "jobs",
+   "znakov": 12461,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-067/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-067/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-067/result.md",
+   "razdel": "jobs",
+   "znakov": 902,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-068/brief.md",
+   "razdel": "jobs",
+   "znakov": 12461,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-068/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-068/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-068/result.md",
+   "razdel": "jobs",
+   "znakov": 1351,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-069/brief.md",
+   "razdel": "jobs",
+   "znakov": 13130,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-069/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-069/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-069/result.md",
+   "razdel": "jobs",
+   "znakov": 1285,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-070/brief.md",
+   "razdel": "jobs",
+   "znakov": 13130,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-070/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-070/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-070/result.md",
+   "razdel": "jobs",
+   "znakov": 918,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-071/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-071/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-071/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-071/result.md",
+   "razdel": "jobs",
+   "znakov": 948,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-072/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-072/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-072/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-072/result.md",
+   "razdel": "jobs",
+   "znakov": 777,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-073/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-073/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-073/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-073/result.md",
+   "razdel": "jobs",
+   "znakov": 827,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-074/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-074/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-074/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-074/result.md",
+   "razdel": "jobs",
+   "znakov": 1045,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-075/brief.md",
+   "razdel": "jobs",
+   "znakov": 3466,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-075/job.json",
+   "razdel": "jobs",
+   "znakov": 485,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-075/result.md",
+   "razdel": "jobs",
+   "znakov": 628,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-076/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-076/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-076/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-076/result.md",
+   "razdel": "jobs",
+   "znakov": 1413,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-077/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-077/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-077/job.json",
+   "razdel": "jobs",
+   "znakov": 622,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-077/result.md",
+   "razdel": "jobs",
+   "znakov": 232,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-078/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-078/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-078/job.json",
+   "razdel": "jobs",
+   "znakov": 622,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-078/result.md",
+   "razdel": "jobs",
+   "znakov": 232,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-079/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-079/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-079/job.json",
+   "razdel": "jobs",
+   "znakov": 622,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-079/result.md",
+   "razdel": "jobs",
+   "znakov": 232,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-080/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-080/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-080/job.json",
+   "razdel": "jobs",
+   "znakov": 622,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-080/result.md",
+   "razdel": "jobs",
+   "znakov": 232,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-081/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-081/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-081/job.json",
+   "razdel": "jobs",
+   "znakov": 622,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-081/result.md",
+   "razdel": "jobs",
+   "znakov": 232,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-082/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-082/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-082/job.json",
+   "razdel": "jobs",
+   "znakov": 622,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-082/result.md",
+   "razdel": "jobs",
+   "znakov": 212,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-083/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-083/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-083/job.json",
+   "razdel": "jobs",
+   "znakov": 622,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-083/result.md",
+   "razdel": "jobs",
+   "znakov": 212,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-084/brief.md",
+   "razdel": "jobs",
+   "znakov": 13729,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-084/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-084/job.json",
+   "razdel": "jobs",
+   "znakov": 631,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-084/result.md",
+   "razdel": "jobs",
+   "znakov": 1330,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-085/brief.md",
+   "razdel": "jobs",
+   "znakov": 6737,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-085/job.json",
+   "razdel": "jobs",
+   "znakov": 496,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-085/result.md",
+   "razdel": "jobs",
+   "znakov": 2814,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-086/brief.md",
+   "razdel": "jobs",
+   "znakov": 5217,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-086/job.json",
+   "razdel": "jobs",
+   "znakov": 489,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-086/result.md",
+   "razdel": "jobs",
+   "znakov": 1156,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-087/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-087/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-087/job.json",
+   "razdel": "jobs",
+   "znakov": 647,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-087/result.md",
+   "razdel": "jobs",
+   "znakov": 1299,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-088/brief.md",
+   "razdel": "jobs",
+   "znakov": 4781,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-088/job.json",
+   "razdel": "jobs",
+   "znakov": 533,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-088/result.md",
+   "razdel": "jobs",
+   "znakov": 1537,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-089/brief.md",
+   "razdel": "jobs",
+   "znakov": 4510,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-089/job.json",
+   "razdel": "jobs",
+   "znakov": 531,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-089/result.md",
+   "razdel": "jobs",
+   "znakov": 848,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-090/brief.md",
+   "razdel": "jobs",
+   "znakov": 4880,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-090/job.json",
+   "razdel": "jobs",
+   "znakov": 555,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-090/result.md",
+   "razdel": "jobs",
+   "znakov": 985,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-091/brief.md",
+   "razdel": "jobs",
+   "znakov": 3409,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-091/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-091/job.json",
+   "razdel": "jobs",
+   "znakov": 792,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-091/result.md",
+   "razdel": "jobs",
+   "znakov": 1869,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-092/brief.md",
+   "razdel": "jobs",
+   "znakov": 10979,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-092/claim.txt",
+   "razdel": "jobs",
+   "znakov": 2200,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-092/job.json",
+   "razdel": "jobs",
+   "znakov": 825,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-092/result.md",
+   "razdel": "jobs",
+   "znakov": 2742,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-093/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-093/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-093/job.json",
+   "razdel": "jobs",
+   "znakov": 647,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-093/result.md",
+   "razdel": "jobs",
+   "znakov": 1255,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-094/brief.md",
+   "razdel": "jobs",
+   "znakov": 7072,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-094/job.json",
+   "razdel": "jobs",
+   "znakov": 510,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-094/result.md",
+   "razdel": "jobs",
+   "znakov": 2070,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-095/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-095/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-095/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-095/result.md",
+   "razdel": "jobs",
+   "znakov": 1475,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-096/brief.md",
+   "razdel": "jobs",
+   "znakov": 3978,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-096/job.json",
+   "razdel": "jobs",
+   "znakov": 540,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-096/result.md",
+   "razdel": "jobs",
+   "znakov": 818,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-097/brief.md",
+   "razdel": "jobs",
+   "znakov": 10537,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-097/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-097/job.json",
+   "razdel": "jobs",
+   "znakov": 793,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-097/result.md",
+   "razdel": "jobs",
+   "znakov": 1470,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-098/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-098/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-098/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-098/result.md",
+   "razdel": "jobs",
+   "znakov": 1636,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-099/brief.md",
+   "razdel": "jobs",
+   "znakov": 3311,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-099/job.json",
+   "razdel": "jobs",
+   "znakov": 514,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-099/result.md",
+   "razdel": "jobs",
+   "znakov": 292,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-100/brief.md",
+   "razdel": "jobs",
+   "znakov": 17091,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-100/claim.txt",
+   "razdel": "jobs",
+   "znakov": 7128,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-100/job.json",
+   "razdel": "jobs",
+   "znakov": 826,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-100/result.md",
+   "razdel": "jobs",
+   "znakov": 1749,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-101/brief.md",
+   "razdel": "jobs",
+   "znakov": 3618,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-101/job.json",
+   "razdel": "jobs",
+   "znakov": 510,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-101/result.md",
+   "razdel": "jobs",
+   "znakov": 604,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-102/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-102/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-102/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-102/result.md",
+   "razdel": "jobs",
+   "znakov": 1218,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-103/brief.md",
+   "razdel": "jobs",
+   "znakov": 11048,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-103/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-103/job.json",
+   "razdel": "jobs",
+   "znakov": 793,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-103/result.md",
+   "razdel": "jobs",
+   "znakov": 1855,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-104/brief.md",
+   "razdel": "jobs",
+   "znakov": 3668,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-104/job.json",
+   "razdel": "jobs",
+   "znakov": 528,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-104/result.md",
+   "razdel": "jobs",
+   "znakov": 2144,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-105/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-105/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-105/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-105/result.md",
+   "razdel": "jobs",
+   "znakov": 1020,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-106/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-106/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-106/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-106/result.md",
+   "razdel": "jobs",
+   "znakov": 1094,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-107/brief.md",
+   "razdel": "jobs",
+   "znakov": 11048,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-107/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-107/job.json",
+   "razdel": "jobs",
+   "znakov": 793,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-107/result.md",
+   "razdel": "jobs",
+   "znakov": 1699,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-108/brief.md",
+   "razdel": "jobs",
+   "znakov": 6793,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-108/job.json",
+   "razdel": "jobs",
+   "znakov": 528,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-108/result.md",
+   "razdel": "jobs",
+   "znakov": 877,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-109/brief.md",
+   "razdel": "jobs",
+   "znakov": 6015,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-109/job.json",
+   "razdel": "jobs",
+   "znakov": 533,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-109/result.md",
+   "razdel": "jobs",
+   "znakov": 3027,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-110/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-110/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-110/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-110/result.md",
+   "razdel": "jobs",
+   "znakov": 1150,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-111/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-111/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-111/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-111/result.md",
+   "razdel": "jobs",
+   "znakov": 982,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-112/brief.md",
+   "razdel": "jobs",
+   "znakov": 11175,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-112/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-112/job.json",
+   "razdel": "jobs",
+   "znakov": 805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-112/result.md",
+   "razdel": "jobs",
+   "znakov": 1001,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-113/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-113/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-113/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-113/result.md",
+   "razdel": "jobs",
+   "znakov": 956,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-114/brief.md",
+   "razdel": "jobs",
+   "znakov": 4092,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-114/job.json",
+   "razdel": "jobs",
+   "znakov": 513,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-114/result.md",
+   "razdel": "jobs",
+   "znakov": 3789,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-115/brief.md",
+   "razdel": "jobs",
+   "znakov": 3575,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-115/job.json",
+   "razdel": "jobs",
+   "znakov": 516,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-115/result.md",
+   "razdel": "jobs",
+   "znakov": 1269,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-116/brief.md",
+   "razdel": "jobs",
+   "znakov": 3071,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-116/job.json",
+   "razdel": "jobs",
+   "znakov": 521,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-116/result.md",
+   "razdel": "jobs",
+   "znakov": 1689,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-117/brief.md",
+   "razdel": "jobs",
+   "znakov": 4211,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-117/job.json",
+   "razdel": "jobs",
+   "znakov": 521,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-117/result.md",
+   "razdel": "jobs",
+   "znakov": 1198,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-118/brief.md",
+   "razdel": "jobs",
+   "znakov": 13705,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-118/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-118/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-118/result.md",
+   "razdel": "jobs",
+   "znakov": 1395,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-119/brief.md",
+   "razdel": "jobs",
+   "znakov": 5396,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-119/job.json",
+   "razdel": "jobs",
+   "znakov": 524,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-119/result.md",
+   "razdel": "jobs",
+   "znakov": 4507,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-120/brief.md",
+   "razdel": "jobs",
+   "znakov": 3612,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-120/job.json",
+   "razdel": "jobs",
+   "znakov": 487,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-120/result.md",
+   "razdel": "jobs",
+   "znakov": 286,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-121/brief.md",
+   "razdel": "jobs",
+   "znakov": 14207,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-121/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-121/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-121/result.md",
+   "razdel": "jobs",
+   "znakov": 1428,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-122/brief.md",
+   "razdel": "jobs",
+   "znakov": 6023,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-122/claim.txt",
+   "razdel": "jobs",
+   "znakov": 23,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-122/job.json",
+   "razdel": "jobs",
+   "znakov": 521,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-122/result.md",
+   "razdel": "jobs",
+   "znakov": 2363,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-123/brief.md",
+   "razdel": "jobs",
+   "znakov": 11702,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-123/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-123/job.json",
+   "razdel": "jobs",
+   "znakov": 805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-123/result.md",
+   "razdel": "jobs",
+   "znakov": 1457,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-124/brief.md",
+   "razdel": "jobs",
+   "znakov": 14719,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-124/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-124/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-124/result.md",
+   "razdel": "jobs",
+   "znakov": 1106,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-125/brief.md",
+   "razdel": "jobs",
+   "znakov": 11702,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-125/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-125/job.json",
+   "razdel": "jobs",
+   "znakov": 804,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-125/result.md",
+   "razdel": "jobs",
+   "znakov": 1465,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-126/brief.md",
+   "razdel": "jobs",
+   "znakov": 15246,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-126/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-126/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-126/result.md",
+   "razdel": "jobs",
+   "znakov": 1203,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-127/brief.md",
+   "razdel": "jobs",
+   "znakov": 11702,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-127/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-127/job.json",
+   "razdel": "jobs",
+   "znakov": 804,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-127/result.md",
+   "razdel": "jobs",
+   "znakov": 2361,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-128/brief.md",
+   "razdel": "jobs",
+   "znakov": 15246,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-128/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-128/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-128/result.md",
+   "razdel": "jobs",
+   "znakov": 1025,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-129/brief.md",
+   "razdel": "jobs",
+   "znakov": 11702,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-129/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-129/job.json",
+   "razdel": "jobs",
+   "znakov": 804,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-129/result.md",
+   "razdel": "jobs",
+   "znakov": 1582,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-130/brief.md",
+   "razdel": "jobs",
+   "znakov": 15246,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-130/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-130/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-130/result.md",
+   "razdel": "jobs",
+   "znakov": 1169,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-131/brief.md",
+   "razdel": "jobs",
+   "znakov": 11702,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-131/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-131/job.json",
+   "razdel": "jobs",
+   "znakov": 805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-131/result.md",
+   "razdel": "jobs",
+   "znakov": 1163,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-132/brief.md",
+   "razdel": "jobs",
+   "znakov": 15246,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-132/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-132/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-132/result.md",
+   "razdel": "jobs",
+   "znakov": 1055,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-133/brief.md",
+   "razdel": "jobs",
+   "znakov": 3143,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-133/job.json",
+   "razdel": "jobs",
+   "znakov": 514,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-133/result.md",
+   "razdel": "jobs",
+   "znakov": 5588,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-134/brief.md",
+   "razdel": "jobs",
+   "znakov": 2507,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-134/job.json",
+   "razdel": "jobs",
+   "znakov": 525,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-134/result.md",
+   "razdel": "jobs",
+   "znakov": 4661,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-135/brief.md",
+   "razdel": "jobs",
+   "znakov": 2281,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-135/job.json",
+   "razdel": "jobs",
+   "znakov": 598,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-135/result.md",
+   "razdel": "jobs",
+   "znakov": 2136,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-136/brief.md",
+   "razdel": "jobs",
+   "znakov": 2343,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-136/job.json",
+   "razdel": "jobs",
+   "znakov": 522,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-136/result.md",
+   "razdel": "jobs",
+   "znakov": 1174,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-137/brief.md",
+   "razdel": "jobs",
+   "znakov": 11702,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-137/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-137/job.json",
+   "razdel": "jobs",
+   "znakov": 805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-137/result.md",
+   "razdel": "jobs",
+   "znakov": 3503,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-138/brief.md",
+   "razdel": "jobs",
+   "znakov": 15246,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-138/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-138/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-138/result.md",
+   "razdel": "jobs",
+   "znakov": 1092,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-139/brief.md",
+   "razdel": "jobs",
+   "znakov": 4095,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-139/job.json",
+   "razdel": "jobs",
+   "znakov": 532,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-139/result.md",
+   "razdel": "jobs",
+   "znakov": 6332,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-140/brief.md",
+   "razdel": "jobs",
+   "znakov": 4423,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-140/job.json",
+   "razdel": "jobs",
+   "znakov": 528,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-140/result.md",
+   "razdel": "jobs",
+   "znakov": 2350,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-141/brief.md",
+   "razdel": "jobs",
+   "znakov": 15246,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-141/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-141/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-141/result.md",
+   "razdel": "jobs",
+   "znakov": 2330,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-142/brief.md",
+   "razdel": "jobs",
+   "znakov": 12627,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-142/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-142/job.json",
+   "razdel": "jobs",
+   "znakov": 805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-142/result.md",
+   "razdel": "jobs",
+   "znakov": 2411,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-143/brief.md",
+   "razdel": "jobs",
+   "znakov": 15246,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-143/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-143/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-143/result.md",
+   "razdel": "jobs",
+   "znakov": 1044,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-144/brief.md",
+   "razdel": "jobs",
+   "znakov": 15246,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-144/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-144/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-144/result.md",
+   "razdel": "jobs",
+   "znakov": 1076,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-145/brief.md",
+   "razdel": "jobs",
+   "znakov": 12938,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-145/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-145/job.json",
+   "razdel": "jobs",
+   "znakov": 804,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-145/result.md",
+   "razdel": "jobs",
+   "znakov": 1171,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-146/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-146/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-146/job.json",
+   "razdel": "jobs",
+   "znakov": 648,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-146/result.md",
+   "razdel": "jobs",
+   "znakov": 1303,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-147/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-147/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-147/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-147/result.md",
+   "razdel": "jobs",
+   "znakov": 1169,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-148/brief.md",
+   "razdel": "jobs",
+   "znakov": 13425,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-148/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-148/job.json",
+   "razdel": "jobs",
+   "znakov": 871,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-148/result.md",
+   "razdel": "jobs",
+   "znakov": 1323,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-149/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-149/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-149/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-149/result.md",
+   "razdel": "jobs",
+   "znakov": 1330,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-150/brief.md",
+   "razdel": "jobs",
+   "znakov": 3840,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-150/job.json",
+   "razdel": "jobs",
+   "znakov": 601,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-150/result.md",
+   "razdel": "jobs",
+   "znakov": 1408,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-151/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-151/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-151/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-151/result.md",
+   "razdel": "jobs",
+   "znakov": 1460,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-152/brief.md",
+   "razdel": "jobs",
+   "znakov": 13425,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-152/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-152/job.json",
+   "razdel": "jobs",
+   "znakov": 872,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-152/result.md",
+   "razdel": "jobs",
+   "znakov": 1674,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-153/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-153/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-153/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-153/result.md",
+   "razdel": "jobs",
+   "znakov": 776,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-154/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-154/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-154/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-154/result.md",
+   "razdel": "jobs",
+   "znakov": 755,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-155/brief.md",
+   "razdel": "jobs",
+   "znakov": 13425,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-155/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-155/job.json",
+   "razdel": "jobs",
+   "znakov": 871,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-155/result.md",
+   "razdel": "jobs",
+   "znakov": 1041,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-156/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-156/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-156/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-156/result.md",
+   "razdel": "jobs",
+   "znakov": 1042,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-157/brief.md",
+   "razdel": "jobs",
+   "znakov": 4091,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-157/job.json",
+   "razdel": "jobs",
+   "znakov": 604,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-157/result.md",
+   "razdel": "jobs",
+   "znakov": 435,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-158/brief.md",
+   "razdel": "jobs",
+   "znakov": 14189,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-158/claim.txt",
+   "razdel": "jobs",
+   "znakov": 1974,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-158/job.json",
+   "razdel": "jobs",
+   "znakov": 905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-158/result.md",
+   "razdel": "jobs",
+   "znakov": 1458,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-159/brief.md",
+   "razdel": "jobs",
+   "znakov": 13349,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-159/claim.txt",
+   "razdel": "jobs",
+   "znakov": 1134,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-159/job.json",
+   "razdel": "jobs",
+   "znakov": 904,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-159/result.md",
+   "razdel": "jobs",
+   "znakov": 1623,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-160/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-160/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-160/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-160/result.md",
+   "razdel": "jobs",
+   "znakov": 1037,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-161/brief.md",
+   "razdel": "jobs",
+   "znakov": 7028,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-161/job.json",
+   "razdel": "jobs",
+   "znakov": 618,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-161/result.md",
+   "razdel": "jobs",
+   "znakov": 7797,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-162/brief.md",
+   "razdel": "jobs",
+   "znakov": 13895,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-162/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-162/job.json",
+   "razdel": "jobs",
+   "znakov": 871,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-162/result.md",
+   "razdel": "jobs",
+   "znakov": 1270,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-163/brief.md",
+   "razdel": "jobs",
+   "znakov": 12944,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-163/claim.txt",
+   "razdel": "jobs",
+   "znakov": 3211,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-163/job.json",
+   "razdel": "jobs",
+   "znakov": 770,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-163/result.md",
+   "razdel": "jobs",
+   "znakov": 5239,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-164/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-164/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-164/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-164/result.md",
+   "razdel": "jobs",
+   "znakov": 951,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-165/brief.md",
+   "razdel": "jobs",
+   "znakov": 12666,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-165/claim.txt",
+   "razdel": "jobs",
+   "znakov": 2933,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-165/job.json",
+   "razdel": "jobs",
+   "znakov": 769,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-165/result.md",
+   "razdel": "jobs",
+   "znakov": 6605,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-166/brief.md",
+   "razdel": "jobs",
+   "znakov": 4062,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-166/job.json",
+   "razdel": "jobs",
+   "znakov": 610,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-166/result.md",
+   "razdel": "jobs",
+   "znakov": 863,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-167/brief.md",
+   "razdel": "jobs",
+   "znakov": 4104,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-167/job.json",
+   "razdel": "jobs",
+   "znakov": 622,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-167/result.md",
+   "razdel": "jobs",
+   "znakov": 1039,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-168/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-168/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-168/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-168/result.md",
+   "razdel": "jobs",
+   "znakov": 1095,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-169/brief.md",
+   "razdel": "jobs",
+   "znakov": 4476,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-169/job.json",
+   "razdel": "jobs",
+   "znakov": 597,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-169/result.md",
+   "razdel": "jobs",
+   "znakov": 929,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-170/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-170/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-170/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-170/result.md",
+   "razdel": "jobs",
+   "znakov": 1164,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-171/brief.md",
+   "razdel": "jobs",
+   "znakov": 14131,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-171/claim.txt",
+   "razdel": "jobs",
+   "znakov": 51,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-171/job.json",
+   "razdel": "jobs",
+   "znakov": 873,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-171/result.md",
+   "razdel": "jobs",
+   "znakov": 1405,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-172/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-172/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-172/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-172/result.md",
+   "razdel": "jobs",
+   "znakov": 1316,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-173/brief.md",
+   "razdel": "jobs",
+   "znakov": 15905,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-173/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-173/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-173/result.md",
+   "razdel": "jobs",
+   "znakov": 1459,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-174/brief.md",
+   "razdel": "jobs",
+   "znakov": 16805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-174/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-174/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-174/result.md",
+   "razdel": "jobs",
+   "znakov": 1130,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-175/brief.md",
+   "razdel": "jobs",
+   "znakov": 3192,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-175/job.json",
+   "razdel": "jobs",
+   "znakov": 616,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-175/result.md",
+   "razdel": "jobs",
+   "znakov": 387,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-176/brief.md",
+   "razdel": "jobs",
+   "znakov": 2279,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-176/job.json",
+   "razdel": "jobs",
+   "znakov": 602,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-176/result.md",
+   "razdel": "jobs",
+   "znakov": 215,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-177/brief.md",
+   "razdel": "jobs",
+   "znakov": 4567,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-177/job.json",
+   "razdel": "jobs",
+   "znakov": 632,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-177/result.md",
+   "razdel": "jobs",
+   "znakov": 976,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-178/brief.md",
+   "razdel": "jobs",
+   "znakov": 14131,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-178/claim.txt",
+   "razdel": "jobs",
+   "znakov": 51,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-178/job.json",
+   "razdel": "jobs",
+   "znakov": 872,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-178/result.md",
+   "razdel": "jobs",
+   "znakov": 961,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-179/brief.md",
+   "razdel": "jobs",
+   "znakov": 4691,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-179/job.json",
+   "razdel": "jobs",
+   "znakov": 592,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-179/result.md",
+   "razdel": "jobs",
+   "znakov": 1108,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-180/brief.md",
+   "razdel": "jobs",
+   "znakov": 4935,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-180/job.json",
+   "razdel": "jobs",
+   "znakov": 612,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-180/result.md",
+   "razdel": "jobs",
+   "znakov": 2786,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-181/brief.md",
+   "razdel": "jobs",
+   "znakov": 4978,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-181/job.json",
+   "razdel": "jobs",
+   "znakov": 583,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-181/result.md",
+   "razdel": "jobs",
+   "znakov": 1507,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-182/brief.md",
+   "razdel": "jobs",
+   "znakov": 16805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-182/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-182/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-182/result.md",
+   "razdel": "jobs",
+   "znakov": 1136,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-183/brief.md",
+   "razdel": "jobs",
+   "znakov": 3063,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-183/job.json",
+   "razdel": "jobs",
+   "znakov": 589,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-183/result.md",
+   "razdel": "jobs",
+   "znakov": 277,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-184/brief.md",
+   "razdel": "jobs",
+   "znakov": 16805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-184/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-184/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-184/result.md",
+   "razdel": "jobs",
+   "znakov": 1023,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-185/brief.md",
+   "razdel": "jobs",
+   "znakov": 12868,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-185/claim.txt",
+   "razdel": "jobs",
+   "znakov": 3053,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-185/job.json",
+   "razdel": "jobs",
+   "znakov": 770,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-185/result.md",
+   "razdel": "jobs",
+   "znakov": 2739,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-186/brief.md",
+   "razdel": "jobs",
+   "znakov": 16805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-186/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-186/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-186/result.md",
+   "razdel": "jobs",
+   "znakov": 1089,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-187/brief.md",
+   "razdel": "jobs",
+   "znakov": 4859,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-187/job.json",
+   "razdel": "jobs",
+   "znakov": 635,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-187/result.md",
+   "razdel": "jobs",
+   "znakov": 181,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-188/brief.md",
+   "razdel": "jobs",
+   "znakov": 14131,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-188/claim.txt",
+   "razdel": "jobs",
+   "znakov": 51,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-188/job.json",
+   "razdel": "jobs",
+   "znakov": 872,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-188/result.md",
+   "razdel": "jobs",
+   "znakov": 1707,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-189/brief.md",
+   "razdel": "jobs",
+   "znakov": 5100,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-189/job.json",
+   "razdel": "jobs",
+   "znakov": 614,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-189/result.md",
+   "razdel": "jobs",
+   "znakov": 863,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-190/brief.md",
+   "razdel": "jobs",
+   "znakov": 2626,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-190/job.json",
+   "razdel": "jobs",
+   "znakov": 584,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-190/result.md",
+   "razdel": "jobs",
+   "znakov": 2391,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-191/brief.md",
+   "razdel": "jobs",
+   "znakov": 2444,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-191/job.json",
+   "razdel": "jobs",
+   "znakov": 588,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-191/result.md",
+   "razdel": "jobs",
+   "znakov": 5319,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-192/brief.md",
+   "razdel": "jobs",
+   "znakov": 4030,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-192/job.json",
+   "razdel": "jobs",
+   "znakov": 617,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-192/result.md",
+   "razdel": "jobs",
+   "znakov": 1326,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-193/brief.md",
+   "razdel": "jobs",
+   "znakov": 16805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-193/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-193/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-193/result.md",
+   "razdel": "jobs",
+   "znakov": 916,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-194/brief.md",
+   "razdel": "jobs",
+   "znakov": 4822,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-194/job.json",
+   "razdel": "jobs",
+   "znakov": 602,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-194/result.md",
+   "razdel": "jobs",
+   "znakov": 1572,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-195/brief.md",
+   "razdel": "jobs",
+   "znakov": 4989,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-195/job.json",
+   "razdel": "jobs",
+   "znakov": 599,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-195/result.md",
+   "razdel": "jobs",
+   "znakov": 1914,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-196/brief.md",
+   "razdel": "jobs",
+   "znakov": 16805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-196/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-196/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-196/result.md",
+   "razdel": "jobs",
+   "znakov": 913,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-197/brief.md",
+   "razdel": "jobs",
+   "znakov": 3613,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-197/job.json",
+   "razdel": "jobs",
+   "znakov": 625,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-197/result.md",
+   "razdel": "jobs",
+   "znakov": 1353,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-198/brief.md",
+   "razdel": "jobs",
+   "znakov": 16805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-198/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-198/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-198/result.md",
+   "razdel": "jobs",
+   "znakov": 849,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-199/brief.md",
+   "razdel": "jobs",
+   "znakov": 14131,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-199/claim.txt",
+   "razdel": "jobs",
+   "znakov": 51,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-199/job.json",
+   "razdel": "jobs",
+   "znakov": 872,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-199/result.md",
+   "razdel": "jobs",
+   "znakov": 1398,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-200/brief.md",
+   "razdel": "jobs",
+   "znakov": 16805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-200/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-200/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-200/result.md",
+   "razdel": "jobs",
+   "znakov": 1057,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-201/brief.md",
+   "razdel": "jobs",
+   "znakov": 3929,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-201/job.json",
+   "razdel": "jobs",
+   "znakov": 599,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-201/result.md",
+   "razdel": "jobs",
+   "znakov": 548,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-202/brief.md",
+   "razdel": "jobs",
+   "znakov": 16805,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-202/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-202/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-202/result.md",
+   "razdel": "jobs",
+   "znakov": 967,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-203/brief.md",
+   "razdel": "jobs",
+   "znakov": 4308,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-203/job.json",
+   "razdel": "jobs",
+   "znakov": 596,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-203/result.md",
+   "razdel": "jobs",
+   "znakov": 1690,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-204/brief.md",
+   "razdel": "jobs",
+   "znakov": 17160,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-204/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-204/job.json",
+   "razdel": "jobs",
+   "znakov": 712,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-204/result.md",
+   "razdel": "jobs",
+   "znakov": 943,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-205/brief.md",
+   "razdel": "jobs",
+   "znakov": 14486,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-205/claim.txt",
+   "razdel": "jobs",
+   "znakov": 51,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-205/job.json",
+   "razdel": "jobs",
+   "znakov": 870,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-205/result.md",
+   "razdel": "jobs",
+   "znakov": 870,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-206/brief.md",
+   "razdel": "jobs",
+   "znakov": 17160,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-206/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-206/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-206/result.md",
+   "razdel": "jobs",
+   "znakov": 1000,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-207/brief.md",
+   "razdel": "jobs",
+   "znakov": 17160,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-207/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-207/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-207/result.md",
+   "razdel": "jobs",
+   "znakov": 1197,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-208/brief.md",
+   "razdel": "jobs",
+   "znakov": 17160,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-208/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-208/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-208/result.md",
+   "razdel": "jobs",
+   "znakov": 1225,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-209/brief.md",
+   "razdel": "jobs",
+   "znakov": 14486,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-209/claim.txt",
+   "razdel": "jobs",
+   "znakov": 51,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-209/job.json",
+   "razdel": "jobs",
+   "znakov": 871,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-209/result.md",
+   "razdel": "jobs",
+   "znakov": 990,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-210/brief.md",
+   "razdel": "jobs",
+   "znakov": 2952,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-210/job.json",
+   "razdel": "jobs",
+   "znakov": 583,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-210/result.md",
+   "razdel": "jobs",
+   "znakov": 589,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-211/brief.md",
+   "razdel": "jobs",
+   "znakov": 3527,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-211/job.json",
+   "razdel": "jobs",
+   "znakov": 586,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-211/result.md",
+   "razdel": "jobs",
+   "znakov": 331,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-212/brief.md",
+   "razdel": "jobs",
+   "znakov": 3343,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-212/job.json",
+   "razdel": "jobs",
+   "znakov": 599,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-212/result.md",
+   "razdel": "jobs",
+   "znakov": 757,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-213/brief.md",
+   "razdel": "jobs",
+   "znakov": 3365,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-213/job.json",
+   "razdel": "jobs",
+   "znakov": 598,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-213/result.md",
+   "razdel": "jobs",
+   "znakov": 1179,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-214/brief.md",
+   "razdel": "jobs",
+   "znakov": 18021,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-214/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-214/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-214/result.md",
+   "razdel": "jobs",
+   "znakov": 925,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-215/brief.md",
+   "razdel": "jobs",
+   "znakov": 14250,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-215/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-215/job.json",
+   "razdel": "jobs",
+   "znakov": 870,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-215/result.md",
+   "razdel": "jobs",
+   "znakov": 1156,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-216/brief.md",
+   "razdel": "jobs",
+   "znakov": 18021,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-216/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-216/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-216/result.md",
+   "razdel": "jobs",
+   "znakov": 922,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-217/brief.md",
+   "razdel": "jobs",
+   "znakov": 18021,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-217/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-217/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-217/result.md",
+   "razdel": "jobs",
+   "znakov": 1501,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-218/brief.md",
+   "razdel": "jobs",
+   "znakov": 18021,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-218/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-218/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-218/result.md",
+   "razdel": "jobs",
+   "znakov": 1040,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-219/brief.md",
+   "razdel": "jobs",
+   "znakov": 14250,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-219/claim.txt",
+   "razdel": "jobs",
+   "znakov": 45,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-219/job.json",
+   "razdel": "jobs",
+   "znakov": 869,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-219/result.md",
+   "razdel": "jobs",
+   "znakov": 682,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-220/brief.md",
+   "razdel": "jobs",
+   "znakov": 18622,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-220/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-220/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-220/result.md",
+   "razdel": "jobs",
+   "znakov": 3044,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-221/brief.md",
+   "razdel": "jobs",
+   "znakov": 18622,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-221/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-221/job.json",
+   "razdel": "jobs",
+   "znakov": 714,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-221/result.md",
+   "razdel": "jobs",
+   "znakov": 1189,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-222/brief.md",
+   "razdel": "jobs",
+   "znakov": 19292,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-222/claim.txt",
+   "razdel": "jobs",
+   "znakov": 32,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-222/job.json",
+   "razdel": "jobs",
+   "znakov": 715,
+   "zatyorto": 0
+  },
+  {
+   "put": "jobs/job-222/result.md",
+   "razdel": "jobs",
+   "znakov": 919,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/2026-08-22.jsonl",
+   "razdel": "log",
+   "znakov": 249632,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/2026-08-23.jsonl",
+   "razdel": "log",
+   "znakov": 1202472,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/2026-08-24.jsonl",
+   "razdel": "log",
+   "znakov": 3084506,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/2026-08-25.jsonl",
+   "razdel": "log",
+   "znakov": 4175153,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/2026-08-26.jsonl",
+   "razdel": "log",
+   "znakov": 3016987,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/2026-08-27.jsonl",
+   "razdel": "log",
+   "znakov": 2485313,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/2026-08-30.jsonl",
+   "razdel": "log",
+   "znakov": 2935446,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/2026-08-31.jsonl",
+   "razdel": "log",
+   "znakov": 2570245,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/2026-09-01.jsonl",
+   "razdel": "log",
+   "znakov": 1804279,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/2026-09-02.jsonl",
+   "razdel": "log",
+   "znakov": 1076421,
+   "zatyorto": 0
+  },
+  {
+   "put": "log/README.md",
+   "razdel": "log",
+   "znakov": 102,
+   "zatyorto": 0
+  },
+  {
+   "put": "notion_writes.jsonl",
+   "razdel": "koren",
+   "znakov": 41942,
+   "zatyorto": 0
+  },
+  {
+   "put": "now.md",
+   "razdel": "koren",
+   "znakov": 1589,
+   "zatyorto": 0
+  },
+  {
+   "put": "obligations.md",
+   "razdel": "koren",
+   "znakov": 66171,
+   "zatyorto": 0
+  },
+  {
+   "put": "outbox/README.md",
+   "razdel": "outbox",
+   "znakov": 670,
+   "zatyorto": 0
+  },
+  {
+   "put": "outbox/drafts/2026-08-24-nologostudio.txt",
+   "razdel": "outbox",
+   "znakov": 2025,
+   "zatyorto": 0
+  },
+  {
+   "put": "outbox/drafts/2026-08-25-nologostudio.txt",
+   "razdel": "outbox",
+   "znakov": 2536,
+   "zatyorto": 0
+  },
+  {
+   "put": "outbox/drafts/README.md",
+   "razdel": "outbox",
+   "znakov": 378,
+   "zatyorto": 0
+  },
+  {
+   "put": "outbox/replies.jsonl",
+   "razdel": "outbox",
+   "znakov": 13385,
+   "zatyorto": 0
+  },
+  {
+   "put": "outbox/sent.jsonl",
+   "razdel": "outbox",
+   "znakov": 188037,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/README.md",
+   "razdel": "procedures",
+   "znakov": 88,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/bystroe-issledovanie.md",
+   "razdel": "procedures",
+   "znakov": 2304,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/chistka-istorii-gita.md",
+   "razdel": "procedures",
+   "znakov": 4403,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/chtenie-notion.md",
+   "razdel": "procedures",
+   "znakov": 2634,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/dovodka-kachestva-po-zhalobe.md",
+   "razdel": "procedures",
+   "znakov": 2749,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/eksport-konteksta-naruzhu.md",
+   "razdel": "procedures",
+   "znakov": 3599,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/email-rassylka-s-nulya.md",
+   "razdel": "procedures",
+   "znakov": 3572,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/ezhednevnaya-rassylka-15.md",
+   "razdel": "procedures",
+   "znakov": 3362,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/ezhednevnyy-samoaudit.md",
+   "razdel": "procedures",
+   "znakov": 2329,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/golosovoe-v-vk.md",
+   "razdel": "procedures",
+   "znakov": 2388,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/kogda-zvat-recall.md",
+   "razdel": "procedures",
+   "znakov": 2552,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/mesyachnaya-reviziya.md",
+   "razdel": "procedures",
+   "znakov": 5071,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/otvet-klientu-pismom-s-vlozheniem.md",
+   "razdel": "procedures",
+   "znakov": 3479,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/perepiska-partii-pisem-pod-adresata.md",
+   "razdel": "procedures",
+   "znakov": 8029,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/perezapusk-demona-vk.md",
+   "razdel": "procedures",
+   "znakov": 7222,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/pochinka-proiznosheniya.md",
+   "razdel": "procedures",
+   "znakov": 2602,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/pravka-notion.md",
+   "razdel": "procedures",
+   "znakov": 4298,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/pravka-yadra.md",
+   "razdel": "procedures",
+   "znakov": 5733,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/proverka-demona-na-mokah.md",
+   "razdel": "procedures",
+   "znakov": 1894,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/razbor-bankovskoy-vypiski.md",
+   "razdel": "procedures",
+   "znakov": 3299,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/razbor-vhodyashchih-po-rassylke.md",
+   "razdel": "procedures",
+   "znakov": 2464,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/sbor-kontaktov-partiyami.md",
+   "razdel": "procedures",
+   "znakov": 6227,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/vhod-hh-cherez-pochtu.md",
+   "razdel": "procedures",
+   "znakov": 2238,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/vychitka-spiska-kontaktov.md",
+   "razdel": "procedures",
+   "znakov": 2052,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/zahod-vzlomshchika-na-granicu.md",
+   "razdel": "procedures",
+   "znakov": 5037,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/zamer-kanala-vk-po-logu.md",
+   "razdel": "procedures",
+   "znakov": 2784,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/zapusk-podagenta-zadaniem.md",
+   "razdel": "procedures",
+   "znakov": 6340,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/zavesti-postoyannuyu-rol.md",
+   "razdel": "procedures",
+   "znakov": 3541,
+   "zatyorto": 0
+  },
+  {
+   "put": "procedures/zhivaya-proverka-mashinnogo-zapreta.md",
+   "razdel": "procedures",
+   "znakov": 3418,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/README.md",
+   "razdel": "projects",
+   "znakov": 234,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/proba-chuzhoy/backlog.md",
+   "razdel": "projects",
+   "znakov": 711,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/proba-chuzhoy/dossier.md",
+   "razdel": "projects",
+   "znakov": 401,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/README.md",
+   "razdel": "projects",
+   "znakov": 273,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/artifacts/README.md",
+   "razdel": "projects",
+   "znakov": 138,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/backlog.md",
+   "razdel": "projects",
+   "znakov": 5998,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/correspondence.md",
+   "razdel": "projects",
+   "znakov": 264,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/decisions.md",
+   "razdel": "projects",
+   "znakov": 2974,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/dossier.md",
+   "razdel": "projects",
+   "znakov": 163,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/knowledge/README.md",
+   "razdel": "projects",
+   "znakov": 125,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/obligations.md",
+   "razdel": "projects",
+   "znakov": 163,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/README.md",
+   "razdel": "projects",
+   "znakov": 174,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-001/progress.md",
+   "razdel": "projects",
+   "znakov": 675,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-001/task.json",
+   "razdel": "projects",
+   "znakov": 782,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-001/task.md",
+   "razdel": "projects",
+   "znakov": 406,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-002/progress.md",
+   "razdel": "projects",
+   "znakov": 3744,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-002/task.json",
+   "razdel": "projects",
+   "znakov": 3581,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-002/task.md",
+   "razdel": "projects",
+   "znakov": 3107,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-003/plan.md",
+   "razdel": "projects",
+   "znakov": 2955,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-003/progress.md",
+   "razdel": "projects",
+   "znakov": 2038,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-003/task.json",
+   "razdel": "projects",
+   "znakov": 3802,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-003/task.md",
+   "razdel": "projects",
+   "znakov": 3535,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-004/progress.md",
+   "razdel": "projects",
+   "znakov": 949,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-004/task.json",
+   "razdel": "projects",
+   "znakov": 851,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-004/task.md",
+   "razdel": "projects",
+   "znakov": 446,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-005/progress.md",
+   "razdel": "projects",
+   "znakov": 7964,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-005/task.json",
+   "razdel": "projects",
+   "znakov": 2252,
+   "zatyorto": 0
+  },
+  {
+   "put": "projects/vnutrennii/tasks/t-005/task.md",
+   "razdel": "projects",
+   "znakov": 2227,
+   "zatyorto": 0
+  },
+  {
+   "put": "proposals/README.md",
+   "razdel": "proposals",
+   "znakov": 898,
+   "zatyorto": 0
+  },
+  {
+   "put": "proposals/avtonomnyy-rezhim.md",
+   "razdel": "proposals",
+   "znakov": 4154,
+   "zatyorto": 0
+  },
+  {
+   "put": "proposals/pamyat-v2.md",
+   "razdel": "proposals",
+   "znakov": 6754,
+   "zatyorto": 0
+  },
+  {
+   "put": "questions.md",
+   "razdel": "koren",
+   "znakov": 1613,
+   "zatyorto": 0
+  },
+  {
+   "put": "registry.md",
+   "razdel": "koren",
+   "znakov": 16340,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/README.md",
+   "razdel": "rules",
+   "znakov": 988,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/brief-iz-fayla-bez-zagolovka.md",
+   "razdel": "rules",
+   "znakov": 2048,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/cenu-stavit-ilya.md",
+   "razdel": "rules",
+   "znakov": 2287,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/chernovik-ot-poslednego-pisma.md",
+   "razdel": "rules",
+   "znakov": 1999,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/chinit-srazu-chuzhimi-rukami.md",
+   "razdel": "rules",
+   "znakov": 1903,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/chislo-zhivyot-v-odnom-fakte.md",
+   "razdel": "rules",
+   "znakov": 2453,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/chuzhoy-otvet-ne-peredavat-vslepuyu.md",
+   "razdel": "rules",
+   "znakov": 1888,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/dnyom-rabotayut-podagenty.md",
+   "razdel": "rules",
+   "znakov": 2031,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/dostup-k-saytam-login-parol.md",
+   "razdel": "rules",
+   "znakov": 1564,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/fakt-ne-snimok.md",
+   "razdel": "rules",
+   "znakov": 2193,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/git-stash-zapreshchen.md",
+   "razdel": "rules",
+   "znakov": 1878,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/golos-ili-tekst.md",
+   "razdel": "rules",
+   "znakov": 1255,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/golosovoe-tolko-mysli.md",
+   "razdel": "rules",
+   "znakov": 1347,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/granicu-lomaet-podagent-a-ne-samotest.md",
+   "razdel": "rules",
+   "znakov": 3793,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/granicu-proveryaet-kod.md",
+   "razdel": "rules",
+   "znakov": 2591,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/holostaya-rol-snimaetsya-s-raspisaniya.md",
+   "razdel": "rules",
+   "znakov": 1853,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/issledovanie-rezhimy.md",
+   "razdel": "rules",
+   "znakov": 2140,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/kanal-zarabotka-ne-perenositsya.md",
+   "razdel": "rules",
+   "znakov": 2058,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/kommit-tolko-svoi-fayly.md",
+   "razdel": "rules",
+   "znakov": 1385,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/kratkost.md",
+   "razdel": "rules",
+   "znakov": 1920,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/kvartira-start-27-08.md",
+   "razdel": "rules",
+   "znakov": 1723,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/lozhnoe-krasnoe-chinyu-sam.md",
+   "razdel": "rules",
+   "znakov": 2208,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/merilo-schitaetsya-po-vsemu-polyu.md",
+   "razdel": "rules",
+   "znakov": 1701,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/model-ne-ekonomit.md",
+   "razdel": "rules",
+   "znakov": 1609,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/ne-prosit-dannye-bez-nuzhdy.md",
+   "razdel": "rules",
+   "znakov": 1671,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/nochnaya-tishina.md",
+   "razdel": "rules",
+   "znakov": 2201,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/oblast-eto-rol-a-ne-zadanie.md",
+   "razdel": "rules",
+   "znakov": 2368,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/oborvannoe-zadanie-itog-ne-v-result.md",
+   "razdel": "rules",
+   "znakov": 1444,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/obyazatelstvo-ne-razbor.md",
+   "razdel": "rules",
+   "znakov": 2156,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/odin-istochnik-ne-vsya-kartina.md",
+   "razdel": "rules",
+   "znakov": 1576,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/odnorazovye-proverki-v-derived.md",
+   "razdel": "rules",
+   "znakov": 1532,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/ot-imeni-ili-cherez-chernovik.md",
+   "razdel": "rules",
+   "znakov": 2574,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/otchyot-tolko-o-zapisannom.md",
+   "razdel": "rules",
+   "znakov": 2110,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/otkaz-shlyuza-ne-obhodit.md",
+   "razdel": "rules",
+   "znakov": 2571,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/ozhidanie-otveta-trebuet-oprosa.md",
+   "razdel": "rules",
+   "znakov": 1939,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/pereimenovanie-fayla-roli.md",
+   "razdel": "rules",
+   "znakov": 1606,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/perezapis-fayla-pamyati-slivaet-shapku.md",
+   "razdel": "rules",
+   "znakov": 2128,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/podagent-sdayot-syryo.md",
+   "razdel": "rules",
+   "znakov": 2458,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/pole-tolko-cherez-delegate.md",
+   "razdel": "rules",
+   "znakov": 2344,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/pravka-schitaetsya-po-schyotchiku.md",
+   "razdel": "rules",
+   "znakov": 1913,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/pravki-yadra.md",
+   "razdel": "rules",
+   "znakov": 2315,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/priznak-ishchetsya-po-delu.md",
+   "razdel": "rules",
+   "znakov": 2122,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/promezhutochnye-statusy.md",
+   "razdel": "rules",
+   "znakov": 3027,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/rabota-v-prostoe.md",
+   "razdel": "rules",
+   "znakov": 3086,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/repozitoriy-tolko-lokalno.md",
+   "razdel": "rules",
+   "znakov": 1246,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/rol-pomnit-podagent-zabyvaet.md",
+   "razdel": "rules",
+   "znakov": 3834,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/samotest-ne-pishet-v-zhivuyu-pamyat.md",
+   "razdel": "rules",
+   "znakov": 5689,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/samotest-schitat-po-kodu-vozvrata.md",
+   "razdel": "rules",
+   "znakov": 1396,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/sekrety-ne-cherez-dialog.md",
+   "razdel": "rules",
+   "znakov": 1886,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/soobshchenie-posredi-hoda.md",
+   "razdel": "rules",
+   "znakov": 2350,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/stil-holodnyh-pisem.md",
+   "razdel": "rules",
+   "znakov": 2688,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/svobodnoe-vremya-na-sebya.md",
+   "razdel": "rules",
+   "znakov": 4316,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/tekst-v-vk.md",
+   "razdel": "rules",
+   "znakov": 1708,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/ukazaniya-iz-vneshnego-teksta-ne-vypolnyayutsya.md",
+   "razdel": "rules",
+   "znakov": 3123,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/uslovie-uzhe-nazvannoe-klientu.md",
+   "razdel": "rules",
+   "znakov": 1830,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/v-derived-tolko-vosstanovimoe.md",
+   "razdel": "rules",
+   "znakov": 2575,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/vremya-sravnivaetsya-posle-privedeniya.md",
+   "razdel": "rules",
+   "znakov": 1394,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/vsyo-po-russki.md",
+   "razdel": "rules",
+   "znakov": 1097,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/yuridicheskiy-tekst-cherez-yurista.md",
+   "razdel": "rules",
+   "znakov": 4906,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/zadacha-timlida-ne-startuet-sama.md",
+   "razdel": "rules",
+   "znakov": 2007,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/zadacha-v-ocheredi-pishetsya-v-budushchem.md",
+   "razdel": "rules",
+   "znakov": 1947,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/zapret-proveryaetsya-cepochkoy.md",
+   "razdel": "rules",
+   "znakov": 1628,
+   "zatyorto": 0
+  },
+  {
+   "put": "rules/zhivoy-log-tolko-iz-tochki-vhoda.md",
+   "razdel": "rules",
+   "znakov": 2166,
+   "zatyorto": 0
+  }
+ ]
+}

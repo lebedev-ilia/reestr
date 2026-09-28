@@ -1,0 +1,32 @@
+{
+ "id": "job-185",
+ "title": "legal:work Заход роли legal: проверить у первоисточников утве",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 30,
+ "timeout": 2400,
+ "origin": "role",
+ "zone": [
+  "memory/agents/legal/knowledge",
+  "memory/agents/legal/journal",
+  "memory/agents/legal/STATUS.md",
+  "memory/agents/legal/LESSONS.md",
+  "derived/drafts/legal"
+ ],
+ "project": "",
+ "parent": null,
+ "depth": 0,
+ "maxed": false,
+ "continued": null,
+ "created": "2026-09-01T12:03:31+10:00",
+ "started": "2026-09-01T12:03:31+10:00",
+ "finished": "2026-09-01T12:08:05+10:00",
+ "sec": 274.5,
+ "pid": 3529187,
+ "cost_usd": 0.863616,
+ "turns": 27,
+ "result": "memory/jobs/job-185/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-09-01T12:08:17+10:00"
+}

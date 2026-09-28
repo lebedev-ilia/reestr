@@ -1,0 +1,22 @@
+{
+ "id": "job-101",
+ "title": "t-003 заход 1: ветка и план проверки",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "",
+ "created": "2026-08-30T13:49:04+10:00",
+ "started": "2026-08-30T13:49:04+10:00",
+ "finished": "2026-08-30T13:50:59+10:00",
+ "sec": 115.7,
+ "pid": 1144840,
+ "cost_usd": 0.556591,
+ "turns": 17,
+ "result": "memory/jobs/job-101/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T13:51:18+10:00"
+}

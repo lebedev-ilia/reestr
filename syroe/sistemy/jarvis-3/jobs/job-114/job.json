@@ -1,0 +1,22 @@
+{
+ "id": "job-114",
+ "title": "bl-149 ветки и коммиты живьём",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "vnutrennii",
+ "created": "2026-08-30T20:04:10+10:00",
+ "started": "2026-08-30T20:04:10+10:00",
+ "finished": "2026-08-30T20:10:38+10:00",
+ "sec": 388.4,
+ "pid": 1470988,
+ "cost_usd": 1.463957,
+ "turns": 50,
+ "result": "memory/jobs/job-114/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T20:26:41+10:00"
+}

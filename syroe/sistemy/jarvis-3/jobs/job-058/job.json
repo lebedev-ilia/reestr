@@ -1,0 +1,21 @@
+{
+ "id": "job-058",
+ "title": "bl-123-A: посредники с российским платёжным контуром для западных LLM API",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-27T00:39:15+10:00",
+ "started": "2026-08-27T00:39:15+10:00",
+ "finished": "2026-08-27T00:46:04+10:00",
+ "sec": 409.8,
+ "pid": 2119509,
+ "cost_usd": 1.385443,
+ "turns": 46,
+ "result": "memory/jobs/job-058/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-27T00:55:20+10:00"
+}

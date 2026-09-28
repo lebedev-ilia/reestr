@@ -1,0 +1,22 @@
+{
+ "id": "job-134",
+ "title": "Починить ложный дедуп плановых заходов ролей (ob-092)",
+ "status": "done",
+ "model": "opus",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "",
+ "created": "2026-08-31T08:05:22+10:00",
+ "started": "2026-08-31T08:05:22+10:00",
+ "finished": "2026-08-31T08:12:46+10:00",
+ "sec": 445.0,
+ "pid": 2081584,
+ "cost_usd": 2.368008,
+ "turns": 30,
+ "result": "memory/jobs/job-134/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-31T08:13:43+10:00"
+}

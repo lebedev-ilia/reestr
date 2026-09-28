@@ -1,0 +1,20 @@
+{
+ "id": "job-006",
+ "title": "seg2-partiya-AA: карточки T2 по производству и опту (доработка job-005 + добор)",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T10:25:11+10:00",
+ "started": "2026-08-25T10:25:11+10:00",
+ "finished": "2026-08-25T10:39:25+10:00",
+ "sec": 854.9,
+ "pid": 71219,
+ "cost_usd": 2.9833922000000013,
+ "turns": 101,
+ "result": "memory/jobs/job-006/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T10:50:20+10:00"
+}

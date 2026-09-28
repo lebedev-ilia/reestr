@@ -1,0 +1,21 @@
+{
+ "id": "job-049",
+ "title": "Дыра в шлюзе: write-then-exec и разбор ответа на ask",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-26T16:09:43+10:00",
+ "started": "2026-08-26T16:09:43+10:00",
+ "finished": "2026-08-26T16:28:26+10:00",
+ "sec": 1123.5,
+ "pid": 1685405,
+ "cost_usd": 4.566067,
+ "turns": 90,
+ "result": "memory/jobs/job-049/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-26T16:28:34+10:00"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "job-012",
+ "title": "Сырьё для рассылки: клиенты из кейсов Диадок и 1С:Документооборот",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T10:59:05+10:00",
+ "started": "2026-08-25T10:59:05+10:00",
+ "finished": "2026-08-25T11:04:43+10:00",
+ "sec": 338.3,
+ "pid": 104176,
+ "cost_usd": 2.0908523999999997,
+ "turns": 67,
+ "result": "memory/jobs/job-012/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T11:14:53+10:00"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "job-033",
+ "title": "Живая проверка рендера 15 писем плана дня (без отправки)",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-26T09:07:54+10:00",
+ "started": "2026-08-26T09:07:54+10:00",
+ "finished": "2026-08-26T09:09:48+10:00",
+ "sec": 114.9,
+ "pid": 1319539,
+ "cost_usd": 0.50024,
+ "turns": 22,
+ "result": "memory/jobs/job-033/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-26T09:10:10+10:00"
+}

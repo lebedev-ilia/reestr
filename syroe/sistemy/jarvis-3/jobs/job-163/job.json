@@ -1,0 +1,32 @@
+{
+ "id": "job-163",
+ "title": "legal:work Заход юриста: Николай Кочубеев (No Logo Studio, Мо",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 30,
+ "timeout": 2400,
+ "origin": "role",
+ "zone": [
+  "memory/agents/legal/knowledge",
+  "memory/agents/legal/journal",
+  "memory/agents/legal/STATUS.md",
+  "memory/agents/legal/LESSONS.md",
+  "derived/drafts/legal"
+ ],
+ "project": "",
+ "parent": null,
+ "depth": 0,
+ "maxed": false,
+ "continued": null,
+ "created": "2026-08-31T21:38:53+10:00",
+ "started": "2026-08-31T21:38:54+10:00",
+ "finished": "2026-08-31T21:48:41+10:00",
+ "sec": 587.7,
+ "pid": 2798412,
+ "cost_usd": 1.150355,
+ "turns": 29,
+ "result": "memory/jobs/job-163/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-31T21:49:23+10:00"
+}

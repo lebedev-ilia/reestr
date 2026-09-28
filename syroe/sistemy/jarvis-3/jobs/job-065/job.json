@@ -1,0 +1,21 @@
+{
+ "id": "job-065",
+ "title": "ФИКСТУРА-jobs-selftest настоящее",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-27T05:03:06+10:00",
+ "started": "2026-08-27T05:03:03+10:00",
+ "finished": "2026-08-27T05:03:06+10:00",
+ "sec": 3.2,
+ "pid": 777005,
+ "cost_usd": 0.42,
+ "turns": 7,
+ "result": "memory/jobs/job-065/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-27T05:17:42+10:00"
+}

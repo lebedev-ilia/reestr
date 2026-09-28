@@ -1,0 +1,33 @@
+{
+ "id": "job-158",
+ "title": "teamlead-vnutrennii:work Заход тимлида vnutrennii: принять или вернуть на д",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 40,
+ "timeout": 3000,
+ "origin": "role",
+ "zone": [
+  "memory/agents/teamlead-vnutrennii/knowledge",
+  "memory/agents/teamlead-vnutrennii/journal",
+  "memory/agents/teamlead-vnutrennii/STATUS.md",
+  "memory/agents/teamlead-vnutrennii/LESSONS.md",
+  "memory/projects/vnutrennii/backlog.md",
+  "memory/projects/vnutrennii/tasks"
+ ],
+ "project": "vnutrennii",
+ "parent": null,
+ "depth": 0,
+ "maxed": false,
+ "continued": null,
+ "created": "2026-08-31T18:52:01+10:00",
+ "started": "2026-08-31T18:52:01+10:00",
+ "finished": "2026-08-31T18:57:21+10:00",
+ "sec": 320.6,
+ "pid": 2655305,
+ "cost_usd": 1.290191,
+ "turns": 39,
+ "result": "memory/jobs/job-158/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-31T18:57:43+10:00"
+}

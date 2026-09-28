@@ -1,0 +1,32 @@
+{
+ "id": "job-165",
+ "title": "legal:work Заход юриста: Илья решил 31.08 подписывать NDA с N",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 30,
+ "timeout": 2400,
+ "origin": "role",
+ "zone": [
+  "memory/agents/legal/knowledge",
+  "memory/agents/legal/journal",
+  "memory/agents/legal/STATUS.md",
+  "memory/agents/legal/LESSONS.md",
+  "derived/drafts/legal"
+ ],
+ "project": "",
+ "parent": null,
+ "depth": 0,
+ "maxed": false,
+ "continued": null,
+ "created": "2026-08-31T21:51:07+10:00",
+ "started": "2026-08-31T21:51:07+10:00",
+ "finished": "2026-08-31T21:57:09+10:00",
+ "sec": 362.1,
+ "pid": 2809692,
+ "cost_usd": 1.07306,
+ "turns": 29,
+ "result": "memory/jobs/job-165/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-31T22:08:09+10:00"
+}

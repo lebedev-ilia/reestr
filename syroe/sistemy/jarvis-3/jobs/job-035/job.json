@@ -1,0 +1,21 @@
+{
+ "id": "job-035",
+ "title": "Залить лето в базу Finance Notion (ob-019)",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-26T10:56:23+10:00",
+ "started": "2026-08-26T10:56:23+10:00",
+ "finished": "2026-08-26T11:09:31+10:00",
+ "sec": 788.4,
+ "pid": 1407618,
+ "cost_usd": 2.052672,
+ "turns": 48,
+ "result": "memory/jobs/job-035/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-26T11:14:12+10:00"
+}

@@ -79,16 +79,56 @@ def iz_zapisey():
             yield (t, razdel, data, "", otn, f.stem)
 
 
+def iz_sistem():
+    """Память систем агентов. Раздел вида «jarvis-3/facts» — чтобы искать
+    прицельно и чтобы несколько систем не смешивались: их уже три."""
+    baza = KOREN / "syroe" / "sistemy"
+    if not baza.is_dir():
+        return
+    for sistema in sorted(d for d in baza.iterdir() if d.is_dir()):
+        for f in sorted(sistema.rglob("*")):
+            if not f.is_file() or f.name == "_opis.json":
+                continue
+            otn_v_sisteme = f.relative_to(sistema)
+            podrazdel = (otn_v_sisteme.parts[0]
+                         if len(otn_v_sisteme.parts) > 1 else "koren")
+            razdel = f"{sistema.name}/{podrazdel}"
+            otn = str(f.relative_to(KOREN))
+            try:
+                if f.suffix == ".gz":
+                    soderzh = gzip.open(f, "rt", encoding="utf-8",
+                                        errors="replace").read()
+                else:
+                    soderzh = f.read_text(encoding="utf-8", errors="replace")
+            except OSError:
+                continue
+            m = re.search(r"(\d{4}-\d{2}-\d{2})", f.name) or \
+                re.search(r"^\s*(?:data|date|дата):\s*(\d{4}-\d{2}-\d{2})",
+                          soderzh, re.M | re.I)
+            data = m.group(1) if m else ""
+            for abzac in re.split(r"\n\s*\n", soderzh):
+                t = chistka(abzac)
+                if len(t) < MINIMUM:
+                    continue
+                yield (t, razdel, data, "", otn, f.stem)
+
+
 def main():
     BAZA.parent.mkdir(parents=True, exist_ok=True)
     db = sqlite3.connect(BAZA)
     db.executescript(SOZDANIE)
 
-    vsego = {"besedy": 0, "zapisi": 0}
+    vsego = {"besedy": 0, "zapisi": 0, "sistemy": 0}
     paket = []
     for r in iz_besed():
         paket.append(r)
         vsego["besedy"] += 1
+        if len(paket) >= 2000:
+            db.executemany("INSERT INTO kuski VALUES (?,?,?,?,?,?)", paket)
+            paket = []
+    for r in iz_sistem():
+        paket.append(r)
+        vsego["sistemy"] += 1
         if len(paket) >= 2000:
             db.executemany("INSERT INTO kuski VALUES (?,?,?,?,?,?)", paket)
             paket = []
@@ -101,7 +141,8 @@ def main():
     db.execute("INSERT INTO kuski(kuski) VALUES('optimize')")
     db.commit()
     razmer = BAZA.stat().st_size / 1024 / 1024
-    print(f"кусков из бесед: {vsego['besedy']} · из записей: {vsego['zapisi']}")
+    print(f"кусков из бесед: {vsego['besedy']} · из памяти систем: "
+          f"{vsego['sistemy']} · из записей: {vsego['zapisi']}")
     print(f"указатель: {BAZA.relative_to(KOREN)} ({razmer:.1f} МБ)")
     db.close()
     return 0
