@@ -1,0 +1,28 @@
+[Unit]
+Description=Джарвис: демон
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=jarvis
+WorkingDirectory=/home/jarvis/agent/jarvis
+EnvironmentFile=/home/jarvis/agent/jarvis/.env.server
+
+# Заслон от смертельного круга (поставлен 16.09.2026).
+# Что было: процесс ВК запускали ДВЕ силы — эта служба и отдельный сторож из
+# расписания, раз в пять минут. Сторож поднимает процесс вне службы, поэтому
+# при перезапуске службы тот не умирает. Демон, увидев чужой живой процесс ВК,
+# отказывается стартовать — и правильно делает, два демона дают двойные ответы
+# в ВК и двойные письма клиентам. Но systemd при этом пробует снова и снова:
+# в ночь на 16.09 набралось 299 попыток подряд, система стояла мёртвой.
+# Теперь перед каждым запуском чужие процессы ВК снимаются. Минус перед
+# командой — «не считать ошибкой, если снимать нечего».
+ExecStartPre=-/usr/bin/pkill -f "run.py --vk"
+
+ExecStart=/home/jarvis/agent/jarvis/.venv/bin/python run.py --vk
+Restart=always
+RestartSec=20
+
+[Install]
+WantedBy=multi-user.target

@@ -54,7 +54,7 @@ def tekst_soobshcheniya(soderzhimoe):
             continue  # размышления в реестр не кладём
         elif t == "tool_use":
             imya = c.get("name", "?")
-            vvod = json.dumps(c.get("input", {}), ensure_ascii=False)[:2000]
+            vvod = json.dumps(c.get("input", {}), ensure_ascii=False)
             kuski.append(f"[инструмент {imya}] {vvod}")
         elif t == "tool_result":
             r = c.get("content")
@@ -62,8 +62,10 @@ def tekst_soobshcheniya(soderzhimoe):
                 r = " ".join(
                     x.get("text", "") for x in r if isinstance(x, dict)
                 )
-            kuski.append(f"[результат] {str(r)[:4000]}")
+            kuski.append(f"[результат] {r}")
         elif t == "image":
+            # само изображение остаётся в расшифровке Claude Code;
+            # здесь помечаем место, чтобы ход не терялся в поиске
             kuski.append("[изображение]")
     return "\n".join(k for k in kuski if k)
 

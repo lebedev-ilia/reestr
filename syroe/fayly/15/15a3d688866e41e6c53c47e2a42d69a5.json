@@ -1,0 +1,354 @@
+{
+  "name": "dataset-100k-monthly-colab",
+  "campaign_profile": "100k-monthly-colab-v1",
+  "sampling_policy_version": "sampling-20k-popularity-v1",
+  "balancer_policy_version": "balancer-20k-hybrid-ru-en-v1",
+  "baseline_accepted": 0,
+  "output_dir": "dataset_runs/100k-monthly",
+  "balancer_config_file": "dataset_balancer_20k.json",
+  "categories": [
+    {
+      "name": "Avto_i_transport",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Deti",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Dom_i_sad",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Eda_i_napitki",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Finansy_i_biznes",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Igry",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Iumor",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Kino_i_serialy",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Moda_i_krasota",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Muzyka",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Nauka",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Novosti_i_politika",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Obrazovanie",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Puteshestvia",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Sport",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Tehnologii",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Zdorovie_i_fitnes",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    },
+    {
+      "name": "Zivotnye",
+      "keywords": [
+        ""
+      ],
+      "target_count": 5556,
+      "collect_count": 5556,
+      "platform_weights": {
+        "youtube": 1.0
+      },
+      "filters": {}
+    }
+  ],
+  "snapshot_schedule_days": [
+    0,
+    7,
+    14,
+    21,
+    28
+  ],
+  "default_filters": {
+    "duration_min_seconds": 4,
+    "duration_max_seconds": 1500,
+    "view_count_max": 100000000,
+    "channel_video_cap": 100,
+    "outlier_policy": "reject"
+  },
+  "platform_weights": {
+    "youtube": 1.0
+  },
+  "time_interval_buckets": [
+    {
+      "name": "lt_1d",
+      "min_age_days": 0,
+      "max_age_days": 1,
+      "weight": 0.38
+    },
+    {
+      "name": "1d_1w",
+      "min_age_days": 1,
+      "max_age_days": 7,
+      "weight": 0.37
+    },
+    {
+      "name": "1w_1m",
+      "min_age_days": 7,
+      "max_age_days": 30,
+      "weight": 0.08
+    },
+    {
+      "name": "1m_3m",
+      "min_age_days": 30,
+      "max_age_days": 90,
+      "weight": 0.06
+    },
+    {
+      "name": "3m_6m",
+      "min_age_days": 90,
+      "max_age_days": 180,
+      "weight": 0.04
+    },
+    {
+      "name": "6m_1y",
+      "min_age_days": 180,
+      "max_age_days": 365,
+      "weight": 0.03
+    },
+    {
+      "name": "1y_3y",
+      "min_age_days": 365,
+      "max_age_days": 1095,
+      "weight": 0.02
+    },
+    {
+      "name": "gt_3y",
+      "min_age_days": 1095,
+      "max_age_days": null,
+      "weight": 0.02
+    }
+  ],
+  "shard_size": 300,
+  "comments_per_snapshot": 100,
+  "min_videos_per_keyword": 20,
+  "keyword_search_multiplier": 10,
+  "hf_repo_id": "Ilialebedev/dataset_100k_monthly_shards",
+  "hf_shards_repo_id": "Ilialebedev/dataset_100k_monthly_shards",
+  "hf_videos_repo_id": "Ilialebedev/dataset_100k_monthly_videos",
+  "hf_enrich_repo_id": "Ilialebedev/dataset_100k_monthly_enrich",
+  "hf_coord_repo_id": "Ilialebedev/dataset_100k_monthly_shards",
+  "hf_progress_repo_id": "Ilialebedev/dataset_100k_monthly_shards",
+  "hf_shards_path_prefix": "",
+  "hf_videos_path_prefix": "",
+  "hf_enrich_path_prefix": "",
+  "hf_token_env": "HF_TOKEN",
+  "hf_upload_enabled": true,
+  "hf_progress_enabled": true,
+  "discover_week_days": 7,
+  "discover_fair_rotation": true,
+  "discover_target_total": 100000,
+  "hf_upload_every_shards": 1,
+  "hf_parallel_colab_count": 1,
+  "hf_repo_hourly_commit_limit": 128,
+  "hf_commit_budget_reserve": 0.9,
+  "hf_commit_min_interval_seconds": 37,
+  "hf_commit_hourly_limit": 100,
+  "hf_shard_upload_batch_files": 50,
+  "hf_video_upload_batch_files": 100,
+  "hf_enrich_upload_batch_files": 100,
+  "hf_path_prefix": "",
+  "cookie_files_dir": "fetcher/dataset_collector/cookies",
+  "cookie_file_glob": "*.txt",
+  "youtube_keys_file": "fetcher/dataset_collector/keys/keys.txt",
+  "proxies_file": "fetcher/dataset_collector/proxies/proxies.txt",
+  "proxy_default_scheme": "http",
+  "include_local_proxies_for_discovery": false,
+  "use_proxies_for_discovery": false,
+  "youtube_relevance_languages": [
+    "ru",
+    "en"
+  ],
+  "youtube_region_codes": [
+    "RU",
+    "US"
+  ],
+  "queue_max_attempts": 5,
+  "queue_retry_backoff_seconds": 900,
+  "download_backend": "pytubefix",
+  "download_cookie_rotate_successes": 20,
+  "download_pytubefix_clients": ["ANDROID_VR", "WEB"],
+  "download_pause_after_success_seconds": 10,
+  "download_pause_after_fail_seconds": 15,
+  "download_pause_after_unavailable_seconds": 15,
+  "download_pause_after_cookie_bot_seconds": 120,
+  "download_pause_after_bot_seconds": 120,
+  "download_pause_after_bot_max_seconds": 120,
+  "download_pause_bot_backoff_multiplier": 1.0,
+  "download_fast_threshold_seconds": 8,
+  "download_pause_after_fast_seconds": 15,
+  "download_ytdlp_player_clients": ["android", "web"],
+  "download_ytdlp_format": "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b[height<=1080]/b"
+}
