@@ -115,7 +115,7 @@ def prinyat_odnu(put, tolko_proverka=False):
     data = data_besedy(hody)
     papka = SYROE / data[:7]           # по месяцам
     papka.mkdir(parents=True, exist_ok=True)
-    cel = papka / f"{data}__{seans}.jsonl.gz"
+    cel = papka / f"{data}__{seans}.jsonl"
 
     telo = "\n".join(json.dumps(h, ensure_ascii=False) for h in hody)
 
@@ -140,8 +140,7 @@ def prinyat_odnu(put, tolko_proverka=False):
     if tolko_proverka:
         return {"seans": seans, "novoe": True, "hodov": len(hody)}
 
-    with gzip.open(cel, "wt", encoding="utf-8") as f:
-        f.write(telo)
+    cel.write_text(telo, encoding="utf-8")
     metka.write_text(otpechatok)
     return {"seans": seans, "zapisano": True, "hodov": len(hody),
             "data": data, "zatyorto": skolko, "obraztsy": zatyorto[:3]}

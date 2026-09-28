@@ -4,3 +4,4 @@ ukazatel/obnovlenie.log
 syroe/besedy/**/*.otpechatok
 __pycache__/
 .DS_Store
+ukazatel/.posledniy_push

@@ -36,8 +36,10 @@ def pokazat_istochnik(put, metka):
     if not f.exists():
         print(f"нет такого источника: {put}", file=sys.stderr)
         return 1
-    if f.suffix == ".gz":
-        with gzip.open(f, "rt", encoding="utf-8") as fh:
+    if f.suffix in (".gz", ".jsonl"):
+        fh = (gzip.open(f, "rt", encoding="utf-8") if f.suffix == ".gz"
+              else f.open(encoding="utf-8", errors="replace"))
+        with fh:
             for stroka in fh:
                 h = json.loads(stroka)
                 if not metka or h.get("uuid") == metka:

@@ -42,10 +42,12 @@ def iz_besed():
     берём только первое вхождение по uuid."""
     vidali = set()
     papka = KOREN / "syroe" / "besedy"
-    for f in sorted(papka.rglob("*.jsonl.gz")):
+    for f in sorted(list(papka.rglob("*.jsonl")) + list(papka.rglob("*.jsonl.gz"))):
         data = f.name[:10]
         otn = str(f.relative_to(KOREN))
-        with gzip.open(f, "rt", encoding="utf-8") as fh:
+        otkryt = (gzip.open(f, "rt", encoding="utf-8") if f.suffix == ".gz"
+                  else f.open(encoding="utf-8", errors="replace"))
+        with otkryt as fh:
             for stroka in fh:
                 try:
                     h = json.loads(stroka)
