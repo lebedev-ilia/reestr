@@ -1,0 +1,123 @@
+{
+  "archive": "/Users/user/Desktop/Agent2/project_oleg/cvat_share.zip",
+  "tasks": [
+    {
+      "task_zip": "task_dumpster-2023_12_10_12_30_44-cvat for images 1.1.zip",
+      "xml": "annotations.xml",
+      "declared_labels": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "images_total": 4036,
+      "images_empty": 66,
+      "images_nonempty": 3970,
+      "objects_total": 38647,
+      "per_class_objects": {
+        "dumpster": 12321,
+        "tko": 16821,
+        "placedump": 7467,
+        "constrwaste": 1031,
+        "tires": 687,
+        "treewaste": 320
+      },
+      "per_class_images": {
+        "dumpster": 3792,
+        "tko": 3126,
+        "placedump": 3968,
+        "constrwaste": 688,
+        "tires": 461,
+        "treewaste": 276
+      },
+      "per_class_max_per_image": {
+        "dumpster": 16,
+        "tko": 39,
+        "placedump": 6,
+        "constrwaste": 8,
+        "tires": 6,
+        "treewaste": 4
+      },
+      "per_class_mean_per_image_present": {
+        "dumpster": 3.249,
+        "tko": 5.381,
+        "placedump": 1.882,
+        "constrwaste": 1.499,
+        "tires": 1.49,
+        "treewaste": 1.159
+      },
+      "per_class_mean_per_image_all": {
+        "dumpster": 3.0528,
+        "tko": 4.1677,
+        "placedump": 1.8501,
+        "constrwaste": 0.2555,
+        "tires": 0.1702,
+        "treewaste": 0.0793
+      },
+      "images_with_container_classes": 3969,
+      "images_with_waste_classes": 1159,
+      "images_mixed_container_and_waste": 1158,
+      "images_only_container": 2811,
+      "images_only_waste": 1,
+      "images_none_of_target_classes": 66
+    },
+    {
+      "task_zip": "task_waste_up-2023_04_29_01_12_55-cvat for images 1.1.zip",
+      "xml": "annotations.xml",
+      "declared_labels": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "images_total": 7101,
+      "images_empty": 0,
+      "images_nonempty": 7101,
+      "objects_total": 10348,
+      "per_class_objects": {
+        "garbagetruck": 2553,
+        "truck": 3054,
+        "van": 1066,
+        "waste": 2993,
+        "car": 682
+      },
+      "per_class_images": {
+        "garbagetruck": 2550,
+        "truck": 3021,
+        "van": 1063,
+        "waste": 2884,
+        "car": 578
+      },
+      "per_class_max_per_image": {
+        "garbagetruck": 2,
+        "truck": 3,
+        "van": 2,
+        "waste": 5,
+        "car": 5
+      },
+      "per_class_mean_per_image_present": {
+        "garbagetruck": 1.001,
+        "truck": 1.011,
+        "van": 1.003,
+        "waste": 1.038,
+        "car": 1.18
+      },
+      "per_class_mean_per_image_all": {
+        "garbagetruck": 0.3595,
+        "truck": 0.4301,
+        "van": 0.1501,
+        "waste": 0.4215,
+        "car": 0.096
+      },
+      "images_with_container_classes": 0,
+      "images_with_waste_classes": 0,
+      "images_mixed_container_and_waste": 0,
+      "images_only_container": 0,
+      "images_only_waste": 0,
+      "images_none_of_target_classes": 7101
+    }
+  ]
+}

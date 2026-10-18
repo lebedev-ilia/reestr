@@ -1,0 +1,188 @@
+spawn ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null user2@172.30.4.134
+Warning: Permanently added '172.30.4.134' (ED25519) to the list of known hosts.
+user2@172.30.4.134's password: 
+Welcome to Ubuntu 24.04.5 LTS (GNU/Linux 6.8.0-142-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Oct  9 07:57:25 AM UTC 2026
+
+  System load:    0.0              Temperature:           52.0 C
+  Usage of /home: 4.5% of 1.73TB   Processes:             576
+  Memory usage:   12%              Users logged in:       2
+  Swap usage:     0%               IPv4 address for eth0: 172.30.1.206
+
+ * Canonical Workshop gives developers fast, composable, reproducible, and
+   secure developer environments that are perfect for agentic workflows.
+
+   https://ubuntu.com/workshop
+
+Expanded Security Maintenance for Applications is not enabled.
+
+7 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+Last login: Fri Oct  9 06:05:46 2026 from 172.30.4.39
+$ echo '=== WHOAMI ==='; whoami; hostname; uname -a; echo '=== OS ==='; cat /etc/os-release 2>/dev/null | head -3
+=== WHOAMI ===
+user2
+s5080
+Linux s5080 6.8.0-142-generic #142-Ubuntu SMP PREEMPT_DYNAMIC Wed Sep  2 14:24:27 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+=== OS ===
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+$ echo '=== HOME ==='; ls -la ~; echo '=== ROOT ==='; ls -la /
+=== HOME ===
+total 24
+drwxr-x--- 3 user2 user2 4096 Oct  9 06:05 .
+drwxr-xr-x 7 root  root  4096 Oct  9 06:40 ..
+-rw-r--r-- 1 user2 user2  220 Mar 31  2024 .bash_logout
+-rw-r--r-- 1 user2 user2 3771 Mar 31  2024 .bashrc
+drwx------ 2 user2 user2 4096 Oct  9 06:05 .cache
+-rw-r--r-- 1 user2 user2  807 Mar 31  2024 .profile
+=== ROOT ===
+total 136
+drwxr-xr-x  23 root root  4096 Sep 29 03:01 .
+drwxr-xr-x  23 root root  4096 Sep 29 03:01 ..
+lrwxrwxrwx   1 root root     7 Apr 22  2024 bin -> usr/bin
+drwxr-xr-x   2 root root  4096 Jun  5 14:57 bin.usr-is-merged
+drwxr-xr-x   4 root root  4096 Oct  9 06:37 boot
+dr-xr-xr-x   2 root root  4096 Sep  9 09:11 cdrom
+drwxr-xr-x  20 root root  4700 Sep 29 04:00 dev
+drwxr-xr-x 117 root root 12288 Oct  9 06:37 etc
+drwxr-xr-x   7 root root  4096 Oct  9 06:40 home
+lrwxrwxrwx   1 root root     7 Apr 22  2024 lib -> usr/lib
+lrwxrwxrwx   1 root root     9 Apr 22  2024 lib64 -> usr/lib64
+drwxr-xr-x   2 root root  4096 Jun  5 14:57 lib.usr-is-merged
+drwx------   2 root root 16384 Sep 28 14:27 lost+found
+drwxr-xr-x   2 root root  4096 Sep  9 06:29 media
+drwxr-xr-x   2 root root  4096 Sep  9 06:29 mnt
+drwxr-xr-x   3 root root  4096 Oct  5 01:04 opt
+dr-xr-xr-x 638 root root     0 Sep 29 03:59 proc
+drwx------   8 root root  4096 Oct  6 11:14 root
+drwxr-xr-x  36 root root  1280 Oct  9 07:57 run
+lrwxrwxrwx   1 root root     8 Apr 22  2024 sbin -> usr/sbin
+drwxr-xr-x   2 root root  4096 Mar 18  2026 sbin.usr-is-merged
+drwxr-xr-x   2 root root  4096 Sep 28 14:34 snap
+drwxr-xr-x   2 root root  4096 Sep  9 06:29 srv
+dr-xr-xr-x  13 root root     0 Sep 29 09:38 sys
+drwxrwxrwt  17 root root 45056 Oct  9 07:57 tmp
+drwxr-xr-x  12 root root  4096 Sep  9 06:29 usr
+drwxr-xr-x  14 root root  4096 Oct  7 02:21 var
+$ echo '=== DOCKER ==='; docker ps 2>/dev/null || echo 'no docker access'
+=== DOCKER ===
+no docker access
+$ echo '=== DISKS ==='; df -h | head -20
+=== DISKS ===
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           6.1G  3.7M  6.1G   1% /run
+efivarfs        128K   68K   56K  56% /sys/firmware/efi/efivars
+/dev/nvme0n1p2   49G   21G   26G  45% /
+tmpfs            31G     0   31G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/nvme0n1p4  1.8T   80G  1.6T   5% /home
+/dev/nvme0n1p1  1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           6.1G   12K  6.1G   1% /run/user/1000
+tmpfs           6.1G   12K  6.1G   1% /run/user/0
+tmpfs           6.1G   12K  6.1G   1% /run/user/1001
+$ echo '=== SEARCH DATASETS ==='; ls -la /home /opt /srv /data /mnt 2>/dev/null; find /home /opt /srv /data -maxdepth 3 -type d 2>/dev/null | head -60
+=== SEARCH DATASETS ===
+/home:
+total 40
+drwxr-xr-x  7 root  root   4096 Oct  9 06:40 .
+drwxr-xr-x 23 root  root   4096 Sep 29 03:01 ..
+drwx------ 13 root  root   4096 Oct  6 11:15 cvat
+drwxr-xr-x 21 user  user   4096 Oct  7 07:03 cvat_share
+drwx------  2 root  root  16384 Sep 28 14:27 lost+found
+drwxr-x--- 12 user  user   4096 Oct  6 11:10 user
+drwxr-x---  3 user2 user2  4096 Oct  9 06:05 user2
+
+/mnt:
+total 8
+drwxr-xr-x  2 root root 4096 Sep  9 06:29 .
+drwxr-xr-x 23 root root 4096 Sep 29 03:01 ..
+
+/opt:
+total 12
+drwxr-xr-x  3 root root 4096 Oct  5 01:04 .
+drwxr-xr-x 23 root root 4096 Sep 29 03:01 ..
+drwx--x--x  4 root root 4096 Oct  5 01:04 containerd
+
+/srv:
+total 8
+drwxr-xr-x  2 root root 4096 Sep  9 06:29 .
+drwxr-xr-x 23 root root 4096 Sep 29 03:01 ..
+/home
+/home/user2
+/home/user2/.cache
+/home/user
+/home/lost+found
+/home/cvat
+/home/cvat_share
+/home/cvat_share/for_cvat_images_number
+/home/cvat_share/for_cvat_images_number/bad
+/home/cvat_share/for_cvat_images_number/upcvat_waste_number_del
+/home/cvat_share/for_cvat_images_number/befor_delete
+/home/cvat_share/for_cvat_images_number/Фото номеров
+/home/cvat_share/truck_03
+/home/cvat_share/dumpster
+/home/cvat_share/dumpster/source_images_01
+/home/cvat_share/dumpster/source_images_02
+/home/cvat_share/dumpster/source_images_06
+/home/cvat_share/dumpster/source_images_03
+/home/cvat_share/dumpster/source_images_07
+/home/cvat_share/dumpster/source_images_05
+/home/cvat_share/dumpster/source_images
+/home/cvat_share/dumpster/rotated_images
+/home/cvat_share/dumpster/source_images_04
+/home/cvat_share/belaz_images
+/home/cvat_share/drobilka_images_06
+/home/cvat_share/truck
+/home/cvat_share/garbagetruck_03
+/home/cvat_share/waste_01
+/home/cvat_share/drobilka_images
+/home/cvat_share/van_02
+/home/cvat_share/drobilka_images_04
+/home/cvat_share/dumpster_vertical
+/home/cvat_share/drobilka_images_empty
+/home/cvat_share/drobilka_images_05
+/home/cvat_share/van_03
+/home/cvat_share/drobilka_images_new
+/home/cvat_share/waste_numbers
+/home/cvat_share/all_number
+/home/cvat_share/drobilka_images_07
+/opt
+/opt/containerd
+/srv
+$ echo '=== IMAGE FILES ==='; find /home /opt /srv /data -maxdepth 5 \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' \) 2>/dev/null | head -20
+=== IMAGE FILES ===
+/home/cvat_share/for_cvat_images_number/bad/wastenumber00871.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-54164-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/wastenumber01128.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-20521-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-57317-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/0120190522090926010.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-8205-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-90860-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-24903-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/0120190522091619001.jpg
+/home/cvat_share/for_cvat_images_number/bad/Cam5_01_20190523112846_20190523112912001.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-97688-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-104235-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-27642-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-95772-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-91946-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-91997-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/Cam5_01_20190730172935_201907301730190024.jpg
+/home/cvat_share/for_cvat_images_number/bad/manual-57918-front.jpg
+/home/cvat_share/for_cvat_images_number/bad/wastenumber01136.jpg
+$ exit
+Connection to 172.30.4.134 closed.

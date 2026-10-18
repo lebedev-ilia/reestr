@@ -1,0 +1,64 @@
+<!doctype html><html lang='ru'><head><meta charset='utf-8'><style>
+@page { size: A4; margin: 20mm 18mm 18mm 18mm; }
+body { font-family: "PT Serif", "Times New Roman", Georgia, serif;
+       font-size: 11.5pt; line-height: 1.55; color: #1a1a1a; margin: 0; }
+h1 { font-size: 17pt; margin: 0 0 14pt 0; color: #111; page-break-after: avoid; }
+h2 { font-size: 14pt; margin: 22pt 0 8pt 0; color: #111; page-break-after: avoid;
+     border-bottom: 1px solid #d8d8d8; padding-bottom: 4pt; }
+p { margin: 0 0 8pt 0; text-align: justify; hyphens: auto; }
+strong { font-weight: 600; }
+hr { border: none; border-top: 1px solid #cccccc; margin: 16pt 0; }
+blockquote { margin: 8pt 0 10pt 0; padding: 2pt 0 2pt 12pt;
+             border-left: 3px solid #b8b8b8; background: #fafafa; }
+blockquote p { margin: 0 0 6pt 0; }
+blockquote p:last-child { margin-bottom: 0; }
+table { border-collapse: collapse; width: 100%; margin: 6pt 0 12pt 0;
+        font-size: 10.5pt; page-break-inside: avoid; }
+th, td { border: 1px solid #c8c8c8; padding: 5pt 7pt; text-align: left;
+         vertical-align: top; }
+th { background: #f2f2f2; font-weight: 600; }
+td { text-align: left; }
+code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 9pt;
+       background: #f4f4f4; padding: 0.5pt 3pt; border-radius: 2px; }
+</style></head><body><h1>Проверка работы по ТЗ — руководство для принимающего</h1>
+<p>Документ для финальной проверки: <strong>каждый пункт Технического задания → что сделано → чем подтверждается → как проверить самому</strong>. Ничего не нужно принимать на слово: у каждого утверждения указан файл или команда, дающая цифру.</p>
+<p>Пометки: ✅ выполнено · ⚠️ выполнено частично или с оговоркой · ❌ не выполнено</p>
+<hr>
+<h2>Раздел 4. Исходные данные</h2>
+<table><thead><tr><th>Пункт</th><th>Требование</th><th>Что сделано</th><th>Чем подтверждается</th></tr></thead><tbody><tr><td>4.3</td><td>Выявленные ограничения данных учитываются и <strong>фиксируются в отчёте</strong></td><td>Ограничения найдены и описаны: классы базовой модели и датасета не совпадают; набор событий не является видео; 11 нечитаемых файлов; площадки представлены неравномерно</td><td><code>deliverables/otchet_zakazchiku.md</code>, <code>model_tests_report.md</code></td></tr></tbody></table>
+<p><strong>Как проверить:</strong> открыть <code>model_tests_report.md</code>, раздел «Что не тестировалось и почему».</p>
+<hr>
+<h2>Раздел 5. Задача 1 — детекция ТС и дедупликация</h2>
+<h3>5.2 Работы</h3>
+<table><thead><tr><th>Что требуется</th><th>Что сделано</th><th>Чем подтверждается</th><th>Как проверить</th></tr></thead><tbody><tr><td>проверка и анализ датасета и разметки</td><td>Проведён: 5 классов, 1062 кадра в валидации, найдены 11 нечитаемых файлов; обнаружена <strong>утечка между train и val</strong> (соседние кадры одной серии)</td><td><code>model_tests_report.md</code></td><td>найти раздел про утечку</td></tr><tr><td><strong>воспроизведение показателей базовой модели</strong></td><td>Воспроизведена: P 0,967 / R 0,952 / mAP@0,5 0,965 / mAP@0,5:0,95 0,955 на 4 общих классах</td><td><code>deliverables/comparison.json</code></td><td><code>python3 -c &quot;import json;print(json.load(open(&#x27;deliverables/comparison.json&#x27;)))&quot;</code></td></tr><tr><td><strong>разработка алгоритма построения полигональной маски</strong></td><td>Разработан: карта активности по кадрам камеры → порог устойчивости → сглаживание → полигон. Координаты всех зон в нормированном виде</td><td><code>algorithm_description.md</code>, <code>polygon_masks.json</code>, <code>masks_overlay/</code> (8 оверлеев), <code>threshold_sensitivity.json</code></td><td>открыть <code>masks_overlay/*.png</code> — наложенная зона видна глазами</td></tr><tr><td>подготовка train/validation/test</td><td>Разделение <strong>блоками по сериям</strong>, а не по кадрам: утечка снижена с 99,9 % до <strong>1,5 %</strong></td><td><code>model_tests_report.md</code></td><td>найти раздел про утечку</td></tr><tr><td>дообучение модели</td><td>YOLO11n: <strong>P 0,975 / R 0,971 / F1 0,973 / mAP@0,5 0,987 / mAP@0,5:0,95 0,914</strong></td><td><code>comparison.json</code></td><td>см. выше</td></tr><tr><td><strong>реализация дедупликации</strong></td><td>⚠️ Реализована на трекинге. <strong>Проверить на предоставленном наборе невозможно</strong> — это не видео, а снимки событий (2–4 кадра с интервалом 20–25 с)</td><td><code>algorithm_description.md</code>, <code>dedup_results.json</code></td><td>см. оговорку ниже</td></tr><tr><td>сравнение новой и базовой моделей</td><td>Новая выше по всем метрикам на общей выборке</td><td><code>comparison.json</code></td><td>см. выше</td></tr><tr><td>передача весов, конфигураций, скриптов, описания</td><td>Передано</td><td><code>run_instructions.md</code>, <code>README.md</code></td><td>см. раздел 9</td></tr></tbody></table>
+<p><strong>Оговорка по дедупликации — проверить самостоятельно.</strong> В <code>dedup_results.json</code> поле <code>mode</code> показывает, в каком режиме считалось. Если набор — не видео, то метрика «точность объединения» на нём не измеряется в принципе: без меток времени кадров нельзя отличить повторный въезд от нового. Это зафиксировано, а не обойдено.</p>
+<h3>5.3 Метрики</h3>
+<p>Заявлены: precision, recall, F1, mAP, количество ложных срабатываний, качество дедупликации. Все посчитаны, кроме дедупликации (причина выше).</p>
+<h3>5.5 Приёмка</h3>
+<p>Сравнение с базовой моделью выполнено на одной выборке в одинаковых условиях: базовая <strong>0,965</strong> mAP@0,5 → новая <strong>0,994</strong> на 4 общих классах; precision выросла с 0,967 до 0,985 при росте полноты — то есть <strong>доля ложных срабатываний снизилась</strong>.</p>
+<hr>
+<h2>Раздел 6. Задача 2 — заполненность и морфология</h2>
+<table><thead><tr><th>Пункт</th><th>Требование</th><th>Статус</th><th>Что сделано / чем подтверждается</th></tr></thead><tbody><tr><td>6.1</td><td>Дообучить модель заполненности и морфологии с учётом полигональной маски</td><td>✅</td><td><code>otchet_zadacha_2.md</code>, <code>metriki_protiv_celei.md</code></td></tr><tr><td><strong>6.2</strong></td><td><strong>Стороны согласуют классы и правила интерпретации заполненности до начала обучения</strong></td><td>❌</td><td><strong>Не оформлено.</strong> Вопрос поднят в отчёте (<code>otchet_zadacha_2.md</code>, раздел «Вопросы»)</td></tr><tr><td>6.3</td><td>Работы: анализ датасета, воспроизведение базовой модели, подготовка данных, дообучение, учёт маски, сравнение с базовой, передача</td><td>✅</td><td><code>otchet_zadacha_2.md</code>, <code>metriki_protiv_celei.md</code></td></tr><tr><td>6.4</td><td>Возможные метрики; пороги фиксируются после проверки данных и базовой модели</td><td>✅</td><td>метрики измерены, пороги предложены к фиксации</td></tr><tr><td>6.5</td><td>Приёмка по сравнению с базовой моделью</td><td>✅</td><td>базовая на данных задачи 2 даёт <strong>mAP@0,5 = 0,0125</strong> и <strong>0 объектов</strong> на 8 кадрах при пороге 0,25 (контроль на её own данных — 8 объектов)</td></tr></tbody></table>
+<p><strong>Достигнутые показатели задачи 2:</strong></p>
+<table><thead><tr><th>Показатель</th><th>Ориентир</th><th>Достигнуто</th></tr></thead><tbody><tr><td>Заполненность, Accuracy</td><td>≥ 90 %</td><td><strong>85,2 %</strong></td></tr><tr><td>Морфология, mIoU</td><td>≥ 0,75</td><td><strong>0,592</strong></td></tr><tr><td>Исходный уровень морфологии</td><td>—</td><td>0,496</td></tr></tbody></table>
+<p><strong>Как проверить морфологию:</strong> в <code>deliverables/experiments_summary.json</code> и в журнале <code>my_agent/experiments/ITOGI.md</code> — таблица всех <strong>22 экспериментов</strong> с единой методикой замера (плюс отдельно ансамбль четырёх моделей). Методика замера описана в <code>my_agent/experiments/ITOGI.md</code>, раздел 4 «Проверка самого замера».</p>
+<hr>
+<h2>Раздел 7. Задача 3 — Jetson Nano 4 ГБ</h2>
+<table><thead><tr><th>Пункт</th><th>Требование</th><th>Статус</th><th>Чем подтверждается</th></tr></thead><tbody><tr><td>7.2</td><td>Анализ версии JetPack, ОС, библиотек</td><td>✅</td><td><code>jetson_report.md</code></td></tr><tr><td>7.2</td><td>Подготовка/конвертация моделей</td><td>✅</td><td>ONNX → TensorRT, движки собраны</td></tr><tr><td>7.2</td><td>Оптимизация FP16/INT8, разрешение</td><td>✅</td><td>FP16 собран; <strong>FP32 и FP16 дают одинаковый результат</strong> (расхождение 0,0000)</td></tr><tr><td>7.2</td><td>Проверка запуска и инференса</td><td>✅</td><td><code>jetson_benchmark.json</code></td></tr><tr><td>7.2</td><td><strong>Измерение latency, FPS, памяти, разрешения</strong></td><td>✅</td><td>GPU Compute <strong>55,5 мс</strong>, <strong>17,65 кадр/с</strong>; модель задачи 2 — <strong>67,9 мс / 14,47 кадр/с</strong></td></tr><tr><td>7.2</td><td>Скрипты запуска, конфигурации, инструкция</td><td>✅</td><td><code>run_instructions.md</code></td></tr><tr><td>7.2</td><td>Фиксация ограничений и зависимостей</td><td>✅</td><td><code>jetson_report.md</code></td></tr></tbody></table>
+<p><strong>Как проверить:</strong> <code>deliverables/jetson_benchmark.json</code> содержит <strong>сырой вывод <code>trtexec</code></strong> целиком, включая строку <code>Throughput: 17.6535 qps</code>. Это первоисточник, а не пересказ.</p>
+<p><strong>Отдельно зафиксировано:</strong> плата <strong>перезагружается каждые 30 минут</strong> — аппаратная проблема, влияет на боевую эксплуатацию, решение на стороне Заказчика.</p>
+<hr>
+<h2>Раздел 9. Передаваемые результаты</h2>
+<table><thead><tr><th>Что требуется</th><th>Статус</th><th>Где</th></tr></thead><tbody><tr><td>веса обученных моделей</td><td>⚠️</td><td>На сервере и на Jetson. <strong>В локальный пакет не собраны</strong> — см. «Пробелы»</td></tr><tr><td>конфигурационные файлы</td><td>✅</td><td><code>run_instructions.md</code>, <code>polygon_masks.json</code></td></tr><tr><td>скрипты запуска и вспомогательные файлы</td><td>✅</td><td><code>run_instructions.md</code></td></tr><tr><td>артефакты конвертации для Jetson</td><td>✅</td><td><code>jetson_report.md</code>, движки на плате</td></tr><tr><td>краткая инструкция по запуску</td><td>✅</td><td><code>run_instructions.md</code></td></tr><tr><td><strong>отчёт</strong> с описанием данных, сравнением базовых и новых моделей, ограничениями</td><td>✅</td><td><code>otchet_zakazchiku.md</code></td></tr></tbody></table>
+<hr>
+<h2>Раздел 11. Что должен содержать отчёт</h2>
+<table><thead><tr><th>Требование</th><th>Где смотреть</th></tr></thead><tbody><tr><td>описание исходных данных и выявленных ограничений</td><td><code>model_tests_report.md</code></td></tr><tr><td>описание базовых моделей и результатов воспроизведения</td><td><code>comparison.json</code>, <code>acceptance_protocol.md</code></td></tr><tr><td>описание изменений и обучения</td><td><code>algorithm_description.md</code>, <code>model_tests_report.md</code></td></tr><tr><td>результаты сравнения на тестовой выборке</td><td><code>comparison.json</code></td></tr><tr><td><strong>описание алгоритма построения полигональных масок, масок и дедупликации</strong></td><td><code>algorithm_description.md</code></td></tr><tr><td>для Jetson — версии окружения и фактические latency/FPS/память/разрешение</td><td><code>jetson_report.md</code>, <code>jetson_benchmark.json</code></td></tr><tr><td>перечень переданных файлов и инструкция по запуску</td><td><code>README.md</code>, <code>run_instructions.md</code></td></tr></tbody></table>
+<hr>
+<h2>Пробелы — что честно не закрыто</h2>
+<p>1. <strong>Пункт 6.2 не оформлен.</strong> Правила интерпретации заполненности не согласованы до начала обучения. Работа сделана, но формального согласования нет. Это единственный пункт ТЗ, который не выполнен.</p>
+<p>2. <strong>Дедупликация не проверяема на предоставленных данных.</strong> Реализация есть, но набор — не видео. Нужны метки времени кадров или исходная запись.</p>
+<p>3. <strong>Веса моделей не собраны в единый пакет.</strong> Они лежат на сервере (<code>/home/user2/...</code>) и на Jetson (<code>~/agent2/models/</code>). Для передачи нужно сложить их в один каталог с контрольными суммами — это делается за один шаг, но пока не сделано.</p>
+<p>4. <strong>Тестовая выборка Заказчиком не сформирована</strong> (п. 4.4). Сейчас сравнение идёт на валидационной части предоставленного датасета, разделённой блоками по сериям. Финальное сравнение по ТЗ проводится на выборке Заказчика.</p>
+<hr>
+<h2>Что проверить в первую очередь (если времени мало)</h2>
+<p>1. <code>deliverables/comparison.json</code> — сравнение с базовой моделью, задача 1. 2. <code>deliverables/jetson_benchmark.json</code> — сырой вывод <code>trtexec</code>, задача 3. 3. <code>deliverables/masks_overlay/*.png</code> — полигональные зоны глазами. 4. <code>deliverables/otchet_zadacha_2.md</code> — задача 2 и три открытых вопроса. 5. Пункт 6.2 — единственный невыполненный, требует решения Сторон.</p></body></html>

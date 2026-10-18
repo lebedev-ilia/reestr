@@ -1,0 +1,254 @@
+{
+ "archive": "/Users/user/Desktop/Agent2/project_oleg/cvat_share.zip",
+ "archive_bytes": 48875850,
+ "tasks": {
+  "task_dumpster-2023_12_10_12_30_44": {
+   "meta_size": "4036",
+   "labels": [
+    "tko",
+    "treewaste",
+    "tires",
+    "constrwaste",
+    "dumpster",
+    "placedump"
+   ],
+   "images": 4036,
+   "without_shapes": 66,
+   "classes_shapes": {
+    "dumpster": 12321,
+    "tko": 16821,
+    "placedump": 7467,
+    "constrwaste": 1031,
+    "tires": 687,
+    "treewaste": 320
+   },
+   "classes_images": {
+    "tko": 3126,
+    "dumpster": 3792,
+    "placedump": 3968,
+    "constrwaste": 688,
+    "tires": 461,
+    "treewaste": 276
+   },
+   "distinct_sizes": 1615,
+   "distinct_series": 15
+  },
+  "task_waste_up-2023_04_29_01_12_55": {
+   "meta_size": "7101",
+   "labels": [
+    "car",
+    "truck",
+    "garbagetruck",
+    "van",
+    "waste"
+   ],
+   "images": 7101,
+   "without_shapes": 0,
+   "classes_shapes": {
+    "garbagetruck": 2553,
+    "truck": 3054,
+    "van": 1066,
+    "waste": 2993,
+    "car": 682
+   },
+   "classes_images": {
+    "garbagetruck": 2550,
+    "truck": 3021,
+    "van": 1063,
+    "waste": 2884,
+    "car": 578
+   },
+   "distinct_sizes": 239,
+   "distinct_series": 5
+  }
+ },
+ "total_images": 11137,
+ "total_without_shapes": 66,
+ "classes_total_shapes": {
+  "dumpster": 12321,
+  "tko": 16821,
+  "placedump": 7467,
+  "constrwaste": 1031,
+  "tires": 687,
+  "treewaste": 320,
+  "garbagetruck": 2553,
+  "truck": 3054,
+  "van": 1066,
+  "waste": 2993,
+  "car": 682
+ },
+ "classes_total_images": {
+  "tko": 3126,
+  "dumpster": 3792,
+  "placedump": 3968,
+  "constrwaste": 688,
+  "tires": 461,
+  "treewaste": 276,
+  "garbagetruck": 2550,
+  "truck": 3021,
+  "van": 1063,
+  "waste": 2884,
+  "car": 578
+ },
+ "distinct_sizes": 1852,
+ "distinct_series": 20,
+ "top_sizes": [
+  [
+   "2560",
+   "1920",
+   6384
+  ],
+  [
+   "1920",
+   "1080",
+   687
+  ],
+  [
+   "4032",
+   "3024",
+   631
+  ],
+  [
+   "5312",
+   "2988",
+   240
+  ],
+  [
+   "2688",
+   "1520",
+   179
+  ],
+  [
+   "4032",
+   "3016",
+   128
+  ],
+  [
+   "1280",
+   "720",
+   126
+  ],
+  [
+   "4608",
+   "3456",
+   124
+  ],
+  [
+   "720",
+   "1280",
+   75
+  ],
+  [
+   "3686",
+   "2764",
+   69
+  ],
+  [
+   "3000",
+   "4000",
+   68
+  ],
+  [
+   "2448",
+   "3264",
+   61
+  ],
+  [
+   "960",
+   "1280",
+   42
+  ],
+  [
+   "1280",
+   "960",
+   42
+  ],
+  [
+   "4000",
+   "3000",
+   38
+  ]
+ ],
+ "top_series": [
+  [
+   "dumpster",
+   3162
+  ],
+  [
+   "truck",
+   2947
+  ],
+  [
+   "garbagetruck",
+   1776
+  ],
+  [
+   "van",
+   1026
+  ],
+  [
+   "waste_truck",
+   717
+  ],
+  [
+   "garbage",
+   635
+  ],
+  [
+   "20180903",
+   101
+  ],
+  [
+   "20180831",
+   99
+  ],
+  [
+   "20180822",
+   98
+  ],
+  [
+   "20180812",
+   78
+  ],
+  [
+   "20180825",
+   77
+  ],
+  [
+   "20180901",
+   76
+  ],
+  [
+   "20180905",
+   72
+  ],
+  [
+   "20180823",
+   69
+  ],
+  [
+   "IMG",
+   60
+  ],
+  [
+   "20180904",
+   49
+  ],
+  [
+   "20180830",
+   29
+  ],
+  [
+   "20180821",
+   26
+  ],
+  [
+   "20180906",
+   25
+  ],
+  [
+   "DSC",
+   15
+  ]
+ ]
+}

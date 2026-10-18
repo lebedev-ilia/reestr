@@ -1,0 +1,3058 @@
+{
+  "summary": {
+    "images_with_waste_and_vehicle": 434,
+    "mean_gt_fill": 0.3488118163628093,
+    "mean_pred_fill": 0.3538242428979841,
+    "MAE_pp": 6.98058011045081,
+    "median_AE_pp": 2.6116526837249685,
+    "area_ratio": 1.0143700021044046,
+    "within_5pp": 0.6566820276497696,
+    "within_10pp": 0.7972350230414746,
+    "correlation": 0.714884883996748,
+    "baseline_mean_MAE_pp": 10.264941850966407,
+    "gt_range": [
+      0.07994352891455925,
+      0.8616485331814299
+    ]
+  },
+  "per_image": [
+    {
+      "image": "garbagetruck_03__garbage03_00644.jpg",
+      "gt_fill": 0.1967439704361721,
+      "pred_fill": 0.23377880454063416,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00959.jpg",
+      "gt_fill": 0.21934579071028226,
+      "pred_fill": 0.2144852876663208,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00960.jpg",
+      "gt_fill": 0.20381386232533152,
+      "pred_fill": 0.2074842005968094,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00961.jpg",
+      "gt_fill": 0.2906877629300602,
+      "pred_fill": 0.30169838666915894,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00962.jpg",
+      "gt_fill": 0.24642643762457672,
+      "pred_fill": 0.247833713889122,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00963.jpg",
+      "gt_fill": 0.24012190702581324,
+      "pred_fill": 0.26954734325408936,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00964.jpg",
+      "gt_fill": 0.3790712555618036,
+      "pred_fill": 0.27509140968322754,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00965.jpg",
+      "gt_fill": 0.26895256491826314,
+      "pred_fill": 0.1820191740989685,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00966.jpg",
+      "gt_fill": 0.4641021956889151,
+      "pred_fill": 0.46138259768486023,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00967.jpg",
+      "gt_fill": 0.3531795027064519,
+      "pred_fill": 0.26970261335372925,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00968.jpg",
+      "gt_fill": 0.21001281391091253,
+      "pred_fill": 0.2280741035938263,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00969.jpg",
+      "gt_fill": 0.20926900436097495,
+      "pred_fill": 0.19192850589752197,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00970.jpg",
+      "gt_fill": 0.2714106737892627,
+      "pred_fill": 0.28167226910591125,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00971.jpg",
+      "gt_fill": 0.1919029976868702,
+      "pred_fill": 0.1778050810098648,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00972.jpg",
+      "gt_fill": 0.5125805981415859,
+      "pred_fill": 0.4569384455680847,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00973.jpg",
+      "gt_fill": 0.19881498674352846,
+      "pred_fill": 0.17380250990390778,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00974.jpg",
+      "gt_fill": 0.2459848480178566,
+      "pred_fill": 0.17704012989997864,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00975.jpg",
+      "gt_fill": 0.0955739033954727,
+      "pred_fill": 0.10331595689058304,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00976.jpg",
+      "gt_fill": 0.3421479101577043,
+      "pred_fill": 0.3264053761959076,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00977.jpg",
+      "gt_fill": 0.25430457088053493,
+      "pred_fill": 0.19796939194202423,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00978.jpg",
+      "gt_fill": 0.1977061388261833,
+      "pred_fill": 0.16023793816566467,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00979.jpg",
+      "gt_fill": 0.20054008264837964,
+      "pred_fill": 0.18344037234783173,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00980.jpg",
+      "gt_fill": 0.3855575420120945,
+      "pred_fill": 0.32826292514801025,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00981.jpg",
+      "gt_fill": 0.32732001235499025,
+      "pred_fill": 0.3734748065471649,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00982.jpg",
+      "gt_fill": 0.23813990078746688,
+      "pred_fill": 0.22445835173130035,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00983.jpg",
+      "gt_fill": 0.275764922983232,
+      "pred_fill": 0.39794257283210754,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00984.jpg",
+      "gt_fill": 0.21874124066262818,
+      "pred_fill": 0.2114994078874588,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00985.jpg",
+      "gt_fill": 0.19834448712196132,
+      "pred_fill": 0.19839806854724884,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00986.jpg",
+      "gt_fill": 0.3757082484117963,
+      "pred_fill": 0.299808531999588,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00987.jpg",
+      "gt_fill": 0.19666568958828087,
+      "pred_fill": 0.17699111998081207,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00988.jpg",
+      "gt_fill": 0.178819649700871,
+      "pred_fill": 0.23519542813301086,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00989.jpg",
+      "gt_fill": 0.3114559166876321,
+      "pred_fill": 0.28711017966270447,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00990.jpg",
+      "gt_fill": 0.1545792375684841,
+      "pred_fill": 0.1588110327720642,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00991.jpg",
+      "gt_fill": 0.2624750098602598,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck_03__truck03_00992.jpg",
+      "gt_fill": 0.0919906796391853,
+      "pred_fill": 0.12719658017158508,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00993.jpg",
+      "gt_fill": 0.2370363506030628,
+      "pred_fill": 0.22597353160381317,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00994.jpg",
+      "gt_fill": 0.24417294846665386,
+      "pred_fill": 0.22855985164642334,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00995.jpg",
+      "gt_fill": 0.1370228399763363,
+      "pred_fill": 0.12835758924484253,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00996.jpg",
+      "gt_fill": 0.2248304323523286,
+      "pred_fill": 0.22295986115932465,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00997.jpg",
+      "gt_fill": 0.33411414782878457,
+      "pred_fill": 0.2506006956100464,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00998.jpg",
+      "gt_fill": 0.2234621212684158,
+      "pred_fill": 0.1916758120059967,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_00999.jpg",
+      "gt_fill": 0.37088109951848197,
+      "pred_fill": 0.2744714021682739,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01000.jpg",
+      "gt_fill": 0.25603970652381697,
+      "pred_fill": 0.24268555641174316,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01001.jpg",
+      "gt_fill": 0.29343778249675284,
+      "pred_fill": 0.24874794483184814,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01002.jpg",
+      "gt_fill": 0.28095084142157184,
+      "pred_fill": 0.2959872782230377,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01003.jpg",
+      "gt_fill": 0.32839058674801225,
+      "pred_fill": 0.3133343756198883,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01004.jpg",
+      "gt_fill": 0.21311613987714537,
+      "pred_fill": 0.1952090561389923,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01005.jpg",
+      "gt_fill": 0.2409508714729986,
+      "pred_fill": 0.22044020891189575,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01006.jpg",
+      "gt_fill": 0.19226422275781668,
+      "pred_fill": 0.20180921256542206,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01007.jpg",
+      "gt_fill": 0.2079460760487682,
+      "pred_fill": 0.19582954049110413,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01008.jpg",
+      "gt_fill": 0.2796496354907705,
+      "pred_fill": 0.29007938504219055,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01009.jpg",
+      "gt_fill": 0.2934516474185755,
+      "pred_fill": 0.2673368453979492,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01010.jpg",
+      "gt_fill": 0.24678629244000957,
+      "pred_fill": 0.2996678948402405,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01011.jpg",
+      "gt_fill": 0.18371836620307502,
+      "pred_fill": 0.15509134531021118,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01012.jpg",
+      "gt_fill": 0.18549168868771584,
+      "pred_fill": 0.18612799048423767,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01013.jpg",
+      "gt_fill": 0.07994352891455925,
+      "pred_fill": 0.08325063437223434,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01014.jpg",
+      "gt_fill": 0.23827558741491162,
+      "pred_fill": 0.2351398915052414,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01015.jpg",
+      "gt_fill": 0.2550899947504666,
+      "pred_fill": 0.25141963362693787,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01016.jpg",
+      "gt_fill": 0.2186841571986693,
+      "pred_fill": 0.20592497289180756,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01017.jpg",
+      "gt_fill": 0.2406662960524611,
+      "pred_fill": 0.24606037139892578,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01018.jpg",
+      "gt_fill": 0.3206140379623517,
+      "pred_fill": 0.3466236889362335,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01019.jpg",
+      "gt_fill": 0.21524582979260343,
+      "pred_fill": 0.21879661083221436,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01020.jpg",
+      "gt_fill": 0.2895177967610887,
+      "pred_fill": 0.2507695257663727,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01021.jpg",
+      "gt_fill": 0.21241549714219085,
+      "pred_fill": 0.2124774158000946,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01022.jpg",
+      "gt_fill": 0.158653521912449,
+      "pred_fill": 0.19825975596904755,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01023.jpg",
+      "gt_fill": 0.23004095268221014,
+      "pred_fill": 0.23392826318740845,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01024.jpg",
+      "gt_fill": 0.22169128202102326,
+      "pred_fill": 0.21207858622074127,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01025.jpg",
+      "gt_fill": 0.2239323053387842,
+      "pred_fill": 0.2064456194639206,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01026.jpg",
+      "gt_fill": 0.45734343796037613,
+      "pred_fill": 0.37129098176956177,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01027.jpg",
+      "gt_fill": 0.23053011018572922,
+      "pred_fill": 0.26707375049591064,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01028.jpg",
+      "gt_fill": 0.34097097180829805,
+      "pred_fill": 0.2657855153083801,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01029.jpg",
+      "gt_fill": 0.3854513239177546,
+      "pred_fill": 0.3970474600791931,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01030.jpg",
+      "gt_fill": 0.2876797960193134,
+      "pred_fill": 0.2813516855239868,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01031.jpg",
+      "gt_fill": 0.20815612384563262,
+      "pred_fill": 0.2065512239933014,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01032.jpg",
+      "gt_fill": 0.178399843161935,
+      "pred_fill": 0.1638055443763733,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01033.jpg",
+      "gt_fill": 0.17612966436292254,
+      "pred_fill": 0.16619810461997986,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01034.jpg",
+      "gt_fill": 0.19498728937851334,
+      "pred_fill": 0.19887244701385498,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01035.jpg",
+      "gt_fill": 0.23830040968671048,
+      "pred_fill": 0.3212205171585083,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01036.jpg",
+      "gt_fill": 0.24619260345989827,
+      "pred_fill": 0.262887179851532,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01037.jpg",
+      "gt_fill": 0.23481894863472125,
+      "pred_fill": 0.1834898591041565,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01038.jpg",
+      "gt_fill": 0.23181024560839003,
+      "pred_fill": 0.19939438998699188,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01039.jpg",
+      "gt_fill": 0.22678383291580187,
+      "pred_fill": 0.21124640107154846,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01040.jpg",
+      "gt_fill": 0.2875902049011425,
+      "pred_fill": 0.2730354368686676,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01041.jpg",
+      "gt_fill": 0.2342678988917359,
+      "pred_fill": 0.2185370773077011,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01042.jpg",
+      "gt_fill": 0.2176841827635226,
+      "pred_fill": 0.1943378448486328,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01043.jpg",
+      "gt_fill": 0.14887732408576268,
+      "pred_fill": 0.1575651913881302,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01044.jpg",
+      "gt_fill": 0.27302964167253135,
+      "pred_fill": 0.2569359540939331,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01045.jpg",
+      "gt_fill": 0.2712261693244848,
+      "pred_fill": 0.27149680256843567,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01046.jpg",
+      "gt_fill": 0.3118160175065294,
+      "pred_fill": 0.3053029477596283,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01047.jpg",
+      "gt_fill": 0.22519140561143136,
+      "pred_fill": 0.2562204897403717,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01048.jpg",
+      "gt_fill": 0.19092838327034797,
+      "pred_fill": 0.1726245880126953,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01049.jpg",
+      "gt_fill": 0.2339230694658418,
+      "pred_fill": 0.23286086320877075,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01050.jpg",
+      "gt_fill": 0.25421880526022195,
+      "pred_fill": 0.25795382261276245,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01051.jpg",
+      "gt_fill": 0.35469220494258713,
+      "pred_fill": 0.3407871127128601,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01052.jpg",
+      "gt_fill": 0.21993830230203976,
+      "pred_fill": 0.14023365080356598,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01053.jpg",
+      "gt_fill": 0.3768290440400613,
+      "pred_fill": 0.44716307520866394,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01054.jpg",
+      "gt_fill": 0.2318962746718325,
+      "pred_fill": 0.23004305362701416,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01055.jpg",
+      "gt_fill": 0.2922336723071863,
+      "pred_fill": 0.2846337556838989,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01056.jpg",
+      "gt_fill": 0.24573534945301082,
+      "pred_fill": 0.21877312660217285,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01057.jpg",
+      "gt_fill": 0.18556616768294407,
+      "pred_fill": 0.18618392944335938,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01058.jpg",
+      "gt_fill": 0.31243910130389324,
+      "pred_fill": 0.3323780298233032,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01059.jpg",
+      "gt_fill": 0.22208958368897283,
+      "pred_fill": 0.20303155481815338,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01060.jpg",
+      "gt_fill": 0.18256440113694788,
+      "pred_fill": 0.18320061266422272,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01061.jpg",
+      "gt_fill": 0.26236959259047915,
+      "pred_fill": 0.25432655215263367,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01062.jpg",
+      "gt_fill": 0.10899737209690967,
+      "pred_fill": 0.16010592877864838,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01063.jpg",
+      "gt_fill": 0.20249572833811905,
+      "pred_fill": 0.2057424783706665,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01064.jpg",
+      "gt_fill": 0.24406332498552194,
+      "pred_fill": 0.265275776386261,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01065.jpg",
+      "gt_fill": 0.1539522933107798,
+      "pred_fill": 0.20243927836418152,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01066.jpg",
+      "gt_fill": 0.2094221310341973,
+      "pred_fill": 0.20515915751457214,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01067.jpg",
+      "gt_fill": 0.31007796620678724,
+      "pred_fill": 0.2933272123336792,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01068.jpg",
+      "gt_fill": 0.19355196239279565,
+      "pred_fill": 0.17845502495765686,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01069.jpg",
+      "gt_fill": 0.19976655572119476,
+      "pred_fill": 0.19062112271785736,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01070.jpg",
+      "gt_fill": 0.21201369808963663,
+      "pred_fill": 0.2582487165927887,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01071.jpg",
+      "gt_fill": 0.2090851336990095,
+      "pred_fill": 0.2129264920949936,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01072.jpg",
+      "gt_fill": 0.2917911769291558,
+      "pred_fill": 0.27909013628959656,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01073.jpg",
+      "gt_fill": 0.21533291905940594,
+      "pred_fill": 0.22034195065498352,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01074.jpg",
+      "gt_fill": 0.21427068752480455,
+      "pred_fill": 0.20279915630817413,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01075.jpg",
+      "gt_fill": 0.2829083173742219,
+      "pred_fill": 0.26281341910362244,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01076.jpg",
+      "gt_fill": 0.2679950848494589,
+      "pred_fill": 0.2660917043685913,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01077.jpg",
+      "gt_fill": 0.20109826263114203,
+      "pred_fill": 0.14461636543273926,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01078.jpg",
+      "gt_fill": 0.20033111955949398,
+      "pred_fill": 0.20727097988128662,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01079.jpg",
+      "gt_fill": 0.1853400909723009,
+      "pred_fill": 0.1915765106678009,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01080.jpg",
+      "gt_fill": 0.21846080774367282,
+      "pred_fill": 0.21293140947818756,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01081.jpg",
+      "gt_fill": 0.16364711644914828,
+      "pred_fill": 0.17893093824386597,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01082.jpg",
+      "gt_fill": 0.41663364263002006,
+      "pred_fill": 0.42320290207862854,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01083.jpg",
+      "gt_fill": 0.2290580037084053,
+      "pred_fill": 0.22293052077293396,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01084.jpg",
+      "gt_fill": 0.21494049901564652,
+      "pred_fill": 0.21673884987831116,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01085.jpg",
+      "gt_fill": 0.19987438047504397,
+      "pred_fill": 0.18880987167358398,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01086.jpg",
+      "gt_fill": 0.15800769961971634,
+      "pred_fill": 0.15202946960926056,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01087.jpg",
+      "gt_fill": 0.23681207930276268,
+      "pred_fill": 0.2358815222978592,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01088.jpg",
+      "gt_fill": 0.21508887359458745,
+      "pred_fill": 0.31841304898262024,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01089.jpg",
+      "gt_fill": 0.27182278685568567,
+      "pred_fill": 0.2643470764160156,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01090.jpg",
+      "gt_fill": 0.17320665177429984,
+      "pred_fill": 0.17060643434524536,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01091.jpg",
+      "gt_fill": 0.33236812249668396,
+      "pred_fill": 0.2498418092727661,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01092.jpg",
+      "gt_fill": 0.26392560079494065,
+      "pred_fill": 0.28902310132980347,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01093.jpg",
+      "gt_fill": 0.40941313943333363,
+      "pred_fill": 0.25013861060142517,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01094.jpg",
+      "gt_fill": 0.3248453636146606,
+      "pred_fill": 0.33383384346961975,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01095.jpg",
+      "gt_fill": 0.17341614838233066,
+      "pred_fill": 0.1765502542257309,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01096.jpg",
+      "gt_fill": 0.17042258907902127,
+      "pred_fill": 0.16952744126319885,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01097.jpg",
+      "gt_fill": 0.17833989438222472,
+      "pred_fill": 0.15695999562740326,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01098.jpg",
+      "gt_fill": 0.26173381717001126,
+      "pred_fill": 0.27556145191192627,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01099.jpg",
+      "gt_fill": 0.2832069714871078,
+      "pred_fill": 0.27357155084609985,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01100.jpg",
+      "gt_fill": 0.21859020441799681,
+      "pred_fill": 0.21460239589214325,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01101.jpg",
+      "gt_fill": 0.5157248569853714,
+      "pred_fill": 0.311206579208374,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01102.jpg",
+      "gt_fill": 0.230228753241575,
+      "pred_fill": 0.20139123499393463,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01103.jpg",
+      "gt_fill": 0.2161375356792858,
+      "pred_fill": 0.20489229261875153,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01104.jpg",
+      "gt_fill": 0.3132145447106296,
+      "pred_fill": 0.30395177006721497,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01105.jpg",
+      "gt_fill": 0.19932824639142635,
+      "pred_fill": 0.23876136541366577,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01106.jpg",
+      "gt_fill": 0.10441541284206307,
+      "pred_fill": 0.10255000740289688,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01107.jpg",
+      "gt_fill": 0.2879000640718497,
+      "pred_fill": 0.40466541051864624,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01108.jpg",
+      "gt_fill": 0.1639563802475922,
+      "pred_fill": 0.15950098633766174,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01109.jpg",
+      "gt_fill": 0.1934484621529676,
+      "pred_fill": 0.1691116839647293,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01110.jpg",
+      "gt_fill": 0.2298846969201507,
+      "pred_fill": 0.20022960007190704,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01111.jpg",
+      "gt_fill": 0.3219676168730609,
+      "pred_fill": 0.3122909665107727,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01112.jpg",
+      "gt_fill": 0.21014747219167834,
+      "pred_fill": 0.19950973987579346,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01113.jpg",
+      "gt_fill": 0.3637321246149462,
+      "pred_fill": 0.2984042465686798,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01114.jpg",
+      "gt_fill": 0.25703168959445133,
+      "pred_fill": 0.17417189478874207,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01115.jpg",
+      "gt_fill": 0.18421926288536983,
+      "pred_fill": 0.1747303605079651,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01116.jpg",
+      "gt_fill": 0.19207079507741665,
+      "pred_fill": 0.1876060664653778,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01117.jpg",
+      "gt_fill": 0.1891703832797644,
+      "pred_fill": 0.17914427816867828,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01118.jpg",
+      "gt_fill": 0.2368860377833302,
+      "pred_fill": 0.24162767827510834,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01119.jpg",
+      "gt_fill": 0.22561776045216428,
+      "pred_fill": 0.23034214973449707,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01120.jpg",
+      "gt_fill": 0.3319830157879487,
+      "pred_fill": 0.2770293951034546,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01121.jpg",
+      "gt_fill": 0.18959953108083802,
+      "pred_fill": 0.18869882822036743,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01122.jpg",
+      "gt_fill": 0.2035003555602812,
+      "pred_fill": 0.21384480595588684,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01123.jpg",
+      "gt_fill": 0.33555783468269657,
+      "pred_fill": 0.3270009756088257,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01124.jpg",
+      "gt_fill": 0.2093870502704099,
+      "pred_fill": 0.18289074301719666,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01125.jpg",
+      "gt_fill": 0.2264333336569013,
+      "pred_fill": 0.23467908799648285,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01126.jpg",
+      "gt_fill": 0.3536896692931131,
+      "pred_fill": 0.3183748424053192,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck_03__truck03_01127.jpg",
+      "gt_fill": 0.19071709628792016,
+      "pred_fill": 0.19099731743335724,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01547.jpg",
+      "gt_fill": 0.1769909875065964,
+      "pred_fill": 0.1927506923675537,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01548.jpg",
+      "gt_fill": 0.12205256591668828,
+      "pred_fill": 0.15411615371704102,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01549.jpg",
+      "gt_fill": 0.5441431506544468,
+      "pred_fill": 0.4653257727622986,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01550.jpg",
+      "gt_fill": 0.20088120291785824,
+      "pred_fill": 0.19814983010292053,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01551.jpg",
+      "gt_fill": 0.34902408818679265,
+      "pred_fill": 0.3856160044670105,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01552.jpg",
+      "gt_fill": 0.512430495076132,
+      "pred_fill": 0.5295884609222412,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01553.jpg",
+      "gt_fill": 0.7070130099240072,
+      "pred_fill": 0.6478157639503479,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01554.jpg",
+      "gt_fill": 0.3980613742048645,
+      "pred_fill": 0.4434131383895874,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01555.jpg",
+      "gt_fill": 0.6171930258433679,
+      "pred_fill": 0.6059818267822266,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01556.jpg",
+      "gt_fill": 0.48238510166370907,
+      "pred_fill": 0.49498119950294495,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01557.jpg",
+      "gt_fill": 0.40069550374788665,
+      "pred_fill": 0.38145968317985535,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01558.jpg",
+      "gt_fill": 0.38432498548432514,
+      "pred_fill": 0.3913803696632385,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01559.jpg",
+      "gt_fill": 0.27947899449769603,
+      "pred_fill": 0.3114337921142578,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01560.jpg",
+      "gt_fill": 0.40020858598650827,
+      "pred_fill": 0.3465808629989624,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01561.jpg",
+      "gt_fill": 0.35280064716450793,
+      "pred_fill": 0.3072377145290375,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01562.jpg",
+      "gt_fill": 0.3760770110927698,
+      "pred_fill": 0.3961021900177002,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01563.jpg",
+      "gt_fill": 0.198341970742698,
+      "pred_fill": 0.1997271627187729,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01564.jpg",
+      "gt_fill": 0.48448029232298734,
+      "pred_fill": 0.5046985149383545,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01565.jpg",
+      "gt_fill": 0.29167838282145414,
+      "pred_fill": 0.30471470952033997,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01566.jpg",
+      "gt_fill": 0.358628282465055,
+      "pred_fill": 0.3841712772846222,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01567.jpg",
+      "gt_fill": 0.3492232069543246,
+      "pred_fill": 0.36083534359931946,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01568.jpg",
+      "gt_fill": 0.31485786665370036,
+      "pred_fill": 0.32221725583076477,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01569.jpg",
+      "gt_fill": 0.23725024529980634,
+      "pred_fill": 0.2316552698612213,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01570.jpg",
+      "gt_fill": 0.3453081828723554,
+      "pred_fill": 0.3566345274448395,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01571.jpg",
+      "gt_fill": 0.5056055122674643,
+      "pred_fill": 0.5016257166862488,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01572.jpg",
+      "gt_fill": 0.5896641310559226,
+      "pred_fill": 0.5469747185707092,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01573.jpg",
+      "gt_fill": 0.6141390798604007,
+      "pred_fill": 0.6339609026908875,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01574.jpg",
+      "gt_fill": 0.7299869840798275,
+      "pred_fill": 0.519343376159668,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01575.jpg",
+      "gt_fill": 0.3099703963251026,
+      "pred_fill": 0.32137712836265564,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01576.jpg",
+      "gt_fill": 0.6932489627715847,
+      "pred_fill": 0.546805202960968,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01577.jpg",
+      "gt_fill": 0.5418767193998175,
+      "pred_fill": 0.6949748396873474,
+      "gt_objects": 2,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01578.jpg",
+      "gt_fill": 0.549277335870429,
+      "pred_fill": 0.7456098198890686,
+      "gt_objects": 2,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01579.jpg",
+      "gt_fill": 0.7423231008429924,
+      "pred_fill": 0.643756091594696,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01580.jpg",
+      "gt_fill": 0.48570739811310715,
+      "pred_fill": 0.44256851077079773,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01581.jpg",
+      "gt_fill": 0.3968030786218856,
+      "pred_fill": 0.2846739590167999,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01582.jpg",
+      "gt_fill": 0.38818644841749933,
+      "pred_fill": 0.3679667115211487,
+      "gt_objects": 1,
+      "pred_objects": 2
+    },
+    {
+      "image": "truck__truck01583.jpg",
+      "gt_fill": 0.4482381221338425,
+      "pred_fill": 0.45854923129081726,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01584.jpg",
+      "gt_fill": 0.5078205023725496,
+      "pred_fill": 0.5424333214759827,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01585.jpg",
+      "gt_fill": 0.3350719079224822,
+      "pred_fill": 0.3219640254974365,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01586.jpg",
+      "gt_fill": 0.6997217674476668,
+      "pred_fill": 0.7429602742195129,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01587.jpg",
+      "gt_fill": 0.654712808367293,
+      "pred_fill": 0.5545377135276794,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01588.jpg",
+      "gt_fill": 0.43346251332513225,
+      "pred_fill": 0.416314035654068,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01589.jpg",
+      "gt_fill": 0.39035647363268844,
+      "pred_fill": 0.368350625038147,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01590.jpg",
+      "gt_fill": 0.30544040065765843,
+      "pred_fill": 0.3135671019554138,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01591.jpg",
+      "gt_fill": 0.5955728027499261,
+      "pred_fill": 0.5537187457084656,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01592.jpg",
+      "gt_fill": 0.5395194953567487,
+      "pred_fill": 0.5058470368385315,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01593.jpg",
+      "gt_fill": 0.47032888437827064,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck01594.jpg",
+      "gt_fill": 0.2681339775916803,
+      "pred_fill": 0.2527725398540497,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01595.jpg",
+      "gt_fill": 0.5594175092291822,
+      "pred_fill": 0.522064745426178,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01596.jpg",
+      "gt_fill": 0.4632615543442578,
+      "pred_fill": 0.4490140974521637,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01597.jpg",
+      "gt_fill": 0.45807498520775014,
+      "pred_fill": 0.43677186965942383,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01598.jpg",
+      "gt_fill": 0.40672092298736867,
+      "pred_fill": 0.31400632858276367,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01599.jpg",
+      "gt_fill": 0.405643398976044,
+      "pred_fill": 0.31340017914772034,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01600.jpg",
+      "gt_fill": 0.31505833513933074,
+      "pred_fill": 0.36309435963630676,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01601.jpg",
+      "gt_fill": 0.6213256043085461,
+      "pred_fill": 0.6422303915023804,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01602.jpg",
+      "gt_fill": 0.5653633865431122,
+      "pred_fill": 0.580566942691803,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01603.jpg",
+      "gt_fill": 0.40126196232318695,
+      "pred_fill": 0.4076468348503113,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01604.jpg",
+      "gt_fill": 0.460973109065318,
+      "pred_fill": 0.45626431703567505,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01605.jpg",
+      "gt_fill": 0.4043628710014994,
+      "pred_fill": 0.418815553188324,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01606.jpg",
+      "gt_fill": 0.34558193587654684,
+      "pred_fill": 0.3907976448535919,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01607.jpg",
+      "gt_fill": 0.4663271483255784,
+      "pred_fill": 0.45646244287490845,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01608.jpg",
+      "gt_fill": 0.48145193730245905,
+      "pred_fill": 0.46560776233673096,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01609.jpg",
+      "gt_fill": 0.3863919951864202,
+      "pred_fill": 0.3894403576850891,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01610.jpg",
+      "gt_fill": 0.5201102496731697,
+      "pred_fill": 0.5429406762123108,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01611.jpg",
+      "gt_fill": 0.4731067214884349,
+      "pred_fill": 0.5046975612640381,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01612.jpg",
+      "gt_fill": 0.5690608667183192,
+      "pred_fill": 0.5696633458137512,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01613.jpg",
+      "gt_fill": 0.3620920250931886,
+      "pred_fill": 0.3782958388328552,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01614.jpg",
+      "gt_fill": 0.7110463542394654,
+      "pred_fill": 0.7286600470542908,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01615.jpg",
+      "gt_fill": 0.3926045496477986,
+      "pred_fill": 0.39075958728790283,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01616.jpg",
+      "gt_fill": 0.38754913417224646,
+      "pred_fill": 0.43328621983528137,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01617.jpg",
+      "gt_fill": 0.5260789348243897,
+      "pred_fill": 0.6120325922966003,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01618.jpg",
+      "gt_fill": 0.4481904098423339,
+      "pred_fill": 0.5127168297767639,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01619.jpg",
+      "gt_fill": 0.66246476652162,
+      "pred_fill": 0.639122486114502,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01620.jpg",
+      "gt_fill": 0.6206677316618391,
+      "pred_fill": 0.6459017395973206,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01621.jpg",
+      "gt_fill": 0.5057700526143729,
+      "pred_fill": 0.4985014796257019,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01622.jpg",
+      "gt_fill": 0.6583910165961295,
+      "pred_fill": 0.6063740253448486,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01623.jpg",
+      "gt_fill": 0.6326004780093142,
+      "pred_fill": 0.6056882739067078,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01626.jpg",
+      "gt_fill": 0.5098893055612179,
+      "pred_fill": 0.6564087867736816,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01627.jpg",
+      "gt_fill": 0.4325467261273475,
+      "pred_fill": 0.40953677892684937,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01628.jpg",
+      "gt_fill": 0.5129001456790578,
+      "pred_fill": 0.47078773379325867,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01629.jpg",
+      "gt_fill": 0.5728646255633757,
+      "pred_fill": 0.5212198495864868,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01630.jpg",
+      "gt_fill": 0.7668944821364759,
+      "pred_fill": 0.7460358738899231,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01631.jpg",
+      "gt_fill": 0.3332899971033894,
+      "pred_fill": 0.41608932614326477,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01633.jpg",
+      "gt_fill": 0.3123840858574611,
+      "pred_fill": 0.32091429829597473,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01634.jpg",
+      "gt_fill": 0.3357534497716595,
+      "pred_fill": 0.35010823607444763,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01635.jpg",
+      "gt_fill": 0.3407815987856037,
+      "pred_fill": 0.3514757752418518,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01636.jpg",
+      "gt_fill": 0.38317046959427153,
+      "pred_fill": 0.41760164499282837,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01637.jpg",
+      "gt_fill": 0.38064539752444754,
+      "pred_fill": 0.42215409874916077,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01638.jpg",
+      "gt_fill": 0.3081343594851268,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck01639.jpg",
+      "gt_fill": 0.6438341218413982,
+      "pred_fill": 0.603338897228241,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01640.jpg",
+      "gt_fill": 0.3554658099462737,
+      "pred_fill": 0.34234142303466797,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01641.jpg",
+      "gt_fill": 0.34101070285168794,
+      "pred_fill": 0.4950283169746399,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01642.jpg",
+      "gt_fill": 0.3416797260836259,
+      "pred_fill": 0.4065088927745819,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01643.jpg",
+      "gt_fill": 0.7471895504810266,
+      "pred_fill": 0.7501282691955566,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01644.jpg",
+      "gt_fill": 0.695397217160417,
+      "pred_fill": 0.7261959910392761,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01645.jpg",
+      "gt_fill": 0.47638344327554094,
+      "pred_fill": 0.47019097208976746,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01646.jpg",
+      "gt_fill": 0.6285674767909462,
+      "pred_fill": 0.581077516078949,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01647.jpg",
+      "gt_fill": 0.7319057477129404,
+      "pred_fill": 0.7414637207984924,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01648.jpg",
+      "gt_fill": 0.6546311345621934,
+      "pred_fill": 0.6788437962532043,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01649.jpg",
+      "gt_fill": 0.3497895885706801,
+      "pred_fill": 0.3403145670890808,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01650.jpg",
+      "gt_fill": 0.28847415307304164,
+      "pred_fill": 0.2925322949886322,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01651.jpg",
+      "gt_fill": 0.27810630627840943,
+      "pred_fill": 0.2855939269065857,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01652.jpg",
+      "gt_fill": 0.23298902170121402,
+      "pred_fill": 0.22864581644535065,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01653.jpg",
+      "gt_fill": 0.46263956392002414,
+      "pred_fill": 0.46439558267593384,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01654.jpg",
+      "gt_fill": 0.41226109638534325,
+      "pred_fill": 0.3886263966560364,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01655.jpg",
+      "gt_fill": 0.43557179517678024,
+      "pred_fill": 0.49803778529167175,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01656.jpg",
+      "gt_fill": 0.40494659365889074,
+      "pred_fill": 0.5134119987487793,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01657.jpg",
+      "gt_fill": 0.5715478568926448,
+      "pred_fill": 0.561617374420166,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01659.jpg",
+      "gt_fill": 0.45597909834531547,
+      "pred_fill": 0.54432612657547,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01660.jpg",
+      "gt_fill": 0.4164190338141714,
+      "pred_fill": 0.4310392737388611,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01661.jpg",
+      "gt_fill": 0.4654355322059743,
+      "pred_fill": 0.4680843651294708,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01662.jpg",
+      "gt_fill": 0.45249985349590444,
+      "pred_fill": 0.44945913553237915,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01663.jpg",
+      "gt_fill": 0.39911906157140786,
+      "pred_fill": 0.40738874673843384,
+      "gt_objects": 2,
+      "pred_objects": 2
+    },
+    {
+      "image": "truck__truck01664.jpg",
+      "gt_fill": 0.37951690758835394,
+      "pred_fill": 0.37931814789772034,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01665.jpg",
+      "gt_fill": 0.4574468296740156,
+      "pred_fill": 0.4555900990962982,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01666.jpg",
+      "gt_fill": 0.6678573354443718,
+      "pred_fill": 0.6168952584266663,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01667.jpg",
+      "gt_fill": 0.5959447147059456,
+      "pred_fill": 0.6153334379196167,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01668.jpg",
+      "gt_fill": 0.5440596198871959,
+      "pred_fill": 0.4087304472923279,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01669.jpg",
+      "gt_fill": 0.4530914611944195,
+      "pred_fill": 0.4066675901412964,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01670.jpg",
+      "gt_fill": 0.2259516554532315,
+      "pred_fill": 0.3563140034675598,
+      "gt_objects": 2,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01671.jpg",
+      "gt_fill": 0.8616485331814299,
+      "pred_fill": 0.8328104615211487,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01672.jpg",
+      "gt_fill": 0.3482495900904629,
+      "pred_fill": 0.3426595628261566,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01673.jpg",
+      "gt_fill": 0.535758892535655,
+      "pred_fill": 0.5494140982627869,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01674.jpg",
+      "gt_fill": 0.6798792965062844,
+      "pred_fill": 0.6432425379753113,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01675.jpg",
+      "gt_fill": 0.6764150151795661,
+      "pred_fill": 0.6393355131149292,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01678.jpg",
+      "gt_fill": 0.3855064805633139,
+      "pred_fill": 0.4155425429344177,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01679.jpg",
+      "gt_fill": 0.376973890213972,
+      "pred_fill": 0.3769630491733551,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01680.jpg",
+      "gt_fill": 0.37983447457947833,
+      "pred_fill": 0.37516847252845764,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01681.jpg",
+      "gt_fill": 0.41509106143183344,
+      "pred_fill": 0.401550829410553,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01682.jpg",
+      "gt_fill": 0.5584465602963553,
+      "pred_fill": 0.5200299024581909,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01683.jpg",
+      "gt_fill": 0.47725601297451714,
+      "pred_fill": 0.4565148949623108,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01684.jpg",
+      "gt_fill": 0.5204187844121622,
+      "pred_fill": 0.49601200222969055,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01685.jpg",
+      "gt_fill": 0.3413205976941802,
+      "pred_fill": 0.34305644035339355,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01686.jpg",
+      "gt_fill": 0.2976674155967671,
+      "pred_fill": 0.39739862084388733,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01687.jpg",
+      "gt_fill": 0.4059454814394965,
+      "pred_fill": 0.42128291726112366,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01688.jpg",
+      "gt_fill": 0.27607886576769164,
+      "pred_fill": 0.3303004503250122,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck01690.jpg",
+      "gt_fill": 0.7382532756736274,
+      "pred_fill": 0.5844200253486633,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02000.jpg",
+      "gt_fill": 0.42371068391866623,
+      "pred_fill": 0.543649435043335,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02001.jpg",
+      "gt_fill": 0.34780149300911206,
+      "pred_fill": 0.41356006264686584,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02002.jpg",
+      "gt_fill": 0.38491143012897805,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02003.jpg",
+      "gt_fill": 0.41047084101039244,
+      "pred_fill": 0.5129087567329407,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02004.jpg",
+      "gt_fill": 0.3740538372233616,
+      "pred_fill": 0.4284490942955017,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02005.jpg",
+      "gt_fill": 0.37824067141824536,
+      "pred_fill": 0.45655253529548645,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02006.jpg",
+      "gt_fill": 0.3305683366409427,
+      "pred_fill": 0.4278262257575989,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02007.jpg",
+      "gt_fill": 0.3530888275045265,
+      "pred_fill": 0.7463030219078064,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02008.jpg",
+      "gt_fill": 0.32263114046371527,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02009.jpg",
+      "gt_fill": 0.4269753782467586,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02010.jpg",
+      "gt_fill": 0.37997664393054925,
+      "pred_fill": 0.4117733836174011,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02011.jpg",
+      "gt_fill": 0.37314811779881574,
+      "pred_fill": 0.7074141502380371,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02012.jpg",
+      "gt_fill": 0.2708303476916479,
+      "pred_fill": 0.3937057554721832,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02013.jpg",
+      "gt_fill": 0.43375770416342485,
+      "pred_fill": 0.7001661062240601,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02014.jpg",
+      "gt_fill": 0.40240372616560277,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02015.jpg",
+      "gt_fill": 0.30600634836552537,
+      "pred_fill": 0.4184494614601135,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02016.jpg",
+      "gt_fill": 0.4769673427389165,
+      "pred_fill": 0.7071569561958313,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02017.jpg",
+      "gt_fill": 0.43422168768609437,
+      "pred_fill": 0.6282594203948975,
+      "gt_objects": 2,
+      "pred_objects": 2
+    },
+    {
+      "image": "truck__truck02018.jpg",
+      "gt_fill": 0.3730934217754283,
+      "pred_fill": 0.6006923317909241,
+      "gt_objects": 2,
+      "pred_objects": 3
+    },
+    {
+      "image": "truck__truck02019.jpg",
+      "gt_fill": 0.45136863512657865,
+      "pred_fill": 0.5797034502029419,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02020.jpg",
+      "gt_fill": 0.3407184446585468,
+      "pred_fill": 0.4124719798564911,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02021.jpg",
+      "gt_fill": 0.40971566198790577,
+      "pred_fill": 0.5305275321006775,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02022.jpg",
+      "gt_fill": 0.3367164687407004,
+      "pred_fill": 0.45250508189201355,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02023.jpg",
+      "gt_fill": 0.4430413421757385,
+      "pred_fill": 0.7079620361328125,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02024.jpg",
+      "gt_fill": 0.3908966530794072,
+      "pred_fill": 0.48210233449935913,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02025.jpg",
+      "gt_fill": 0.3380384480860809,
+      "pred_fill": 0.479116290807724,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02026.jpg",
+      "gt_fill": 0.35223396303152515,
+      "pred_fill": 0.39185580611228943,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02027.jpg",
+      "gt_fill": 0.4032276182362107,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02028.jpg",
+      "gt_fill": 0.3349878028615711,
+      "pred_fill": 0.35716190934181213,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02029.jpg",
+      "gt_fill": 0.317816459101358,
+      "pred_fill": 0.4671877324581146,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02030.jpg",
+      "gt_fill": 0.4335756591092994,
+      "pred_fill": 0.5401098132133484,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02031.jpg",
+      "gt_fill": 0.30106670382843487,
+      "pred_fill": 0.36017659306526184,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02032.jpg",
+      "gt_fill": 0.3880339781979167,
+      "pred_fill": 0.7438124418258667,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02033.jpg",
+      "gt_fill": 0.44499008050402683,
+      "pred_fill": 0.7632574439048767,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02034.jpg",
+      "gt_fill": 0.39776028473351377,
+      "pred_fill": 0.8539772629737854,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02035.jpg",
+      "gt_fill": 0.3800102514990365,
+      "pred_fill": 0.9064564108848572,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02036.jpg",
+      "gt_fill": 0.3317519241533923,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02037.jpg",
+      "gt_fill": 0.34534031195481846,
+      "pred_fill": 0.3423731029033661,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02038.jpg",
+      "gt_fill": 0.25132038678204405,
+      "pred_fill": 0.39178431034088135,
+      "gt_objects": 2,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02039.jpg",
+      "gt_fill": 0.3072580784586262,
+      "pred_fill": 0.5524296760559082,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02040.jpg",
+      "gt_fill": 0.3657792644554938,
+      "pred_fill": 0.38387876749038696,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02041.jpg",
+      "gt_fill": 0.3885067485324075,
+      "pred_fill": 0.6034397482872009,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02042.jpg",
+      "gt_fill": 0.3629157977419803,
+      "pred_fill": 0.3886893689632416,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02043.jpg",
+      "gt_fill": 0.42835637255856507,
+      "pred_fill": 0.4352058172225952,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02044.jpg",
+      "gt_fill": 0.4447243798246609,
+      "pred_fill": 0.8319764137268066,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02045.jpg",
+      "gt_fill": 0.11403955305502045,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02046.jpg",
+      "gt_fill": 0.43513912341449323,
+      "pred_fill": 0.554276704788208,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02047.jpg",
+      "gt_fill": 0.454138958186582,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02048.jpg",
+      "gt_fill": 0.30008042552520814,
+      "pred_fill": 0.3472691774368286,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02049.jpg",
+      "gt_fill": 0.32380258451903715,
+      "pred_fill": 0.49956727027893066,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02050.jpg",
+      "gt_fill": 0.29012782690057304,
+      "pred_fill": 0.28909561038017273,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02051.jpg",
+      "gt_fill": 0.41170207827720684,
+      "pred_fill": 0.45779258012771606,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02052.jpg",
+      "gt_fill": 0.3114748713396968,
+      "pred_fill": 0.4088611602783203,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02053.jpg",
+      "gt_fill": 0.4627926945876734,
+      "pred_fill": 0.5063930153846741,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02054.jpg",
+      "gt_fill": 0.32562712732252064,
+      "pred_fill": 0.3361603617668152,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02055.jpg",
+      "gt_fill": 0.38041843116761076,
+      "pred_fill": 0.4204559028148651,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02056.jpg",
+      "gt_fill": 0.33668487962577215,
+      "pred_fill": 0.6834802627563477,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02057.jpg",
+      "gt_fill": 0.3559135621776014,
+      "pred_fill": 0.4567635655403137,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02058.jpg",
+      "gt_fill": 0.3832919787408581,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02059.jpg",
+      "gt_fill": 0.3379113331382998,
+      "pred_fill": 0.33098104596138,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02060.jpg",
+      "gt_fill": 0.24748243022399558,
+      "pred_fill": 0.28918030858039856,
+      "gt_objects": 2,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02061.jpg",
+      "gt_fill": 0.24465252544112873,
+      "pred_fill": 0.36874353885650635,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02062.jpg",
+      "gt_fill": 0.333393569698096,
+      "pred_fill": 0.391463041305542,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02063.jpg",
+      "gt_fill": 0.5552464785474848,
+      "pred_fill": 0.5216676592826843,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02064.jpg",
+      "gt_fill": 0.34572744214324896,
+      "pred_fill": 0.28105443716049194,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02065.jpg",
+      "gt_fill": 0.3955856129350479,
+      "pred_fill": 0.4537220299243927,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02066.jpg",
+      "gt_fill": 0.3980988723738852,
+      "pred_fill": 0.775785505771637,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02067.jpg",
+      "gt_fill": 0.29198001553325065,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02068.jpg",
+      "gt_fill": 0.2543471878536823,
+      "pred_fill": 0.379223495721817,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02069.jpg",
+      "gt_fill": 0.3359561436085079,
+      "pred_fill": 0.31865623593330383,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02070.jpg",
+      "gt_fill": 0.3631889452182992,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02071.jpg",
+      "gt_fill": 0.3512256178272689,
+      "pred_fill": 0.529593288898468,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02072.jpg",
+      "gt_fill": 0.3723382560253654,
+      "pred_fill": 0.4221693277359009,
+      "gt_objects": 2,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02073.jpg",
+      "gt_fill": 0.40115684643694116,
+      "pred_fill": 0.5715329647064209,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02075.jpg",
+      "gt_fill": 0.3596441854995296,
+      "pred_fill": 0.5827211737632751,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02076.jpg",
+      "gt_fill": 0.32477676416542706,
+      "pred_fill": 0.5145890712738037,
+      "gt_objects": 2,
+      "pred_objects": 2
+    },
+    {
+      "image": "truck__truck02077.jpg",
+      "gt_fill": 0.286642879768188,
+      "pred_fill": 0.3417980670928955,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02078.jpg",
+      "gt_fill": 0.32931045451138574,
+      "pred_fill": 0.37215301394462585,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02079.jpg",
+      "gt_fill": 0.32256883618611104,
+      "pred_fill": 0.37680283188819885,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02080.jpg",
+      "gt_fill": 0.31050766779092953,
+      "pred_fill": 0.34435516595840454,
+      "gt_objects": 2,
+      "pred_objects": 2
+    },
+    {
+      "image": "truck__truck02081.jpg",
+      "gt_fill": 0.4217268217013948,
+      "pred_fill": 0.8028432726860046,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02082.jpg",
+      "gt_fill": 0.371245251319836,
+      "pred_fill": 0.37615764141082764,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02083.jpg",
+      "gt_fill": 0.4119354706890151,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02084.jpg",
+      "gt_fill": 0.332812612655283,
+      "pred_fill": 0.33326396346092224,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02085.jpg",
+      "gt_fill": 0.5797296377990353,
+      "pred_fill": 0.5840031504631042,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02086.jpg",
+      "gt_fill": 0.32469854547118066,
+      "pred_fill": 0.3228319585323334,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02087.jpg",
+      "gt_fill": 0.3501651104225518,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02088.jpg",
+      "gt_fill": 0.3872792110040363,
+      "pred_fill": 0.4173572361469269,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02089.jpg",
+      "gt_fill": 0.3428646143451676,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02090.jpg",
+      "gt_fill": 0.36633796263131074,
+      "pred_fill": 0.5195091962814331,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02091.jpg",
+      "gt_fill": 0.3436209781320045,
+      "pred_fill": 0.47863176465034485,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02092.jpg",
+      "gt_fill": 0.29538939289048405,
+      "pred_fill": 0.36389264464378357,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02094.jpg",
+      "gt_fill": 0.4314556115544735,
+      "pred_fill": 0.6836327314376831,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02095.jpg",
+      "gt_fill": 0.3727833213824791,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02096.jpg",
+      "gt_fill": 0.3555540860116835,
+      "pred_fill": 0.37178122997283936,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02097.jpg",
+      "gt_fill": 0.42137512994989856,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02098.jpg",
+      "gt_fill": 0.3708698583583523,
+      "pred_fill": 0.40336090326309204,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02099.jpg",
+      "gt_fill": 0.3077169627237462,
+      "pred_fill": 0.2983611226081848,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02100.jpg",
+      "gt_fill": 0.3401498851596894,
+      "pred_fill": 0.3497801423072815,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02102.jpg",
+      "gt_fill": 0.3316694634994043,
+      "pred_fill": 0.6457643508911133,
+      "gt_objects": 2,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02103.jpg",
+      "gt_fill": 0.36745369052102206,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02104.jpg",
+      "gt_fill": 0.3230952937377641,
+      "pred_fill": 0.37742897868156433,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02105.jpg",
+      "gt_fill": 0.3780567697478298,
+      "pred_fill": 0.5696382522583008,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02106.jpg",
+      "gt_fill": 0.42601481341418573,
+      "pred_fill": 0.483183354139328,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02107.jpg",
+      "gt_fill": 0.40949815977689663,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02108.jpg",
+      "gt_fill": 0.3268373069882894,
+      "pred_fill": 0.32684171199798584,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02109.jpg",
+      "gt_fill": 0.32212521948457556,
+      "pred_fill": 0.32523879408836365,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02110.jpg",
+      "gt_fill": 0.37033000076783495,
+      "pred_fill": 0.35873422026634216,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02111.jpg",
+      "gt_fill": 0.40153488058102516,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02112.jpg",
+      "gt_fill": 0.31595812220147057,
+      "pred_fill": 0.40045517683029175,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02113.jpg",
+      "gt_fill": 0.3789249025706325,
+      "pred_fill": 0.44180458784103394,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02114.jpg",
+      "gt_fill": 0.3876907617846144,
+      "pred_fill": 0.43253499269485474,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02115.jpg",
+      "gt_fill": 0.37310325804118,
+      "pred_fill": 0.3992215096950531,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02116.jpg",
+      "gt_fill": 0.43549652519869436,
+      "pred_fill": 0.46160590648651123,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02117.jpg",
+      "gt_fill": 0.44445351675118483,
+      "pred_fill": 0.4435734748840332,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02118.jpg",
+      "gt_fill": 0.25587966588593053,
+      "pred_fill": 0.3245774805545807,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02119.jpg",
+      "gt_fill": 0.3671644285469252,
+      "pred_fill": 0.6379241347312927,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02120.jpg",
+      "gt_fill": 0.2742185099785267,
+      "pred_fill": 0.3028050363063812,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02121.jpg",
+      "gt_fill": 0.4136459189168213,
+      "pred_fill": 0.0,
+      "gt_objects": 1,
+      "pred_objects": 0
+    },
+    {
+      "image": "truck__truck02122.jpg",
+      "gt_fill": 0.3556081910366209,
+      "pred_fill": 0.40567052364349365,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02123.jpg",
+      "gt_fill": 0.24379271929088614,
+      "pred_fill": 0.3865911364555359,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02124.jpg",
+      "gt_fill": 0.37614449260280036,
+      "pred_fill": 0.4217589497566223,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02125.jpg",
+      "gt_fill": 0.423902171044919,
+      "pred_fill": 0.659354031085968,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02126.jpg",
+      "gt_fill": 0.37419297316151423,
+      "pred_fill": 0.4127480685710907,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02127.jpg",
+      "gt_fill": 0.4316541465122587,
+      "pred_fill": 0.547176718711853,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "truck__truck02128.jpg",
+      "gt_fill": 0.3971297540004122,
+      "pred_fill": 0.5052497386932373,
+      "gt_objects": 1,
+      "pred_objects": 1
+    },
+    {
+      "image": "van_02__van02_00194.jpg",
+      "gt_fill": 0.34003703154794396,
+      "pred_fill": 0.27585721015930176,
+      "gt_objects": 1,
+      "pred_objects": 1
+    }
+  ]
+}

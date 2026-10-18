@@ -1,0 +1,8131 @@
+{
+ "mode": "cvat",
+ "vehicle_classes": [
+  "car",
+  "garbagetruck",
+  "truck",
+  "van",
+  "waste_truck"
+ ],
+ "cameras": {
+  "garbagetruck_03/garbage": {
+   "camera": "garbagetruck_03/garbage",
+   "detections_total": 651,
+   "detections_in_zone": 651,
+   "vehicle_detections_in_zone": 644,
+   "raw_track_ids": 17,
+   "unique_vehicles": 11,
+   "reid_merges": 0,
+   "skipped_non_vehicle": 7,
+   "dedup_coefficient": 0.9829,
+   "vehicles": [
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 1,
+     "class": "garbagetruck",
+     "first_frame": 2,
+     "last_frame": 257,
+     "last_center": [
+      0.25051,
+      0.54103
+     ],
+     "first_center": [
+      0.51727,
+      0.53657
+     ],
+     "frames_in_zone": 188,
+     "reid_merges": 0,
+     "track_ids": [
+      1
+     ]
+    },
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 2,
+     "class": "garbagetruck",
+     "first_frame": 41,
+     "last_frame": 83,
+     "last_center": [
+      0.69218,
+      0.5507
+     ],
+     "first_center": [
+      0.25223,
+      0.5454
+     ],
+     "frames_in_zone": 14,
+     "reid_merges": 0,
+     "track_ids": [
+      2
+     ]
+    },
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 3,
+     "class": "truck",
+     "first_frame": 51,
+     "last_frame": 51,
+     "last_center": [
+      0.74855,
+      0.30973
+     ],
+     "first_center": [
+      0.74855,
+      0.30973
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      3
+     ]
+    },
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 4,
+     "class": "truck",
+     "first_frame": 67,
+     "last_frame": 84,
+     "last_center": [
+      0.21313,
+      0.32432
+     ],
+     "first_center": [
+      0.05761,
+      0.38051
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      4
+     ]
+    },
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 5,
+     "class": "garbagetruck",
+     "first_frame": 82,
+     "last_frame": 82,
+     "last_center": [
+      0.51942,
+      0.27271
+     ],
+     "first_center": [
+      0.51942,
+      0.27271
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      5
+     ]
+    },
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 6,
+     "class": "garbagetruck",
+     "first_frame": 129,
+     "last_frame": 129,
+     "last_center": [
+      0.39701,
+      0.3295
+     ],
+     "first_center": [
+      0.39701,
+      0.3295
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      6
+     ]
+    },
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 7,
+     "class": "garbagetruck",
+     "first_frame": 171,
+     "last_frame": 562,
+     "last_center": [
+      0.673,
+      0.54753
+     ],
+     "first_center": [
+      0.68855,
+      0.5426
+     ],
+     "frames_in_zone": 305,
+     "reid_merges": 0,
+     "track_ids": [
+      8
+     ]
+    },
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 8,
+     "class": "garbagetruck",
+     "first_frame": 369,
+     "last_frame": 400,
+     "last_center": [
+      0.6085,
+      0.54922
+     ],
+     "first_center": [
+      0.35396,
+      0.53495
+     ],
+     "frames_in_zone": 18,
+     "reid_merges": 0,
+     "track_ids": [
+      11
+     ]
+    },
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 9,
+     "class": "truck",
+     "first_frame": 403,
+     "last_frame": 403,
+     "last_center": [
+      0.1157,
+      0.38254
+     ],
+     "first_center": [
+      0.1157,
+      0.38254
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      12
+     ]
+    },
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 10,
+     "class": "garbagetruck",
+     "first_frame": 533,
+     "last_frame": 650,
+     "last_center": [
+      0.50608,
+      0.50995
+     ],
+     "first_center": [
+      0.3479,
+      0.53305
+     ],
+     "frames_in_zone": 110,
+     "reid_merges": 0,
+     "track_ids": [
+      15
+     ]
+    },
+    {
+     "camera": "garbagetruck_03/garbage",
+     "vehicle_id": 11,
+     "class": "garbagetruck",
+     "first_frame": 585,
+     "last_frame": 585,
+     "last_center": [
+      0.29604,
+      0.3562
+     ],
+     "first_center": [
+      0.29604,
+      0.3562
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      16
+     ]
+    }
+   ],
+   "distinct_resolutions": 1,
+   "tracking_applicable": true
+  },
+  "truck/garbagetruck": {
+   "camera": "truck/garbagetruck",
+   "detections_total": 1776,
+   "detections_in_zone": 1776,
+   "vehicle_detections_in_zone": 1776,
+   "raw_track_ids": 30,
+   "unique_vehicles": 28,
+   "reid_merges": 2,
+   "skipped_non_vehicle": 0,
+   "dedup_coefficient": 0.9842,
+   "vehicles": [
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 1,
+     "class": "garbagetruck",
+     "first_frame": 0,
+     "last_frame": 24,
+     "last_center": [
+      0.465,
+      0.36718
+     ],
+     "first_center": [
+      0.41786,
+      0.60097
+     ],
+     "frames_in_zone": 25,
+     "reid_merges": 0,
+     "track_ids": [
+      1
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 2,
+     "class": "garbagetruck",
+     "first_frame": 25,
+     "last_frame": 134,
+     "last_center": [
+      0.365,
+      0.70318
+     ],
+     "first_center": [
+      0.37645,
+      0.58687
+     ],
+     "frames_in_zone": 55,
+     "reid_merges": 0,
+     "track_ids": [
+      2
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 3,
+     "class": "garbagetruck",
+     "first_frame": 34,
+     "last_frame": 240,
+     "last_center": [
+      0.34737,
+      0.60391
+     ],
+     "first_center": [
+      0.33768,
+      0.64679
+     ],
+     "frames_in_zone": 123,
+     "reid_merges": 0,
+     "track_ids": [
+      3
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 4,
+     "class": "garbagetruck",
+     "first_frame": 67,
+     "last_frame": 67,
+     "last_center": [
+      0.45399,
+      0.4083
+     ],
+     "first_center": [
+      0.45399,
+      0.4083
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      4
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 5,
+     "class": "garbagetruck",
+     "first_frame": 168,
+     "last_frame": 447,
+     "last_center": [
+      0.36632,
+      0.61795
+     ],
+     "first_center": [
+      0.36852,
+      0.71669
+     ],
+     "frames_in_zone": 153,
+     "reid_merges": 1,
+     "track_ids": [
+      5,
+      9
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 6,
+     "class": "garbagetruck",
+     "first_frame": 257,
+     "last_frame": 491,
+     "last_center": [
+      0.42315,
+      0.59686
+     ],
+     "first_center": [
+      0.3857,
+      0.67499
+     ],
+     "frames_in_zone": 126,
+     "reid_merges": 1,
+     "track_ids": [
+      6,
+      8
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 7,
+     "class": "garbagetruck",
+     "first_frame": 286,
+     "last_frame": 286,
+     "last_center": [
+      0.33944,
+      0.63093
+     ],
+     "first_center": [
+      0.33944,
+      0.63093
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      7
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 8,
+     "class": "garbagetruck",
+     "first_frame": 474,
+     "last_frame": 617,
+     "last_center": [
+      0.38042,
+      0.68615
+     ],
+     "first_center": [
+      0.44958,
+      0.40419
+     ],
+     "frames_in_zone": 80,
+     "reid_merges": 0,
+     "track_ids": [
+      10
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 9,
+     "class": "garbagetruck",
+     "first_frame": 508,
+     "last_frame": 699,
+     "last_center": [
+      0.45399,
+      0.40947
+     ],
+     "first_center": [
+      0.43064,
+      0.40712
+     ],
+     "frames_in_zone": 94,
+     "reid_merges": 0,
+     "track_ids": [
+      11
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 10,
+     "class": "garbagetruck",
+     "first_frame": 530,
+     "last_frame": 530,
+     "last_center": [
+      0.45448,
+      0.32136
+     ],
+     "first_center": [
+      0.45448,
+      0.32136
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      12
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 11,
+     "class": "garbagetruck",
+     "first_frame": 587,
+     "last_frame": 589,
+     "last_center": [
+      0.44738,
+      0.40242
+     ],
+     "first_center": [
+      0.47426,
+      0.36483
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      13
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 12,
+     "class": "garbagetruck",
+     "first_frame": 601,
+     "last_frame": 718,
+     "last_center": [
+      0.45575,
+      0.40771
+     ],
+     "first_center": [
+      0.37028,
+      0.6838
+     ],
+     "frames_in_zone": 58,
+     "reid_merges": 0,
+     "track_ids": [
+      14
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 13,
+     "class": "garbagetruck",
+     "first_frame": 719,
+     "last_frame": 741,
+     "last_center": [
+      0.39319,
+      0.67616
+     ],
+     "first_center": [
+      0.37425,
+      0.56103
+     ],
+     "frames_in_zone": 11,
+     "reid_merges": 0,
+     "track_ids": [
+      15
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 14,
+     "class": "garbagetruck",
+     "first_frame": 722,
+     "last_frame": 815,
+     "last_center": [
+      0.46588,
+      0.38774
+     ],
+     "first_center": [
+      0.37249,
+      0.65502
+     ],
+     "frames_in_zone": 86,
+     "reid_merges": 0,
+     "track_ids": [
+      16
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 15,
+     "class": "garbagetruck",
+     "first_frame": 816,
+     "last_frame": 875,
+     "last_center": [
+      0.46721,
+      0.33664
+     ],
+     "first_center": [
+      0.41302,
+      0.54986
+     ],
+     "frames_in_zone": 48,
+     "reid_merges": 0,
+     "track_ids": [
+      17
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 16,
+     "class": "garbagetruck",
+     "first_frame": 853,
+     "last_frame": 956,
+     "last_center": [
+      0.46721,
+      0.35073
+     ],
+     "first_center": [
+      0.40817,
+      0.55927
+     ],
+     "frames_in_zone": 92,
+     "reid_merges": 0,
+     "track_ids": [
+      18
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 17,
+     "class": "garbagetruck",
+     "first_frame": 949,
+     "last_frame": 1046,
+     "last_center": [
+      0.40949,
+      0.63269
+     ],
+     "first_center": [
+      0.36588,
+      0.62153
+     ],
+     "frames_in_zone": 74,
+     "reid_merges": 0,
+     "track_ids": [
+      19
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 18,
+     "class": "garbagetruck",
+     "first_frame": 976,
+     "last_frame": 976,
+     "last_center": [
+      0.35751,
+      0.62564
+     ],
+     "first_center": [
+      0.35751,
+      0.62564
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      20
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 19,
+     "class": "garbagetruck",
+     "first_frame": 1026,
+     "last_frame": 1311,
+     "last_center": [
+      0.44297,
+      0.43179
+     ],
+     "first_center": [
+      0.43691,
+      0.425
+     ],
+     "frames_in_zone": 199,
+     "reid_merges": 0,
+     "track_ids": [
+      21
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 20,
+     "class": "garbagetruck",
+     "first_frame": 1096,
+     "last_frame": 1257,
+     "last_center": [
+      0.44958,
+      0.39831
+     ],
+     "first_center": [
+      0.37733,
+      0.70377
+     ],
+     "frames_in_zone": 73,
+     "reid_merges": 0,
+     "track_ids": [
+      22
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 21,
+     "class": "garbagetruck",
+     "first_frame": 1230,
+     "last_frame": 1230,
+     "last_center": [
+      0.35486,
+      0.70259
+     ],
+     "first_center": [
+      0.35486,
+      0.70259
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      23
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 22,
+     "class": "garbagetruck",
+     "first_frame": 1283,
+     "last_frame": 1409,
+     "last_center": [
+      0.46897,
+      0.36718
+     ],
+     "first_center": [
+      0.37469,
+      0.68439
+     ],
+     "frames_in_zone": 67,
+     "reid_merges": 0,
+     "track_ids": [
+      24
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 23,
+     "class": "garbagetruck",
+     "first_frame": 1344,
+     "last_frame": 1438,
+     "last_center": [
+      0.37953,
+      0.66911
+     ],
+     "first_center": [
+      0.37909,
+      0.55574
+     ],
+     "frames_in_zone": 68,
+     "reid_merges": 0,
+     "track_ids": [
+      25
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 24,
+     "class": "garbagetruck",
+     "first_frame": 1439,
+     "last_frame": 1774,
+     "last_center": [
+      0.41478,
+      0.5252
+     ],
+     "first_center": [
+      0.43945,
+      0.43238
+     ],
+     "frames_in_zone": 186,
+     "reid_merges": 0,
+     "track_ids": [
+      26
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 25,
+     "class": "garbagetruck",
+     "first_frame": 1466,
+     "last_frame": 1504,
+     "last_center": [
+      0.44165,
+      0.45999
+     ],
+     "first_center": [
+      0.43945,
+      0.44178
+     ],
+     "frames_in_zone": 22,
+     "reid_merges": 0,
+     "track_ids": [
+      27
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 26,
+     "class": "garbagetruck",
+     "first_frame": 1505,
+     "last_frame": 1505,
+     "last_center": [
+      0.4716,
+      0.32136
+     ],
+     "first_center": [
+      0.4716,
+      0.32136
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      28
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 27,
+     "class": "garbagetruck",
+     "first_frame": 1509,
+     "last_frame": 1696,
+     "last_center": [
+      0.40773,
+      0.67029
+     ],
+     "first_center": [
+      0.34825,
+      0.62741
+     ],
+     "frames_in_zone": 92,
+     "reid_merges": 0,
+     "track_ids": [
+      29
+     ]
+    },
+    {
+     "camera": "truck/garbagetruck",
+     "vehicle_id": 28,
+     "class": "garbagetruck",
+     "first_frame": 1684,
+     "last_frame": 1775,
+     "last_center": [
+      0.37601,
+      0.54223
+     ],
+     "first_center": [
+      0.38174,
+      0.6603
+     ],
+     "frames_in_zone": 36,
+     "reid_merges": 0,
+     "track_ids": [
+      30
+     ]
+    }
+   ],
+   "distinct_resolutions": 1,
+   "tracking_applicable": true
+  },
+  "truck/truck": {
+   "camera": "truck/truck",
+   "detections_total": 3734,
+   "detections_in_zone": 3628,
+   "vehicle_detections_in_zone": 1820,
+   "raw_track_ids": 297,
+   "unique_vehicles": 56,
+   "reid_merges": 41,
+   "skipped_non_vehicle": 1808,
+   "dedup_coefficient": 0.9692,
+   "vehicles": [
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 1,
+     "class": "van",
+     "first_frame": 0,
+     "last_frame": 111,
+     "last_center": [
+      0.44778,
+      0.40475
+     ],
+     "first_center": [
+      0.42491,
+      0.4641
+     ],
+     "frames_in_zone": 19,
+     "reid_merges": 0,
+     "track_ids": [
+      1
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 2,
+     "class": "truck",
+     "first_frame": 1,
+     "last_frame": 238,
+     "last_center": [
+      0.45028,
+      0.44243
+     ],
+     "first_center": [
+      0.40767,
+      0.48137
+     ],
+     "frames_in_zone": 68,
+     "reid_merges": 3,
+     "track_ids": [
+      4,
+      7,
+      25,
+      30
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 3,
+     "class": "truck",
+     "first_frame": 4,
+     "last_frame": 188,
+     "last_center": [
+      0.43539,
+      0.42929
+     ],
+     "first_center": [
+      0.45694,
+      0.41025
+     ],
+     "frames_in_zone": 98,
+     "reid_merges": 4,
+     "track_ids": [
+      5,
+      6,
+      17,
+      18,
+      24
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 4,
+     "class": "truck",
+     "first_frame": 35,
+     "last_frame": 62,
+     "last_center": [
+      0.42433,
+      0.49868
+     ],
+     "first_center": [
+      0.44506,
+      0.43995
+     ],
+     "frames_in_zone": 10,
+     "reid_merges": 1,
+     "track_ids": [
+      13,
+      12
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 5,
+     "class": "truck",
+     "first_frame": 85,
+     "last_frame": 85,
+     "last_center": [
+      0.26654,
+      0.42105
+     ],
+     "first_center": [
+      0.26654,
+      0.42105
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      21
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 6,
+     "class": "truck",
+     "first_frame": 167,
+     "last_frame": 816,
+     "last_center": [
+      0.44543,
+      0.43326
+     ],
+     "first_center": [
+      0.45746,
+      0.39725
+     ],
+     "frames_in_zone": 158,
+     "reid_merges": 5,
+     "track_ids": [
+      14,
+      29,
+      39,
+      41,
+      93,
+      111
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 7,
+     "class": "truck",
+     "first_frame": 194,
+     "last_frame": 550,
+     "last_center": [
+      0.46663,
+      0.39194
+     ],
+     "first_center": [
+      0.38277,
+      0.61841
+     ],
+     "frames_in_zone": 133,
+     "reid_merges": 3,
+     "track_ids": [
+      32,
+      34,
+      60,
+      77
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 8,
+     "class": "truck",
+     "first_frame": 280,
+     "last_frame": 341,
+     "last_center": [
+      0.38892,
+      0.57275
+     ],
+     "first_center": [
+      0.45777,
+      0.36896
+     ],
+     "frames_in_zone": 14,
+     "reid_merges": 1,
+     "track_ids": [
+      35,
+      40
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 9,
+     "class": "truck",
+     "first_frame": 328,
+     "last_frame": 376,
+     "last_center": [
+      0.45491,
+      0.40014
+     ],
+     "first_center": [
+      0.42989,
+      0.45669
+     ],
+     "frames_in_zone": 14,
+     "reid_merges": 0,
+     "track_ids": [
+      44
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 10,
+     "class": "truck",
+     "first_frame": 340,
+     "last_frame": 382,
+     "last_center": [
+      0.43726,
+      0.44475
+     ],
+     "first_center": [
+      0.43469,
+      0.38514
+     ],
+     "frames_in_zone": 18,
+     "reid_merges": 0,
+     "track_ids": [
+      45
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 11,
+     "class": "truck",
+     "first_frame": 373,
+     "last_frame": 523,
+     "last_center": [
+      0.43367,
+      0.43726
+     ],
+     "first_center": [
+      0.35323,
+      0.57919
+     ],
+     "frames_in_zone": 53,
+     "reid_merges": 0,
+     "track_ids": [
+      53
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 12,
+     "class": "truck",
+     "first_frame": 389,
+     "last_frame": 389,
+     "last_center": [
+      0.16451,
+      0.64715
+     ],
+     "first_center": [
+      0.16451,
+      0.64715
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      56
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 13,
+     "class": "truck",
+     "first_frame": 394,
+     "last_frame": 492,
+     "last_center": [
+      0.4197,
+      0.66363
+     ],
+     "first_center": [
+      0.39722,
+      0.54317
+     ],
+     "frames_in_zone": 19,
+     "reid_merges": 2,
+     "track_ids": [
+      58,
+      65,
+      68
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 14,
+     "class": "truck",
+     "first_frame": 432,
+     "last_frame": 446,
+     "last_center": [
+      0.17982,
+      0.58211
+     ],
+     "first_center": [
+      0.17547,
+      0.5819
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 1,
+     "track_ids": [
+      63,
+      67
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 15,
+     "class": "truck",
+     "first_frame": 481,
+     "last_frame": 713,
+     "last_center": [
+      0.45871,
+      0.40071
+     ],
+     "first_center": [
+      0.41362,
+      0.62972
+     ],
+     "frames_in_zone": 64,
+     "reid_merges": 0,
+     "track_ids": [
+      69
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 16,
+     "class": "truck",
+     "first_frame": 486,
+     "last_frame": 486,
+     "last_center": [
+      0.15945,
+      0.63768
+     ],
+     "first_center": [
+      0.15945,
+      0.63768
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      72
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 17,
+     "class": "truck",
+     "first_frame": 519,
+     "last_frame": 519,
+     "last_center": [
+      0.16068,
+      0.60692
+     ],
+     "first_center": [
+      0.16068,
+      0.60692
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      75
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 18,
+     "class": "truck",
+     "first_frame": 547,
+     "last_frame": 617,
+     "last_center": [
+      0.43297,
+      0.41252
+     ],
+     "first_center": [
+      0.34718,
+      0.63369
+     ],
+     "frames_in_zone": 22,
+     "reid_merges": 1,
+     "track_ids": [
+      80,
+      85
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 19,
+     "class": "truck",
+     "first_frame": 553,
+     "last_frame": 602,
+     "last_center": [
+      0.46847,
+      0.34227
+     ],
+     "first_center": [
+      0.43257,
+      0.46245
+     ],
+     "frames_in_zone": 18,
+     "reid_merges": 0,
+     "track_ids": [
+      79
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 20,
+     "class": "truck",
+     "first_frame": 590,
+     "last_frame": 950,
+     "last_center": [
+      0.43885,
+      0.52408
+     ],
+     "first_center": [
+      0.39899,
+      0.69358
+     ],
+     "frames_in_zone": 136,
+     "reid_merges": 4,
+     "track_ids": [
+      88,
+      87,
+      117,
+      137,
+      146
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 21,
+     "class": "truck",
+     "first_frame": 615,
+     "last_frame": 615,
+     "last_center": [
+      0.14343,
+      0.74176
+     ],
+     "first_center": [
+      0.14343,
+      0.74176
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      103
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 22,
+     "class": "truck",
+     "first_frame": 629,
+     "last_frame": 629,
+     "last_center": [
+      0.17753,
+      0.62811
+     ],
+     "first_center": [
+      0.17753,
+      0.62811
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      105
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 23,
+     "class": "truck",
+     "first_frame": 718,
+     "last_frame": 718,
+     "last_center": [
+      0.16719,
+      0.60764
+     ],
+     "first_center": [
+      0.16719,
+      0.60764
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      123
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 24,
+     "class": "truck",
+     "first_frame": 724,
+     "last_frame": 805,
+     "last_center": [
+      0.44612,
+      0.50379
+     ],
+     "first_center": [
+      0.37321,
+      0.69314
+     ],
+     "frames_in_zone": 24,
+     "reid_merges": 0,
+     "track_ids": [
+      126
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 25,
+     "class": "truck",
+     "first_frame": 762,
+     "last_frame": 786,
+     "last_center": [
+      0.16401,
+      0.66506
+     ],
+     "first_center": [
+      0.16658,
+      0.65189
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 1,
+     "track_ids": [
+      136,
+      142
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 26,
+     "class": "truck",
+     "first_frame": 791,
+     "last_frame": 791,
+     "last_center": [
+      0.37663,
+      0.52574
+     ],
+     "first_center": [
+      0.37663,
+      0.52574
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      144
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 27,
+     "class": "truck",
+     "first_frame": 792,
+     "last_frame": 1286,
+     "last_center": [
+      0.47437,
+      0.34856
+     ],
+     "first_center": [
+      0.42771,
+      0.47111
+     ],
+     "frames_in_zone": 188,
+     "reid_merges": 5,
+     "track_ids": [
+      139,
+      156,
+      157,
+      172,
+      180,
+      205
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 28,
+     "class": "truck",
+     "first_frame": 811,
+     "last_frame": 811,
+     "last_center": [
+      0.43028,
+      0.56554
+     ],
+     "first_center": [
+      0.43028,
+      0.56554
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      130
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 29,
+     "class": "truck",
+     "first_frame": 858,
+     "last_frame": 858,
+     "last_center": [
+      0.37019,
+      0.74046
+     ],
+     "first_center": [
+      0.37019,
+      0.74046
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      153
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 30,
+     "class": "truck",
+     "first_frame": 885,
+     "last_frame": 904,
+     "last_center": [
+      0.37016,
+      0.58782
+     ],
+     "first_center": [
+      0.38866,
+      0.54323
+     ],
+     "frames_in_zone": 5,
+     "reid_merges": 0,
+     "track_ids": [
+      155
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 31,
+     "class": "truck",
+     "first_frame": 938,
+     "last_frame": 1025,
+     "last_center": [
+      0.37552,
+      0.65706
+     ],
+     "first_center": [
+      0.38167,
+      0.53077
+     ],
+     "frames_in_zone": 32,
+     "reid_merges": 1,
+     "track_ids": [
+      161,
+      164
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 32,
+     "class": "truck",
+     "first_frame": 969,
+     "last_frame": 998,
+     "last_center": [
+      0.40975,
+      0.57428
+     ],
+     "first_center": [
+      0.4003,
+      0.66797
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 0,
+     "track_ids": [
+      168
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 33,
+     "class": "truck",
+     "first_frame": 970,
+     "last_frame": 970,
+     "last_center": [
+      0.3262,
+      0.67037
+     ],
+     "first_center": [
+      0.3262,
+      0.67037
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      169
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 34,
+     "class": "truck",
+     "first_frame": 1039,
+     "last_frame": 1049,
+     "last_center": [
+      0.47005,
+      0.36311
+     ],
+     "first_center": [
+      0.45802,
+      0.43266
+     ],
+     "frames_in_zone": 7,
+     "reid_merges": 0,
+     "track_ids": [
+      176
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 35,
+     "class": "truck",
+     "first_frame": 1061,
+     "last_frame": 1061,
+     "last_center": [
+      0.36887,
+      0.6227
+     ],
+     "first_center": [
+      0.36887,
+      0.6227
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      177
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 36,
+     "class": "truck",
+     "first_frame": 1076,
+     "last_frame": 1205,
+     "last_center": [
+      0.45029,
+      0.42762
+     ],
+     "first_center": [
+      0.39873,
+      0.48163
+     ],
+     "frames_in_zone": 38,
+     "reid_merges": 1,
+     "track_ids": [
+      178,
+      186
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 37,
+     "class": "truck",
+     "first_frame": 1085,
+     "last_frame": 1105,
+     "last_center": [
+      0.46943,
+      0.34552
+     ],
+     "first_center": [
+      0.40703,
+      0.57182
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 0,
+     "track_ids": [
+      179
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 38,
+     "class": "truck",
+     "first_frame": 1101,
+     "last_frame": 1130,
+     "last_center": [
+      0.42112,
+      0.57455
+     ],
+     "first_center": [
+      0.38607,
+      0.66222
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      181
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 39,
+     "class": "truck",
+     "first_frame": 1127,
+     "last_frame": 1372,
+     "last_center": [
+      0.44191,
+      0.43702
+     ],
+     "first_center": [
+      0.42917,
+      0.45219
+     ],
+     "frames_in_zone": 76,
+     "reid_merges": 1,
+     "track_ids": [
+      182,
+      219
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 40,
+     "class": "truck",
+     "first_frame": 1162,
+     "last_frame": 1690,
+     "last_center": [
+      0.41974,
+      0.56401
+     ],
+     "first_center": [
+      0.41489,
+      0.4765
+     ],
+     "frames_in_zone": 283,
+     "reid_merges": 4,
+     "track_ids": [
+      190,
+      193,
+      220,
+      248,
+      257
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 41,
+     "class": "truck",
+     "first_frame": 1221,
+     "last_frame": 1221,
+     "last_center": [
+      0.15807,
+      0.69215
+     ],
+     "first_center": [
+      0.15807,
+      0.69215
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      202
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 42,
+     "class": "van",
+     "first_frame": 1284,
+     "last_frame": 1305,
+     "last_center": [
+      0.47337,
+      0.41487
+     ],
+     "first_center": [
+      0.44061,
+      0.4964
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      211
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 43,
+     "class": "truck",
+     "first_frame": 1364,
+     "last_frame": 1395,
+     "last_center": [
+      0.44604,
+      0.46122
+     ],
+     "first_center": [
+      0.40621,
+      0.53672
+     ],
+     "frames_in_zone": 22,
+     "reid_merges": 0,
+     "track_ids": [
+      222
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 44,
+     "class": "truck",
+     "first_frame": 1374,
+     "last_frame": 1433,
+     "last_center": [
+      0.44187,
+      0.45981
+     ],
+     "first_center": [
+      0.45491,
+      0.37305
+     ],
+     "frames_in_zone": 21,
+     "reid_merges": 0,
+     "track_ids": [
+      218
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 45,
+     "class": "truck",
+     "first_frame": 1407,
+     "last_frame": 1491,
+     "last_center": [
+      0.42931,
+      0.48158
+     ],
+     "first_center": [
+      0.45913,
+      0.37507
+     ],
+     "frames_in_zone": 30,
+     "reid_merges": 0,
+     "track_ids": [
+      229
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 46,
+     "class": "truck",
+     "first_frame": 1431,
+     "last_frame": 1582,
+     "last_center": [
+      0.46192,
+      0.36296
+     ],
+     "first_center": [
+      0.45492,
+      0.41518
+     ],
+     "frames_in_zone": 38,
+     "reid_merges": 1,
+     "track_ids": [
+      230,
+      249
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 47,
+     "class": "truck",
+     "first_frame": 1477,
+     "last_frame": 1477,
+     "last_center": [
+      0.46358,
+      0.38991
+     ],
+     "first_center": [
+      0.46358,
+      0.38991
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      236
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 48,
+     "class": "truck",
+     "first_frame": 1509,
+     "last_frame": 1509,
+     "last_center": [
+      0.47071,
+      0.3252
+     ],
+     "first_center": [
+      0.47071,
+      0.3252
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      242
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 49,
+     "class": "truck",
+     "first_frame": 1551,
+     "last_frame": 1593,
+     "last_center": [
+      0.34561,
+      0.70857
+     ],
+     "first_center": [
+      0.17711,
+      0.60899
+     ],
+     "frames_in_zone": 7,
+     "reid_merges": 1,
+     "track_ids": [
+      250,
+      256
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 50,
+     "class": "truck",
+     "first_frame": 1627,
+     "last_frame": 1627,
+     "last_center": [
+      0.45914,
+      0.3894
+     ],
+     "first_center": [
+      0.45914,
+      0.3894
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      263
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 51,
+     "class": "truck",
+     "first_frame": 1648,
+     "last_frame": 2128,
+     "last_center": [
+      0.45877,
+      0.5657
+     ],
+     "first_center": [
+      0.43202,
+      0.44365
+     ],
+     "frames_in_zone": 78,
+     "reid_merges": 1,
+     "track_ids": [
+      260,
+      267
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 52,
+     "class": "truck",
+     "first_frame": 1656,
+     "last_frame": 1676,
+     "last_center": [
+      0.45696,
+      0.43748
+     ],
+     "first_center": [
+      0.46653,
+      0.34899
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      264
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 53,
+     "class": "truck",
+     "first_frame": 1677,
+     "last_frame": 1688,
+     "last_center": [
+      0.46279,
+      0.33495
+     ],
+     "first_center": [
+      0.4703,
+      0.35771
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      268
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 54,
+     "class": "truck",
+     "first_frame": 1684,
+     "last_frame": 2112,
+     "last_center": [
+      0.47999,
+      0.51417
+     ],
+     "first_center": [
+      0.37331,
+      0.55663
+     ],
+     "frames_in_zone": 55,
+     "reid_merges": 0,
+     "track_ids": [
+      273
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 55,
+     "class": "truck",
+     "first_frame": 2000,
+     "last_frame": 2019,
+     "last_center": [
+      0.34139,
+      0.65671
+     ],
+     "first_center": [
+      0.36748,
+      0.65189
+     ],
+     "frames_in_zone": 14,
+     "reid_merges": 0,
+     "track_ids": [
+      275
+     ]
+    },
+    {
+     "camera": "truck/truck",
+     "vehicle_id": 56,
+     "class": "truck",
+     "first_frame": 2118,
+     "last_frame": 2123,
+     "last_center": [
+      0.61843,
+      0.36541
+     ],
+     "first_center": [
+      0.5456,
+      0.44977
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      288
+     ]
+    }
+   ],
+   "distinct_resolutions": 1,
+   "tracking_applicable": true
+  },
+  "truck/van": {
+   "camera": "truck/van",
+   "detections_total": 307,
+   "detections_in_zone": 307,
+   "vehicle_detections_in_zone": 307,
+   "raw_track_ids": 12,
+   "unique_vehicles": 11,
+   "reid_merges": 1,
+   "skipped_non_vehicle": 0,
+   "dedup_coefficient": 0.9642,
+   "vehicles": [
+    {
+     "camera": "truck/van",
+     "vehicle_id": 1,
+     "class": "van",
+     "first_frame": 0,
+     "last_frame": 36,
+     "last_center": [
+      0.43989,
+      0.36777
+     ],
+     "first_center": [
+      0.42623,
+      0.45001
+     ],
+     "frames_in_zone": 21,
+     "reid_merges": 0,
+     "track_ids": [
+      1
+     ]
+    },
+    {
+     "camera": "truck/van",
+     "vehicle_id": 2,
+     "class": "van",
+     "first_frame": 7,
+     "last_frame": 272,
+     "last_center": [
+      0.37039,
+      0.58884
+     ],
+     "first_center": [
+      0.34605,
+      0.58159
+     ],
+     "frames_in_zone": 168,
+     "reid_merges": 0,
+     "track_ids": [
+      2
+     ]
+    },
+    {
+     "camera": "truck/van",
+     "vehicle_id": 3,
+     "class": "van",
+     "first_frame": 69,
+     "last_frame": 94,
+     "last_center": [
+      0.40817,
+      0.64327
+     ],
+     "first_center": [
+      0.3813,
+      0.5857
+     ],
+     "frames_in_zone": 10,
+     "reid_merges": 0,
+     "track_ids": [
+      3
+     ]
+    },
+    {
+     "camera": "truck/van",
+     "vehicle_id": 4,
+     "class": "van",
+     "first_frame": 73,
+     "last_frame": 84,
+     "last_center": [
+      0.35266,
+      0.56573
+     ],
+     "first_center": [
+      0.3672,
+      0.62917
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      4
+     ]
+    },
+    {
+     "camera": "truck/van",
+     "vehicle_id": 5,
+     "class": "van",
+     "first_frame": 112,
+     "last_frame": 192,
+     "last_center": [
+      0.38558,
+      0.61805
+     ],
+     "first_center": [
+      0.39848,
+      0.57865
+     ],
+     "frames_in_zone": 38,
+     "reid_merges": 1,
+     "track_ids": [
+      5,
+      8
+     ]
+    },
+    {
+     "camera": "truck/van",
+     "vehicle_id": 6,
+     "class": "car",
+     "first_frame": 151,
+     "last_frame": 151,
+     "last_center": [
+      0.35419,
+      0.2914
+     ],
+     "first_center": [
+      0.35419,
+      0.2914
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      6
+     ]
+    },
+    {
+     "camera": "truck/van",
+     "vehicle_id": 7,
+     "class": "van",
+     "first_frame": 161,
+     "last_frame": 161,
+     "last_center": [
+      0.45799,
+      0.34451
+     ],
+     "first_center": [
+      0.45799,
+      0.34451
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      7
+     ]
+    },
+    {
+     "camera": "truck/van",
+     "vehicle_id": 8,
+     "class": "van",
+     "first_frame": 205,
+     "last_frame": 214,
+     "last_center": [
+      0.46425,
+      0.32663
+     ],
+     "first_center": [
+      0.45799,
+      0.33914
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      9
+     ]
+    },
+    {
+     "camera": "truck/van",
+     "vehicle_id": 9,
+     "class": "van",
+     "first_frame": 209,
+     "last_frame": 305,
+     "last_center": [
+      0.4352,
+      0.45237
+     ],
+     "first_center": [
+      0.36011,
+      0.71161
+     ],
+     "frames_in_zone": 57,
+     "reid_merges": 0,
+     "track_ids": [
+      10
+     ]
+    },
+    {
+     "camera": "truck/van",
+     "vehicle_id": 10,
+     "class": "van",
+     "first_frame": 251,
+     "last_frame": 255,
+     "last_center": [
+      0.29306,
+      0.60434
+     ],
+     "first_center": [
+      0.31049,
+      0.59599
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      11
+     ]
+    },
+    {
+     "camera": "truck/van",
+     "vehicle_id": 11,
+     "class": "van",
+     "first_frame": 262,
+     "last_frame": 262,
+     "last_center": [
+      0.38469,
+      0.70148
+     ],
+     "first_center": [
+      0.38469,
+      0.70148
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      12
+     ]
+    }
+   ],
+   "distinct_resolutions": 1,
+   "tracking_applicable": true
+  },
+  "truck_03/truck": {
+   "camera": "truck_03/truck",
+   "detections_total": 2260,
+   "detections_in_zone": 2259,
+   "vehicle_detections_in_zone": 1132,
+   "raw_track_ids": 150,
+   "unique_vehicles": 16,
+   "reid_merges": 3,
+   "skipped_non_vehicle": 1127,
+   "dedup_coefficient": 0.9859,
+   "vehicles": [
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 1,
+     "class": "truck",
+     "first_frame": 1,
+     "last_frame": 477,
+     "last_center": [
+      0.48968,
+      0.56154
+     ],
+     "first_center": [
+      0.46322,
+      0.50127
+     ],
+     "frames_in_zone": 284,
+     "reid_merges": 3,
+     "track_ids": [
+      1,
+      3,
+      16,
+      44
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 2,
+     "class": "truck",
+     "first_frame": 3,
+     "last_frame": 239,
+     "last_center": [
+      0.70917,
+      0.57757
+     ],
+     "first_center": [
+      0.69012,
+      0.56402
+     ],
+     "frames_in_zone": 116,
+     "reid_merges": 0,
+     "track_ids": [
+      4
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 3,
+     "class": "truck",
+     "first_frame": 128,
+     "last_frame": 128,
+     "last_center": [
+      0.76695,
+      0.57308
+     ],
+     "first_center": [
+      0.76695,
+      0.57308
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      24
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 4,
+     "class": "truck",
+     "first_frame": 329,
+     "last_frame": 1056,
+     "last_center": [
+      0.42802,
+      0.56188
+     ],
+     "first_center": [
+      0.64439,
+      0.54353
+     ],
+     "frames_in_zone": 387,
+     "reid_merges": 0,
+     "track_ids": [
+      53
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 5,
+     "class": "truck",
+     "first_frame": 461,
+     "last_frame": 461,
+     "last_center": [
+      0.79713,
+      0.5502
+     ],
+     "first_center": [
+      0.79713,
+      0.5502
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      65
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 6,
+     "class": "truck",
+     "first_frame": 486,
+     "last_frame": 814,
+     "last_center": [
+      0.69585,
+      0.55692
+     ],
+     "first_center": [
+      0.62814,
+      0.56152
+     ],
+     "frames_in_zone": 169,
+     "reid_merges": 0,
+     "track_ids": [
+      69
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 7,
+     "class": "truck",
+     "first_frame": 527,
+     "last_frame": 527,
+     "last_center": [
+      0.77485,
+      0.55933
+     ],
+     "first_center": [
+      0.77485,
+      0.55933
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      75
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 8,
+     "class": "truck",
+     "first_frame": 627,
+     "last_frame": 627,
+     "last_center": [
+      0.30163,
+      0.35486
+     ],
+     "first_center": [
+      0.30163,
+      0.35486
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      85
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 9,
+     "class": "truck",
+     "first_frame": 846,
+     "last_frame": 1127,
+     "last_center": [
+      0.42799,
+      0.50318
+     ],
+     "first_center": [
+      0.71887,
+      0.53458
+     ],
+     "frames_in_zone": 133,
+     "reid_merges": 0,
+     "track_ids": [
+      114
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 10,
+     "class": "truck",
+     "first_frame": 859,
+     "last_frame": 860,
+     "last_center": [
+      0.49882,
+      0.57113
+     ],
+     "first_center": [
+      0.37406,
+      0.57573
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      116
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 11,
+     "class": "truck",
+     "first_frame": 896,
+     "last_frame": 903,
+     "last_center": [
+      0.75288,
+      0.54371
+     ],
+     "first_center": [
+      0.75956,
+      0.54901
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      123
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 12,
+     "class": "van",
+     "first_frame": 933,
+     "last_frame": 933,
+     "last_center": [
+      0.51161,
+      0.23393
+     ],
+     "first_center": [
+      0.51161,
+      0.23393
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      127
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 13,
+     "class": "truck",
+     "first_frame": 1058,
+     "last_frame": 1081,
+     "last_center": [
+      0.46464,
+      0.55061
+     ],
+     "first_center": [
+      0.71803,
+      0.55262
+     ],
+     "frames_in_zone": 13,
+     "reid_merges": 0,
+     "track_ids": [
+      139
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 14,
+     "class": "truck",
+     "first_frame": 1075,
+     "last_frame": 1075,
+     "last_center": [
+      0.4611,
+      0.32277
+     ],
+     "first_center": [
+      0.4611,
+      0.32277
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      132
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 15,
+     "class": "truck",
+     "first_frame": 1094,
+     "last_frame": 1126,
+     "last_center": [
+      0.43307,
+      0.57988
+     ],
+     "first_center": [
+      0.71545,
+      0.53343
+     ],
+     "frames_in_zone": 18,
+     "reid_merges": 0,
+     "track_ids": [
+      143
+     ]
+    },
+    {
+     "camera": "truck_03/truck",
+     "vehicle_id": 16,
+     "class": "truck",
+     "first_frame": 1111,
+     "last_frame": 1111,
+     "last_center": [
+      0.37476,
+      0.33676
+     ],
+     "first_center": [
+      0.37476,
+      0.33676
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      137
+     ]
+    }
+   ],
+   "distinct_resolutions": 1,
+   "tracking_applicable": true
+  },
+  "van_02/van": {
+   "camera": "van_02/van",
+   "detections_total": 217,
+   "detections_in_zone": 215,
+   "vehicle_detections_in_zone": 214,
+   "raw_track_ids": 9,
+   "unique_vehicles": 5,
+   "reid_merges": 2,
+   "skipped_non_vehicle": 1,
+   "dedup_coefficient": 0.9766,
+   "vehicles": [
+    {
+     "camera": "van_02/van",
+     "vehicle_id": 1,
+     "class": "van",
+     "first_frame": 2,
+     "last_frame": 214,
+     "last_center": [
+      0.51783,
+      0.5037
+     ],
+     "first_center": [
+      0.65772,
+      0.51242
+     ],
+     "frames_in_zone": 152,
+     "reid_merges": 0,
+     "track_ids": [
+      2
+     ]
+    },
+    {
+     "camera": "van_02/van",
+     "vehicle_id": 2,
+     "class": "truck",
+     "first_frame": 16,
+     "last_frame": 40,
+     "last_center": [
+      0.09196,
+      0.41834
+     ],
+     "first_center": [
+      0.15996,
+      0.36081
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 1,
+     "track_ids": [
+      3,
+      5
+     ]
+    },
+    {
+     "camera": "van_02/van",
+     "vehicle_id": 3,
+     "class": "van",
+     "first_frame": 18,
+     "last_frame": 26,
+     "last_center": [
+      0.69571,
+      0.5613
+     ],
+     "first_center": [
+      0.52698,
+      0.4924
+     ],
+     "frames_in_zone": 7,
+     "reid_merges": 0,
+     "track_ids": [
+      4
+     ]
+    },
+    {
+     "camera": "van_02/van",
+     "vehicle_id": 4,
+     "class": "van",
+     "first_frame": 51,
+     "last_frame": 105,
+     "last_center": [
+      0.21357,
+      0.51829
+     ],
+     "first_center": [
+      0.41666,
+      0.48723
+     ],
+     "frames_in_zone": 26,
+     "reid_merges": 1,
+     "track_ids": [
+      6,
+      7
+     ]
+    },
+    {
+     "camera": "van_02/van",
+     "vehicle_id": 5,
+     "class": "van",
+     "first_frame": 122,
+     "last_frame": 211,
+     "last_center": [
+      0.67085,
+      0.51491
+     ],
+     "first_center": [
+      0.60456,
+      0.51618
+     ],
+     "frames_in_zone": 26,
+     "reid_merges": 0,
+     "track_ids": [
+      8
+     ]
+    }
+   ],
+   "distinct_resolutions": 1,
+   "tracking_applicable": true
+  },
+  "van_03/van": {
+   "camera": "van_03/van",
+   "detections_total": 531,
+   "detections_in_zone": 515,
+   "vehicle_detections_in_zone": 515,
+   "raw_track_ids": 30,
+   "unique_vehicles": 16,
+   "reid_merges": 0,
+   "skipped_non_vehicle": 0,
+   "dedup_coefficient": 0.9689,
+   "vehicles": [
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 1,
+     "class": "car",
+     "first_frame": 1,
+     "last_frame": 283,
+     "last_center": [
+      0.7021,
+      0.53008
+     ],
+     "first_center": [
+      0.73393,
+      0.57117
+     ],
+     "frames_in_zone": 230,
+     "reid_merges": 0,
+     "track_ids": [
+      1
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 2,
+     "class": "van",
+     "first_frame": 2,
+     "last_frame": 41,
+     "last_center": [
+      0.4111,
+      0.58104
+     ],
+     "first_center": [
+      0.48303,
+      0.51818
+     ],
+     "frames_in_zone": 15,
+     "reid_merges": 0,
+     "track_ids": [
+      2
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 3,
+     "class": "truck",
+     "first_frame": 45,
+     "last_frame": 45,
+     "last_center": [
+      0.12838,
+      0.27578
+     ],
+     "first_center": [
+      0.12838,
+      0.27578
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      4
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 4,
+     "class": "car",
+     "first_frame": 56,
+     "last_frame": 56,
+     "last_center": [
+      0.73122,
+      0.56507
+     ],
+     "first_center": [
+      0.73122,
+      0.56507
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      5
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 5,
+     "class": "van",
+     "first_frame": 58,
+     "last_frame": 86,
+     "last_center": [
+      0.43977,
+      0.58477
+     ],
+     "first_center": [
+      0.2818,
+      0.51931
+     ],
+     "frames_in_zone": 22,
+     "reid_merges": 0,
+     "track_ids": [
+      6
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 6,
+     "class": "truck",
+     "first_frame": 171,
+     "last_frame": 171,
+     "last_center": [
+      0.51485,
+      0.26677
+     ],
+     "first_center": [
+      0.51485,
+      0.26677
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      10
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 7,
+     "class": "garbagetruck",
+     "first_frame": 255,
+     "last_frame": 507,
+     "last_center": [
+      0.4656,
+      0.51083
+     ],
+     "first_center": [
+      0.42327,
+      0.48789
+     ],
+     "frames_in_zone": 218,
+     "reid_merges": 0,
+     "track_ids": [
+      15
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 8,
+     "class": "truck",
+     "first_frame": 272,
+     "last_frame": 272,
+     "last_center": [
+      0.16675,
+      0.26611
+     ],
+     "first_center": [
+      0.16675,
+      0.26611
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      17
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 9,
+     "class": "truck",
+     "first_frame": 298,
+     "last_frame": 298,
+     "last_center": [
+      0.41417,
+      0.25129
+     ],
+     "first_center": [
+      0.41417,
+      0.25129
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      18
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 10,
+     "class": "van",
+     "first_frame": 322,
+     "last_frame": 342,
+     "last_center": [
+      0.50861,
+      0.56289
+     ],
+     "first_center": [
+      0.36683,
+      0.50756
+     ],
+     "frames_in_zone": 18,
+     "reid_merges": 0,
+     "track_ids": [
+      21
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 11,
+     "class": "truck",
+     "first_frame": 355,
+     "last_frame": 355,
+     "last_center": [
+      0.70411,
+      0.25553
+     ],
+     "first_center": [
+      0.70411,
+      0.25553
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      23
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 12,
+     "class": "garbagetruck",
+     "first_frame": 378,
+     "last_frame": 378,
+     "last_center": [
+      0.16468,
+      0.2592
+     ],
+     "first_center": [
+      0.16468,
+      0.2592
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      24
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 13,
+     "class": "truck",
+     "first_frame": 392,
+     "last_frame": 392,
+     "last_center": [
+      0.04543,
+      0.29871
+     ],
+     "first_center": [
+      0.04543,
+      0.29871
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      25
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 14,
+     "class": "garbagetruck",
+     "first_frame": 399,
+     "last_frame": 399,
+     "last_center": [
+      0.22832,
+      0.24651
+     ],
+     "first_center": [
+      0.22832,
+      0.24651
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      26
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 15,
+     "class": "van",
+     "first_frame": 428,
+     "last_frame": 432,
+     "last_center": [
+      0.68248,
+      0.5284
+     ],
+     "first_center": [
+      0.64045,
+      0.49857
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      29
+     ]
+    },
+    {
+     "camera": "van_03/van",
+     "vehicle_id": 16,
+     "class": "van",
+     "first_frame": 494,
+     "last_frame": 494,
+     "last_center": [
+      0.77325,
+      0.53314
+     ],
+     "first_center": [
+      0.77325,
+      0.53314
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      30
+     ]
+    }
+   ],
+   "distinct_resolutions": 1,
+   "tracking_applicable": true
+  },
+  "waste_01/waste_truck": {
+   "camera": "waste_01/waste_truck",
+   "detections_total": 872,
+   "detections_in_zone": 867,
+   "vehicle_detections_in_zone": 867,
+   "raw_track_ids": 288,
+   "unique_vehicles": 253,
+   "reid_merges": 30,
+   "skipped_non_vehicle": 0,
+   "dedup_coefficient": 0.7082,
+   "vehicles": [
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 1,
+     "class": "car",
+     "first_frame": 1,
+     "last_frame": 66,
+     "last_center": [
+      0.74429,
+      0.57538
+     ],
+     "first_center": [
+      0.63279,
+      0.6915
+     ],
+     "frames_in_zone": 12,
+     "reid_merges": 1,
+     "track_ids": [
+      1,
+      32
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 2,
+     "class": "garbagetruck",
+     "first_frame": 1,
+     "last_frame": 3,
+     "last_center": [
+      0.16103,
+      0.24782
+     ],
+     "first_center": [
+      0.17165,
+      0.33826
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      2
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 3,
+     "class": "car",
+     "first_frame": 1,
+     "last_frame": 70,
+     "last_center": [
+      0.13734,
+      0.69919
+     ],
+     "first_center": [
+      0.17733,
+      0.70817
+     ],
+     "frames_in_zone": 15,
+     "reid_merges": 0,
+     "track_ids": [
+      3
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 4,
+     "class": "garbagetruck",
+     "first_frame": 2,
+     "last_frame": 30,
+     "last_center": [
+      0.24801,
+      0.17367
+     ],
+     "first_center": [
+      0.44965,
+      0.28209
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 0,
+     "track_ids": [
+      4
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 5,
+     "class": "car",
+     "first_frame": 4,
+     "last_frame": 4,
+     "last_center": [
+      0.5639,
+      0.27737
+     ],
+     "first_center": [
+      0.5639,
+      0.27737
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      5
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 6,
+     "class": "garbagetruck",
+     "first_frame": 6,
+     "last_frame": 14,
+     "last_center": [
+      0.73955,
+      0.31542
+     ],
+     "first_center": [
+      0.83673,
+      0.2555
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      6
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 7,
+     "class": "car",
+     "first_frame": 7,
+     "last_frame": 39,
+     "last_center": [
+      0.68924,
+      0.26814
+     ],
+     "first_center": [
+      0.6356,
+      0.46049
+     ],
+     "frames_in_zone": 9,
+     "reid_merges": 1,
+     "track_ids": [
+      7,
+      8
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 8,
+     "class": "car",
+     "first_frame": 11,
+     "last_frame": 11,
+     "last_center": [
+      0.24206,
+      0.42896
+     ],
+     "first_center": [
+      0.24206,
+      0.42896
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      9
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 9,
+     "class": "car",
+     "first_frame": 11,
+     "last_frame": 11,
+     "last_center": [
+      0.10854,
+      0.4252
+     ],
+     "first_center": [
+      0.10854,
+      0.4252
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      10
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 10,
+     "class": "car",
+     "first_frame": 13,
+     "last_frame": 21,
+     "last_center": [
+      0.78153,
+      0.52287
+     ],
+     "first_center": [
+      0.85345,
+      0.63009
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      11
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 11,
+     "class": "car",
+     "first_frame": 15,
+     "last_frame": 15,
+     "last_center": [
+      0.61393,
+      0.56362
+     ],
+     "first_center": [
+      0.61393,
+      0.56362
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      12
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 12,
+     "class": "garbagetruck",
+     "first_frame": 16,
+     "last_frame": 16,
+     "last_center": [
+      0.62105,
+      0.22008
+     ],
+     "first_center": [
+      0.62105,
+      0.22008
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      13
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 13,
+     "class": "car",
+     "first_frame": 18,
+     "last_frame": 29,
+     "last_center": [
+      0.12041,
+      0.324
+     ],
+     "first_center": [
+      0.14278,
+      0.19766
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      14
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 14,
+     "class": "car",
+     "first_frame": 22,
+     "last_frame": 22,
+     "last_center": [
+      0.3474,
+      0.56998
+     ],
+     "first_center": [
+      0.3474,
+      0.56998
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      15
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 15,
+     "class": "car",
+     "first_frame": 25,
+     "last_frame": 25,
+     "last_center": [
+      0.54182,
+      0.18217
+     ],
+     "first_center": [
+      0.54182,
+      0.18217
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      16
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 16,
+     "class": "car",
+     "first_frame": 25,
+     "last_frame": 25,
+     "last_center": [
+      0.2523,
+      0.20244
+     ],
+     "first_center": [
+      0.2523,
+      0.20244
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      17
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 17,
+     "class": "car",
+     "first_frame": 32,
+     "last_frame": 36,
+     "last_center": [
+      0.57215,
+      0.31542
+     ],
+     "first_center": [
+      0.55855,
+      0.29082
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      18
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 18,
+     "class": "garbagetruck",
+     "first_frame": 33,
+     "last_frame": 64,
+     "last_center": [
+      0.44592,
+      0.28482
+     ],
+     "first_center": [
+      0.42708,
+      0.40996
+     ],
+     "frames_in_zone": 7,
+     "reid_merges": 0,
+     "track_ids": [
+      19
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 19,
+     "class": "van",
+     "first_frame": 38,
+     "last_frame": 38,
+     "last_center": [
+      0.31651,
+      0.17444
+     ],
+     "first_center": [
+      0.31651,
+      0.17444
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      20
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 20,
+     "class": "van",
+     "first_frame": 38,
+     "last_frame": 38,
+     "last_center": [
+      0.10715,
+      0.31788
+     ],
+     "first_center": [
+      0.10715,
+      0.31788
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      21
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 21,
+     "class": "car",
+     "first_frame": 41,
+     "last_frame": 68,
+     "last_center": [
+      0.46355,
+      0.69427
+     ],
+     "first_center": [
+      0.46104,
+      0.67975
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 1,
+     "track_ids": [
+      22,
+      35
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 22,
+     "class": "car",
+     "first_frame": 42,
+     "last_frame": 139,
+     "last_center": [
+      0.317,
+      0.39614
+     ],
+     "first_center": [
+      0.53681,
+      0.53766
+     ],
+     "frames_in_zone": 17,
+     "reid_merges": 0,
+     "track_ids": [
+      23
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 23,
+     "class": "car",
+     "first_frame": 43,
+     "last_frame": 43,
+     "last_center": [
+      0.54229,
+      0.68334
+     ],
+     "first_center": [
+      0.54229,
+      0.68334
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      24
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 24,
+     "class": "garbagetruck",
+     "first_frame": 45,
+     "last_frame": 45,
+     "last_center": [
+      0.17206,
+      0.33699
+     ],
+     "first_center": [
+      0.17206,
+      0.33699
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      25
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 25,
+     "class": "garbagetruck",
+     "first_frame": 48,
+     "last_frame": 49,
+     "last_center": [
+      0.9179,
+      0.45491
+     ],
+     "first_center": [
+      0.88461,
+      0.42342
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      26
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 26,
+     "class": "car",
+     "first_frame": 49,
+     "last_frame": 49,
+     "last_center": [
+      0.71762,
+      0.34515
+     ],
+     "first_center": [
+      0.71762,
+      0.34515
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      27
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 27,
+     "class": "car",
+     "first_frame": 50,
+     "last_frame": 71,
+     "last_center": [
+      0.4257,
+      0.37066
+     ],
+     "first_center": [
+      0.40218,
+      0.33676
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 1,
+     "track_ids": [
+      28,
+      38
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 28,
+     "class": "garbagetruck",
+     "first_frame": 52,
+     "last_frame": 111,
+     "last_center": [
+      0.54513,
+      0.45074
+     ],
+     "first_center": [
+      0.4144,
+      0.47567
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      29
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 29,
+     "class": "car",
+     "first_frame": 56,
+     "last_frame": 64,
+     "last_center": [
+      0.73816,
+      0.82705
+     ],
+     "first_center": [
+      0.81339,
+      0.83502
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      30
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 30,
+     "class": "car",
+     "first_frame": 56,
+     "last_frame": 56,
+     "last_center": [
+      0.11719,
+      0.33605
+     ],
+     "first_center": [
+      0.11719,
+      0.33605
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      31
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 31,
+     "class": "car",
+     "first_frame": 59,
+     "last_frame": 59,
+     "last_center": [
+      0.63739,
+      0.35221
+     ],
+     "first_center": [
+      0.63739,
+      0.35221
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      33
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 32,
+     "class": "car",
+     "first_frame": 60,
+     "last_frame": 95,
+     "last_center": [
+      0.64254,
+      0.49511
+     ],
+     "first_center": [
+      0.86469,
+      0.57618
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      34
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 33,
+     "class": "car",
+     "first_frame": 62,
+     "last_frame": 62,
+     "last_center": [
+      0.14498,
+      0.40172
+     ],
+     "first_center": [
+      0.14498,
+      0.40172
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      36
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 34,
+     "class": "truck",
+     "first_frame": 70,
+     "last_frame": 70,
+     "last_center": [
+      0.0515,
+      0.62901
+     ],
+     "first_center": [
+      0.0515,
+      0.62901
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      37
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 35,
+     "class": "car",
+     "first_frame": 73,
+     "last_frame": 126,
+     "last_center": [
+      0.49071,
+      0.32495
+     ],
+     "first_center": [
+      0.6564,
+      0.41541
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 2,
+     "track_ids": [
+      39,
+      55,
+      61
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 36,
+     "class": "garbagetruck",
+     "first_frame": 74,
+     "last_frame": 74,
+     "last_center": [
+      0.82482,
+      0.51806
+     ],
+     "first_center": [
+      0.82482,
+      0.51806
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      40
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 37,
+     "class": "car",
+     "first_frame": 75,
+     "last_frame": 152,
+     "last_center": [
+      0.21425,
+      0.69037
+     ],
+     "first_center": [
+      0.27217,
+      0.78937
+     ],
+     "frames_in_zone": 13,
+     "reid_merges": 2,
+     "track_ids": [
+      41,
+      59,
+      67
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 38,
+     "class": "car",
+     "first_frame": 75,
+     "last_frame": 75,
+     "last_center": [
+      0.83043,
+      0.23345
+     ],
+     "first_center": [
+      0.83043,
+      0.23345
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      42
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 39,
+     "class": "van",
+     "first_frame": 78,
+     "last_frame": 78,
+     "last_center": [
+      0.23115,
+      0.49528
+     ],
+     "first_center": [
+      0.23115,
+      0.49528
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      43
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 40,
+     "class": "car",
+     "first_frame": 79,
+     "last_frame": 122,
+     "last_center": [
+      0.12517,
+      0.29046
+     ],
+     "first_center": [
+      0.37636,
+      0.13607
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      44
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 41,
+     "class": "car",
+     "first_frame": 81,
+     "last_frame": 114,
+     "last_center": [
+      0.56402,
+      0.68236
+     ],
+     "first_center": [
+      0.63176,
+      0.69175
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 0,
+     "track_ids": [
+      45
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 42,
+     "class": "car",
+     "first_frame": 85,
+     "last_frame": 107,
+     "last_center": [
+      0.55079,
+      0.14967
+     ],
+     "first_center": [
+      0.51501,
+      0.14239
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      46
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 43,
+     "class": "car",
+     "first_frame": 88,
+     "last_frame": 88,
+     "last_center": [
+      0.84775,
+      0.69517
+     ],
+     "first_center": [
+      0.84775,
+      0.69517
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      47
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 44,
+     "class": "car",
+     "first_frame": 90,
+     "last_frame": 90,
+     "last_center": [
+      0.5158,
+      0.66005
+     ],
+     "first_center": [
+      0.5158,
+      0.66005
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      48
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 45,
+     "class": "car",
+     "first_frame": 97,
+     "last_frame": 97,
+     "last_center": [
+      0.1433,
+      0.19743
+     ],
+     "first_center": [
+      0.1433,
+      0.19743
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      49
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 46,
+     "class": "car",
+     "first_frame": 100,
+     "last_frame": 148,
+     "last_center": [
+      0.69762,
+      0.42822
+     ],
+     "first_center": [
+      0.59118,
+      0.41948
+     ],
+     "frames_in_zone": 5,
+     "reid_merges": 1,
+     "track_ids": [
+      50,
+      65
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 47,
+     "class": "car",
+     "first_frame": 104,
+     "last_frame": 104,
+     "last_center": [
+      0.73892,
+      0.31829
+     ],
+     "first_center": [
+      0.73892,
+      0.31829
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      51
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 48,
+     "class": "garbagetruck",
+     "first_frame": 109,
+     "last_frame": 114,
+     "last_center": [
+      0.28393,
+      0.53332
+     ],
+     "first_center": [
+      0.28903,
+      0.39431
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      52
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 49,
+     "class": "car",
+     "first_frame": 110,
+     "last_frame": 110,
+     "last_center": [
+      0.07742,
+      0.56849
+     ],
+     "first_center": [
+      0.07742,
+      0.56849
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      53
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 50,
+     "class": "car",
+     "first_frame": 115,
+     "last_frame": 127,
+     "last_center": [
+      0.47859,
+      0.30652
+     ],
+     "first_center": [
+      0.30632,
+      0.18176
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      54
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 51,
+     "class": "car",
+     "first_frame": 118,
+     "last_frame": 129,
+     "last_center": [
+      0.5507,
+      0.69803
+     ],
+     "first_center": [
+      0.68688,
+      0.64088
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      56
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 52,
+     "class": "car",
+     "first_frame": 119,
+     "last_frame": 123,
+     "last_center": [
+      0.44,
+      0.1188
+     ],
+     "first_center": [
+      0.40612,
+      0.08919
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      57
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 53,
+     "class": "car",
+     "first_frame": 122,
+     "last_frame": 122,
+     "last_center": [
+      0.69497,
+      0.24028
+     ],
+     "first_center": [
+      0.69497,
+      0.24028
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      58
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 54,
+     "class": "car",
+     "first_frame": 124,
+     "last_frame": 141,
+     "last_center": [
+      0.67651,
+      0.59909
+     ],
+     "first_center": [
+      0.68502,
+      0.54584
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      60
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 55,
+     "class": "van",
+     "first_frame": 130,
+     "last_frame": 130,
+     "last_center": [
+      0.23336,
+      0.4965
+     ],
+     "first_center": [
+      0.23336,
+      0.4965
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      62
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 56,
+     "class": "truck",
+     "first_frame": 131,
+     "last_frame": 131,
+     "last_center": [
+      0.28988,
+      0.44499
+     ],
+     "first_center": [
+      0.28988,
+      0.44499
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      63
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 57,
+     "class": "car",
+     "first_frame": 132,
+     "last_frame": 176,
+     "last_center": [
+      0.44957,
+      0.50722
+     ],
+     "first_center": [
+      0.37361,
+      0.57103
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      64
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 58,
+     "class": "garbagetruck",
+     "first_frame": 138,
+     "last_frame": 138,
+     "last_center": [
+      0.74145,
+      0.46688
+     ],
+     "first_center": [
+      0.74145,
+      0.46688
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      66
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 59,
+     "class": "car",
+     "first_frame": 142,
+     "last_frame": 204,
+     "last_center": [
+      0.26507,
+      0.33487
+     ],
+     "first_center": [
+      0.36307,
+      0.11636
+     ],
+     "frames_in_zone": 9,
+     "reid_merges": 2,
+     "track_ids": [
+      68,
+      82,
+      98
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 60,
+     "class": "car",
+     "first_frame": 144,
+     "last_frame": 165,
+     "last_center": [
+      0.25251,
+      0.34163
+     ],
+     "first_center": [
+      0.22378,
+      0.29253
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 1,
+     "track_ids": [
+      69,
+      81
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 61,
+     "class": "van",
+     "first_frame": 144,
+     "last_frame": 144,
+     "last_center": [
+      0.88512,
+      0.24388
+     ],
+     "first_center": [
+      0.88512,
+      0.24388
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      70
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 62,
+     "class": "truck",
+     "first_frame": 145,
+     "last_frame": 158,
+     "last_center": [
+      0.5366,
+      0.53744
+     ],
+     "first_center": [
+      0.59925,
+      0.50662
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      71
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 63,
+     "class": "car",
+     "first_frame": 146,
+     "last_frame": 185,
+     "last_center": [
+      0.25893,
+      0.51677
+     ],
+     "first_center": [
+      0.42505,
+      0.56474
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 1,
+     "track_ids": [
+      72,
+      91
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 64,
+     "class": "car",
+     "first_frame": 147,
+     "last_frame": 147,
+     "last_center": [
+      0.51924,
+      0.17924
+     ],
+     "first_center": [
+      0.51924,
+      0.17924
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      73
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 65,
+     "class": "car",
+     "first_frame": 149,
+     "last_frame": 156,
+     "last_center": [
+      0.073,
+      0.36388
+     ],
+     "first_center": [
+      0.12609,
+      0.29154
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      74
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 66,
+     "class": "car",
+     "first_frame": 149,
+     "last_frame": 149,
+     "last_center": [
+      0.69346,
+      0.23895
+     ],
+     "first_center": [
+      0.69346,
+      0.23895
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      75
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 67,
+     "class": "car",
+     "first_frame": 150,
+     "last_frame": 150,
+     "last_center": [
+      0.64005,
+      0.28682
+     ],
+     "first_center": [
+      0.64005,
+      0.28682
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      76
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 68,
+     "class": "car",
+     "first_frame": 151,
+     "last_frame": 162,
+     "last_center": [
+      0.79024,
+      0.43035
+     ],
+     "first_center": [
+      0.87917,
+      0.6501
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      77
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 69,
+     "class": "truck",
+     "first_frame": 153,
+     "last_frame": 153,
+     "last_center": [
+      0.751,
+      0.33311
+     ],
+     "first_center": [
+      0.751,
+      0.33311
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      78
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 70,
+     "class": "truck",
+     "first_frame": 159,
+     "last_frame": 166,
+     "last_center": [
+      0.21896,
+      0.65777
+     ],
+     "first_center": [
+      0.19596,
+      0.56846
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      79
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 71,
+     "class": "truck",
+     "first_frame": 164,
+     "last_frame": 164,
+     "last_center": [
+      0.63095,
+      0.28133
+     ],
+     "first_center": [
+      0.63095,
+      0.28133
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      80
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 72,
+     "class": "car",
+     "first_frame": 168,
+     "last_frame": 173,
+     "last_center": [
+      0.58829,
+      0.49856
+     ],
+     "first_center": [
+      0.56017,
+      0.42717
+     ],
+     "frames_in_zone": 5,
+     "reid_merges": 0,
+     "track_ids": [
+      83
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 73,
+     "class": "car",
+     "first_frame": 170,
+     "last_frame": 177,
+     "last_center": [
+      0.42153,
+      0.34061
+     ],
+     "first_center": [
+      0.31391,
+      0.35082
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      84
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 74,
+     "class": "van",
+     "first_frame": 173,
+     "last_frame": 173,
+     "last_center": [
+      0.8853,
+      0.24111
+     ],
+     "first_center": [
+      0.8853,
+      0.24111
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      85
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 75,
+     "class": "car",
+     "first_frame": 175,
+     "last_frame": 175,
+     "last_center": [
+      0.90321,
+      0.19611
+     ],
+     "first_center": [
+      0.90321,
+      0.19611
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      86
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 76,
+     "class": "car",
+     "first_frame": 178,
+     "last_frame": 185,
+     "last_center": [
+      0.40095,
+      0.652
+     ],
+     "first_center": [
+      0.45278,
+      0.75538
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      87
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 77,
+     "class": "car",
+     "first_frame": 178,
+     "last_frame": 178,
+     "last_center": [
+      0.80769,
+      0.57029
+     ],
+     "first_center": [
+      0.80769,
+      0.57029
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      88
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 78,
+     "class": "garbagetruck",
+     "first_frame": 179,
+     "last_frame": 202,
+     "last_center": [
+      0.78682,
+      0.38584
+     ],
+     "first_center": [
+      0.74665,
+      0.47191
+     ],
+     "frames_in_zone": 5,
+     "reid_merges": 0,
+     "track_ids": [
+      89
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 79,
+     "class": "garbagetruck",
+     "first_frame": 181,
+     "last_frame": 212,
+     "last_center": [
+      0.33437,
+      0.28607
+     ],
+     "first_center": [
+      0.2762,
+      0.17968
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      90
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 80,
+     "class": "car",
+     "first_frame": 186,
+     "last_frame": 187,
+     "last_center": [
+      0.33432,
+      0.16995
+     ],
+     "first_center": [
+      0.41315,
+      0.2049
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      92
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 81,
+     "class": "car",
+     "first_frame": 188,
+     "last_frame": 188,
+     "last_center": [
+      0.53818,
+      0.09514
+     ],
+     "first_center": [
+      0.53818,
+      0.09514
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      93
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 82,
+     "class": "car",
+     "first_frame": 189,
+     "last_frame": 224,
+     "last_center": [
+      0.37953,
+      0.33019
+     ],
+     "first_center": [
+      0.19492,
+      0.57434
+     ],
+     "frames_in_zone": 9,
+     "reid_merges": 0,
+     "track_ids": [
+      94
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 83,
+     "class": "car",
+     "first_frame": 197,
+     "last_frame": 197,
+     "last_center": [
+      0.75154,
+      0.42646
+     ],
+     "first_center": [
+      0.75154,
+      0.42646
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      95
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 84,
+     "class": "car",
+     "first_frame": 198,
+     "last_frame": 198,
+     "last_center": [
+      0.64153,
+      0.28665
+     ],
+     "first_center": [
+      0.64153,
+      0.28665
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      96
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 85,
+     "class": "car",
+     "first_frame": 198,
+     "last_frame": 201,
+     "last_center": [
+      0.10001,
+      0.46423
+     ],
+     "first_center": [
+      0.17888,
+      0.44024
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      97
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 86,
+     "class": "car",
+     "first_frame": 204,
+     "last_frame": 215,
+     "last_center": [
+      0.84152,
+      0.61415
+     ],
+     "first_center": [
+      0.59094,
+      0.48496
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      99
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 87,
+     "class": "garbagetruck",
+     "first_frame": 204,
+     "last_frame": 249,
+     "last_center": [
+      0.2005,
+      0.28332
+     ],
+     "first_center": [
+      0.39182,
+      0.11963
+     ],
+     "frames_in_zone": 15,
+     "reid_merges": 0,
+     "track_ids": [
+      100
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 88,
+     "class": "car",
+     "first_frame": 205,
+     "last_frame": 216,
+     "last_center": [
+      0.62166,
+      0.3215
+     ],
+     "first_center": [
+      0.59232,
+      0.4109
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      101
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 89,
+     "class": "car",
+     "first_frame": 208,
+     "last_frame": 208,
+     "last_center": [
+      0.08741,
+      0.09494
+     ],
+     "first_center": [
+      0.08741,
+      0.09494
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      102
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 90,
+     "class": "car",
+     "first_frame": 210,
+     "last_frame": 210,
+     "last_center": [
+      0.54977,
+      0.39157
+     ],
+     "first_center": [
+      0.54977,
+      0.39157
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      103
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 91,
+     "class": "car",
+     "first_frame": 217,
+     "last_frame": 232,
+     "last_center": [
+      0.75918,
+      0.47564
+     ],
+     "first_center": [
+      0.69267,
+      0.38309
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      104
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 92,
+     "class": "car",
+     "first_frame": 220,
+     "last_frame": 220,
+     "last_center": [
+      0.25335,
+      0.62069
+     ],
+     "first_center": [
+      0.25335,
+      0.62069
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      105
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 93,
+     "class": "car",
+     "first_frame": 223,
+     "last_frame": 223,
+     "last_center": [
+      0.43621,
+      0.84759
+     ],
+     "first_center": [
+      0.43621,
+      0.84759
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      106
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 94,
+     "class": "car",
+     "first_frame": 225,
+     "last_frame": 225,
+     "last_center": [
+      0.66294,
+      0.06334
+     ],
+     "first_center": [
+      0.66294,
+      0.06334
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      107
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 95,
+     "class": "garbagetruck",
+     "first_frame": 226,
+     "last_frame": 239,
+     "last_center": [
+      0.5183,
+      0.75198
+     ],
+     "first_center": [
+      0.23149,
+      0.53457
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      108
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 96,
+     "class": "car",
+     "first_frame": 227,
+     "last_frame": 227,
+     "last_center": [
+      0.07584,
+      0.20283
+     ],
+     "first_center": [
+      0.07584,
+      0.20283
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      109
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 97,
+     "class": "van",
+     "first_frame": 230,
+     "last_frame": 230,
+     "last_center": [
+      0.74672,
+      0.34807
+     ],
+     "first_center": [
+      0.74672,
+      0.34807
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      110
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 98,
+     "class": "car",
+     "first_frame": 231,
+     "last_frame": 231,
+     "last_center": [
+      0.52939,
+      0.18075
+     ],
+     "first_center": [
+      0.52939,
+      0.18075
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      111
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 99,
+     "class": "garbagetruck",
+     "first_frame": 234,
+     "last_frame": 234,
+     "last_center": [
+      0.86072,
+      0.68563
+     ],
+     "first_center": [
+      0.86072,
+      0.68563
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      112
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 100,
+     "class": "car",
+     "first_frame": 236,
+     "last_frame": 236,
+     "last_center": [
+      0.5231,
+      0.33353
+     ],
+     "first_center": [
+      0.5231,
+      0.33353
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      113
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 101,
+     "class": "van",
+     "first_frame": 238,
+     "last_frame": 238,
+     "last_center": [
+      0.26334,
+      0.37527
+     ],
+     "first_center": [
+      0.26334,
+      0.37527
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      114
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 102,
+     "class": "car",
+     "first_frame": 240,
+     "last_frame": 288,
+     "last_center": [
+      0.2921,
+      0.3026
+     ],
+     "first_center": [
+      0.43648,
+      0.22138
+     ],
+     "frames_in_zone": 14,
+     "reid_merges": 0,
+     "track_ids": [
+      116
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 103,
+     "class": "car",
+     "first_frame": 241,
+     "last_frame": 279,
+     "last_center": [
+      0.66559,
+      0.18572
+     ],
+     "first_center": [
+      0.63108,
+      0.23688
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 1,
+     "track_ids": [
+      117,
+      129
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 104,
+     "class": "car",
+     "first_frame": 241,
+     "last_frame": 241,
+     "last_center": [
+      0.75062,
+      0.77373
+     ],
+     "first_center": [
+      0.75062,
+      0.77373
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      118
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 105,
+     "class": "car",
+     "first_frame": 244,
+     "last_frame": 349,
+     "last_center": [
+      0.15023,
+      0.2532
+     ],
+     "first_center": [
+      0.39516,
+      0.48864
+     ],
+     "frames_in_zone": 21,
+     "reid_merges": 1,
+     "track_ids": [
+      119,
+      146
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 106,
+     "class": "car",
+     "first_frame": 247,
+     "last_frame": 260,
+     "last_center": [
+      0.66266,
+      0.61829
+     ],
+     "first_center": [
+      0.78702,
+      0.36835
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      120
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 107,
+     "class": "garbagetruck",
+     "first_frame": 254,
+     "last_frame": 254,
+     "last_center": [
+      0.5033,
+      0.30841
+     ],
+     "first_center": [
+      0.5033,
+      0.30841
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      121
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 108,
+     "class": "car",
+     "first_frame": 256,
+     "last_frame": 260,
+     "last_center": [
+      0.40104,
+      0.27371
+     ],
+     "first_center": [
+      0.45098,
+      0.38614
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      122
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 109,
+     "class": "car",
+     "first_frame": 257,
+     "last_frame": 258,
+     "last_center": [
+      0.2929,
+      0.28886
+     ],
+     "first_center": [
+      0.29161,
+      0.274
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      123
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 110,
+     "class": "van",
+     "first_frame": 260,
+     "last_frame": 260,
+     "last_center": [
+      0.11099,
+      0.16768
+     ],
+     "first_center": [
+      0.11099,
+      0.16768
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      124
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 111,
+     "class": "car",
+     "first_frame": 261,
+     "last_frame": 272,
+     "last_center": [
+      0.22608,
+      0.58371
+     ],
+     "first_center": [
+      0.1834,
+      0.47012
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      125
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 112,
+     "class": "car",
+     "first_frame": 261,
+     "last_frame": 283,
+     "last_center": [
+      0.42573,
+      0.40418
+     ],
+     "first_center": [
+      0.77935,
+      0.38552
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      126
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 113,
+     "class": "car",
+     "first_frame": 262,
+     "last_frame": 262,
+     "last_center": [
+      0.83996,
+      0.63236
+     ],
+     "first_center": [
+      0.83996,
+      0.63236
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      127
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 114,
+     "class": "car",
+     "first_frame": 273,
+     "last_frame": 273,
+     "last_center": [
+      0.79661,
+      0.34427
+     ],
+     "first_center": [
+      0.79661,
+      0.34427
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      128
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 115,
+     "class": "car",
+     "first_frame": 282,
+     "last_frame": 290,
+     "last_center": [
+      0.57089,
+      0.33911
+     ],
+     "first_center": [
+      0.63341,
+      0.32961
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      130
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 116,
+     "class": "car",
+     "first_frame": 284,
+     "last_frame": 320,
+     "last_center": [
+      0.73635,
+      0.24981
+     ],
+     "first_center": [
+      0.61782,
+      0.56221
+     ],
+     "frames_in_zone": 7,
+     "reid_merges": 1,
+     "track_ids": [
+      131,
+      140
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 117,
+     "class": "car",
+     "first_frame": 285,
+     "last_frame": 310,
+     "last_center": [
+      0.54203,
+      0.19393
+     ],
+     "first_center": [
+      0.40732,
+      0.52156
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 0,
+     "track_ids": [
+      132
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 118,
+     "class": "car",
+     "first_frame": 290,
+     "last_frame": 299,
+     "last_center": [
+      0.68199,
+      0.61632
+     ],
+     "first_center": [
+      0.84418,
+      0.49809
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      133
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 119,
+     "class": "car",
+     "first_frame": 295,
+     "last_frame": 295,
+     "last_center": [
+      0.37437,
+      0.68239
+     ],
+     "first_center": [
+      0.37437,
+      0.68239
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      134
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 120,
+     "class": "car",
+     "first_frame": 297,
+     "last_frame": 297,
+     "last_center": [
+      0.29042,
+      0.57024
+     ],
+     "first_center": [
+      0.29042,
+      0.57024
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      135
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 121,
+     "class": "van",
+     "first_frame": 305,
+     "last_frame": 373,
+     "last_center": [
+      0.41165,
+      0.28298
+     ],
+     "first_center": [
+      0.46687,
+      0.3176
+     ],
+     "frames_in_zone": 19,
+     "reid_merges": 0,
+     "track_ids": [
+      136
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 122,
+     "class": "van",
+     "first_frame": 306,
+     "last_frame": 306,
+     "last_center": [
+      0.11562,
+      0.18606
+     ],
+     "first_center": [
+      0.11562,
+      0.18606
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      137
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 123,
+     "class": "car",
+     "first_frame": 306,
+     "last_frame": 306,
+     "last_center": [
+      0.7242,
+      0.5081
+     ],
+     "first_center": [
+      0.7242,
+      0.5081
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      138
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 124,
+     "class": "truck",
+     "first_frame": 312,
+     "last_frame": 340,
+     "last_center": [
+      0.44981,
+      0.22086
+     ],
+     "first_center": [
+      0.60762,
+      0.72736
+     ],
+     "frames_in_zone": 10,
+     "reid_merges": 0,
+     "track_ids": [
+      139
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 125,
+     "class": "car",
+     "first_frame": 322,
+     "last_frame": 337,
+     "last_center": [
+      0.67487,
+      0.70857
+     ],
+     "first_center": [
+      0.51753,
+      0.63111
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 0,
+     "track_ids": [
+      141
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 126,
+     "class": "car",
+     "first_frame": 323,
+     "last_frame": 353,
+     "last_center": [
+      0.54623,
+      0.43891
+     ],
+     "first_center": [
+      0.61606,
+      0.37519
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      142
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 127,
+     "class": "car",
+     "first_frame": 324,
+     "last_frame": 324,
+     "last_center": [
+      0.54964,
+      0.56596
+     ],
+     "first_center": [
+      0.54964,
+      0.56596
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      143
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 128,
+     "class": "car",
+     "first_frame": 341,
+     "last_frame": 390,
+     "last_center": [
+      0.71735,
+      0.24271
+     ],
+     "first_center": [
+      0.48127,
+      0.46214
+     ],
+     "frames_in_zone": 15,
+     "reid_merges": 0,
+     "track_ids": [
+      145
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 129,
+     "class": "car",
+     "first_frame": 349,
+     "last_frame": 351,
+     "last_center": [
+      0.51239,
+      0.23609
+     ],
+     "first_center": [
+      0.46461,
+      0.22245
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 1,
+     "track_ids": [
+      147,
+      148
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 130,
+     "class": "garbagetruck",
+     "first_frame": 355,
+     "last_frame": 357,
+     "last_center": [
+      0.49748,
+      0.30292
+     ],
+     "first_center": [
+      0.53424,
+      0.26749
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      149
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 131,
+     "class": "truck",
+     "first_frame": 361,
+     "last_frame": 361,
+     "last_center": [
+      0.73691,
+      0.64049
+     ],
+     "first_center": [
+      0.73691,
+      0.64049
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      150
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 132,
+     "class": "car",
+     "first_frame": 363,
+     "last_frame": 374,
+     "last_center": [
+      0.64957,
+      0.15149
+     ],
+     "first_center": [
+      0.7299,
+      0.24625
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      151
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 133,
+     "class": "car",
+     "first_frame": 370,
+     "last_frame": 370,
+     "last_center": [
+      0.21866,
+      0.6567
+     ],
+     "first_center": [
+      0.21866,
+      0.6567
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      152
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 134,
+     "class": "car",
+     "first_frame": 372,
+     "last_frame": 427,
+     "last_center": [
+      0.44048,
+      0.72779
+     ],
+     "first_center": [
+      0.49443,
+      0.35481
+     ],
+     "frames_in_zone": 17,
+     "reid_merges": 0,
+     "track_ids": [
+      153
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 135,
+     "class": "car",
+     "first_frame": 378,
+     "last_frame": 432,
+     "last_center": [
+      0.43846,
+      0.32789
+     ],
+     "first_center": [
+      0.28709,
+      0.43209
+     ],
+     "frames_in_zone": 14,
+     "reid_merges": 1,
+     "track_ids": [
+      154,
+      176
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 136,
+     "class": "car",
+     "first_frame": 383,
+     "last_frame": 383,
+     "last_center": [
+      0.38121,
+      0.20968
+     ],
+     "first_center": [
+      0.38121,
+      0.20968
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      155
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 137,
+     "class": "car",
+     "first_frame": 394,
+     "last_frame": 394,
+     "last_center": [
+      0.79392,
+      0.7179
+     ],
+     "first_center": [
+      0.79392,
+      0.7179
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      156
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 138,
+     "class": "car",
+     "first_frame": 401,
+     "last_frame": 401,
+     "last_center": [
+      0.07972,
+      0.28901
+     ],
+     "first_center": [
+      0.07972,
+      0.28901
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      157
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 139,
+     "class": "car",
+     "first_frame": 401,
+     "last_frame": 404,
+     "last_center": [
+      0.26838,
+      0.42699
+     ],
+     "first_center": [
+      0.33274,
+      0.36136
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      158
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 140,
+     "class": "car",
+     "first_frame": 402,
+     "last_frame": 417,
+     "last_center": [
+      0.17868,
+      0.45396
+     ],
+     "first_center": [
+      0.18325,
+      0.49855
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 1,
+     "track_ids": [
+      159,
+      162
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 141,
+     "class": "garbagetruck",
+     "first_frame": 410,
+     "last_frame": 415,
+     "last_center": [
+      0.43778,
+      0.37139
+     ],
+     "first_center": [
+      0.53358,
+      0.25881
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      160
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 142,
+     "class": "car",
+     "first_frame": 416,
+     "last_frame": 416,
+     "last_center": [
+      0.4721,
+      0.61032
+     ],
+     "first_center": [
+      0.4721,
+      0.61032
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      161
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 143,
+     "class": "car",
+     "first_frame": 417,
+     "last_frame": 461,
+     "last_center": [
+      0.85396,
+      0.39091
+     ],
+     "first_center": [
+      0.84263,
+      0.45775
+     ],
+     "frames_in_zone": 11,
+     "reid_merges": 0,
+     "track_ids": [
+      163
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 144,
+     "class": "car",
+     "first_frame": 417,
+     "last_frame": 436,
+     "last_center": [
+      0.61311,
+      0.31407
+     ],
+     "first_center": [
+      0.67958,
+      0.30064
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 1,
+     "track_ids": [
+      164,
+      179
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 145,
+     "class": "car",
+     "first_frame": 418,
+     "last_frame": 418,
+     "last_center": [
+      0.61466,
+      0.84202
+     ],
+     "first_center": [
+      0.61466,
+      0.84202
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      165
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 146,
+     "class": "truck",
+     "first_frame": 419,
+     "last_frame": 460,
+     "last_center": [
+      0.22334,
+      0.49309
+     ],
+     "first_center": [
+      0.13176,
+      0.62241
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 1,
+     "track_ids": [
+      166,
+      184
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 147,
+     "class": "car",
+     "first_frame": 419,
+     "last_frame": 439,
+     "last_center": [
+      0.06447,
+      0.519
+     ],
+     "first_center": [
+      0.07401,
+      0.49761
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 1,
+     "track_ids": [
+      167,
+      181
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 148,
+     "class": "car",
+     "first_frame": 421,
+     "last_frame": 453,
+     "last_center": [
+      0.49764,
+      0.50403
+     ],
+     "first_center": [
+      0.55099,
+      0.49063
+     ],
+     "frames_in_zone": 7,
+     "reid_merges": 0,
+     "track_ids": [
+      168
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 149,
+     "class": "car",
+     "first_frame": 423,
+     "last_frame": 468,
+     "last_center": [
+      0.8326,
+      0.23266
+     ],
+     "first_center": [
+      0.8408,
+      0.27388
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 2,
+     "track_ids": [
+      169,
+      182,
+      196
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 150,
+     "class": "car",
+     "first_frame": 426,
+     "last_frame": 426,
+     "last_center": [
+      0.75063,
+      0.32307
+     ],
+     "first_center": [
+      0.75063,
+      0.32307
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      170
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 151,
+     "class": "car",
+     "first_frame": 430,
+     "last_frame": 430,
+     "last_center": [
+      0.08991,
+      0.1184
+     ],
+     "first_center": [
+      0.08991,
+      0.1184
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      171
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 152,
+     "class": "van",
+     "first_frame": 430,
+     "last_frame": 431,
+     "last_center": [
+      0.22684,
+      0.33033
+     ],
+     "first_center": [
+      0.1383,
+      0.53722
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      172
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 153,
+     "class": "car",
+     "first_frame": 430,
+     "last_frame": 430,
+     "last_center": [
+      0.19974,
+      0.05295
+     ],
+     "first_center": [
+      0.19974,
+      0.05295
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      173
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 154,
+     "class": "car",
+     "first_frame": 432,
+     "last_frame": 457,
+     "last_center": [
+      0.17463,
+      0.56954
+     ],
+     "first_center": [
+      0.22387,
+      0.49401
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 1,
+     "track_ids": [
+      175,
+      187
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 155,
+     "class": "car",
+     "first_frame": 432,
+     "last_frame": 432,
+     "last_center": [
+      0.65038,
+      0.19115
+     ],
+     "first_center": [
+      0.65038,
+      0.19115
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      177
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 156,
+     "class": "van",
+     "first_frame": 434,
+     "last_frame": 434,
+     "last_center": [
+      0.10508,
+      0.32448
+     ],
+     "first_center": [
+      0.10508,
+      0.32448
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      178
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 157,
+     "class": "car",
+     "first_frame": 436,
+     "last_frame": 451,
+     "last_center": [
+      0.77646,
+      0.79407
+     ],
+     "first_center": [
+      0.78304,
+      0.61365
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      180
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 158,
+     "class": "car",
+     "first_frame": 441,
+     "last_frame": 441,
+     "last_center": [
+      0.58527,
+      0.66875
+     ],
+     "first_center": [
+      0.58527,
+      0.66875
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      183
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 159,
+     "class": "car",
+     "first_frame": 446,
+     "last_frame": 460,
+     "last_center": [
+      0.33411,
+      0.56336
+     ],
+     "first_center": [
+      0.27419,
+      0.59633
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      185
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 160,
+     "class": "car",
+     "first_frame": 452,
+     "last_frame": 466,
+     "last_center": [
+      0.16008,
+      0.16401
+     ],
+     "first_center": [
+      0.21067,
+      0.15352
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      186
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 161,
+     "class": "car",
+     "first_frame": 458,
+     "last_frame": 483,
+     "last_center": [
+      0.73458,
+      0.33942
+     ],
+     "first_center": [
+      0.63203,
+      0.51791
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      188
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 162,
+     "class": "garbagetruck",
+     "first_frame": 459,
+     "last_frame": 459,
+     "last_center": [
+      0.47437,
+      0.32481
+     ],
+     "first_center": [
+      0.47437,
+      0.32481
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      189
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 163,
+     "class": "car",
+     "first_frame": 462,
+     "last_frame": 462,
+     "last_center": [
+      0.13924,
+      0.32056
+     ],
+     "first_center": [
+      0.13924,
+      0.32056
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      190
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 164,
+     "class": "car",
+     "first_frame": 463,
+     "last_frame": 482,
+     "last_center": [
+      0.88275,
+      0.49134
+     ],
+     "first_center": [
+      0.91742,
+      0.46699
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      191
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 165,
+     "class": "car",
+     "first_frame": 464,
+     "last_frame": 504,
+     "last_center": [
+      0.64046,
+      0.28723
+     ],
+     "first_center": [
+      0.69269,
+      0.3031
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 2,
+     "track_ids": [
+      192,
+      204,
+      220
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 166,
+     "class": "car",
+     "first_frame": 464,
+     "last_frame": 464,
+     "last_center": [
+      0.8546,
+      0.29799
+     ],
+     "first_center": [
+      0.8546,
+      0.29799
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      193
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 167,
+     "class": "car",
+     "first_frame": 465,
+     "last_frame": 465,
+     "last_center": [
+      0.28954,
+      0.68602
+     ],
+     "first_center": [
+      0.28954,
+      0.68602
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      194
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 168,
+     "class": "car",
+     "first_frame": 465,
+     "last_frame": 465,
+     "last_center": [
+      0.92127,
+      0.84413
+     ],
+     "first_center": [
+      0.92127,
+      0.84413
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      195
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 169,
+     "class": "car",
+     "first_frame": 469,
+     "last_frame": 485,
+     "last_center": [
+      0.84284,
+      0.58644
+     ],
+     "first_center": [
+      0.82439,
+      0.64667
+     ],
+     "frames_in_zone": 5,
+     "reid_merges": 0,
+     "track_ids": [
+      197
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 170,
+     "class": "car",
+     "first_frame": 470,
+     "last_frame": 470,
+     "last_center": [
+      0.218,
+      0.35548
+     ],
+     "first_center": [
+      0.218,
+      0.35548
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      198
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 171,
+     "class": "car",
+     "first_frame": 472,
+     "last_frame": 472,
+     "last_center": [
+      0.79783,
+      0.32967
+     ],
+     "first_center": [
+      0.79783,
+      0.32967
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      199
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 172,
+     "class": "van",
+     "first_frame": 473,
+     "last_frame": 477,
+     "last_center": [
+      0.34909,
+      0.43575
+     ],
+     "first_center": [
+      0.32448,
+      0.50434
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      200
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 173,
+     "class": "car",
+     "first_frame": 473,
+     "last_frame": 473,
+     "last_center": [
+      0.51871,
+      0.56686
+     ],
+     "first_center": [
+      0.51871,
+      0.56686
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      201
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 174,
+     "class": "car",
+     "first_frame": 474,
+     "last_frame": 474,
+     "last_center": [
+      0.0648,
+      0.51831
+     ],
+     "first_center": [
+      0.0648,
+      0.51831
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      202
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 175,
+     "class": "garbagetruck",
+     "first_frame": 476,
+     "last_frame": 476,
+     "last_center": [
+      0.83735,
+      0.63294
+     ],
+     "first_center": [
+      0.83735,
+      0.63294
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      203
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 176,
+     "class": "van",
+     "first_frame": 480,
+     "last_frame": 491,
+     "last_center": [
+      0.4009,
+      0.65109
+     ],
+     "first_center": [
+      0.40085,
+      0.58232
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      205
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 177,
+     "class": "van",
+     "first_frame": 482,
+     "last_frame": 482,
+     "last_center": [
+      0.28871,
+      0.31609
+     ],
+     "first_center": [
+      0.28871,
+      0.31609
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      206
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 178,
+     "class": "car",
+     "first_frame": 484,
+     "last_frame": 485,
+     "last_center": [
+      0.69396,
+      0.47952
+     ],
+     "first_center": [
+      0.69468,
+      0.57677
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      207
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 179,
+     "class": "car",
+     "first_frame": 485,
+     "last_frame": 485,
+     "last_center": [
+      0.60244,
+      0.40028
+     ],
+     "first_center": [
+      0.60244,
+      0.40028
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      208
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 180,
+     "class": "car",
+     "first_frame": 485,
+     "last_frame": 485,
+     "last_center": [
+      0.68914,
+      0.83857
+     ],
+     "first_center": [
+      0.68914,
+      0.83857
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      209
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 181,
+     "class": "van",
+     "first_frame": 486,
+     "last_frame": 486,
+     "last_center": [
+      0.86776,
+      0.22326
+     ],
+     "first_center": [
+      0.86776,
+      0.22326
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      210
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 182,
+     "class": "garbagetruck",
+     "first_frame": 487,
+     "last_frame": 518,
+     "last_center": [
+      0.33572,
+      0.28447
+     ],
+     "first_center": [
+      0.27898,
+      0.18124
+     ],
+     "frames_in_zone": 9,
+     "reid_merges": 0,
+     "track_ids": [
+      211
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 183,
+     "class": "garbagetruck",
+     "first_frame": 490,
+     "last_frame": 499,
+     "last_center": [
+      0.39252,
+      0.3183
+     ],
+     "first_center": [
+      0.46485,
+      0.39334
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      212
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 184,
+     "class": "car",
+     "first_frame": 491,
+     "last_frame": 491,
+     "last_center": [
+      0.25943,
+      0.51605
+     ],
+     "first_center": [
+      0.25943,
+      0.51605
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      213
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 185,
+     "class": "car",
+     "first_frame": 494,
+     "last_frame": 494,
+     "last_center": [
+      0.53776,
+      0.0955
+     ],
+     "first_center": [
+      0.53776,
+      0.0955
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      214
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 186,
+     "class": "car",
+     "first_frame": 495,
+     "last_frame": 526,
+     "last_center": [
+      0.25509,
+      0.62102
+     ],
+     "first_center": [
+      0.1951,
+      0.57706
+     ],
+     "frames_in_zone": 7,
+     "reid_merges": 1,
+     "track_ids": [
+      215,
+      231
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 187,
+     "class": "car",
+     "first_frame": 495,
+     "last_frame": 508,
+     "last_center": [
+      0.78704,
+      0.38465
+     ],
+     "first_center": [
+      0.75143,
+      0.41668
+     ],
+     "frames_in_zone": 5,
+     "reid_merges": 0,
+     "track_ids": [
+      216
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 188,
+     "class": "car",
+     "first_frame": 499,
+     "last_frame": 499,
+     "last_center": [
+      0.61765,
+      0.08034
+     ],
+     "first_center": [
+      0.61765,
+      0.08034
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      217
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 189,
+     "class": "car",
+     "first_frame": 499,
+     "last_frame": 499,
+     "last_center": [
+      0.70805,
+      0.11909
+     ],
+     "first_center": [
+      0.70805,
+      0.11909
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      218
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 190,
+     "class": "car",
+     "first_frame": 503,
+     "last_frame": 503,
+     "last_center": [
+      0.75126,
+      0.4268
+     ],
+     "first_center": [
+      0.75126,
+      0.4268
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      219
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 191,
+     "class": "car",
+     "first_frame": 504,
+     "last_frame": 507,
+     "last_center": [
+      0.09924,
+      0.46326
+     ],
+     "first_center": [
+      0.17954,
+      0.44008
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      221
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 192,
+     "class": "car",
+     "first_frame": 507,
+     "last_frame": 510,
+     "last_center": [
+      0.26413,
+      0.33464
+     ],
+     "first_center": [
+      0.33686,
+      0.32017
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      222
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 193,
+     "class": "garbagetruck",
+     "first_frame": 510,
+     "last_frame": 533,
+     "last_center": [
+      0.3295,
+      0.24709
+     ],
+     "first_center": [
+      0.39124,
+      0.11873
+     ],
+     "frames_in_zone": 7,
+     "reid_merges": 0,
+     "track_ids": [
+      223
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 194,
+     "class": "car",
+     "first_frame": 510,
+     "last_frame": 521,
+     "last_center": [
+      0.8419,
+      0.61374
+     ],
+     "first_center": [
+      0.59067,
+      0.48598
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      224
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 195,
+     "class": "car",
+     "first_frame": 511,
+     "last_frame": 522,
+     "last_center": [
+      0.62082,
+      0.3221
+     ],
+     "first_center": [
+      0.59204,
+      0.41265
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      225
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 196,
+     "class": "car",
+     "first_frame": 514,
+     "last_frame": 514,
+     "last_center": [
+      0.0879,
+      0.09143
+     ],
+     "first_center": [
+      0.0879,
+      0.09143
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      226
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 197,
+     "class": "car",
+     "first_frame": 516,
+     "last_frame": 516,
+     "last_center": [
+      0.55112,
+      0.38953
+     ],
+     "first_center": [
+      0.55112,
+      0.38953
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      227
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 198,
+     "class": "car",
+     "first_frame": 517,
+     "last_frame": 555,
+     "last_center": [
+      0.19975,
+      0.28542
+     ],
+     "first_center": [
+      0.35626,
+      0.49362
+     ],
+     "frames_in_zone": 11,
+     "reid_merges": 0,
+     "track_ids": [
+      228
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 199,
+     "class": "van",
+     "first_frame": 519,
+     "last_frame": 519,
+     "last_center": [
+      0.20301,
+      0.12422
+     ],
+     "first_center": [
+      0.20301,
+      0.12422
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      229
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 200,
+     "class": "car",
+     "first_frame": 523,
+     "last_frame": 538,
+     "last_center": [
+      0.75892,
+      0.47526
+     ],
+     "first_center": [
+      0.69297,
+      0.38141
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      230
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 201,
+     "class": "car",
+     "first_frame": 529,
+     "last_frame": 529,
+     "last_center": [
+      0.43766,
+      0.84682
+     ],
+     "first_center": [
+      0.43766,
+      0.84682
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      232
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 202,
+     "class": "car",
+     "first_frame": 531,
+     "last_frame": 531,
+     "last_center": [
+      0.66269,
+      0.06424
+     ],
+     "first_center": [
+      0.66269,
+      0.06424
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      233
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 203,
+     "class": "garbagetruck",
+     "first_frame": 532,
+     "last_frame": 545,
+     "last_center": [
+      0.51813,
+      0.75193
+     ],
+     "first_center": [
+      0.23147,
+      0.53371
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      234
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 204,
+     "class": "car",
+     "first_frame": 533,
+     "last_frame": 533,
+     "last_center": [
+      0.07428,
+      0.20271
+     ],
+     "first_center": [
+      0.07428,
+      0.20271
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      235
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 205,
+     "class": "van",
+     "first_frame": 536,
+     "last_frame": 536,
+     "last_center": [
+      0.71631,
+      0.34792
+     ],
+     "first_center": [
+      0.71631,
+      0.34792
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      236
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 206,
+     "class": "car",
+     "first_frame": 537,
+     "last_frame": 537,
+     "last_center": [
+      0.53025,
+      0.17878
+     ],
+     "first_center": [
+      0.53025,
+      0.17878
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      237
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 207,
+     "class": "garbagetruck",
+     "first_frame": 540,
+     "last_frame": 540,
+     "last_center": [
+      0.86074,
+      0.68534
+     ],
+     "first_center": [
+      0.86074,
+      0.68534
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      238
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 208,
+     "class": "car",
+     "first_frame": 542,
+     "last_frame": 542,
+     "last_center": [
+      0.52316,
+      0.33256
+     ],
+     "first_center": [
+      0.52316,
+      0.33256
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      239
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 209,
+     "class": "van",
+     "first_frame": 544,
+     "last_frame": 544,
+     "last_center": [
+      0.26455,
+      0.37647
+     ],
+     "first_center": [
+      0.26455,
+      0.37647
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      240
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 210,
+     "class": "car",
+     "first_frame": 546,
+     "last_frame": 652,
+     "last_center": [
+      0.13153,
+      0.29225
+     ],
+     "first_center": [
+      0.43651,
+      0.22047
+     ],
+     "frames_in_zone": 26,
+     "reid_merges": 0,
+     "track_ids": [
+      242
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 211,
+     "class": "car",
+     "first_frame": 547,
+     "last_frame": 585,
+     "last_center": [
+      0.66501,
+      0.18689
+     ],
+     "first_center": [
+      0.6288,
+      0.23844
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 1,
+     "track_ids": [
+      243,
+      255
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 212,
+     "class": "car",
+     "first_frame": 547,
+     "last_frame": 547,
+     "last_center": [
+      0.75004,
+      0.77342
+     ],
+     "first_center": [
+      0.75004,
+      0.77342
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      244
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 213,
+     "class": "car",
+     "first_frame": 550,
+     "last_frame": 582,
+     "last_center": [
+      0.45246,
+      0.24205
+     ],
+     "first_center": [
+      0.39617,
+      0.48912
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 0,
+     "track_ids": [
+      245
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 214,
+     "class": "car",
+     "first_frame": 553,
+     "last_frame": 566,
+     "last_center": [
+      0.66263,
+      0.62095
+     ],
+     "first_center": [
+      0.78813,
+      0.36469
+     ],
+     "frames_in_zone": 3,
+     "reid_merges": 0,
+     "track_ids": [
+      246
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 215,
+     "class": "garbagetruck",
+     "first_frame": 560,
+     "last_frame": 560,
+     "last_center": [
+      0.50114,
+      0.30716
+     ],
+     "first_center": [
+      0.50114,
+      0.30716
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      247
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 216,
+     "class": "truck",
+     "first_frame": 561,
+     "last_frame": 566,
+     "last_center": [
+      0.401,
+      0.27466
+     ],
+     "first_center": [
+      0.42048,
+      0.31713
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      248
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 217,
+     "class": "car",
+     "first_frame": 563,
+     "last_frame": 564,
+     "last_center": [
+      0.293,
+      0.28728
+     ],
+     "first_center": [
+      0.29142,
+      0.27309
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      249
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 218,
+     "class": "van",
+     "first_frame": 566,
+     "last_frame": 566,
+     "last_center": [
+      0.11272,
+      0.16815
+     ],
+     "first_center": [
+      0.11272,
+      0.16815
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      250
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 219,
+     "class": "car",
+     "first_frame": 567,
+     "last_frame": 626,
+     "last_center": [
+      0.73537,
+      0.25035
+     ],
+     "first_center": [
+      0.77925,
+      0.38482
+     ],
+     "frames_in_zone": 14,
+     "reid_merges": 1,
+     "track_ids": [
+      251,
+      268
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 220,
+     "class": "car",
+     "first_frame": 567,
+     "last_frame": 578,
+     "last_center": [
+      0.2277,
+      0.58301
+     ],
+     "first_center": [
+      0.18418,
+      0.47106
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      252
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 221,
+     "class": "car",
+     "first_frame": 568,
+     "last_frame": 568,
+     "last_center": [
+      0.84064,
+      0.62885
+     ],
+     "first_center": [
+      0.84064,
+      0.62885
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      253
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 222,
+     "class": "car",
+     "first_frame": 579,
+     "last_frame": 579,
+     "last_center": [
+      0.79678,
+      0.34428
+     ],
+     "first_center": [
+      0.79678,
+      0.34428
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      254
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 223,
+     "class": "car",
+     "first_frame": 588,
+     "last_frame": 596,
+     "last_center": [
+      0.57244,
+      0.3392
+     ],
+     "first_center": [
+      0.63358,
+      0.32459
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      256
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 224,
+     "class": "car",
+     "first_frame": 589,
+     "last_frame": 589,
+     "last_center": [
+      0.42708,
+      0.40298
+     ],
+     "first_center": [
+      0.42708,
+      0.40298
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      257
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 225,
+     "class": "car",
+     "first_frame": 591,
+     "last_frame": 616,
+     "last_center": [
+      0.54153,
+      0.19564
+     ],
+     "first_center": [
+      0.40792,
+      0.52234
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 0,
+     "track_ids": [
+      258
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 226,
+     "class": "truck",
+     "first_frame": 594,
+     "last_frame": 594,
+     "last_center": [
+      0.2919,
+      0.30054
+     ],
+     "first_center": [
+      0.2919,
+      0.30054
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      259
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 227,
+     "class": "car",
+     "first_frame": 596,
+     "last_frame": 596,
+     "last_center": [
+      0.84495,
+      0.49092
+     ],
+     "first_center": [
+      0.84495,
+      0.49092
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      260
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 228,
+     "class": "car",
+     "first_frame": 599,
+     "last_frame": 605,
+     "last_center": [
+      0.68316,
+      0.61669
+     ],
+     "first_center": [
+      0.82083,
+      0.69803
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      261
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 229,
+     "class": "car",
+     "first_frame": 601,
+     "last_frame": 601,
+     "last_center": [
+      0.37242,
+      0.67688
+     ],
+     "first_center": [
+      0.37242,
+      0.67688
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      262
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 230,
+     "class": "car",
+     "first_frame": 603,
+     "last_frame": 603,
+     "last_center": [
+      0.28961,
+      0.57039
+     ],
+     "first_center": [
+      0.28961,
+      0.57039
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      263
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 231,
+     "class": "van",
+     "first_frame": 611,
+     "last_frame": 680,
+     "last_center": [
+      0.64906,
+      0.15016
+     ],
+     "first_center": [
+      0.46641,
+      0.31904
+     ],
+     "frames_in_zone": 13,
+     "reid_merges": 0,
+     "track_ids": [
+      264
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 232,
+     "class": "car",
+     "first_frame": 612,
+     "last_frame": 612,
+     "last_center": [
+      0.7239,
+      0.50697
+     ],
+     "first_center": [
+      0.7239,
+      0.50697
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      265
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 233,
+     "class": "van",
+     "first_frame": 612,
+     "last_frame": 612,
+     "last_center": [
+      0.11542,
+      0.18627
+     ],
+     "first_center": [
+      0.11542,
+      0.18627
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      266
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 234,
+     "class": "truck",
+     "first_frame": 618,
+     "last_frame": 646,
+     "last_center": [
+      0.45044,
+      0.2238
+     ],
+     "first_center": [
+      0.60855,
+      0.72522
+     ],
+     "frames_in_zone": 10,
+     "reid_merges": 0,
+     "track_ids": [
+      267
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 235,
+     "class": "car",
+     "first_frame": 628,
+     "last_frame": 643,
+     "last_center": [
+      0.67595,
+      0.70888
+     ],
+     "first_center": [
+      0.518,
+      0.63004
+     ],
+     "frames_in_zone": 6,
+     "reid_merges": 0,
+     "track_ids": [
+      269
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 236,
+     "class": "car",
+     "first_frame": 629,
+     "last_frame": 659,
+     "last_center": [
+      0.5468,
+      0.44521
+     ],
+     "first_center": [
+      0.61503,
+      0.37452
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      270
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 237,
+     "class": "car",
+     "first_frame": 630,
+     "last_frame": 630,
+     "last_center": [
+      0.54833,
+      0.56493
+     ],
+     "first_center": [
+      0.54833,
+      0.56493
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      271
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 238,
+     "class": "car",
+     "first_frame": 647,
+     "last_frame": 696,
+     "last_center": [
+      0.71728,
+      0.24203
+     ],
+     "first_center": [
+      0.48354,
+      0.4613
+     ],
+     "frames_in_zone": 17,
+     "reid_merges": 0,
+     "track_ids": [
+      273
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 239,
+     "class": "car",
+     "first_frame": 657,
+     "last_frame": 657,
+     "last_center": [
+      0.51269,
+      0.23831
+     ],
+     "first_center": [
+      0.51269,
+      0.23831
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      274
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 240,
+     "class": "garbagetruck",
+     "first_frame": 664,
+     "last_frame": 679,
+     "last_center": [
+      0.40826,
+      0.2855
+     ],
+     "first_center": [
+      0.31637,
+      0.27923
+     ],
+     "frames_in_zone": 8,
+     "reid_merges": 0,
+     "track_ids": [
+      275
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 241,
+     "class": "truck",
+     "first_frame": 667,
+     "last_frame": 667,
+     "last_center": [
+      0.73827,
+      0.64228
+     ],
+     "first_center": [
+      0.73827,
+      0.64228
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      276
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 242,
+     "class": "car",
+     "first_frame": 669,
+     "last_frame": 669,
+     "last_center": [
+      0.73141,
+      0.24612
+     ],
+     "first_center": [
+      0.73141,
+      0.24612
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      277
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 243,
+     "class": "van",
+     "first_frame": 672,
+     "last_frame": 672,
+     "last_center": [
+      0.2393,
+      0.20125
+     ],
+     "first_center": [
+      0.2393,
+      0.20125
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      278
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 244,
+     "class": "car",
+     "first_frame": 676,
+     "last_frame": 676,
+     "last_center": [
+      0.21903,
+      0.65631
+     ],
+     "first_center": [
+      0.21903,
+      0.65631
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      279
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 245,
+     "class": "car",
+     "first_frame": 678,
+     "last_frame": 721,
+     "last_center": [
+      0.48033,
+      0.69003
+     ],
+     "first_center": [
+      0.49451,
+      0.35499
+     ],
+     "frames_in_zone": 17,
+     "reid_merges": 0,
+     "track_ids": [
+      280
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 246,
+     "class": "car",
+     "first_frame": 684,
+     "last_frame": 714,
+     "last_center": [
+      0.489,
+      0.3282
+     ],
+     "first_center": [
+      0.28768,
+      0.43203
+     ],
+     "frames_in_zone": 13,
+     "reid_merges": 0,
+     "track_ids": [
+      281
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 247,
+     "class": "car",
+     "first_frame": 689,
+     "last_frame": 689,
+     "last_center": [
+      0.38133,
+      0.21041
+     ],
+     "first_center": [
+      0.38133,
+      0.21041
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      282
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 248,
+     "class": "car",
+     "first_frame": 700,
+     "last_frame": 700,
+     "last_center": [
+      0.79414,
+      0.71881
+     ],
+     "first_center": [
+      0.79414,
+      0.71881
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      283
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 249,
+     "class": "car",
+     "first_frame": 707,
+     "last_frame": 707,
+     "last_center": [
+      0.08015,
+      0.2866
+     ],
+     "first_center": [
+      0.08015,
+      0.2866
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      284
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 250,
+     "class": "car",
+     "first_frame": 707,
+     "last_frame": 710,
+     "last_center": [
+      0.26854,
+      0.42828
+     ],
+     "first_center": [
+      0.33305,
+      0.36077
+     ],
+     "frames_in_zone": 2,
+     "reid_merges": 0,
+     "track_ids": [
+      285
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 251,
+     "class": "car",
+     "first_frame": 708,
+     "last_frame": 708,
+     "last_center": [
+      0.18501,
+      0.49802
+     ],
+     "first_center": [
+      0.18501,
+      0.49802
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      286
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 252,
+     "class": "car",
+     "first_frame": 715,
+     "last_frame": 715,
+     "last_center": [
+      0.67712,
+      0.07436
+     ],
+     "first_center": [
+      0.67712,
+      0.07436
+     ],
+     "frames_in_zone": 1,
+     "reid_merges": 0,
+     "track_ids": [
+      287
+     ]
+    },
+    {
+     "camera": "waste_01/waste_truck",
+     "vehicle_id": 253,
+     "class": "garbagetruck",
+     "first_frame": 717,
+     "last_frame": 722,
+     "last_center": [
+      0.43807,
+      0.37568
+     ],
+     "first_center": [
+      0.53342,
+      0.25913
+     ],
+     "frames_in_zone": 4,
+     "reid_merges": 0,
+     "track_ids": [
+      288
+     ]
+    }
+   ],
+   "distinct_resolutions": 238,
+   "tracking_applicable": false
+  }
+ }
+}

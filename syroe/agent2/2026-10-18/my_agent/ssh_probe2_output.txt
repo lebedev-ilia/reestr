@@ -1,0 +1,129 @@
+spawn ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null user2@172.30.4.134
+Warning: Permanently added '172.30.4.134' (ED25519) to the list of known hosts.
+
+
+user2@172.30.4.134's password: 
+[СЕКРЕТ_УДАЛЁН_2026-10-18] to Ubuntu 24.04.5 LTS (GNU/Linux 6.8.0-142-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Oct  9 07:57:25 AM UTC 2026
+
+  System load:    0.0              Temperature:           52.0 C
+  Usage of /home: 4.5% of 1.73TB   Processes:             576
+  Memory usage:   12%              Users logged in:       2
+  Swap usage:     0%               IPv4 address for eth0: 172.30.1.206
+
+ * Canonical Workshop gives developers fast, composable, reproducible, and
+   secure developer environments that are perfect for agentic workflows.
+
+   https://ubuntu.com/workshop
+
+Expanded Security Maintenance for Applications is not enabled.
+
+7 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+Last login: Fri Oct  9 07:57:34 2026 from 172.30.4.39
+
+$ echo '=== USER2 HOME ==='; ls -la /home/user2
+=== USER2 HOME ===
+total 24
+drwxr-x--- 3 user2 user2 4096 Oct  9 06:05 .
+drwxr-xr-x 7 root  root  4096 Oct  9 06:40 ..
+-rw-r--r-- 1 user2 user2  220 Mar 31  2024 .bash_logout
+-rw-r--r-- 1 user2 user2 3771 Mar 31  2024 .bashrc
+drwx------ 2 user2 user2 4096 Oct  9 06:05 .cache
+-rw-r--r-- 1 user2 user2  807 Mar 31  2024 .profile
+$ echo '=== COUNTS PER FOLDER ==='; for d in /home/cvat_share/*/; do printf '%-45s ' "$d"; find "$d" -type f 2>/dev/null | wc -l; done
+=== COUNTS PER FOLDER ===
+/home/cvat_share/all_number/                  12849
+/home/cvat_share/belaz_images/                1256
+/home/cvat_share/drobilka_images/             1750
+/home/cvat_share/drobilka_images_04/          102
+/home/cvat_share/drobilka_images_05/          97
+/home/cvat_share/drobilka_images_06/          93
+/home/cvat_share/drobilka_images_07/          129
+/home/cvat_share/drobilka_images_empty/       18
+/home/cvat_share/drobilka_images_new/         105
+/home/cvat_share/dumpster/                    4037
+/home/cvat_share/dumpster_vertical/           34
+/home/cvat_share/for_cvat_images_number/      4402
+/home/cvat_share/garbagetruck_03/             635
+/home/cvat_share/truck/                       3902
+/home/cvat_share/truck_03/                    1127
+/home/cvat_share/van_02/                      213
+/home/cvat_share/van_03/                      507
+/home/cvat_share/waste_01/                    718
+/home/cvat_share/waste_numbers/               3396
+$ echo '=== ANNOTATIONS/JSON ==='; find /home/cvat_share -maxdepth 2 \( -iname '*.json' -o -iname '*.xml' -o -iname '*.zip' -o -iname '*.txt' \) 2>/dev/null | head -30
+=== ANNOTATIONS/JSON ===
+/home/cvat_share/task_waste_up_backup_2023_04_29_01_12_55.zip
+/home/cvat_share/task_dumpster_backup_2023_09_05_23_16_26.zip
+$ echo '=== SIZE ==='; du -sh /home/cvat_share 2>/dev/null
+=== SIZE ===
+26G	/home/cvat_share
+$ echo '=== CPU/MEM ==='; nproc; free -h | head -2
+=== CPU/MEM ===
+32
+               total        used        free      shared  buff/cache   available
+Mem:            60Gi       6.0Gi       4.3Gi        35Mi        50Gi        54Gi
+$ echo '=== GPU ==='; nvidia-smi 2>/dev/null | head -20 || echo 'no nvidia-smi'
+=== GPU ===
+Fri Oct  9 07:57:55 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 5080        Off |   00000000:01:00.0 Off |                  N/A |
+| 47%   30C    P0             35W /  360W |       0MiB /  16303MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+$ echo '=== DOCKER SUDO ==='; sudo -n docker ps 2>/dev/null | head -20 || echo 'no passwordless sudo docker'
+=== DOCKER SUDO ===
+$ echo '=== SAMPLE IMAGES (dumpster) ==='; ls -la /home/cvat_share/dumpster/source_images 2>/dev/null | head -10; echo '--- truck ---'; ls -la /home/cvat_share/truck 2>/dev/null | head -10
+=== SAMPLE IMAGES (dumpster) ===
+total 850820
+drwxr-xr-x  2 user user   40960 Jun  4  2020 .
+drwxr-xr-x 11 user user    4096 May 29  2023 ..
+-rw-r--r--  1 user user 1262726 Oct  7  2019 20180812_104123.jpeg
+-rw-r--r--  1 user user 1165035 Oct  7  2019 20180812_104134.jpeg
+-rw-r--r--  1 user user 1640905 Oct  7  2019 20180812_104650.jpeg
+-rw-r--r--  1 user user 1405433 Oct  7  2019 20180812_104657.jpeg
+-rw-r--r--  1 user user 1697135 Oct  7  2019 20180812_104711.jpeg
+-rw-r--r--  1 user user 1182344 Oct  7  2019 20180812_104723.jpeg
+-rw-r--r--  1 user user 1365965 Oct  7  2019 20180812_105146.jpeg
+--- truck ---
+total 852016
+drwxr-xr-x  2 user user  147456 Apr 28  2023 .
+drwxr-xr-x 21 user user    4096 Oct  7 07:03 ..
+-rw-rw-r--  1 user user 1055105 Apr 28  2023 garbagetruck00000.jpg
+-rw-rw-r--  1 user user  220208 Apr 28  2023 garbagetruck00001.jpg
+-rw-rw-r--  1 user user  233879 Apr 28  2023 garbagetruck00002.jpg
+-rw-rw-r--  1 user user  221057 Apr 28  2023 garbagetruck00003.jpg
+-rw-rw-r--  1 user user  244092 Apr 28  2023 garbagetruck00004.jpg
+-rw-rw-r--  1 user user  246956 Apr 28  2023 garbagetruck00005.jpg
+-rw-rw-r--  1 user user  252834 Apr 28  2023 garbagetruck00006.jpg
+$ echo '=== CVAT ABOUT ==='; curl -s -m 6 -H 'Host: cvat2.web-scada.ru' http://localhost:8080/api/server/about
+=== CVAT ABOUT ===
+{"name":"Computer Vision Annotation Tool","description":"CVAT is completely re-designed and re-implemented version of Video Annotation Tool from Irvine, California tool. It is free, online, interactive video and image annotation tool for computer vision. It is being used by our team to annotate million of objects with different properties. Many UI and UX decisions are based on feedbacks from professional data annotation team.","version":"2.77.1","logo_url":"http://cvat2.web-scada.ru/static/logo.svg","subtitle":"Open Data Annotation Platform"}$ exit
+Connection to 172.30.4.134 closed.
+

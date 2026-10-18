@@ -1,0 +1,223 @@
+**************************************************
+
+dumpster
+
+[
+  {
+    "name": "treewaste",
+    "id": 526,
+    "color": "#8ac8ba",
+    "attributes": []
+  },
+  {
+    "name": "tires",
+    "id": 527,
+    "color": "#947ffd",
+    "attributes": []
+  },
+  {
+    "name": "constrwaste",
+    "id": 528,
+    "color": "#b3b310",
+    "attributes": []
+  },
+  {
+    "name": "dumpster",
+    "id": 529,
+    "color": "#56238d",
+    "attributes": [
+      {
+        "id": 436,
+        "name": "type",
+        "input_type": "select",
+        "mutable": false,
+        "values": [
+          "trashcan",
+          "trashplast",
+          "trashevro",
+          "trashrso",
+          "trashpaper",
+          "trashunder"
+        ]
+      },
+      {
+        "id": 112,
+        "name": "заполнен",
+        "input_type": "radio",
+        "mutable": false,
+        "values": [
+          "none",
+          "да",
+          "нет"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "переполнен",
+        "input_type": "radio",
+        "mutable": false,
+        "values": [
+          "none",
+          "да",
+          "нет"
+        ]
+      },
+      {
+        "id": 114,
+        "name": "вне_площадки",
+        "input_type": "radio",
+        "mutable": false,
+        "values": [
+          "none",
+          "да",
+          "нет"
+        ]
+      },
+      {
+        "id": 115,
+        "name": "требует_ремонта/перевернут",
+        "input_type": "radio",
+        "mutable": false,
+        "values": [
+          "none",
+          "да",
+          "нет"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tko",
+    "id": 525,
+    "color": "#d46f45",
+    "attributes": [
+      {
+        "id": 431,
+        "name": "type",
+        "input_type": "select",
+        "mutable": false,
+        "values": [
+          "bag_dump",
+          "carton_dump",
+          "tko_dump",
+          "kgm_dump",
+          "plastic_dump"
+        ]
+      },
+      {
+        "id": 116,
+        "name": "в_контейнере",
+        "input_type": "radio",
+        "mutable": false,
+        "values": [
+          "none",
+          "да",
+          "нет"
+        ]
+      },
+      {
+        "id": 117,
+        "name": "на_площадке",
+        "input_type": "radio",
+        "mutable": false,
+        "values": [
+          "none",
+          "да",
+          "нет"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "placedump",
+    "id": 530,
+    "color": "#819478",
+    "attributes": [
+      {
+        "id": 438,
+        "name": "type",
+        "input_type": "select",
+        "mutable": false,
+        "values": [
+          "placeall",
+          "placetko",
+          "placekgm"
+        ]
+      },
+      {
+        "id": 111,
+        "name": "требует_ремонта",
+        "input_type": "radio",
+        "mutable": false,
+        "values": [
+          "none",
+          "да",
+          "нет"
+        ]
+      },
+      {
+        "id": 118,
+        "name": "навес",
+        "input_type": "radio",
+        "mutable": false,
+        "values": [
+          "none",
+          "да",
+          "нет"
+        ]
+      }
+    ]
+  }
+]
+
+**************************************************
+
+waste_track
+
+[
+  {
+    "name": "truck",
+    "id": 477,
+    "color": "#906080",
+    "attributes": []
+  },
+  {
+    "name": "garbagetruck",
+    "id": 478,
+    "color": "#d637be",
+    "attributes": []
+  },
+  {
+    "name": "van",
+    "id": 479,
+    "color": "#10a040",
+    "attributes": []
+  },
+  {
+    "name": "waste",
+    "id": 480,
+    "color": "#3cf2e6",
+    "attributes": [
+      {
+        "id": 96,
+        "name": "type",
+        "input_type": "select",
+        "mutable": false,
+        "values": [
+          "tko",
+          "kgm",
+          "constrwaste",
+          "treewaste",
+          "tires",
+          "dirt"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "car",
+    "id": 481,
+    "color": "#2080c0",
+    "attributes": []
+  }
+]

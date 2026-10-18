@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "telegram": {
+      "command": "/Users/user/Desktop/Agent2/telegram-mcp/.venv/bin/telegram-mcp",
+      "args": [],
+      "env": {
+        "TELEGRAM_API_ID": "[СЕКРЕТ_УДАЛЁН_2026-10-18]",
+        "TELEGRAM_API_HASH": "[СЕКРЕТ_УДАЛЁН_2026-10-18]",
+        "TELEGRAM_SESSION_STRING": "[СЕКРЕТ_УДАЛЁН_2026-10-18]",
+        "TELEGRAM_EXPOSED_TOOLS": "read-only"
+      }
+    }
+  }
+}

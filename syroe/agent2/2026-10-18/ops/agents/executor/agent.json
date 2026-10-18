@@ -1,0 +1,44 @@
+{
+  "budget_day": null,
+  "capability_profile": {},
+  "description": "Выполняет визированный план и сдаёт артефакт",
+  "escalation_triggers": [
+    "repeated_retry_failure",
+    "spinning_detected"
+  ],
+  "evidence_requirements": [
+    "путь к артефакту",
+    "вывод проверки"
+  ],
+  "handoff_format": "handoff/v1",
+  "lifecycle_state": "activated",
+  "max_level": 2,
+  "memory_access": {
+    "personal": "write",
+    "project": "read"
+  },
+  "name": "executor",
+  "output_contract": {
+    "artifact": "файл в artifacts/"
+  },
+  "policy_receipt": "policy/receipt.json",
+  "purpose": "Выполнять визированный план и сдавать результат с артефактом",
+  "quality_criteria": {
+    "результат_проверяем": "критерии задачи выполнены"
+  },
+  "reports_to": "timlid",
+  "reversible_only": true,
+  "role_name": "Исполнитель",
+  "role_type": "executor",
+  "schedules": [],
+  "scope": "одна задача",
+  "verification_steps": [
+    "прочитать артефакт",
+    "сверить с критериями"
+  ],
+  "version": "0.1.0",
+  "zone": [
+    "artifacts/**",
+    "memory/personal/**"
+  ]
+}

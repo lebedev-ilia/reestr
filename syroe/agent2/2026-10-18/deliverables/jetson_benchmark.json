@@ -1,0 +1,28 @@
+{
+  "baseline": {
+    "source": "process_file.log Заказчика",
+    "device": "CPU (torch.cuda.is_available() = False)",
+    "inference_ms_per_image": 6468.9,
+    "files_per_sec": 0.15
+  },
+  "ours_fp16": {
+    "engine": "/home/user/agent2/models/yolo11n_fp16.engine",
+    "gpu_compute_ms_median": 55.54,
+    "gpu_compute_ms_mean": 56.1006,
+    "throughput_qps": 17.6535,
+    "latency_ms_median": null,
+    "latency_ms_mean": null,
+    "gpu_compute_ms_min": 55.3496,
+    "h2d_ms": 0.486328,
+    "d2h_ms": 0.0380859,
+    "fps_from_latency": 18.01
+  },
+  "memory": {
+    "free_before": "619 used / 1971 total MB"
+  },
+  "raw_trtexec_tail": "ummary ===\n[10/13/2026-18:17:47] [I] Throughput: 17.6535 qps\n[10/13/2026-18:17:47] [I] Latency: min = 55.875 ms, max = 131.532 ms, mean = 56.6326 ms, median = 56.0635 ms, percentile(99%) = 73.4443 ms\n[10/13/2026-18:17:47] [I] End-to-End Host Latency: min = 55.8887 ms, max = 131.552 ms, mean = 56.6453 ms, median = 56.0762 ms, percentile(99%) = 73.4585 ms\n[10/13/2026-18:17:47] [I] Enqueue Time: min = 9.22754 ms, max = 19.7681 ms, mean = 12.769 ms, median = 12.7207 ms, percentile(99%) = 17.8799 ms\n[10/13/2026-18:17:47] [I] H2D Latency: min = 0.476562 ms, max = 1.52148 ms, mean = 0.493753 ms, median = 0.486328 ms, percentile(99%) = 0.657227 ms\n[10/13/2026-18:17:47] [I] GPU Compute Time: min = 55.3496 ms, max = 129.965 ms, mean = 56.1006 ms, median = 55.54 ms, percentile(99%) = 72.7505 ms\n[10/13/2026-18:17:47] [I] D2H Latency: min = 0.0361328 ms, max = 0.0454102 ms, mean = 0.0382506 ms, median = 0.0380859 ms, percentile(99%) = 0.0400391 ms\n[10/13/2026-18:17:47] [I] Total Host Walltime: 9.57317 s\n[10/13/2026-18:17:47] [I] Total GPU Compute Time: 9.481 s\n[10/13/2026-18:17:47] [I] Explanations of the performance metrics are printed in the verbose logs.\n[10/13/2026-18:17:47] [I] \n&&&& PASSED TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --loadEngine=/home/user/agent2/models/yolo11n_fp16.engine --iterations=100 --warmUp=1000 --duration=15 --avgRuns=10\n[10/13/2026-18:17:47] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 871, GPU 1930 (MiB)\n",
+  "measured_at": "2026-10-13 18:20:55",
+  "fps_ours": 17.6535,
+  "fps_baseline": 0.15,
+  "speedup_x": 116.5
+}

@@ -1,0 +1,44 @@
+{
+  "budget_day": null,
+  "capability_profile": {},
+  "description": "Независимо проверяет результат и пробует обойти границу",
+  "escalation_triggers": [
+    "scope_limit",
+    "cascade_prevention"
+  ],
+  "evidence_requirements": [
+    "живая попытка обхода",
+    "найденные или ненайденные дыры"
+  ],
+  "handoff_format": "handoff/v1",
+  "lifecycle_state": "activated",
+  "max_level": 2,
+  "memory_access": {
+    "personal": "write",
+    "project": "read"
+  },
+  "name": "critic",
+  "output_contract": {
+    "review": "reviews/<task>.md"
+  },
+  "policy_receipt": "policy/receipt.json",
+  "purpose": "Независимо проверять результат и искать обходы границ",
+  "quality_criteria": {
+    "проверка_живая": "попытка обхода выполнена, а не описана"
+  },
+  "reports_to": null,
+  "reversible_only": true,
+  "role_name": "Критик",
+  "role_type": "service",
+  "schedules": [],
+  "scope": "все проекты",
+  "verification_steps": [
+    "попробовать обойти границу",
+    "проверить приёмку по критериям"
+  ],
+  "version": "0.1.0",
+  "zone": [
+    "reviews/**",
+    "memory/area/**"
+  ]
+}

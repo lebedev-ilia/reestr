@@ -1,0 +1,663 @@
+workflow "gpu-rental-research-ru" completed (5 agents).
+Return value:
+[
+  {
+    "label": "РФ облака",
+    "data": {
+      "findings": [
+        {
+          "service": "Cloud.ru — платформа Advanced (GPU Accelerated Servers, P2s)",
+          "gpu": "NVIDIA V100",
+          "vram": "16 ГБ (по флейвору p2s.2xlarge.8, 8 vCPU/64 ГБ RAM)",
+          "price_hour": "243,3168 ₽/час с НДС (199,44 ₽ без НДС)",
+          "payment": "карта РФ и оплата по счёту; и физлица, и юрлица/ИП (тариф публичный)",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.ru/documents/tariffs/advanced/services/gpu-accelerated",
+          "quote": "Виртуальная машина (ECS) BYOL тип GPU Computing-accelerated (P2s) NVIDIA V100 8 vCPU 64ГБ RAM (p2s.2xlarge.8.byol) шт. час 243,3168 199,44 43,8768",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Cloud.ru — платформа Advanced (P5a)",
+          "gpu": "NVIDIA H100",
+          "vram": "не указан в тарифе (флейвор p5a.5xlarge.6, 20 vCPU/117 ГБ RAM)",
+          "price_hour": "962,6288 ₽/час с НДС (789,04 ₽ без НДС); максимум p5a.40xlarge.6 — 7701,006 ₽/час с НДС",
+          "payment": "карта РФ / счёт; физлица и юрлица",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.ru/documents/tariffs/advanced/services/gpu-accelerated",
+          "quote": "Виртуальная машина (ECS) BYOL тип GPU Computing-accelerated (P5a) NVIDIA H100 20 vCPU 117ГБ RAM (p5a.5xlarge.6.byol) шт/час час 962,6288 789,04 173,5888",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Cloud.ru — платформа Advanced (P3a)",
+          "gpu": "NVIDIA A100",
+          "vram": "не указан в тарифе (флейвор p3a.5xlarge.6, 20 vCPU/117 ГБ RAM)",
+          "price_hour": "479,7528 ₽/час с НДС (393,24 ₽ без НДС) за младшую конфигурацию; 3837,998 ₽/час за p3a.40xlarge.6",
+          "payment": "карта РФ / счёт; физлица и юрлица",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.ru/documents/tariffs/advanced/services/gpu-accelerated",
+          "quote": "Виртуальная машина (ECS) OS Essentials тип GPU Computing-accelerated (P3a) NVIDIA A100 20 vCPU 117ГБ RAM (p3a.5xlarge.6.win) шт. час 479,7528 393,24 86,5128",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Cloud.ru — платформа Evolution (Evolution Compute. GPU)",
+          "gpu": "NVIDIA A100 80GB NVLink",
+          "vram": "80 ГБ на карту (инстанс 2×A100: 30 vCPU/228 ГБ RAM)",
+          "price_hour": "732 ₽/час с НДС (600 ₽ без НДС) за конфигурацию с 2×A100; 1464 ₽ за 4×A100, 2928 ₽ за 8×A100",
+          "payment": "карта РФ / счёт; физлица и юрлица",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.ru/documents/tariffs/evolution/evolution-compute-gpu",
+          "quote": "Виртуальная машина Intel Xeon Platinum с GPU 30 vCPU/228 GB RAM/2 GPU A100 80 GB NVLink шт. час 732 600 132",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Cloud.ru — платформа Evolution",
+          "gpu": "NVIDIA H100 (PCI без NVLink и NVLink)",
+          "vram": "94 ГБ (PCI) / не указан для NVLink-версии",
+          "price_hour": "H100 PCI ×5 — 2745 ₽/час с НДС (2250 без НДС); H100 94 ГБ PCI ×5 — 3233 ₽/час; 4×H100 NVLink — 3416 ₽/час с НДС",
+          "payment": "карта РФ / счёт; физлица и юрлица",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.ru/documents/tariffs/evolution/evolution-compute-gpu",
+          "quote": "Виртуальная машина с GPU 100 vCPU/550 GB RAM/5 GPU H100 PCI без NVLink шт. час 2745 2250 495; Виртуальная машина с GPU 104 vCPU/944 Gb RAM/4 GPU H100 NVLink шт. час 3416 2800 616",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Cloud.ru — ML Space Environments (задачи/среды обучения)",
+          "gpu": "NVIDIA Tesla A100",
+          "vram": "не указан",
+          "price_hour": "311,1 ₽/час с НДС (5,185 ₽/мин) при 1–8 GPU; 1222,44 ₽/час (20,374 ₽/мин) при 9+ GPU A100",
+          "payment": "счёт/карта; тариф публичный, в бесплатный уровень Evolution GPU не входит",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.ru/documents/tariffs/ml-space/environments.html",
+          "quote": "Предоставление доступа к ML Space Environments (Задачи обучения, от 1 до 8 GPU NVIDIA Tesla A100) шт. минута 5,185 4,25 0,935",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Cloud.ru — ML Space Deployments",
+          "gpu": "NVIDIA Tesla V100",
+          "vram": "не указан",
+          "price_hour": "219,6 ₽/час с НДС (0,061 ₽/GPU-секунда) вне «Кристофари»; 614,88 ₽/час (0,1708 ₽/сек) на Кристофари",
+          "payment": "счёт/карта; тариф публичный",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.ru/documents/tariffs/ml-space/deployments.html",
+          "quote": "Предоставление доступа к ML Space Deployments (1 GPU-секунда Tesla V100) шт. секунда 0,061 0,05 0,011",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "VK Cloud — Cloud GPU (виртуальные серверы с GPU)",
+          "gpu": "NVIDIA H200",
+          "vram": "141 ГБ (GPU-44-256-H200-1) / 1128 ГБ суммарно (GPU-240-2048-H200-8)",
+          "price_hour": "1101,6 ₽/час (18,36 ₽/мин) за 1×H200 с НДС; 8811 ₽/час (146,85 ₽/мин) за 8×H200",
+          "payment": "карта РФ и СБП для физлиц, счёт/банковский перевод для ЮЛ и ИП; и физлица, и юрлица/ИП",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.vk.com/pricelist/",
+          "quote": "GPU-44-256-H200-1 (44 CPU, 256 RAM, 141 VRAM) | 1 шт | 18,36 ₽ | 793 000 ₽",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "VK Cloud — Cloud GPU",
+          "gpu": "NVIDIA A100 80GB",
+          "vram": "80 ГБ на карту (32 CPU/96 ГБ RAM за 1 карту)",
+          "price_hour": "316,2 ₽/час (5,27 ₽/мин) за 1×A100 80GB с НДС; 671,4 ₽/час за 2 карты; 1342,8 ₽/час за 4 карты",
+          "payment": "карта РФ / СБП / счёт; физлица и юрлица",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.vk.com/pricelist/",
+          "quote": "GPU1A-32-96-A100-1 (32 CPU, 96 RAM, 40 VRAM) | 1 шт | 5,27 ₽ | 227 733 ₽",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "VK Cloud — Cloud GPU",
+          "gpu": "NVIDIA V100",
+          "vram": "16 ГБ на карту",
+          "price_hour": "121,2 ₽/час (2,02 ₽/мин) за 1×V100; 243 ₽/час за 2; 486 ₽/час за 4 карты (в прайсе показана скидка −50% на 30-дневную цену)",
+          "payment": "карта РФ / СБП / счёт; физлица и юрлица",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.vk.com/pricelist/",
+          "quote": "GPU1-16-48-V100-1 (16 CPU, 48 RAM, 16 VRAM) | 1 шт | 2,02 ₽ | 174 867 ₽ | 87 433 ₽ | -50%",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "VK Cloud — Cloud GPU (младшие карты и vGPU)",
+          "gpu": "NVIDIA L4, L40S, T4, A30, V100S; доли карты L4 через vGPU",
+          "vram": "L4 24 ГБ, L40S 48 ГБ, T4 16 ГБ, A30 24 ГБ, V100S 32 ГБ, vGPU L4 1/4/8 ГБ",
+          "price_hour": "L4 — 99 ₽/час (1,65 ₽/мин); L40S — 241,2 ₽/час (4,02 ₽/мин); T4 — 85,2 ₽/час (1,42 ₽/мин); A30 — 138 ₽/час (2,30 ₽/мин); vGPU-1Q L4 — 13,8 ₽/час (0,23 ₽/мин)",
+          "payment": "карта РФ / СБП / счёт; физлица и юрлица",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.vk.com/pricelist/",
+          "quote": "GPU2-16-72-L4-1 (16 CPU, 72 RAM, 24 VRAM) | 1 шт | 1,65 ₽ | 71 456 ₽ … vGPU-2-8-L4-1Q (2 CPU, 8 RAM, 1 VRAM) | 1 шт | 0,23 ₽ | 10 097,89 ₽",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "VK Cloud — минимальный период и порядок тарификации Cloud GPU",
+          "gpu": "все конфигурации Cloud GPU и vGPU",
+          "vram": "—",
+          "price_hour": "не применимо (правило тарификации, не цена)",
+          "payment": "предоплата на баланс проекта; и физлица (по умолчанию), и ЮЛ/ИП (дорегистрация)",
+          "legal_entity_required": "нет",
+          "url": "https://cloud.vk.ru/docs/ru/computing/gpu/tariffication",
+          "quote": "Тарификация производится по принципу «pay as you go»: плата взимается только за потребляемые ресурсы с точностью до минуты.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "MWS (МТС Web Services) — Compute, ВМ с GPU",
+          "gpu": "NVIDIA A100 80GB",
+          "vram": "80 ГБ",
+          "price_hour": "216,0252 ₽/час с НДС 22% за сам GPU (в дополнение к 0,9328 ₽/час за vCPU и 0,3074 ₽/ГБ/час RAM); 155 538,144 ₽/мес с НДС",
+          "payment": "предоплата/счёт; облако позиционируется для юрлиц и ИП, публичной витрины для физлиц нет",
+          "legal_entity_required": "формально не заявлено, но тарифы/договор корпоративные (ООО «МВС»)",
+          "url": "https://mws.ru/docs/cloud-platform/compute/general/pricing.html",
+          "quote": "Графический процессор (GPU) NVIDIA A100 80GB * шт. 216,0252 155 538,1440; * − Тарифы для ВМ с GPU NVIDIA A100 80GB применяются с 12 октября 2026 года.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "MWS — порядок тарификации Compute (с НДС, поминутно)",
+          "gpu": "любые ВМ с GPU (в т.ч. A100 80GB)",
+          "vram": "—",
+          "price_hour": "не применимо (правило тарификации)",
+          "payment": "счёт/договор (корпоративная схема)",
+          "legal_entity_required": "не заявлено явно; продукт корпоративный",
+          "url": "https://mws.ru/docs/cloud-platform/compute/general/pricing.html",
+          "quote": "Во всех расчетах 1 ГБ = 2 30 байт. Цены указаны за 1 час использования (с НДС). Тарификация поминутная — оплачивается только фактическое время работы.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "MWS — модельный ряд GPU в облаке",
+          "gpu": "NVIDIA A100 80GB, V100 16GB, A40 48GB",
+          "vram": "80 / 16 / 48 ГБ",
+          "price_hour": "цена опубликована только для A100 80GB (216,0252 ₽/час с НДС); для V100 и A40 почасовой тариф на странице не опубликован",
+          "payment": "счёт/договор",
+          "legal_entity_required": "не заявлено",
+          "url": "https://habr.com/ru/companies/mws/news/917158/",
+          "quote": "38 адаптеров A100 80GB в сегменте Москва/Гринбуш; 36 адаптеров V100 16GB в сегменте Санкт-Петербург/Фёдоровское; ещё один сегмент с новой моделью GPU A40 48 GB",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Selectel — облачные серверы с GPU (Cloud GPU)",
+          "gpu": "NVIDIA L4; 2×RTX 4090; RTX 6000 PRO; 2×/8×H200",
+          "vram": "L4 24 ГБ, RTX 4090 24 ГБ (2 карты), RTX 6000 PRO 96 ГБ, H200 141 ГБ",
+          "price_hour": "L4 — от 69,88 ₽/час; 2×RTX 4090 — от 210,04 ₽/час; RTX 6000 PRO — от 290,15 ₽/час; 2×H200 — от 1397,98 ₽/час; 8×H200 — от 5397,3 ₽/час",
+          "payment": "карта РФ (личный аккаунт) и счёт (бизнес-аккаунт); доступны и физлица, и ЮЛ/ИП",
+          "legal_entity_required": "нет",
+          "url": "https://selectel.ru/services/dedicated/gpu/",
+          "quote": "Характеристики GPU 1 × NVIDIA L4 (24 ГБ) Процессор 8 vCPU Память 32 ГБ От 69,88 ₽/час … Характеристики GPU 2 × RTX 4090 Процессор 16 vCPU Память 94 ГБ От 210,04 ₽/час",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Selectel — выделенные серверы с GPU (только помесячно)",
+          "gpu": "NVIDIA L4; RTX 4090; RTX PRO 6000; 4×A100 40 ГБ; H200 NVL; 8×B300",
+          "vram": "24 / 24 / 96 / 4×40 / 141 / 8×288 ГБ",
+          "price_hour": "почасовой цены на странице нет (только ₽/мес): L4 от 58 500 ₽/мес; RTX 4090 от 56 900 ₽/мес; RTX PRO 6000 от 125 500 ₽/мес; 4×A100 40 ГБ от 297 000 ₽/мес; H200 NVL от 415 800 ₽/мес; 8×B300 от 9 000 000 ₽/мес",
+          "payment": "карта РФ / счёт; физлица и ЮЛ/ИП",
+          "legal_entity_required": "нет",
+          "url": "https://selectel.ru/services/dedicated/gpu/",
+          "quote": "Характеристики GPU 4 × NVIDIA A100 40 ГБ HBM2 … От 297 000 ₽/мес Арендовать … Характеристики GPU NVIDIA H200 NVL 141 ГБ HBM3e … От 415 800 ₽/мес",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Selectel — типы аккаунтов и оплата",
+          "gpu": "любые (в т.ч. GPU)",
+          "vram": "—",
+          "price_hour": "не применимо",
+          "payment": "личный аккаунт — карта/физлицо; бизнес-аккаунт — ЮЛ, ИП, госучреждения",
+          "legal_entity_required": "нет (для физлица достаточно личного аккаунта)",
+          "url": "https://docs.selectel.ru/account/registration/",
+          "quote": "При регистрации вы можете выбрать тип аккаунта: личный аккаунт — для физических лиц; бизнес-аккаунт — для юридических лиц, индивидуальных предпринимателей и государственных учреждений.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Timeweb Cloud — облачные и выделенные серверы с GPU",
+          "gpu": "H200 141GB, H100 80GB, A100 80GB, L4, A6000, A5000, A2000, T4, RTX 4090 и др.",
+          "vram": "6–141 ГБ в зависимости от карты",
+          "price_hour": "почасовых цен на странице нет: облачные GPU — «Оставить заявку», выделенные — тариф за месяц со списанием раз в час (например RTX A2000 6 ГБ — 13 920 ₽/мес, Tesla T4 16 ГБ — 16 800 ₽/мес, RTX A5000 24 ГБ — 34 800 ₽/мес, RTX 4090 24 ГБ — 38 400 ₽/мес, 8×A100 40 ГБ — 712 800 ₽/мес)",
+          "payment": "карта РФ (Uniteller/Сбер), электронные деньги, квитанция для физлиц, счёт для юрлиц; доступны физлица и ЮЛ/ИП",
+          "legal_entity_required": "нет",
+          "url": "https://timeweb.cloud/services/gpu",
+          "quote": "Почасовая оплата. Тарифы формируются за месяц, а списания — раз в час. Так вы платите только за то, что реально используете. … Минимальный авансовый платеж — от 5 000 ₽",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Timeweb Cloud — цены выделенных GPU-серверов (страница прайса)",
+          "gpu": "RTX A2000 6GB; Tesla T4 16GB; RTX 4090 24GB; RTX 3080/3090; RTX PRO 2000; RTX A5000 24GB; 3×A100 40GB; 8×A100 40GB",
+          "vram": "6–320 ГБ суммарно",
+          "price_hour": "на странице прайса только ₽/мес: RTX A2000 — 13 920 ₽/мес; T4 — 16 800 ₽/мес; RTX 4090 — 38 400 ₽/мес; RTX A5000 — 34 800 ₽/мес; 8×A100 40GB — 712 800 ₽/мес",
+          "payment": "карта РФ / счёт; физлица и юрлица",
+          "legal_entity_required": "нет",
+          "url": "https://timeweb.cloud/prices",
+          "quote": "Intel Core i3-14100 (4 ядра, 3.5-4.7 ГГц, 8 потоков) / 32 DDR5 / 2 x 1 Тб NVMe + GPU RTX A2000 6GB … 13 920 ₽/мес",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Timeweb Cloud — способы оплаты и закрывающие документы",
+          "gpu": "любые",
+          "vram": "—",
+          "price_hour": "не применимо",
+          "payment": "банковские карты (Uniteller/Сбербанк), электронные деньги, квитанция (физлицо), счёт (юрлицо); закрывающие для ЮЛ — только при оплате по счёту",
+          "legal_entity_required": "нет",
+          "url": "https://timeweb.cloud/docs/service-payments/payment-methods",
+          "quote": "при оплате сервисов корпоративной картой бухгалтерские документы предоставлены не будут, так как держателем карты всегда является физическое лицо. Для получения закрывающих документов для юрлица необходимо производить оплату по счету",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "immers.cloud",
+          "gpu": "NVIDIA H200; H100 NVL; H100; A100 80GB; V100 32GB; RTX 5090/4090/3090/3080; A5000; A10; A2; RTX 2080 Ti; T4",
+          "vram": "11–141 ГБ",
+          "price_hour": "H200 — от 423,04 ₽/час; H100 NVL — от 367,41; H100 — от 341,77; A100 — от 211,77; V100 — от 96,61; RTX 5090 — от 130,76; RTX 4090 — от 82,76; RTX 3090 — от 66,76; RTX 3080 — от 42,96; A10 — от 36,55; A2 — от 21,94; T4 — от 20,34; RTX 2080 Ti — от 25,05 ₽/час",
+          "payment": "карта РФ; пополнение баланса от 100 ₽, есть скидки 10–35% при предоплате за 30–360 дней; и физлица, и юрлица",
+          "legal_entity_required": "нет",
+          "url": "https://immers.cloud/gpu/",
+          "quote": "h200-1.16.128.160 16 131072 160 1 423,04 ₽ 304 588,80 ₽ … rtx4090-1.8.16.40 8 16384 40 1 82,76 ₽",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Intelion Cloud (Интелион Облако)",
+          "gpu": "NVIDIA H200 141Gb; H100 80Gb SXM; Tesla A100 80Gb; RTX 4090 48Gb; RTX 3090 24Gb; RTX A5000 24Gb; Tesla A10 24Gb",
+          "vram": "24–141 ГБ",
+          "price_hour": "H200 — 375,00 ₽/час; H100 SXM — 299,11; A100 80Gb — 204,17; RTX 4090 48Gb — 96,28; RTX 3090 — 50,00; A5000 — 37,20; A10 — 27,38 ₽/час (плюс отдельно vCPU 0,22 ₽/час, RAM 0,12 ₽/ГБ/час, диск от 0,01 ₽/ГБ/час)",
+          "payment": "предоплата или постоплата (для юрлиц счёт постфактум, +1% к цене); облако заявлено «юр. лицам и ИП»",
+          "legal_entity_required": "да — сайт прямо позиционирует облако для юрлиц и ИП",
+          "url": "https://intelion.cloud/prices/",
+          "quote": "GPU оплачивается посекундно по факту использования — и на почасовом, и на месячном тарифе можно остановить сервер в любой момент, неиспользованное вернётся на баланс. … H200 141Gb 375.00 252000.00",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "CloudCompute.ru (почасовой GPU-сервис)",
+          "gpu": "A100 SXM4 80GB; A100 80GB SXM4; L40S; RTX 4090; RTX 3090; RTX 5090; RTX 6000 Ada; V100; L4 и др.",
+          "vram": "12–269 ГБ (до B300)",
+          "price_hour": "A100 SXM4 80 ГБ — от 84,49 ₽/час; A100 80GB SXM4 — от 201,18; L40S — от 112,29; RTX 4090 — от 52,25; RTX 3090 — от 27,71; RTX 3060 — от 18,35 ₽/час; B300 — от 10 221,79 ₽/час",
+          "payment": "карта РФ («Оплата картой РФ»), договор и документы; физлица и юрлица",
+          "legal_entity_required": "нет",
+          "url": "https://cloudcompute.ru/prices",
+          "quote": "Почасовая аренда GPU-серверов. Оплата по факту использования. … Оплата картой РФ / Договор и документы / Запуск за 30 секунд … Без минимального срока. Запустите на 10 минут или на месяц — условия одинаковые.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "HOSTKEY (аренда GPU-серверов, Исландия/РФ)",
+          "gpu": "RTX 6000 PRO 96GB; RTX 5090 32GB; RTX 4090 24GB (в т.ч. 2×/4×); RTX 3080/3090; RTX A4000/A5000/A6000; AMD R9700",
+          "vram": "10–96 ГБ",
+          "price_hour": "на странице только ₽/мес: RTX 4090 24 ГБ — 32 000 ₽/мес; 2×RTX 4090 — 72 000 ₽/мес; 4×RTX 4090 — 123 000 ₽/мес; RTX 5090 — 56 900 ₽/мес; RTX 6000 PRO — 219 000 ₽/мес; A5000 — 25 000 ₽/мес; A6000 — 58 000 ₽/мес. Скидки до 30% за квартал/полгода/год",
+          "payment": "счёт/карта; гранты научным проектам и стартапам",
+          "legal_entity_required": "не заявлено явно, тарифы помесячные (корпоративная схема)",
+          "url": "https://hostkey.ru/gpu-dedicated-servers/",
+          "quote": "gpu.v3-4090 … GPU 1xRTX 4090 24GB ₽ 32000 /мес Заказать",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Yandex Cloud — Compute Cloud, доступные GPU",
+          "gpu": "NVIDIA Tesla V100 32 ГБ; NVIDIA Ampere A100 80 ГБ; NVIDIA Tesla T4 16 ГБ; T4i 24 ГБ",
+          "vram": "16 / 24 / 32 / 80 ГБ",
+          "price_hour": "на странице цен почасовые ставки не опубликованы в HTML: прайс рендерится клиентским компонентом <PriceList serviceIds=…>; из третьих источников A100 80 ГБ — 542,88 ₽/час с НДС (pawetta, проверено 27.08.2026) и ~410 ₽/час (morana-labs, 16.04.2026), H100 — ~1200 ₽/час (morana-labs)",
+          "payment": "карта РФ и счёт; пробный период выдаётся только юрлицам с оплатой переводом; по умолчанию квота на GPU-ВМ нулевая",
+          "legal_entity_required": "нет для оплаты картой, но GPU-квоту нужно отдельно запрашивать в консоли",
+          "url": "https://yandex.cloud/ru/docs/compute/concepts/gpus",
+          "quote": "В Compute Cloud доступны следующие графические карты: NVIDIA® Tesla® V100 с 32 ГБ памяти HBM2 … NVIDIA® Ampere® A100 с 80 ГБ памяти HBM2 … NVIDIA® Tesla® T4 с 16 ГБ памяти GDDR6. … По умолчанию в облаке установлена нулевая квота на создание виртуальных машин с GPU.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Yandex Cloud — правило тарификации Compute",
+          "gpu": "все (включая GPU)",
+          "vram": "—",
+          "price_hour": "не применимо (правило тарификации)",
+          "payment": "—",
+          "legal_entity_required": "—",
+          "url": "https://yandex.cloud/ru/docs/compute/pricing",
+          "quote": "Все цены в рублях и тенге указаны с НДС, все цены в долларах — без НДС. … Цена указывается за 1 час использования. Тарификация посекундная.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Yandex DataSphere — пресеты с GPU",
+          "gpu": "T4 16 ГБ, T4i 24 ГБ, V100 32 ГБ, A100 80 ГБ",
+          "vram": "16 / 24 / 32 / 80 ГБ",
+          "price_hour": "T4 — 168,48 ₽/час; V100 — 336,96 ₽/час; A100 — 542,88 ₽/час; 8×A100 — 4343,04 ₽/час (цены с НДС, тарификация посекундная)",
+          "payment": "пробный период разовый и только юрлицам с оплатой переводом; квота на GPU-машины по умолчанию нулевая",
+          "legal_entity_required": "нет для платного использования; для пробного периода — да (юрлицо)",
+          "url": "https://pawetta.com/servisy/c/gpu-arenda/",
+          "quote": "Yandex DataSphere … T4 16 ГБ, T4i 24 ГБ, V100 32 ГБ, A100 80 ГБ … T4 — 168,48 ₽ за час, V100 — 336,96 ₽, A100 — 542,88 ₽, восемь A100 — 4 343,04 ₽ … посекундно, цены с НДС",
+          "confidence": "search_snippet"
+        },
+        {
+          "service": "Selectel — A100 80GB и RTX 4090 (снимок калькулятора третьим лицом)",
+          "gpu": "NVIDIA A100 80GB; RTX 4090 24GB",
+          "vram": "80 / 24 ГБ",
+          "price_hour": "A100 80GB — 292,02 ₽/час, RTX 4090 24GB — 75,40 ₽/час, с НДС (снимок цен на 26.07.2026)",
+          "payment": "карта РФ / счёт (Selectel)",
+          "legal_entity_required": "нет",
+          "url": "https://provod.ai/ru/blog/n200-t187",
+          "quote": "У Selectel официальный калькулятор облачных GPU называет 292,02 ₽/час за Tesla A100 80GB и 75,40 ₽/час за RTX 4090 24GB, с НДС",
+          "confidence": "search_snippet"
+        },
+        {
+          "service": "Selectel — A100 80GB / H100 80GB (по сводке MoranaLabs; расходится с калькулятором Selectel)",
+          "gpu": "A100 80GB; H100 80GB; RTX 4090; L40S 48GB",
+          "vram": "80 / 80 / 24 / 48 ГБ",
+          "price_hour": "по таблице обзора: Selectel RTX 4090 — 65 ₽, L40S — 150 ₽, A100 80GB — 370 ₽, H100 80GB — 950 ₽/час; для сравнения Cloud.ru A100 400 ₽, H100 1100 ₽; HOSTKEY 4090 55 ₽, A100 360 ₽, H100 900 ₽; Immers A100 340 ₽; HPC Park A100 350 ₽, H100 880 ₽",
+          "payment": "не указано в таблице",
+          "legal_entity_required": "не указано",
+          "url": "https://morana-labs.com/articles/arenda-gpu-v-rossii-prognali-a100h100-u-8-oblakov-realnaya-cena-chasa-nalichie-i-skrytyi-schet",
+          "quote": "Ниже срез тарифов за один час работы базового инстанса с одной картой, снятый на середину месяца. … Selectel | 65 ₽ | 150 ₽ | 370 ₽ | 950 ₽ … Yandex Cloud | — | — | 410 ₽ | 1200 ₽",
+          "confidence": "search_snippet"
+        },
+        {
+          "service": "Сводка диапазонов цен по GPU у российских и международных провайдеров ( Elishtech, январь 2026)",
+          "gpu": "A100 40GB; A100 80GB; H100 80GB; H200 141GB",
+          "vram": "40 / 80 / 80 / 141 ГБ",
+          "price_hour": "A100 40 ГБ — 150–300 ₽/час (1,6–3,2 $); A100 80 ГБ — 250–500 ₽/час (2,7–5,4 $); H100 80 ГБ — 900–2200 ₽/час (9,7–23,7 $); H200 141 ГБ — 2500–4000+ ₽/час (27–43+ $). Провайдеры: Selectel, Immers.cloud, HOSTKEY, K2 Cloud, Cloud.ru, HPC Park, Yandex Cloud, RunPod, Vast.ai",
+          "payment": "не указано",
+          "legal_entity_required": "не указано",
+          "url": "https://www.elishtech.com/arenda-gpu-a100-vs-h100-2026/",
+          "quote": "NVIDIA H100 80 ГБ | 1x H100 + 64 vCPU + 512ГБ | 900–2 200 ₽ | $9.7–23.7 | HOSTKEY, Immers, K2 Cloud",
+          "confidence": "search_snippet"
+        },
+        {
+          "service": "gpu.market",
+          "gpu": "нет — домен не является GPU-маркетплейсом",
+          "vram": "—",
+          "price_hour": "нет цен: домен припаркован регистратором Namecheap",
+          "payment": "—",
+          "legal_entity_required": "—",
+          "url": "https://www.gpu.market/",
+          "quote": "has been recently registered with namecheap.com Want a domain name like this? Discover domains on auction now",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Турбо Облако (Ростелеком) — GPU Cloud, 2-е место рейтинга CNews 2026",
+          "gpu": "модели не раскрыты в HTML (сайт отдаёт 403 ботам)",
+          "vram": "—",
+          "price_hour": "цену подтвердить на странице не удалось: https://turbo.cloud/ → HTTP 403, страница тарифов https://www.cloud.rt.ru/showcase/tariffs рендерится JS и не содержит цифр в HTML",
+          "payment": "не подтверждено",
+          "legal_entity_required": "не подтверждено",
+          "url": "https://www.cnews.ru/reviews/provajdery_gpu_cloud_2026_new",
+          "quote": "2 Турбо Облако Турбо Облако GPU 817",
+          "confidence": "assumption"
+        },
+        {
+          "service": "Рейтинг GPU Cloud 2026 (CNewsMarket, подготовлено 30.06.2026)",
+          "gpu": "провайдеры: Selectel, Турбо Облако, MWS Cloud, ИТГлобалком Рус, Т1 Облако, Флекс (Cloud4Y), Timeweb Cloud, Нубес, immers.cloud, K2 Cloud, АпДата, Рег.Облако, Онланта, Мувтел, mClouds, Linx Cloud",
+          "vram": "—",
+          "price_hour": "конкретных цен в таблице нет — только качественные оценки («Средняя», «Низкая», «Высокая») и баллы",
+          "payment": "—",
+          "legal_entity_required": "—",
+          "url": "https://www.cnews.ru/reviews/provajdery_gpu_cloud_2026_new/review_table/874c828779c9a943dc9829195f258dff8d40098c",
+          "quote": "Стоимость GPU Cloud конфиг 1 Средняя Средняя Средняя Низкая Средняя Средняя Средняя",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Российский рынок в целом — скрытые расходы и дефицит on-demand H100",
+          "gpu": "A100 / H100",
+          "vram": "—",
+          "price_hour": "обзор утверждает, что H100 в режиме on-demand практически всегда заняты и отдаются под коммит на полгода-год; к счёту добавляются NVMe-диски (до +30%) и исходящий трафик",
+          "payment": "—",
+          "legal_entity_required": "—",
+          "url": "https://morana-labs.com/articles/arenda-gpu-v-rossii-prognali-a100h100-u-8-oblakov-realnaya-cena-chasa-nalichie-i-skrytyi-schet",
+          "quote": "Если карта и есть в наличии, ее отдадут клиенту, который подпишет коммит на полгода или год. В режиме on-demand пулы H100 практически всегда заняты. Вам предложат встать в очередь или довольствоваться A100",
+          "confidence": "verified_from_page"
+        }
+      ],
+      "notes": "МЕТОДИКА. Все цифры взяты fetch'ем реальных страниц (curl с User-Agent браузера + web_fetch + web_search). Для каждого пункта в поле quote — дословный фрагмент со страницы. Цены приведены как на странице: Cloud.ru указывает и с НДС, и без (НДС 22%); VK Cloud, MWS, Yandex Cloud, pawetta — с НДС; Selectel указывает «От … ₽/час» без пометки; Timeweb/HOSTKEY/Turbo — только ₽/мес.\n\nЧТО ПОДТВЕРДИТЬ НЕ УДАЛОСЬ (помечено):\n1) Yandex Cloud — сайт yandex.cloud отдаёт SmartCaptcha «Верификация» и для curl, и для web_fetch; обход через r.jina.ai дал документацию, но страница цен собирается клиентским компонентом <PriceList serviceIds={['{{ pcs|compute }}', '{{ pcs|compute_gpu }}']} …> — самих ставок в HTML/markdown нет. Доступные GPU (V100 32 ГБ, A100 80 ГБ, T4 16 ГБ, T4i 24 ГБ) подтверждены в доках, почасовые цены — только из pawetta.com (542,88 ₽/час A100, проверено 27.08.2026) и morana-labs (410 / 1200 ₽/час) → confidence = search_snippet.\n2) gpu.market — маркетплейса не существует, домен припаркован Namecheap.\n3) Turbo Cloud (2-е место рейтинга CNews), RTK Cloud (cloud.rt.ru/showcase/tariffs), Reg.Cloud, gpuservers.ru — цен в HTML нет (JS-рендер или 403); gpuservers.ru оказался поставщиком железа (VISTLAN GPU), а не арендой.\n4) Мультистраничные таблицы Cloud.ru: на каждой странице тарифного приложения отображаются только 10 строк из ~50, остальные строки в HTML отсутствуют — поэтому по V100/A100/H100 приведены те флейворы, что реально видны.\n5) Cloud.ru Advanced: в тарифах не указано количество GPU в конфигурации (указаны только vCPU/RAM флейвора) — VRAM/число карт по этим строкам не выводимы без гадания; цена растёт ровно пропорционально vCPU, поэтому это цена за всю ВМ.\n\nРАСХОЖДЕНИЯ, которые важно учитывать:\n- Selectel A100 80GB: 292,02 ₽/час (provod.ai со ссылкой на официальный калькулятор, 26.07.2026) против 370 ₽/час (morana-labs, 16.04.2026).\n- Selectel больше не публикует A2000 / T4 / A5000 / A100 / H100 как почасовые облачные конфигурации: в облаке теперь L4, RTX 4090, RTX 6000 PRO, H200; A100/H100 остались в bare-metal и только с ценой за месяц (4×A100 40 ГБ — от 297 000 ₽/мес). A2000/T4/A5000 — только выделенные серверы с помесячной ценой.\n- immers.cloud H200 (423,04 ₽/час) дешевле, чем 2×H200 у Selectel (1397,98 ₽/час за две карты = ~699 ₽ за карту) — сравнивать нужно за карту, а не за инстанс.\n- У Cloud.ru ML Space цена за A100 при 1–8 GPU (5,185 ₽/мин = 311,1 ₽/час) почти совпадает с mладшими флейворами Advanced (479,75 ₽/час за p3a.5xlarge.6), но за 9+ GPU резко растёт (20,374 ₽/мин = 1222,44 ₽/час).\n\nМИНИМАЛЬНЫЙ ПЕРИОД И ЮРЛИЦО:\n- Поминутно/посекундно без минимума: VK Cloud (pay as you go, точность до минуты), MWS (поминутно), Yandex Cloud (посекундно), immers.cloud (посекундно, пополнение от 100 ₽), Intelion Cloud (посекундно), CloudCompute («Без минимального срока», карта РФ).\n- Помесячно: Timeweb (тариф за месяц, списания раз в час, аванс от 5000 ₽), HOSTKEY (месяц, минимальный шаг учёта час, при отмене возвращают остаток), Selectel bare-metal (₽/мес).\n- Юрлицо/ИП обязательно: ни у одного из проверенных облаков — нет; физлицо работает в Selectel (личный аккаунт), VK Cloud (схема для физлиц по умолчанию), Timeweb (квитанция для физлиц), CloudCompute (карта РФ). Исключения: Intelion Cloud позиционирует облако «юр. лицам и ИП»; пробный период Yandex Cloud — только юрлицам с оплатой переводом; у Yandex Cloud GPU-квота по умолчанию нулевая и её надо запрашивать.\n- Крипта: ни на одной проверенной странице оплата криптой не заявлена — не подтверждено ни для одного сервиса.\n\nНЕ НАЙДЕНО: специализированных российских почасовых GPU-маркетплейсов-агрегаторов (аналог vast.ai) с публичным прайсом — роль агрегаторов фактически выполняют IaaS-провайдеры (Selectel, VK Cloud, Cloud.ru, MWS, immers.cloud, Intelion) и статьи-обзоры (cnews, morana-labs, elishtech, pawetta, provod.ai, tproger). Ближайшее к «маркетплейсу» с оплатой картой РФ и без минимального срока — cloudcompute.ru.\n\nСлужебное: исследование выполнено делегированным субагентом; subagent/subagent_fork были недоступны (depth 3 > maxDepth 1), поэтому параллельное делегирование не применялось. Запись о работе добавлена в my_agent/LOG.md и INDEX.md рабочей папки /Users/user/Desktop/Agent2 согласно правилам репозитория."
+    }
+  },
+  {
+    "label": "Зарубеж",
+    "data": {
+      "findings": [
+        {
+          "service": "Vast.ai",
+          "gpu": "RTX 4090",
+          "vram": "24 GB",
+          "price_hour": "$0.43/GPU-час (дешевейшее secure on-demand предложение на рынке по данным агрегатора; медиана по рынку $0.45)",
+          "payment": "карта (Stripe) / крипта BitPay, Crypto.com",
+          "legal_entity_required": "нет (физлицо/команда)",
+          "url": "https://gpuperhour.com/",
+          "quote": "Among the 14 GPUs in the market summary above, secure on-demand cloud GPUs currently start at $0.43 per GPU-hour (RTX 4090 on Vast.ai). ... Latest stock observation: 2026-10-14 01:36 UTC",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Vast.ai (live marketplace API)",
+          "gpu": "RTX 4090 / RTX 3090",
+          "vram": "24 GB",
+          "price_hour": "RTX 4090: от $0.1215/час (самое дешёвое предложение, rentable=false, хост в Китае), дешёвое подтверждённо арендуемое — $0.4022/час (Исландия); RTX 3090: $0.1222/час (Quebec, CA, rentable=true)",
+          "payment": "предоплаченные кредиты (карта Stripe или крипта)",
+          "legal_entity_required": "нет",
+          "url": "https://console.vast.ai/api/v0/bundles/?q=%7B%22gpu_name%22%3A%7B%22eq%22%3A%22RTX%204090%22%7D%2C%22limit%22%3A10%2C%22order%22%3A%5B%5B%22dph_total%22%2C%22asc%22%5D%5D%7D",
+          "quote": "\"gpu_name\": \"RTX 4090\", \"geolocation\": \", CN\", \"dph_total\": 0.1214814814814815, ... \"rentable\": false | \"gpu_name\": \"RTX 3090\", \"geolocation\": \"Quebec, CA\", \"dph_total\": 0.12222222222222223, \"rentable\": true",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Vast.ai",
+          "gpu": "RTX A5000",
+          "vram": "24 GB",
+          "price_hour": "$0.19/час (в таблице сравнения провайдеров; на самой странице провайдера цена для A5000 не отображается)",
+          "payment": "карта Stripe / крипта BitPay, Crypto.com",
+          "legal_entity_required": "нет",
+          "url": "https://gpuperhour.com/providers/runpod/rtx-a5000",
+          "quote": "The RTX A5000 is available from 8 providers on GPUPerHour. Here is how other providers compare: Vast.ai$0.19/hr TensorDock$0.21/hr",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Vast.ai",
+          "gpu": "RTX A6000 / RTX 5080",
+          "vram": "48 GB / 16 GB",
+          "price_hour": "н/д — цены не подтверждены (на vast.ai/pricing/gpu/* блок цен подгружается JS: «No current offersThe rent link will appear when matching … listings are available»; в live-API за один запрос они не выбирались)",
+          "payment": "карта Stripe / крипта BitPay, Crypto.com",
+          "legal_entity_required": "нет",
+          "url": "https://vast.ai/pricing/gpu/RTX-5080",
+          "quote": "No current offersThe rent link will appear when matching RTX 5080 listings are available.",
+          "confidence": "assumption"
+        },
+        {
+          "service": "Vast.ai",
+          "gpu": "любой (биллинг)",
+          "vram": "—",
+          "price_hour": "предоплата кредитами, посекундная тарификация; хранилище и трафик тарифицируются отдельно",
+          "payment": "карты через Stripe + крипта через BitPay и Crypto.com; автопополнение только картой; возврат кредитов, купленных за крипту, невозможен",
+          "legal_entity_required": "нет; данные для инвойса задаются в Invoice Information",
+          "url": "https://docs.vast.ai/guides/reference/billing.md",
+          "quote": "We accept credit card payments through Stripe and crypto payments through BitPay and Crypto.com. ... We do not refund Vast credits bought with crypto. ... Even if you prefer to pay with crypto, saving a credit card as a backup payment method helps protect your instances from deletion",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Vast.ai",
+          "gpu": "любой (доступ из РФ)",
+          "vram": "—",
+          "price_hour": "—",
+          "payment": "карты РФ не проходят (Stripe + Visa/MC); рабочие пути: зарубежная карта, крипта (BitPay/Crypto.com), посредник по заявке",
+          "legal_entity_required": "нет; РФ и Беларусь НЕ входят в список полностью запрещённых регионов ToS (там Куба, Иран, КНДР, Сирия, ряд регионов Украины)",
+          "url": "https://dtf.ru/howto/5087955-oplata-vast-ai-v-rossii-i-belarusi",
+          "quote": "Оплатить Vast.ai из России картой российского банка напрямую нельзя. Баланс пополняется через Stripe, а карты Visa и Mastercard российских банков не проходят международные платежи, «Мир» же Stripe не поддерживает. По состоянию на сентябрь 2026 доступны три пути: карта зарубежного банка, криптовалюта через BitPay или Crypto.com и оплата по заявке через сервис-посредник.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "RunPod",
+          "gpu": "RTX 4090",
+          "vram": "24 GB",
+          "price_hour": "от $0.89/час (страница обновлена 27 августа 2026)",
+          "payment": "карта (Stripe), крипта (с обязательным KYC), инвойс от $5000",
+          "legal_entity_required": "нет для физлица; бизнес-инвойс (ACH/wire) — для юрлиц от $5000",
+          "url": "https://www.runpod.io/gpu-models/rtx-4090",
+          "quote": "Rent NVIDIA RTX 4090 GPUs from $0.89/hr ... Updated August 27, 2026",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "RunPod",
+          "gpu": "RTX 3090",
+          "vram": "24 GB",
+          "price_hour": "от $0.5/час",
+          "payment": "карта (Stripe), крипта (с KYC)",
+          "legal_entity_required": "нет",
+          "url": "https://www.runpod.io/gpu-models/rtx-3090",
+          "quote": "Rent NVIDIA RTX 3090 GPUs from $0.5/hr ... Updated August 27, 2026",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "RunPod",
+          "gpu": "L40S",
+          "vram": "48 GB",
+          "price_hour": "$0.79/час (Community Cloud, в таблице gpu-models)",
+          "payment": "карта (Stripe), крипта (с KYC)",
+          "legal_entity_required": "нет",
+          "url": "https://www.runpod.io/gpu-models",
+          "quote": "L40S 48 GB VRAM 94 GB RAM 16 vCPUs $0.79/hr",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "RunPod",
+          "gpu": "RTX A5000",
+          "vram": "24 GB",
+          "price_hour": "$0.16–0.27/час (обе позиции Sold Out на момент проверки); Community Cloud A5000 агрегатор оценивает в ~$0.20–0.40/час",
+          "payment": "карта (Stripe), крипта (с KYC)",
+          "legal_entity_required": "нет",
+          "url": "https://gpuperhour.com/providers/runpod/rtx-a5000",
+          "quote": "$0.16/GPU/hr Sold Out ... $0.27/GPU/hr Sold Out ... Community Cloud spots deliver A5000 compute at ~$0.20-0.40/hour",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "RunPod",
+          "gpu": "любой (биллинг/KYC)",
+          "vram": "—",
+          "price_hour": "предоплаченные кредиты, посекундная тарификация; дефолтный лимит расходов $80/час; для запуска пода нужен баланс ≥1 часа конфигурации",
+          "payment": "карта Visa/MC/Amex через Stripe (предоплаченные карты — депозит от $100 за транзакцию); крипта через интегрированные процессоры с обязательным KYC перед первым крипто-платежом; инвойс от $5000 (ACH, wire)",
+          "legal_entity_required": "нет для карты/крипты; для бизнес-инвойса — юрлицо (sales)",
+          "url": "https://docs.runpod.io/accounts-billing/billing.md",
+          "quote": "Cryptocurrency | Accepted via integrated payment processors. Complete any required KYC verification before your first crypto payment. ... Runpod accounts have a default spend limit of $80 per hour across all resources.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "RunPod",
+          "gpu": "любой (санкционные ограничения)",
+          "vram": "—",
+          "price_hour": "—",
+          "payment": "—",
+          "legal_entity_required": "пользователь обязан подтвердить, что не входит в санкционные списки США (SDN и др.); отдельного запрета «Россия» в этой формулировке нет",
+          "url": "https://conductatlas.com/platform/runpod/runpod-terms-of-service/provision/CA-P-052190/user-warrants-not-a-prohibited-party-or-sanctioned-entity/",
+          "quote": "you are not...identified on...any U.S. or other applicable sanctions or export control-related prohibited party list...including...the Specially Designated Nationals and Blocked Persons List... (RunPod Terms of Service, Last Updated: March 24, 2026)",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Lambda (lambda.ai)",
+          "gpu": "B200 / H100 / A100 / V100",
+          "vram": "180 / 80 / 80 и 40 / 16 GB",
+          "price_hour": "B200 SXM6 $6.69, H100 SXM $3.99, A100 SXM 80GB $2.79, A100 SXM 40GB $1.99, Tesla V100 $0.79 (за GPU/час, плюс налог)",
+          "payment": "только кредитные карты (предоплаченные/дебетовые не принимаются), $10 pre-auth",
+          "legal_entity_required": "нет по типу лица, но покупки разрешены только из 19 регионов; РФ в списке отсутствует",
+          "url": "https://lambda.ai/pricing",
+          "quote": "NVIDIA B200 SXM6 | 180 GB | 208 | 2900 GiB | 22 TiB SSD | $6.69 ... NVIDIA H100 SXM | 80 GB ... | $3.99 ... * plus applicable sales tax/VAT/GST",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Lambda (lambda.ai)",
+          "gpu": "любой (доступ из РФ)",
+          "vram": "—",
+          "price_hour": "—",
+          "payment": "только major credit cards; транзакции через VPN помечаются как подозрительные",
+          "legal_entity_required": "РФ не входит в список поддерживаемых регионов — прямая покупка из России невозможна",
+          "url": "https://docs.lambda.ai/public-cloud/manage-billing/",
+          "quote": "You're using a prepaid card or debit card. Lambda only accepts major credit cards. ... Currently, Lambda only supports purchases from the following regions: Australia, Canada, Chile, European Union (except for Lithuania), Iceland, Israel, Japan, New Zealand, Norway, Puerto Rico, Singapore, South Africa, South Korea, Switzerland, Taiwan, Turkey, United Arab Emirates, United Kingdom, United States",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Paperspace (DigitalOcean)",
+          "gpu": "A5000 / A6000 / A4000 / H100",
+          "vram": "24 / 48 / 16 / 80 GB",
+          "price_hour": "A5000 $1.38/час, A6000 $1.89/час, A4000 $0.76/час, H100 $5.95/час on-demand (промо); RTX 3090/4090 в каталоге нет",
+          "payment": "Stripe: Visa, MasterCard, Amex, Discover; крипты нет; инвойсинг на бизнес-планах",
+          "legal_entity_required": "нет для физлица; для кастомного инвойса — бизнес-план/юрлицо",
+          "url": "https://www.paperspace.com/pricing",
+          "quote": "A5000 $1.38 / hour ... A6000 $1.89 / hour ... *$2.24/hour pricing is for a 3-year commitment. On-demand pricing for H100 is $5.95/hour under our special promo price. | We use Stripe to process payments. We accept all major credit and debit cards including Visa, MasterCard, American Express and Discover.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "DigitalOcean Gradient / GPU Droplets",
+          "gpu": "RTX 4000 Ada / RTX 6000 Ada / L40S / H100 PCIe / H200 NVL",
+          "vram": "20 / 48 / 48 / 80 / 141 GB",
+          "price_hour": "$0.76, $1.57, $1.57, $4.41, $3.44 за GPU/час соответственно; 0 из 16 инстансов в наличии на момент проверки (окт. 2026)",
+          "payment": "карта (Stripe) + предоплаченные кредиты",
+          "legal_entity_required": "нет; OFAC-клауза — запрет для Кубы, Ирана, КНДР, Сирии и Крыма (Россия в перечне не названа)",
+          "url": "https://gpuperhour.com/providers/digitalocean",
+          "quote": "RTX 4000 Ada Generation 20GB VRAM ... $0.76/GPU/hr Sold Out ... H100 PCIe 80GB VRAM $4.41/hr ... 0 of 16 instances are currently in stock across 4 regions.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "DigitalOcean (ToS, санкции)",
+          "gpu": "любой",
+          "vram": "—",
+          "price_hour": "—",
+          "payment": "—",
+          "legal_entity_required": "подтверждение, что пользователь не находится в стране под санкциями OFAC: перечислены Куба, Иран, КНДР, Сирия, Крым — России в списке нет",
+          "url": "https://raw.githubusercontent.com/digitalocean/tos/refs/heads/master/terms-of-service.md",
+          "quote": "The Services are subject to the trade and economic sanctions maintained by the Office of Foreign Assets Control (“OFAC”). ... you represent and warrant that you are not (a) located in any country that is subject to OFAC's trade and economic sanctions, currently Cuba, Iran, North Korea, Syria, and the Crimea region of the Ukraine",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Salad Technologies (SaladCloud)",
+          "gpu": "RTX 4090 / RTX 3090 / RTX 5080 / RTX 5090",
+          "vram": "24 / 24 / 16 / 32 GB",
+          "price_hour": "RTX 4090: $0.330 (High) → $0.160 (Lowest); RTX 3090: $0.170 → $0.090; RTX 5080: $0.260 → $0.150; RTX 5090: $0.500 → $0.250; старые классы — от $0.015/час. Оплата посекундно, счёт только за running-состояние",
+          "payment": "pay-as-you-go, депозит/крипта на странице не указаны (не подтверждено)",
+          "legal_entity_required": "не подтверждено; доступность из РФ на страницах Salad не описана",
+          "url": "https://salad.com/pricing",
+          "quote": "RTX 4090 | 24 GB | $0.330 | $0.273 | $0.217 | $0.160 ... RTX 3090 | 24 GB | $0.170 | $0.143 | $0.117 | $0.090 ... Additional classes ... are available in the portal from $0.015 per GPU-hour at Lowest priority.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Salad Technologies (модель)",
+          "gpu": "распределённые потребительские GPU (Community Cloud)",
+          "vram": "—",
+          "price_hour": "низкие цены за счёт простаивающего железа; приоритеты High/Medium/Low/Lowest, Medium/Low могут быть вытеснены",
+          "payment": "—",
+          "legal_entity_required": "—",
+          "url": "https://salad.com/pricing",
+          "quote": "Community Cloud runs on GPUs that already exist in homes and small businesses worldwide. Owners are paid for idle time, and a competitive marketplace keeps prices near the cost of electricity rather than the cost of a data center.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Clore.ai",
+          "gpu": "RTX 4090 / RTX 5080 / RTX 5090",
+          "vram": "24 / 16 / 32 GB",
+          "price_hour": "RTX 4090: медиана on-demand $0.375/GPU-час, spot $0.365 (снимок 21.09.2026); RTX 5080 $0.292; RTX 5090 $0.542; bare-metal 4090 от $0.40 до $0.94/GPU-час",
+          "payment": "BTC on-chain, CLORE, USDT/USDC (ERC-20 и BEP-20) — расчёт криптой; комиссия маркетплейса 10% on-demand / 2.5% spot",
+          "legal_entity_required": "нет (нужен только крипто-кошелёк)",
+          "url": "https://clore.ai/rent-4090.html",
+          "quote": "On 21 Sep 2026 the marketplace held 243 servers with 378 of them, 130 servers unrented, at a median of $0.375 per GPU-hour on demand. Settlement in BTC, CLORE, USDT or USDC.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Clore.ai",
+          "gpu": "RTX 3090",
+          "vram": "24 GB",
+          "price_hour": "н/д — конкретная цена не подтверждена (страница /rent-3090.html существует, но в проверенных материалах цену вытащить не удалось); RTX 3090 упоминается как «та же ёмкость на Ampere»",
+          "payment": "BTC / CLORE / USDT / USDC",
+          "legal_entity_required": "нет",
+          "url": "https://clore.ai/rent-4090.html",
+          "quote": "RTX 3090 — The Ampere card at the same capacity. Rent →",
+          "confidence": "search_snippet"
+        },
+        {
+          "service": "TensorDock (куплен Voltage Park)",
+          "gpu": "RTX 3090 / RTX A5000 / RTX 4090 / RTX A6000",
+          "vram": "24 / 24 / 24 / 48 GB",
+          "price_hour": "$0.18 / $0.21 / $0.25 / $0.39 за GPU-час; при этом 0 из 70 инстансов в наличии (весь каталог Sold Out) на октябрь 2026",
+          "payment": "не подтверждено (страница tensordock.com/pricing отдала 404; биллинг посекундный, есть spot)",
+          "legal_entity_required": "не подтверждено",
+          "url": "https://gpuperhour.com/providers/tensordock",
+          "quote": "RTX 3090 24GB VRAM $0.18/hr ... RTX A5000 24GB VRAM $0.21/hr ... RTX 4090 24GB VRAM $0.25/hr ... 0 of 70 instances are currently in stock across 29 regions.",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "CUDO Compute",
+          "gpu": "B300 / B200 / H100 / H200 / GB200 (потребительских 4090/3090/A5000 нет)",
+          "vram": "—",
+          "price_hour": "публичных почасовых цен нет — только dedicated-кластеры по контракту («on request»)",
+          "payment": "не подтверждено (продажи через sales, кастомные контракты; крипта на проверенных страницах не упоминается)",
+          "legal_entity_required": "фактически да — контракт с юрлицом через sales",
+          "url": "https://getdeploying.com/cudo-compute",
+          "quote": "Dedicated GPU clusters are sold under custom contracts. Contact their sales team to request a quote. ... CUDO lists 5 GPU models across 6 configurations, including the B300, H100 and B200. ... Pricing On request Custom",
+          "confidence": "verified_from_page"
+        },
+        {
+          "service": "Genesis Cloud",
+          "gpu": "RTX 3090 / RTX A5000 / RTX A6000 / RTX 3080 / A100 80GB",
+          "vram": "24 / 24 / 48 / 10 / 80 GB",
+          "price_hour": "$0.300 / $0.620 / $0.730 / $0.270 / $2.49 за час (один регион EU-Central/Исландия, on-demand, storage и egress включены)",
+          "payment": "не подтверждено (официальный genesiscloud.com/pricing отдал HTTP 522, данные — с агрегатора, обновление ~37 дней)",
+          "legal_entity_required": "не подтверждено",
+          "url": "https://gputracker.dev/provider/genesis-cloud",
+          "quote": "RTX 3090 $0.300/hr ... RTX A5000 $0.620/hr ... RTX A6000 $0.730/hr ... A100 80GB $2.49/hr ... Storage and egress included in instance pr
+… [truncated: 70429 more characters]

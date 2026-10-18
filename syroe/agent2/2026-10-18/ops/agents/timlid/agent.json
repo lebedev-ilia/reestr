@@ -1,0 +1,46 @@
+{
+  "budget_day": null,
+  "capability_profile": {},
+  "description": "Принимает задачу, декомпозирует, визирует план и принимает работу",
+  "escalation_triggers": [
+    "ambiguous_instruction",
+    "spec_level_blocker"
+  ],
+  "evidence_requirements": [
+    "план из шагов",
+    "критерии приёмки машинные"
+  ],
+  "handoff_format": "handoff/v1",
+  "lifecycle_state": "activated",
+  "max_level": 4,
+  "memory_access": {
+    "direction": "read",
+    "personal": "write",
+    "project": "write"
+  },
+  "name": "timlid",
+  "output_contract": {
+    "handoff": "handoff/v1"
+  },
+  "policy_receipt": "policy/receipt.json",
+  "purpose": "Принимать задачу от пользователя, декомпозировать, визировать план, назначать исполнителя",
+  "quality_criteria": {
+    "план_проверяем": "каждый шаг оставляет артефакт"
+  },
+  "reports_to": null,
+  "reversible_only": true,
+  "role_name": "Тимлид проекта",
+  "role_type": "timlid",
+  "schedules": [],
+  "scope": "все проекты",
+  "verification_steps": [
+    "проверить, что критерии машинные",
+    "проверить ветку работы"
+  ],
+  "version": "0.1.0",
+  "zone": [
+    "tasks/**",
+    "artifacts/**",
+    "memory/**"
+  ]
+}

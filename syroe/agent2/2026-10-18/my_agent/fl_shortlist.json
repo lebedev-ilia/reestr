@@ -1,0 +1,2046 @@
+[
+ {
+  "id": "5521050",
+  "url": "https://www.fl.ru/projects/5521050/razrabotka-servisa-avtomaticheskogo-raschta-smet-1sapi-postavschikovexceldalneyshaya-integratsiya-s-ii.html",
+  "title": "Разработка сервиса автоматического расчёта смет: 1С+API поставщиков+Excel,дальнейшая интеграция с ИИ",
+  "budget": 15000,
+  "budget_raw": "15 000 ₽",
+  "desc": "Добрый день. Компания занимается поставками электрооборудования и кабельно-проводниковой продукции. Ищем разработчика для создания системы автоматического пересчёта входящих...",
+  "responses": null,
+  "category": "avtomatizaciya",
+  "score": 65,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "api",
+    "интеграц",
+    "бот",
+    "excel"
+   ],
+   "F. Инфраструктура/GPU": [
+    "1с"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сервис"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524241",
+  "url": "https://www.fl.ru/projects/5524241/-razvertyivanie-lokalnoy-llm-stantsii-dify--ollama-multi-gpu-s-polnoy-setevoy-izolyatsiey-air-gap.html",
+  "title": "Развертывание локальной LLM-станции (Dify + Ollama, Multi-GPU) с полной сетевой изоляцией (Air-Gap)",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Проект: Локальная мультиагентная система (LLMOps) на базе Dify Ищу опытного DevOps/MLOps-инженера для развертывания системы из 5 AI-агентов на выделенной рабочей станции....",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 65,
+  "hits": {
+   "A. Агенты/LLM": [
+    "ai-агент",
+    "агент",
+    "llm",
+    "ollama"
+   ],
+   "D. ML/DS": [
+    "ml"
+   ],
+   "F. Инфраструктура/GPU": [
+    "devops",
+    "развертыван",
+    "gpu"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5523544",
+  "url": "https://www.fl.ru/projects/5523544/integratsiya-lokalnoy-ii-modeli-qwen-35b-moe-i-api-arhitektura-pod-linux.html",
+  "title": "Интеграция локальной ИИ-модели Qwen-35B-MoE и API-архитектура под Linux",
+  "budget": 92673,
+  "budget_raw": "92 673 ₽",
+  "desc": "Скачать и установить локально Qwen3-35B-MoE-Abliterated.Q4_K_M.gguf.Настроить стабильный АРІ-мост между локальной LМ Studіо, Silly Tavern u Unreal Engine 5. Контур должен быть...",
+  "responses": null,
+  "category": "ai",
+  "score": 51,
+  "hits": {
+   "A. Агенты/LLM": [
+    "qwen"
+   ],
+   "B. Автоматизация/боты": [
+    "api",
+    "интеграц"
+   ],
+   "F. Инфраструктура/GPU": [
+    "linux"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524966",
+  "url": "https://www.fl.ru/projects/5524966/promt-injener-generatsiya-tekstov-cherez-claude-i-kartinki-gemini-api-prilojenie.html",
+  "title": "Промт-инженер: генерация текстов через Claude и картинки Gemini API (приложение)",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "1. Системный промт и шаблон пользовательского запроса с переменными (например, возраст, имя, тема). Методика должна быть записана в промте как пошаговый алгоритм построения...",
+  "responses": null,
+  "category": "ai",
+  "score": 51,
+  "hits": {
+   "A. Агенты/LLM": [
+    "claude",
+    "gemini",
+    "промт"
+   ],
+   "B. Автоматизация/боты": [
+    "api"
+   ],
+   "G. Разработка/продукт": [
+    "приложен"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524119",
+  "url": "https://www.fl.ru/projects/5524119/python-razrabotchik-audit-infrastrukturyi-i-reshenie-zadach-posle.html",
+  "title": "Python-разработчик: аудит инфраструктуры и решение задач после",
+  "budget": 30000,
+  "budget_raw": "30 000 ₽",
+  "desc": "Нужен начинающий DevOps/Python-разработчик на разовую задачу для веб-сервиса. Нужно разобраться в текущей инфраструктуре, найти возможные проблемы с доступностью и предложить...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 50,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот",
+    "python"
+   ],
+   "D. ML/DS": [
+    "python-разработ"
+   ],
+   "F. Инфраструктура/GPU": [
+    "devops"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сервис"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525218",
+  "url": "https://www.fl.ru/projects/5525218/python-razrabotchik--poiskovaya-sistema-po-bolshim-dannyim-postgresql--elasticsearch.html",
+  "title": "Python-разработчик — поисковая система по большим данным (PostgreSQL + Elasticsearch)",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Что уже есть: — Рабочий прототип с документацией на русском — Парсер форматов данных — Подробное ТЗ — Тестовые данные Работа поэтапно с приёмкой каждого этапа. Этап 1 —...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 50,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "парсер",
+    "бот",
+    "python"
+   ],
+   "D. ML/DS": [
+    "python-разработ"
+   ],
+   "F. Инфраструктура/GPU": [
+    "postgres"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522268",
+  "url": "https://www.fl.ru/projects/5522268/sobrat-mvp-proekta-s-pomoschyu-ii-agenta--telegram-mini-app-i-vebversiya.html",
+  "title": "Собрать MVP проекта с помощью ии агента — Telegram Mini App и веб‑версия",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Ищу разработчика или небольшую команду для создания MVP сервиса безопасного оформления рабочих смен на пунктах выдачи заказов. Обязательное условие — активное использование...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 50,
+  "hits": {
+   "A. Агенты/LLM": [
+    "ии агент",
+    "агент"
+   ],
+   "B. Автоматизация/боты": [
+    "telegram",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сервис",
+    "mvp"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5521034",
+  "url": "https://www.fl.ru/projects/5521034/wordpress-dorabotat-sohranenie-zayavok-s-form-otpravka-v-amo-tsrm-i-uvedomleniya-v-telegram.html",
+  "title": "WordPress: доработать сохранение заявок с форм, отправка в амо црм и уведомления в Telegram",
+  "budget": 20000,
+  "budget_raw": "20 000 ₽",
+  "desc": "Сайт WordPress. Часть заявок с форм теряется. По результатам диагностики нашего программиста, текущая отправка напрямую в amoCRM завязана на открытие страницы «Спасибо». На...",
+  "responses": null,
+  "category": "saity",
+  "score": 47,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "crm",
+    "amocrm",
+    "telegram",
+    "бот",
+    "уведомлен"
+   ],
+   "C. CV/видеоаналитика": [
+    "ocr"
+   ],
+   "G. Разработка/продукт": [
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524338",
+  "url": "https://www.fl.ru/projects/5524338/python-llm-razrabotchik-dlya-sozdaniya-mvp-ai-genealogicheskoy-sistemyi-analiza-dokumentov.html",
+  "title": "Python/LLM-разработчик для создания MVP AI генеалогической системы анализа документов",
+  "budget": 15000,
+  "budget_raw": "15 000 ₽",
+  "desc": "Проект — AI-система для генеалогических исследований. Я не разработчик; за несколько месяцев с помощью AI/vibe coding собрал большой экспериментальный прототип и проверил на...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 47,
+  "hits": {
+   "A. Агенты/LLM": [
+    "llm"
+   ],
+   "B. Автоматизация/боты": [
+    "бот",
+    "python"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "mvp"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524579",
+  "url": "https://www.fl.ru/projects/5524579/razrabotka-muzyikalnoy-platformyi--sayt-katalog-lichnyiy-kabinet.html",
+  "title": "Разработка музыкальной платформы — сайт, каталог, личный кабинет",
+  "budget": 600000,
+  "budget_raw": "600 000 ₽",
+  "desc": "Необходимо разработать музыкальную веб-платформу по готовому подробному ТЗ. Этап 1: публичный сайт, музыкальный каталог, e-mail почта, аудиоплеер, поиск и фильтры, плейлисты,...",
+  "responses": null,
+  "category": "saity",
+  "score": 45,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "E. Аудио/голос": [
+    "аудио"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт",
+    "личный кабинет"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525021",
+  "url": "https://www.fl.ru/projects/5525021/razrabotchik-s-navyikami-python-telegram-botyi-ai-instrumentyi.html",
+  "title": "Разработчик с навыками Python, Telegram-боты, AI-инструменты",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Ищем разработчика в команду, который умеет превращать повторяющиеся бизнес-процессы в работающие инструменты: ботов, интеграции и внутренние сервисы. Нужен человек, которому инте...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 43,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "интеграц",
+    "telegram",
+    "бот",
+    "python"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сервис"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5520192",
+  "url": "https://www.fl.ru/projects/5520192/razrabotka-parsera-kitayskih-marketpleysov.html",
+  "title": "Разработка парсера китайских маркетплейсов",
+  "budget": 300000,
+  "budget_raw": "300 000 ₽",
+  "desc": "Ищем разработчика для разработки промышленной системы парсинга китайских маркетплейсов Проект долгосрочный, после запуска планируется постоянное развитие и масштабирование....",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 42,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "парсер",
+    "парсинг",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525247",
+  "url": "https://www.fl.ru/projects/5525247/avtomatizatsiya---fonovaya-obrabotka-tablits-google-s-ispolzovaniem-gemini.html",
+  "title": "Автоматизация – Фоновая обработка Таблиц Google с использованием Gemini",
+  "budget": 10000,
+  "budget_raw": "10 000 ₽",
+  "desc": "Необходимо сделать админку на нашем хостинге, на которой будут осуществляться операции с уже существующими таблицами Google (в service account + ключ для доступа к...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 40,
+  "hits": {
+   "A. Агенты/LLM": [
+    "gemini"
+   ],
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "хостинг"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5520268",
+  "url": "https://www.fl.ru/projects/5520268/razrabotka-bota-dlya-max-i-telegram.html",
+  "title": "Разработка бота для MAX и Телеграм",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Разработать Telegram-бота для автоматизации партнерской программы, который позволит участникам регистрироваться, получать реферальные ссылки и отслеживать статистику...",
+  "responses": null,
+  "category": "messengers",
+  "score": 40,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "telegram",
+    "телеграм",
+    "бот"
+   ],
+   "D. ML/DS": [
+    "статистик"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5517887",
+  "url": "https://www.fl.ru/projects/5517887/analiz-i-ustranenie-problemyi-umensheniya-svobodnogo-mesta-na-diske-dlya-sayta-1sbitriks-hosting-beget.html",
+  "title": "Анализ и устранение проблемы уменьшения свободного места на диске для сайта 1С‑Битрикс хостинг Beget",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Сайт работает на CMS 1С‑Битрикс, хостинг — Beget. Наблюдается постоянное уменьшение свободного места на диске: я уже даже докупал 5-10 гб, но в течение короткого времени (1-2...",
+  "responses": null,
+  "category": "saity",
+  "score": 40,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "битрикс",
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "1с",
+    "хостинг"
+   ],
+   "G. Разработка/продукт": [
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524581",
+  "url": "https://www.fl.ru/projects/5524581/razrabotat-turisticheskiy-portal-na-bitriks.html",
+  "title": "Разработать туристический портал на Битрикс",
+  "budget": 100000,
+  "budget_raw": "100 000 ₽",
+  "desc": "Нужно переделать существующий сайт в полноценный туристический портал. Новая структура, сценарии, визуал, перенос на Битрикс. Срок 30 дней. Портал помогает знакомиться с...",
+  "responses": null,
+  "category": "saity",
+  "score": 38,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "битрикс",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524092",
+  "url": "https://www.fl.ru/projects/5524092/trebuetsya-ii-injener-rvc-dlya-nastroyki-izmeneniya-golosa-v-realnom-vremeni-pod-discord-igryi-i-tg.html",
+  "title": "Требуется ИИ-инженер (RVC) для настройки изменения голоса в реальном времени под Discord, игры и тг",
+  "budget": 20000,
+  "budget_raw": "20 000 ₽",
+  "desc": "Оборудование ноутбук MSI Katana, RTX 3050, микрофон Razer Seiren V3 Mini, исходники голоса есть (короткие аудио) Работа строго через Безопасную сделку, AnyDesk ) Бюджет — 20000...",
+  "responses": null,
+  "category": "ai",
+  "score": 38,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "E. Аудио/голос": [
+    "rvc",
+    "голос",
+    "аудио"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525082",
+  "url": "https://www.fl.ru/projects/5525082/php-python-razrabotchik-na-dolgosrochnyiy-proekt.html",
+  "title": "PHP/Python-разработчик на долгосрочный проект.",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "О проекте Сервис обучения и сопровождения для трейдеров и инвесторов. Проект работает более пяти лет, у него живые пользователи и приём оплат. Система состоит из шести...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 38,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот",
+    "python"
+   ],
+   "D. ML/DS": [
+    "python-разработ"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сервис"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525081",
+  "url": "https://www.fl.ru/projects/5525081/php-python-razrabotchik-na-dolgosrochnyiy-proekt.html",
+  "title": "PHP/Python-разработчик на долгосрочный проект.",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Сервис обучения и сопровождения для трейдеров и инвесторов. Проект работает более пяти лет, у него живые пользователи и приём оплат. Система состоит из шести связанных...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 38,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот",
+    "python"
+   ],
+   "D. ML/DS": [
+    "python-разработ"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сервис"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522686",
+  "url": "https://www.fl.ru/projects/5522686/ai-arhitektor---razrabotchik-avtonomnoy-ai-sistemyi-dlya-telegram-i-sotssetey.html",
+  "title": "AI-архитектор / разработчик автономной AI-системы для Telegram и соцсетей",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "AI-разработчик / архитектор AI-агентов для Telegram и соцсетей Ищу сильного AI-разработчика / архитектора для долгосрочного проекта. Необходимо создать не обычного...",
+  "responses": null,
+  "category": "ai",
+  "score": 37,
+  "hits": {
+   "A. Агенты/LLM": [
+    "ai-агент",
+    "агент"
+   ],
+   "B. Автоматизация/боты": [
+    "telegram",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525203",
+  "url": "https://www.fl.ru/projects/5525203/na-servere-linuks-centos-7-neobhodimo-pochinit-rabotu-cron-.html",
+  "title": "На сервере линукс CentOS 7 необходимо починить работу cron",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Три дня назад на сервере перестал работать кнон. На сервере размещается сайт на битриксе. Битрикс начинает сыпать багами с почтой, не приходит пользователям письма из-за крона....",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 37,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "битрикс",
+    "бот",
+    "cron"
+   ],
+   "F. Инфраструктура/GPU": [
+    "сервер"
+   ],
+   "G. Разработка/продукт": [
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524597",
+  "url": "https://www.fl.ru/projects/5524597/razrabotat-i-zapustit-sayt-na-wp-ili-bitrikse.html",
+  "title": "Разработать и запустить сайт на WP или Битриксе",
+  "budget": 25000,
+  "budget_raw": "25 000 ₽",
+  "desc": "Нужно разработать и запустить сайт на WP или Битриксе (предложите вариант с обоснованием пожалуйста). Сайт должен рассказывать об участии в проекте, собирать заявки, показывать...",
+  "responses": null,
+  "category": "saity",
+  "score": 35,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "битрикс",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524752",
+  "url": "https://www.fl.ru/projects/5524752/razrabotka-korporativnoy-crm-sistemyi-s-ii-avtomatizatsiey-biznes-protsessov.html",
+  "title": "Разработка корпоративной CRM-системы с ИИ-автоматизацией бизнес-процессов",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Необходимо разработать современную корпоративную CRM-систему для управления клиентами, продажами, задачами и внутренними бизнес-процессами компании. Основная задача — создать...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 35,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "crm",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524113",
+  "url": "https://www.fl.ru/projects/5524113/dorabotat-integratsiyu-sayta-s-api-bybit.html",
+  "title": "Доработать интеграцию сайта с API Bybit",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Всем добрый день. Коротко Есть сайт с хорошо настроенной спотовой торговлей на bybit по API. Надо 1. Добавить возможность добавления еще одного API (торговля будет вестись с...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 35,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "api",
+    "интеграц",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522142",
+  "url": "https://www.fl.ru/projects/5522142/frontend-razrabotka-dvuhyyazyichnogo-lendinga-po-gotovoy-figma.html",
+  "title": "Frontend-разработка двухъязычного лендинга по готовой Figma",
+  "budget": 100000,
+  "budget_raw": "100 000 ₽",
+  "desc": "Ищу frontend-разработчика на разовый проект. Нужно реализовать готовый двухъязычный landing по Figma и довести его до production. Что уже определено: - готовые макеты desktop...",
+  "responses": null,
+  "category": "saity",
+  "score": 34,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "frontend",
+    "desktop"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524622",
+  "url": "https://www.fl.ru/projects/5524622/partnrstvo-po-privlecheniyu-zakazov-na-razrabotku-saytov-i-dr-it-produktov-35-s-kajdogo-cheka.html",
+  "title": "Партнёрство по привлечению заказов на разработку сайтов и др. IT-продуктов: 35% с каждого чека",
+  "budget": 75000,
+  "budget_raw": "до 75 000 ₽",
+  "desc": "Привет! Мы команда разработчиков, уже 5 лет находимся в сфере разработки. Нейросети используем точечно, только чтобы ускорить рутинные этапы разработки. Архитектура, код-ревью,...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 34,
+  "hits": {
+   "A. Агенты/LLM": [
+    "нейросет"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524484",
+  "url": "https://www.fl.ru/projects/5524484/partnrstvo-po-privlecheniyu-zakazov-na-razrabotku-saytov-i-dr-it-produktov-35-s-kajdogo-cheka.html",
+  "title": "Партнёрство по привлечению заказов на разработку сайтов и др. IT-продуктов: 35% с каждого чека",
+  "budget": 70000,
+  "budget_raw": "70 000 ₽",
+  "desc": "Привет! Мы команда разработчиков, уже 5 лет находимся в сфере разработки. Нейросети используем точечно, только чтобы ускорить рутинные этапы разработки. Архитектура, код-ревью,...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 34,
+  "hits": {
+   "A. Агенты/LLM": [
+    "нейросет"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524851",
+  "url": "https://www.fl.ru/projects/5524851/partnrstvo-po-privlecheniyu-zakazov-na-razrabotku-saytov-i-dr-it-produktov-35-s-kajdogo-cheka.html",
+  "title": "Партнёрство по привлечению заказов на разработку сайтов и др. IT-продуктов: 35% с каждого чека",
+  "budget": 60000,
+  "budget_raw": "до 60 000 ₽",
+  "desc": "Привет! Мы команда разработчиков, уже 5 лет находимся в сфере разработки. Нейросети используем точечно, только чтобы ускорить рутинные этапы разработки. Архитектура, код-ревью,...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 34,
+  "hits": {
+   "A. Агенты/LLM": [
+    "нейросет"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5523099",
+  "url": "https://www.fl.ru/projects/5523099/partnrstvo-po-privlecheniyu-zakazov-na-razrabotku-saytov-i-dr-it-produktov-35-s-kajdogo-cheka.html",
+  "title": "Партнёрство по привлечению заказов на разработку сайтов и др. IT-продуктов: 35% с каждого чека",
+  "budget": 40000,
+  "budget_raw": "до 40 000 ₽",
+  "desc": "Привет! Мы команда разработчиков, уже 5 лет находимся в сфере разработки. Нейросети используем точечно, только чтобы ускорить рутинные этапы разработки. Архитектура, код-ревью,...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 34,
+  "hits": {
+   "A. Агенты/LLM": [
+    "нейросет"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524639",
+  "url": "https://www.fl.ru/projects/5524639/partnrstvo-po-privlecheniyu-zakazov-na-razrabotku-saytov-i-dr-it-produktov-35-s-kajdogo-cheka.html",
+  "title": "Партнёрство по привлечению заказов на разработку сайтов и др. IT-продуктов: 35% с каждого чека",
+  "budget": 30000,
+  "budget_raw": "до 30 000 ₽",
+  "desc": "Привет! Мы команда разработчиков, уже 5 лет находимся в сфере разработки. Нейросети используем точечно, только чтобы ускорить рутинные этапы разработки. Архитектура, код-ревью,...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 34,
+  "hits": {
+   "A. Агенты/LLM": [
+    "нейросет"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525168",
+  "url": "https://www.fl.ru/projects/5525168/dorabotka-1s-avtomatizatsiya-formirovaniya-otchta-po-prodajam.html",
+  "title": "Доработка 1С: автоматизация формирования отчёта по продажам",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Необходимо доработать существующую конфигурацию 1С:Управление торговлей 11.5. Сейчас менеджеры вручную собирают данные по продажам и выгружают их в Excel. Хотим...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 34,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "бот",
+    "excel"
+   ],
+   "F. Инфраструктура/GPU": [
+    "1с"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524634",
+  "url": "https://www.fl.ru/projects/5524634/razrabotat-sayt-po-tz.html",
+  "title": "Разработать сайт по ТЗ",
+  "budget": 400000,
+  "budget_raw": "400 000 ₽",
+  "desc": "Необходимо разработать сайт по ТЗ, тз во вложении Если есть идеи по сайту, что можно докрутить приветствуется. Также пишите сразу цену и срок исполнения!",
+  "responses": null,
+  "category": "saity",
+  "score": 33,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522070",
+  "url": "https://www.fl.ru/projects/5522070/ischu-partnera-tehnarya-dlya-avtomatizatsii-rassyilok-v-telegram-.html",
+  "title": "Ищу партнера-технаря для автоматизации рассылок в Телеграм.",
+  "budget": 20000,
+  "budget_raw": "20 000 ₽ – 100 000 ₽",
+  "desc": "Всем привет! Ищу партнера-технаря для автоматизации рассылок в Телеграм. От вас знание алгоритмов и лимитов Telegram. > 1. Работа с аккаунтами: закупка, прокси, прогрев...",
+  "responses": null,
+  "category": "messengers",
+  "score": 33,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "telegram",
+    "телеграм",
+    "бот"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524702",
+  "url": "https://www.fl.ru/projects/5524702/razrabotka-pcb--proshivki--servera-dlya-brasleta.html",
+  "title": "Разработка PCB + прошивки + сервера для браслета",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Разработка прототипа браслета: мониторинг пульса + автоматический вызов скорой при остановке сердца. Проект на стадии MVP. Бюджет до 500 000 ₽ (поэтапная оплата). Нужна...",
+  "responses": null,
+  "category": "inzhiniring",
+  "score": 33,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "сервер",
+    "мониторинг"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "mvp"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5521156",
+  "url": "https://www.fl.ru/projects/5521156/agent-po-poisku-klientov-na-digital-razrabotku.html",
+  "title": "Агент по поиску клиентов на digital-разработку",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Ищу человека, который будет находить клиентов на разработку цифровых продуктов. Мы можем реализовывать: - сайты и корпоративные сайты; - интернет-магазины; - веб-приложения и...",
+  "responses": null,
+  "category": "saity",
+  "score": 33,
+  "hits": {
+   "A. Агенты/LLM": [
+    "агент"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "приложен",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524610",
+  "url": "https://www.fl.ru/projects/5524610/pomoch-nastroit-ai-agenta.html",
+  "title": "Помочь настроить AI агента",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Помочь создать с нуля и настроить AI агента chatgpt ежедневно вешать новость на сайте по заданной теме и критериям. в процессе объяснить и показать как это делать.",
+  "responses": null,
+  "category": "ai",
+  "score": 32,
+  "hits": {
+   "A. Агенты/LLM": [
+    "ai агент",
+    "агент",
+    "gpt"
+   ],
+   "G. Разработка/продукт": [
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522860",
+  "url": "https://www.fl.ru/projects/5522860/ischu-ai-prodyusera-video-neyroseti-avtomatizatsiya.html",
+  "title": "Ищу AI-продюсера: видео, нейросети, автоматизация",
+  "budget": 80000,
+  "budget_raw": "80 000 ₽ – 120 000 ₽",
+  "desc": "В компанию ищу человека с техническим опытом, который понимает контент и умеет самостоятельно выстраивать его производство через AI. Здесь соединяются программирование,...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 31,
+  "hits": {
+   "A. Агенты/LLM": [
+    "нейросет"
+   ],
+   "B. Автоматизация/боты": [
+    "автоматизац"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522434",
+  "url": "https://www.fl.ru/projects/5522434/ischu-ai-prodyusera-video-neyroseti-avtomatizatsiya.html",
+  "title": "Ищу AI-продюсера: видео, нейросети, автоматизация",
+  "budget": 80000,
+  "budget_raw": "80 000 ₽ – 150 000 ₽",
+  "desc": "Ищу человека с техническим опытом, который понимает контент и умеет самостоятельно выстраивать его производство через AI. Здесь соединяются программирование, маркетинг и...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 31,
+  "hits": {
+   "A. Агенты/LLM": [
+    "нейросет"
+   ],
+   "B. Автоматизация/боты": [
+    "автоматизац"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524110",
+  "url": "https://www.fl.ru/projects/5524110/razrabotat-chat-bota-v-messendjere-max-dlya-sportivnoy-shkolyi.html",
+  "title": "Разработать чат-бота в мессенджере MAX для спортивной школы",
+  "budget": 20000,
+  "budget_raw": "20 000 ₽",
+  "desc": "Нужно разработать чат-бота в мессенджере MAX для спортивной школы. Бот должен позволять людям записываться на платные занятия, выбирать удобное время, оформлять разовые...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 31,
+  "hits": {
+   "A. Агенты/LLM": [
+    "чат-бот"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524500",
+  "url": "https://www.fl.ru/projects/5524500/ii-agentyi.html",
+  "title": "ИИ-агенты",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Находимся в поиске профессионального подрядчика или консультанта с целью разработать или получить готовое решение на базе искусственного интеллекта. Данное решение должно быть...",
+  "responses": null,
+  "category": "ai",
+  "score": 31,
+  "hits": {
+   "A. Агенты/LLM": [
+    "ии-агент",
+    "агент"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524630",
+  "url": "https://www.fl.ru/projects/5524630/razrabotat-figma-plagin-dlya-generatsii-lokalizovannyih-skrinshotov-mobilnyih-prilojeniy.html",
+  "title": "Разработать Figma-плагин для генерации локализованных скриншотов мобильных приложений",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Ищем разработчика с опытом Figma Plugin API, JavaScript / TypeScript для автоматизации подготовки store screenshots. У нас 6 приложений для изучения языков: English, Spanish,...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 31,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "api",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "приложен"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5518586",
+  "url": "https://www.fl.ru/projects/5518586/razrabotka-telegram-mini-app-mvp.html",
+  "title": "Разработка Telegram Mini App (MVP)",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Нужен Telegram Mini App для тестирования продукта. Это MVP, поэтому важна скорость и простота. Основная задача — чтобы пользователь мог быстро зарегистрироваться, получить...",
+  "responses": null,
+  "category": "mobile",
+  "score": 31,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "telegram",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "mvp"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525103",
+  "url": "https://www.fl.ru/projects/5525103/zadacha-razrabotka-besprovodnoy-sistemyi-monitoringa-zanyatosti-krovatey-dlya-otelya.html",
+  "title": "Задача: Разработка беспроводной системы мониторинга занятости кроватей для отеля.",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "«Мне нужна система мониторинга для владельца отеля. Цель — контроль персонала. Нужно объединить физические датчики на кроватях (ESP32 по Wi-Fi) с системой учета (CRM или...",
+  "responses": null,
+  "category": "avtomatizaciya",
+  "score": 30,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "crm",
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "мониторинг"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5523067",
+  "url": "https://www.fl.ru/projects/5523067/menedjer-po-privlecheniyu-klientov-na-razrabotku-saytov-pod-klyuch---20-s-zakaza.html",
+  "title": "Менеджер по привлечению клиентов на разработку сайтов под ключ – 20% с заказа",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Я программист, работаю с нейросетями, занимаюсь разработкой сайтов. Мои направления лендинг, полноценные сайты и мобильные приложения. Ищу человека умеющего стабильно...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 30,
+  "hits": {
+   "A. Агенты/LLM": [
+    "нейросет"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "приложен",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524360",
+  "url": "https://www.fl.ru/projects/5524360/sayt-dlya-agentstva-nedvijimosti-dorabotat.html",
+  "title": "Сайт для агентства недвижимости (доработать)",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Необходимо разработать современный многостраничный сайт для агентства недвижимости с каталогом объектов. Сайт должен выглядеть современно и дорого, вызывать доверие и быть...",
+  "responses": null,
+  "category": "saity",
+  "score": 30,
+  "hits": {
+   "A. Агенты/LLM": [
+    "агент"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522518",
+  "url": "https://www.fl.ru/projects/5522518/middle-frontend-developer-nextjs-react-.html",
+  "title": "Middle Frontend Developer (Next.js/React )",
+  "budget": 45000,
+  "budget_raw": "45 000 ₽ – 50 000 ₽",
+  "desc": "Ищем на парт-тайм в маркетинговую продуктовую команду Middle Frontend-разработчика для работы над основным сайтом, посадочными страницами, промо-проектами и интерактивными сервисам...",
+  "responses": null,
+  "category": "saity",
+  "score": 29,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт",
+    "сервис",
+    "frontend",
+    "react"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524273",
+  "url": "https://www.fl.ru/projects/5524273/montaj-yumoristicheskih-podkastov.html",
+  "title": "Монтаж юмористических подкастов",
+  "budget": 40000,
+  "budget_raw": "до 40 000 ₽",
+  "desc": "Ищем монтажёра для юмористического подкаста Нужен человек на постоянную работу — монтаж вертикальных роликов ~1 минута. Мы предоставляем: готовые видеофрагменты, озвучку,...",
+  "responses": null,
+  "category": "audio-video-photo",
+  "score": 29,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "E. Аудио/голос": [
+    "озвучк",
+    "подкаст"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524997",
+  "url": "https://www.fl.ru/projects/5524997/podklyuchenie-platejnoy-sistemyi-dlya-telegram-bota.html",
+  "title": "Подключение платежной системы для телеграм бота",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Техническое задание: подключение платёжной системы и автоматизация подписок в Telegram Вид деятельности : торговые сигналы. 1. Цель проекта Необходимо организовать...",
+  "responses": null,
+  "category": "avtomatizaciya",
+  "score": 29,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "telegram",
+    "телеграм",
+    "бот"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524871",
+  "url": "https://www.fl.ru/projects/5524871/nastroyka-i-integratsii-crm-bitrix24.html",
+  "title": "Настройка и интеграции CRM Bitrix24",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Настройка и интеграции CRM Bitrix24: 1. Настройка воронок в Битрикс24 2. Интеграция с корпоративной почтой 3. Интеграция с 1С:БП 8.5 3.0 (находящаяся в облаке на scloud.ru)...",
+  "responses": null,
+  "category": "avtomatizaciya",
+  "score": 29,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "crm",
+    "битрикс",
+    "интеграц"
+   ],
+   "F. Инфраструктура/GPU": [
+    "1с"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525076",
+  "url": "https://www.fl.ru/projects/5525076/nujen-frontend-angular---razrabotchik.html",
+  "title": "Нужен Frontend Angular – разработчик",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Нужен опытный Angular разработчик на проектную работу. Работать нужно с Angular, TypeScript, RxJS и REST API. Пришлите свой опыт и портфолио с какими проектами работали, а так...",
+  "responses": null,
+  "category": "saity",
+  "score": 29,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "api",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "frontend",
+    "rest"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5523315",
+  "url": "https://www.fl.ru/projects/5523315/spetsialist-po-podderjke-i-dorabotke-internet-magazina-na-1s-bitriks.html",
+  "title": "Специалист по поддержке и доработке интернет-магазина на 1С-Битрикс",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Вакансия: Специалист по поддержке и доработке интернет-магазина на 1С-Битрикс Тип занятости: Проектная работа / Частичная занятость (удаленно) Оплата: Почасовая Срок сотрудничества...",
+  "responses": null,
+  "category": "saity",
+  "score": 29,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "битрикс",
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "1с"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525181",
+  "url": "https://www.fl.ru/projects/5525181/nujen-razrabotchik-dlya-napisaniya-parsera-tovarov.html",
+  "title": "Нужен разработчик для написания парсера товаров",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Нужно написать парсер для сбора товаров с нескольких интернет-магазинов (пока 3 сайта, в дальнейшем планируем добавлять новые). Что нужно собирать: - Название товара - Цену...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 28,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "парсер",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5518852",
+  "url": "https://www.fl.ru/projects/5518852/zapuskaem-razrabotku-vnutrennego-produkta-dlya-upravleniya-kompyuternyim-klubom-i-franchayzingovoy-setyu.html",
+  "title": "Запускаем разработку внутреннего продукта для управления компьютерным клубом и франчайзинговой сетью",
+  "budget": 999999,
+  "budget_raw": "до 999 999 ₽",
+  "desc": "- Формировать продуктовую стратегию и приоритеты развития системы - Разобрать текущие процессы сети: сопровождение, IT, маркетинг, склад, открытия, работа клубов, поддержка...",
+  "responses": null,
+  "category": "avtomatizaciya",
+  "score": 27,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524073",
+  "url": "https://www.fl.ru/projects/5524073/razrabotchik-po--kontraktnyiy-proekt.html",
+  "title": "Разработчик ПО — контрактный проект",
+  "budget": 300000,
+  "budget_raw": "от 300 000 ₽",
+  "desc": "Работаешь в IT или занимаешься программированием? Рассматриваем специалистов с опытом в разработке, работе с программным обеспечением и других направлениях IT. 💰 УСЛОВИЯ: • Единовр...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 27,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5523622",
+  "url": "https://www.fl.ru/projects/5523622/programmist-razrabotchik-v-podrazdelenie-bpla.html",
+  "title": "Программист-разработчик в подразделение БПЛА",
+  "budget": 300000,
+  "budget_raw": "от 300 000 ₽",
+  "desc": "Ищем программистов и разработчиков для работы в подразделениях беспилотной авиации. Специалисты участвуют в разработке, настройке и сопровождении программного обеспечения, которое...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 27,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5525240",
+  "url": "https://www.fl.ru/projects/5525240/sozdanie-dvuh-golos-dlya-ozvuchki-video-trukraym.html",
+  "title": "Создание двух голос для озвучки видео трукрайм.",
+  "budget": 12000,
+  "budget_raw": "12 000 ₽",
+  "desc": "Создать голос мужчины и голос девушки для дальнейшей озвучки видео трукрайм.",
+  "responses": null,
+  "category": "ai",
+  "score": 27,
+  "hits": {
+   "E. Аудио/голос": [
+    "голос",
+    "озвучк"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5518941",
+  "url": "https://www.fl.ru/projects/5518941/vedenie-telegramm-maks-kanala-veb-studii-privlechenie-podpischikov.html",
+  "title": "ведение телеграмм/макс канала веб-студии, привлечение подписчиков",
+  "budget": 10000,
+  "budget_raw": "до 10 000 ₽",
+  "desc": "Для компании с 20-ти летним портфолио требуется вести канал в телеграмм/макс посвященный проектам компании: разработка сайтов, веб-сервисов, ИИ-проекты, разработка программного...",
+  "responses": null,
+  "category": "messengers",
+  "score": 27,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "телеграм",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт",
+    "сервис"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5518832",
+  "url": "https://www.fl.ru/projects/5518832/python-skript-dlya-rascheta-morskih-rasstoyaniy-biblioteka-searoute.html",
+  "title": "Python-скрипт для расчета морских расстояний (библиотека searoute)",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Разработать Python-скрипт (на основе библиотеки searoute) для автоматического расчета кратчайших морских расстояний между 195 странами мира на основе координат их портов и...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 27,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот",
+    "скрипт",
+    "python"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524934",
+  "url": "https://www.fl.ru/projects/5524934/zvukorejissr-dlya-ruchnoy-obrabotki-golosa-so-sdachey-v-den-polucheniya-zapisi-3050-min.html",
+  "title": "Звукорежиссёр для ручной обработки голоса со сдачей в день получения (записи 30–50 мин)",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Ищу звукорежиссёра или аудиомонтажёра для постоянной обработки голосовых записей к моим роликам. Одна запись длится 30–50 минут. Главное условие оперативность. Если я присылаю...",
+  "responses": null,
+  "category": "audio-video-photo",
+  "score": 27,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "E. Аудио/голос": [
+    "голос",
+    "аудио"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5521844",
+  "url": "https://www.fl.ru/projects/5521844/partnrstvo-po-privlecheniyu-zakazov-na-ii-razrabotku-saytov-i-lendingov-25-s-kajdogo-cheka.html",
+  "title": "Партнёрство по привлечению заказов на ИИ-разработку сайтов и лендингов: 25% с каждого чека",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Привет! Я ИИ-разработчик, уже 2 года практикующий вайб-кодинг. Использую нейросети для создания цифровых продуктов — это позволяет сдавать проекты в раза быстрее традиционной разра...",
+  "responses": null,
+  "category": "saity",
+  "score": 27,
+  "hits": {
+   "A. Агенты/LLM": [
+    "нейросет"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524170",
+  "url": "https://www.fl.ru/projects/5524170/kontent-menedjer-napolnenie-kataloga-novoy-tehniki-v-1s-bitriks.html",
+  "title": "Контент-менеджер: наполнение каталога новой техники в 1С-Битрикс",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Ищем контент-менеджера для наполнения каталога новой техники на сайте лизинговой компании (Флит Лизинг). Работа — в административной панели 1С-Битрикс. Нужно создавать карточки...",
+  "responses": null,
+  "category": "saity",
+  "score": 27,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "битрикс",
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "1с"
+   ],
+   "G. Разработка/продукт": [
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522019",
+  "url": "https://www.fl.ru/projects/5522019/ischu-partnra-po-poisku-klientov-na-it---ai-avtomatizatsiyu--1015-ot-proekta.html",
+  "title": "Ищу партнёра по поиску клиентов на IT / AI-автоматизацию — 10–15% от проекта",
+  "budget": 20000,
+  "budget_raw": "20 000 ₽ – 300 000 ₽",
+  "desc": "Ищу партнёра на долгосрочное сотрудничество, который будет находить компании и предпринимателей с реальными задачами по автоматизации бизнеса, интеграциям и разработке. Что мы...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 26,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "интеграц",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5521131",
+  "url": "https://www.fl.ru/projects/5521131/razrabotka-razdelov-proektnoy-dokumentatsii-stadiya-p-.html",
+  "title": "Разработка разделов проектной документации, стадия П",
+  "budget": 150000,
+  "budget_raw": "150 000 ₽",
+  "desc": "Разработка разделов проектной документации, стадия П Необходимо разработать следующие разделы: ООС – общий раздел по комплексу и отдельный подраздел по сооружению накопления...",
+  "responses": null,
+  "category": "inzhiniring",
+  "score": 25,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524637",
+  "url": "https://www.fl.ru/projects/5524637/razrabotat-admin-panel-upravleniya-dlya-vizovogo-tsentra-.html",
+  "title": "Разработать админ панель управления для визового центра",
+  "budget": 150000,
+  "budget_raw": "150 000 ₽",
+  "desc": "Необходимо разработать админ-панель управления для визового центра: управление заявками клиентов, статусами, данными пользователей, документами и основными настройками системы....",
+  "responses": null,
+  "category": "saity",
+  "score": 25,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5521254",
+  "url": "https://www.fl.ru/projects/5521254/nastroyka-chat-bota-v-messendjere-max.html",
+  "title": "Настройка чат-бота в мессенджере MAX",
+  "budget": 10000,
+  "budget_raw": "10 000 ₽",
+  "desc": "Техническое задание Настройка чат-бота в мессенджере MAX 1. Задача Сделать чат-бота в MAX, который будет отвечать клиентам на частые вопросы. 2. Зачем это надо Чтобы не...",
+  "responses": null,
+  "category": "messengers",
+  "score": 25,
+  "hits": {
+   "A. Агенты/LLM": [
+    "чат-бот"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5523528",
+  "url": "https://www.fl.ru/projects/5523528/razrabotchik-resheniy-na-elma365-no-low-code-typescript-css-html-sql.html",
+  "title": "Разработчик решений на Elma365 (no/low-code, typescript, css, html, sql)",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Ищем разработчика для создания и развития внутренней информационной системы на базе ELMA365 On-Premises. Нам нужен человек, который умеет не просто настраивать отдельные формы и пр...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 25,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "D. ML/DS": [
+    "ml"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5523270",
+  "url": "https://www.fl.ru/projects/5523270/1s-razrabotchik.html",
+  "title": "1С-разработчик",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Задачи • Разработка и доработка в 1С:УТ и УНФ. • Настройка и оптимизация обменов с внешними системами. • Разработка и доработка и устранение ошибок печатных форм, отчетов,...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 25,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "1с"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5523593",
+  "url": "https://www.fl.ru/projects/5523593/partnerstvo---razrabotchik-pod-avtomatizatsiyu-igrovyih-sessiy-mnogookonnost-humanizatsiya.html",
+  "title": "Партнерство / Разработчик под автоматизацию игровых сессий (Многооконность, Хуманизация)",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Привет! Ищу разработчика/реверс-инженера в команду под долгосрочную автоматизацию игровых проектов. Работа на партнерских условиях (процент от прибыли). Есть готовая, полностью...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 25,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5518221",
+  "url": "https://www.fl.ru/projects/5518221/razrabotat-model-proekt-ograjdeniya-lestnitsyi-v-dome-.html",
+  "title": "Разработать модель/проект ограждения лестницы в доме",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Есть модель лестницы в SW, по этой моделе я лестницу собрал. Нужно спроектировать перилла и ограждение к лестнице примерно как на картинке. Результат – модель в SW2022 и pdf...",
+  "responses": null,
+  "category": "inzhiniring",
+  "score": 25,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "D. ML/DS": [
+    "модель"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5520925",
+  "url": "https://www.fl.ru/projects/5520925/razvernut-blazor-prilojenie-na-drugom-hostinge.html",
+  "title": "Развернуть Blazor приложение на другом хостинге",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Прошу откликаться специалистов с опытом работы с шарпами. Необходима помощь в переносе и разворачивании портала C# blazor. Код, доступы к серверу, S3 (cdn), БД текущего...",
+  "responses": null,
+  "category": "saity",
+  "score": 25,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "сервер",
+    "хостинг"
+   ],
+   "G. Разработка/продукт": [
+    "приложен"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5519810",
+  "url": "https://www.fl.ru/projects/5519810/pravki-sayta-na-bitriks.html",
+  "title": "Правки сайта на Битрикс",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Крупный проект. На данный момент не работает \"режим правки\", не могу поправить блок. Вероятно, это связано со сменой хостинга. В консоле 403 ошибка. И еще около 15...",
+  "responses": null,
+  "category": "saity",
+  "score": 25,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "битрикс",
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "хостинг"
+   ],
+   "G. Разработка/продукт": [
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524876",
+  "url": "https://www.fl.ru/projects/5524876/obmernyie-rabotyi-i-proekt-ar.html",
+  "title": "Обмерные работы и проект АР",
+  "budget": 300000,
+  "budget_raw": "300 000 ₽",
+  "desc": "г. Елабуга. Необходим выезд на обмерные работы, разработка планировок исходя из них в двг формате. С экспликацией помещений.",
+  "responses": null,
+  "category": "inzhiniring",
+  "score": 24,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5521758",
+  "url": "https://www.fl.ru/projects/5521758/avtomatizatsiya-word.html",
+  "title": "Автоматизация Word",
+  "budget": 100000,
+  "budget_raw": "100 000 ₽",
+  "desc": "Техническое задание Программа автоматического оформления учебных работ по нормоконтролю Версия ТЗ: 1.0 1. Идея и назначение Студенты тратят много времени на оформление...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 24,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "бот"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522488",
+  "url": "https://www.fl.ru/projects/5522488/akkaunt-menedjer-v-kripto-proekt-telegram.html",
+  "title": "Аккаунт-менеджер в крипто-проект (Telegram)",
+  "budget": 85000,
+  "budget_raw": "85 000 ₽ – 100 000 ₽",
+  "desc": "Ищем человека в команду, который будет заниматься клиентами и текущими операционными вопросами. Проект связан с Telegram и криптовалютной инфраструктурой. В основном работа...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 24,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "telegram",
+    "бот"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524490",
+  "url": "https://www.fl.ru/projects/5524490/menedjer-telegram-coobschestva.html",
+  "title": "🚀Менеджер Telegram-cообщества🚀",
+  "budget": 80000,
+  "budget_raw": "до 80 000 ₽",
+  "desc": "🚀 Ищем менеджера Telegram-cообщества 📍 Россия, Беларусь, Казахстан и страны СНГ 💻 Удалённая работа ⏰ 4-6 часов в день 💰 От 80 000 ₽ / 3 200 BYN / 500 000 ₸ + бонусы Что нужно...",
+  "responses": null,
+  "category": "messengers",
+  "score": 24,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "telegram",
+    "бот"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524564",
+  "url": "https://www.fl.ru/projects/5524564/sdelat-obrabotku-dlya-1s-.html",
+  "title": "Сделать обработку для 1с",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Нужно сделать обработку для 1с чтоб из excel файла создавались реализации",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 24,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот",
+    "excel"
+   ],
+   "F. Инфраструктура/GPU": [
+    "1с"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524314",
+  "url": "https://www.fl.ru/projects/5524314/razrabotat-mobilnoe-prilojenie-na-androyd-s-podpiskami.html",
+  "title": "Разработать мобильное приложение на андройд с подписками",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Требуется сделать MVP мобильного приложения на чистом котлине. 7$ в час. 1.Подключить адапти 2. подключить старонние апи и вывести главный экран 3. Залить билд в стор Только...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 24,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "приложен",
+    "mvp"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5519092",
+  "url": "https://www.fl.ru/projects/5519092/nastroyka-i-soprovojdenie-bitriks24-dolgosrochno-udalnno.html",
+  "title": "Настройка и сопровождение Битрикс24 (долгосрочно, удалённо)",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Ищем специалиста по Битрикс24 для долгосрочной настройки и сопровождения портала: CRM, воронки продаж, автоматизация, интеграции, отчётность. Работа ТОЛЬКО удалённо, проект...",
+  "responses": null,
+  "category": "programmirovanie",
+  "score": 24,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "автоматизац",
+    "crm",
+    "битрикс",
+    "интеграц",
+    "бот"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5521956",
+  "url": "https://www.fl.ru/projects/5521956/trebuyutsya-razrabotchiki-mobilnyih-prilojeniy.html",
+  "title": "Требуются разработчики мобильных приложений",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Товарищи фрилансеры, всем привет! Требуются разработчики мобильных приложений на проектные работы в студию мобильной разработки. Flutter / flutter flow / dart React native Swift...",
+  "responses": null,
+  "category": "mobile",
+  "score": 24,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "приложен",
+    "react"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5523608",
+  "url": "https://www.fl.ru/projects/5523608/ischem-razrabotchika-v-ekaterinburge-.html",
+  "title": "Ищем разработчика в Екатеринбурге",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Проект – закрытый веб-сервис для сделок RUB ↔ USDT. Пользователь заходит в кабинет, видит объявления, открывает сделку и переписывается с контрагентом. Есть платный доступ к...",
+  "responses": null,
+  "category": "saity",
+  "score": 24,
+  "hits": {
+   "A. Агенты/LLM": [
+    "агент"
+   ],
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сервис"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524976",
+  "url": "https://www.fl.ru/projects/5524976/sayt-pod-klyuch.html",
+  "title": "Сайт под ключ",
+  "budget": 80000,
+  "budget_raw": "80 000 ₽",
+  "desc": "Требуется разработать сайт под ключ для ИП по привозу авто из Китая. Сайт включает главную-лендинг (стиль-пародия на оригинальный китайский классифайд), каталог авто с...",
+  "responses": null,
+  "category": "saity",
+  "score": 23,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5521513",
+  "url": "https://www.fl.ru/projects/5521513/bot-kopiruyuschiy-sdelki.html",
+  "title": "Бот копирующий сделки",
+  "budget": 10000,
+  "budget_raw": "10 000 ₽",
+  "desc": "# ТЗ: Telegram-бот для копирования сигналов Бот читает сигналы из Telegram-каналов, автоматически открывает сделки на бирже, ведёт статистику и показывает результаты в...",
+  "responses": null,
+  "category": "crypto",
+  "score": 23,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "telegram",
+    "бот"
+   ],
+   "D. ML/DS": [
+    "статистик"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524405",
+  "url": "https://www.fl.ru/projects/5524405/razmetka-500-fotografiy-tovarov-dlya-obucheniya-yolo-bounding-boxes.html",
+  "title": "Разметка 500 фотографий товаров для обучения YOLO (Bounding Boxes)",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "Необходимо разметить 500 фотографий торговых полок для обучения модели компьютерного зрения. Размечаем только 5 SKU «Красного Ключа»: krk_gas_05, krk_gas_15, krk_negas_05,...",
+  "responses": null,
+  "category": "audio-video-photo",
+  "score": 23,
+  "hits": {
+   "C. CV/видеоаналитика": [
+    "yolo",
+    "разметк"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522138",
+  "url": "https://www.fl.ru/projects/5522138/poisk-klientov.html",
+  "title": "Поиск клиентов",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Привет! Я разрабатываю сайты, Telegram-боты и CRM с нейросетями. Работаю по принципу Vibe Coding – быстро и под конкретную задачу бизнеса. Ищу человека, который будет приводить...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 23,
+  "hits": {
+   "A. Агенты/LLM": [
+    "нейросет"
+   ],
+   "B. Автоматизация/боты": [
+    "crm",
+    "telegram",
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5521581",
+  "url": "https://www.fl.ru/projects/5521581/-ischu-sales---lead-generation-partnra-dlya-it-proektov.html",
+  "title": "🚀 Ищу sales / lead generation партнёра для IT-проектов",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Я разработчик и ищу человека, который умеет находить реальных клиентов и IT-заказы. Что я делаю: • Go / Backend • Node.js / Python • Web-разработка • Telegram-боты • AI /...",
+  "responses": null,
+  "category": "konsalting",
+  "score": 23,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "telegram",
+    "бот",
+    "python"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "backend",
+    "node"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524400",
+  "url": "https://www.fl.ru/projects/5524400/administrator-sayta---kontent-menedjer-na-postoyannuyu-rabotu.html",
+  "title": "Администратор сайта / контент-менеджер на постоянную работу",
+  "budget": null,
+  "budget_raw": "по результатам собеседования",
+  "desc": "Ищем администратора для постоянного ведения сайта мужского SPA-клуба в Перми. Сайт действующий, требуется не разработка с нуля, а регулярное администрирование, обновление...",
+  "responses": null,
+  "category": "saity",
+  "score": 23,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "администрирован"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524056",
+  "url": "https://www.fl.ru/projects/5524056/nujno-perenesti-gotovyiy-sayt-na-svelte-na-hosting-beget.html",
+  "title": "нужно перенести готовый сайт на свелте на хостинг beget",
+  "budget": null,
+  "budget_raw": "по договоренности",
+  "desc": "У меня есть сайт, который сделан на свелте фреймворке. Один разработчик переносил его на хостинг beget. Перенёс, но там были ошибки. Я их исправил и нужно перезалить на...",
+  "responses": null,
+  "category": "saity",
+  "score": 23,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "F. Инфраструктура/GPU": [
+    "хостинг"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5524066",
+  "url": "https://www.fl.ru/projects/5524066/razrabotat-lending-dlya-uslug-metalloobrabotki-i-sklada.html",
+  "title": "Разработать лендинг, для услуг металлообработки и склада",
+  "budget": 45000,
+  "budget_raw": "45 000 ₽",
+  "desc": "Разработать лендинг, для услуг металлообработки и склада Калькулятор стоимости заказа, склад для отображения наличия материалов и их цена. ЧТо то типо каталога Уникальный...",
+  "responses": null,
+  "category": "saity",
+  "score": 22,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5521591",
+  "url": "https://www.fl.ru/projects/5521591/razrabotka-shablona-prodayuschey-stranitsyi-tovara-v-tilda-zero-block--nastroyka-kataloga-tovarov.html",
+  "title": "Разработка шаблона продающей страницы товара в Tilda (Zero Block) + настройка Каталога товаров",
+  "budget": 40000,
+  "budget_raw": "40 000 ₽",
+  "desc": "Проект: интернет-магазин оконных комплектующих Платформа: Tilda Что нужно сделать: Разработать единый шаблон продающей страницы товара в Zero Block, который можно...",
+  "responses": null,
+  "category": "saity",
+  "score": 22,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ"
+   ]
+  },
+  "neg": []
+ },
+ {
+  "id": "5522250",
+  "url": "https://www.fl.ru/projects/5522250/ischu-razrabotchika-tilda-dlya-postoyannogo-sootrudnichestva.html",
+  "title": "Ищу разработчика Tilda для постоянного соотрудничества.",
+  "budget": 20000,
+  "budget_raw": "20 000 ₽",
+  "desc": "Здравствуйте! Ищу специалиста по Tilda для постоянного сотрудничества. Планирую регулярно передавать проекты на создание простых сайтов и лендингов для малого бизнеса. На...",
+  "responses": null,
+  "category": "saity",
+  "score": 22,
+  "hits": {
+   "B. Автоматизация/боты": [
+    "бот"
+   ],
+   "G. Разработка/продукт": [
+    "разработ",
+    "сайт"
+   ]
+  },
+  "neg": []
+ }
+]
