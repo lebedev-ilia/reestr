@@ -1,0 +1,21 @@
+{
+ "id": "job-038",
+ "title": "Доделать bl-054: ежедневный разбор входящих и история переписки",
+ "status": "done",
+ "model": "haiku",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-26T10:57:24+10:00",
+ "started": "2026-08-26T11:05:02+10:00",
+ "finished": "2026-08-26T11:07:28+10:00",
+ "sec": 146.6,
+ "pid": 1419768,
+ "cost_usd": 0.35642,
+ "turns": 24,
+ "result": "memory/jobs/job-038/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-26T11:07:42+10:00"
+}

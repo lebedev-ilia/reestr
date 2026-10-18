@@ -1,0 +1,3 @@
+memory.log: процесс не живой (нет JARVIS_LIVE) — пишу в /home/ilya/Рабочий стол/Agent/jarvis/derived/manual/log, а не в memory/log
+job-092 · running · sonnet · роль teamlead-vnutrennii · режим work
+результат придёт сам: демон подложит его в промпт следующего хода

@@ -1,0 +1,27 @@
+{
+ "id": "job-021",
+ "title": "legal:learn [holodnaya-rassylka-pravo] Холодная email-рассылка",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 40,
+ "timeout": 2700,
+ "origin": "role",
+ "zone": [
+  "memory/agents/legal/knowledge",
+  "memory/agents/legal/journal",
+  "memory/agents/legal/STATUS.md",
+  "memory/agents/legal/LESSONS.md",
+  "derived/drafts/legal"
+ ],
+ "created": "2026-08-25T23:03:20+10:00",
+ "started": "2026-08-25T23:03:20+10:00",
+ "finished": "2026-08-25T23:11:27+10:00",
+ "sec": 487.1,
+ "pid": 768034,
+ "cost_usd": 1.516593,
+ "turns": 37,
+ "result": "memory/jobs/job-021/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-26T00:06:20+10:00"
+}

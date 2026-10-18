@@ -1,0 +1,887 @@
+COMMIT 2026-09-02
+
+memory/facts/sborka-konteksta-ustroystvo.md
+memory/facts/vk-otvet-skorost-i-obyom.md
+memory/procedures/zamer-kanala-vk-po-logu.md
+COMMIT 2026-09-01
+
+memory/facts/izolyaciya-po-proektu-dyry.md
+memory/rules/otchyot-tolko-o-zapisannom.md
+COMMIT 2026-09-01
+
+memory/facts/podpis-ilyi-elektronnaya.md
+COMMIT 2026-09-01
+
+memory/procedures/otvet-klientu-pismom-s-vlozheniem.md
+memory/rules/yuridicheskiy-tekst-cherez-yurista.md
+COMMIT 2026-09-01
+
+memory/facts/istoriya-perepiski-po-kontaktam.md
+COMMIT 2026-09-01
+
+memory/facts/komanda-protokol-proektov.md
+COMMIT 2026-09-01
+
+memory/facts/podpis-ilyi-elektronnaya.md
+COMMIT 2026-09-01
+
+memory/facts/agenty-postoyannye-roli.md
+memory/facts/podagenty-arhitektura.md
+memory/procedures/mesyachnaya-reviziya.md
+memory/procedures/zavesti-postoyannuyu-rol.md
+memory/rules/oblast-eto-rol-a-ne-zadanie.md
+memory/rules/rol-pomnit-podagent-zabyvaet.md
+COMMIT 2026-09-01
+
+memory/procedures/zahod-vzlomshchika-na-granicu.md
+memory/rules/granicu-lomaet-podagent-a-ne-samotest.md
+COMMIT 2026-09-01
+
+memory/facts/uchyot-primeneniya-ne-vedyotsya.md
+memory/procedures/mesyachnaya-reviziya.md
+COMMIT 2026-09-01
+
+memory/rules/vremya-sravnivaetsya-posle-privedeniya.md
+COMMIT 2026-09-01
+
+memory/facts/podpis-ilyi-elektronnaya.md
+COMMIT 2026-08-31
+
+memory/facts/podpis-ilyi-elektronnaya.md
+COMMIT 2026-08-31
+
+memory/rules/zadacha-timlida-ne-startuet-sama.md
+COMMIT 2026-08-31
+
+memory/facts/podagenty-arhitektura.md
+COMMIT 2026-08-31
+
+memory/procedures/zapusk-podagenta-zadaniem.md
+COMMIT 2026-08-31
+
+memory/facts/cena-hoda-iz-chego-sostoit.md
+memory/procedures/zapusk-podagenta-zadaniem.md
+COMMIT 2026-08-31
+
+memory/facts/cena-hoda-iz-chego-sostoit.md
+COMMIT 2026-08-31
+
+memory/facts/agenty-postoyannye-roli.md
+COMMIT 2026-08-31
+
+memory/facts/agenty-postoyannye-roli.md
+COMMIT 2026-08-31
+
+memory/facts/agenty-postoyannye-roli.md
+COMMIT 2026-08-31
+
+memory/facts/agenty-postoyannye-roli.md
+COMMIT 2026-08-31
+
+memory/facts/reestr-zanyatoy-raboty.md
+COMMIT 2026-08-31
+
+memory/facts/izolyaciya-po-proektu-dyry.md
+memory/facts/reestr-zanyatoy-raboty.md
+memory/procedures/zapusk-podagenta-zadaniem.md
+memory/procedures/zhivaya-proverka-mashinnogo-zapreta.md
+COMMIT 2026-08-31
+
+memory/facts/planirovshchik-rassylki-po-poyasam.md
+COMMIT 2026-08-30
+
+memory/facts/komanda-protokol-proektov.md
+COMMIT 2026-08-30
+
+memory/facts/granicy-razdela-8-chem-zashchishcheny.md
+COMMIT 2026-08-30
+
+memory/rules/zadacha-v-ocheredi-pishetsya-v-budushchem.md
+COMMIT 2026-08-30
+
+memory/facts/komanda-protokol-proektov.md
+memory/rules/granicu-lomaet-podagent-a-ne-samotest.md
+COMMIT 2026-08-30
+
+memory/facts/agenty-postoyannye-roli.md
+COMMIT 2026-08-30
+
+memory/rules/pereimenovanie-fayla-roli.md
+COMMIT 2026-08-30
+
+memory/facts/komanda-protokol-proektov.md
+COMMIT 2026-08-30
+
+memory/facts/komanda-protokol-proektov.md
+memory/rules/brief-iz-fayla-bez-zagolovka.md
+COMMIT 2026-08-30
+
+memory/rules/zadacha-timlida-ne-startuet-sama.md
+COMMIT 2026-08-30
+
+memory/facts/zarabotok-kanaly.md
+memory/rules/kanal-zarabotka-ne-perenositsya.md
+COMMIT 2026-08-30
+
+memory/facts/frilans-paket-otklikov.md
+COMMIT 2026-08-30
+
+memory/facts/rassylka-otpravka-ustroystvo.md
+COMMIT 2026-08-30
+
+memory/facts/agenty-postoyannye-roli.md
+COMMIT 2026-08-30
+
+memory/rules/lozhnoe-krasnoe-chinyu-sam.md
+COMMIT 2026-08-30
+
+memory/facts/limit-podpiski-prostoy.md
+memory/facts/oplata-modeley-iz-rossii.md
+memory/rules/chernovik-ot-poslednego-pisma.md
+COMMIT 2026-08-30
+
+memory/rules/golos-ili-tekst.md
+COMMIT 2026-08-30
+
+memory/facts/komanda-protokol-proektov.md
+COMMIT 2026-08-30
+
+memory/facts/istoriya-perepiski-po-kontaktam.md
+COMMIT 2026-08-27
+
+memory/facts/nologo-zakaz-agent-dizayner.md
+COMMIT 2026-08-27
+
+memory/facts/vypiska-sber-leto-2026.md
+COMMIT 2026-08-27
+
+memory/facts/dengi-kto-est-kto.md
+memory/facts/nologo-zakaz-agent-dizayner.md
+COMMIT 2026-08-27
+
+memory/facts/log-uehal-v-derived.md
+COMMIT 2026-08-27
+
+memory/rules/priznak-ishchetsya-po-delu.md
+COMMIT 2026-08-27
+
+memory/rules/stil-holodnyh-pisem.md
+COMMIT 2026-08-27
+
+memory/procedures/perepiska-partii-pisem-pod-adresata.md
+COMMIT 2026-08-27
+
+memory/procedures/perepiska-partii-pisem-pod-adresata.md
+COMMIT 2026-08-27
+
+memory/facts/planirovshchik-rassylki-po-poyasam.md
+memory/facts/rassylka-otpravka-ustroystvo.md
+memory/procedures/pravka-notion.md
+COMMIT 2026-08-27
+
+memory/procedures/perepiska-partii-pisem-pod-adresata.md
+COMMIT 2026-08-27
+
+memory/procedures/perepiska-partii-pisem-pod-adresata.md
+COMMIT 2026-08-27
+
+memory/procedures/perepiska-partii-pisem-pod-adresata.md
+COMMIT 2026-08-27
+
+memory/procedures/eksport-konteksta-naruzhu.md
+COMMIT 2026-08-27
+
+memory/facts/pisma-shablony-i-otkliki.md
+COMMIT 2026-08-27
+
+memory/facts/pisma-shablony-i-otkliki.md
+COMMIT 2026-08-27
+
+memory/rules/rabota-v-prostoe.md
+COMMIT 2026-08-27
+
+memory/procedures/perezapusk-demona-vk.md
+COMMIT 2026-08-27
+
+memory/facts/rassylka-otpravka-ustroystvo.md
+COMMIT 2026-08-27
+
+memory/rules/perezapis-fayla-pamyati-slivaet-shapku.md
+COMMIT 2026-08-27
+
+memory/rules/samotest-schitat-po-kodu-vozvrata.md
+memory/rules/uslovie-uzhe-nazvannoe-klientu.md
+COMMIT 2026-08-27
+
+memory/facts/mailrisk-sito-adresov.md
+COMMIT 2026-08-27
+
+memory/facts/figma-mcp-zapis.md
+COMMIT 2026-08-27
+
+memory/rules/samotest-ne-pishet-v-zhivuyu-pamyat.md
+COMMIT 2026-08-26
+
+memory/facts/alverra-predlozhenie.md
+memory/rules/stil-holodnyh-pisem.md
+COMMIT 2026-08-26
+
+memory/facts/alverra-predlozhenie.md
+COMMIT 2026-08-26
+
+memory/rules/otkaz-shlyuza-ne-obhodit.md
+COMMIT 2026-08-26
+
+memory/rules/cenu-stavit-ilya.md
+COMMIT 2026-08-26
+
+memory/facts/nologo-zakaz-agent-dizayner.md
+COMMIT 2026-08-26
+
+memory/facts/log-uehal-v-derived.md
+memory/rules/samotest-ne-pishet-v-zhivuyu-pamyat.md
+COMMIT 2026-08-26
+
+memory/rules/kommit-tolko-svoi-fayly.md
+COMMIT 2026-08-26
+
+memory/rules/samotest-ne-pishet-v-zhivuyu-pamyat.md
+COMMIT 2026-08-26
+
+memory/facts/avtonomnaya-rabota-ustroystvo.md
+memory/facts/brend-kompanii-avtomatizacii.md
+memory/facts/dolgi-kontur.md
+memory/facts/golos-stek.md
+memory/facts/ilya.md
+memory/facts/rassylka-otpravka-ustroystvo.md
+memory/facts/vk-api-osobennosti.md
+memory/facts/vk-kanal-rekvizity.md
+COMMIT 2026-08-26
+
+memory/procedures/zapusk-podagenta-zadaniem.md
+COMMIT 2026-08-26
+
+memory/procedures/perezapusk-demona-vk.md
+COMMIT 2026-08-26
+
+memory/facts/ilya.md
+memory/procedures/eksport-konteksta-naruzhu.md
+memory/rules/git-stash-zapreshchen.md
+memory/rules/oblast-eto-rol-a-ne-zadanie.md
+COMMIT 2026-08-26
+
+memory/facts/rassylka-otpravka-ustroystvo.md
+memory/procedures/ezhednevnaya-rassylka-15.md
+COMMIT 2026-08-26
+
+memory/facts/mailrisk-sito-adresov.md
+COMMIT 2026-08-26
+
+memory/facts/agenty-postoyannye-roli.md
+COMMIT 2026-08-26
+
+memory/rules/README.md
+memory/rules/dnyom-rabotayut-podagenty.md
+memory/rules/pravki-yadra.md
+memory/rules/promezhutochnye-statusy.md
+memory/rules/rabota-v-prostoe.md
+COMMIT 2026-08-26
+
+memory/procedures/ezhednevnyy-samoaudit.md
+COMMIT 2026-08-26
+
+memory/facts/planirovshchik-rassylki-po-poyasam.md
+COMMIT 2026-08-26
+
+memory/facts/planirovshchik-rassylki-po-poyasam.md
+COMMIT 2026-08-26
+
+memory/procedures/ezhednevnaya-rassylka-15.md
+COMMIT 2026-08-26
+
+memory/facts/potolok-sistemnogo-prompta.md
+memory/facts/sborka-konteksta-ustroystvo.md
+COMMIT 2026-08-26
+
+memory/facts/bystryy-put-bez-mehanizma.md
+COMMIT 2026-08-26
+
+memory/rules/svobodnoe-vremya-na-sebya.md
+COMMIT 2026-08-26
+
+memory/facts/nochnoy-cikl-ustroystvo.md
+COMMIT 2026-08-26
+
+memory/facts/granicy-razdela-8-chem-zashchishcheny.md
+COMMIT 2026-08-26
+
+memory/facts/sborka-konteksta-ustroystvo.md
+COMMIT 2026-08-26
+
+memory/facts/cena-hoda-uchyot.md
+COMMIT 2026-08-26
+
+memory/rules/v-derived-tolko-vosstanovimoe.md
+COMMIT 2026-08-26
+
+memory/rules/v-derived-tolko-vosstanovimoe.md
+COMMIT 2026-08-26
+
+memory/facts/golos-stek.md
+memory/facts/hh-browser-sessiya.md
+memory/procedures/vhod-hh-cherez-pochtu.md
+COMMIT 2026-08-26
+
+memory/facts/granicy-razdela-8-chem-zashchishcheny.md
+COMMIT 2026-08-26
+
+memory/procedures/perezapusk-demona-vk.md
+COMMIT 2026-08-26
+
+memory/rules/zhivoy-log-tolko-iz-tochki-vhoda.md
+COMMIT 2026-08-26
+
+memory/facts/agenty-postoyannye-roli.md
+COMMIT 2026-08-26
+
+memory/facts/istochniki-sbora-kontaktov.md
+COMMIT 2026-08-26
+
+memory/facts/istoriya-perepiski-po-kontaktam.md
+COMMIT 2026-08-25
+
+memory/facts/agenty-postoyannye-roli.md
+memory/procedures/zavesti-postoyannuyu-rol.md
+COMMIT 2026-08-25
+
+memory/facts/nologo-zakaz-agent-dizayner.md
+COMMIT 2026-08-25
+
+memory/facts/nologo-zakaz-agent-dizayner.md
+COMMIT 2026-08-25
+
+memory/facts/sborka-konteksta-ustroystvo.md
+COMMIT 2026-08-25
+
+memory/facts/nologo-zakaz-agent-dizayner.md
+COMMIT 2026-08-25
+
+memory/facts/avtonomnaya-rabota-ustroystvo.md
+COMMIT 2026-08-25
+
+memory/facts/reestr-zanyatoy-raboty.md
+COMMIT 2026-08-25
+
+memory/facts/poisk-po-pamyati-ustroystvo.md
+memory/procedures/kogda-zvat-recall.md
+COMMIT 2026-08-25
+
+memory/rules/samotest-ne-pishet-v-zhivuyu-pamyat.md
+COMMIT 2026-08-25
+
+memory/facts/cena-hoda-uchyot.md
+COMMIT 2026-08-25
+
+memory/procedures/ezhednevnyy-samoaudit.md
+COMMIT 2026-08-25
+
+memory/rules/chuzhoy-otvet-ne-peredavat-vslepuyu.md
+COMMIT 2026-08-25
+
+memory/facts/trendflow-komanda-agentov.md
+COMMIT 2026-08-25
+
+memory/rules/model-ne-ekonomit.md
+COMMIT 2026-08-25
+
+memory/rules/svobodnoe-vremya-na-sebya.md
+COMMIT 2026-08-25
+
+memory/facts/avtonomnaya-rabota-ustroystvo.md
+memory/rules/rabota-v-prostoe.md
+COMMIT 2026-08-25
+
+memory/facts/planirovshchik-rassylki-po-poyasam.md
+memory/procedures/ezhednevnaya-rassylka-15.md
+COMMIT 2026-08-25
+
+memory/facts/pisma-shablony-i-otkliki.md
+COMMIT 2026-08-25
+
+memory/facts/istoriya-perepiski-po-kontaktam.md
+COMMIT 2026-08-25
+
+memory/procedures/ezhednevnaya-rassylka-15.md
+COMMIT 2026-08-25
+
+memory/procedures/zapusk-podagenta-zadaniem.md
+COMMIT 2026-08-25
+
+memory/procedures/sbor-kontaktov-partiyami.md
+COMMIT 2026-08-25
+
+memory/procedures/chistka-istorii-gita.md
+COMMIT 2026-08-25
+
+memory/rules/obyazatelstvo-ne-razbor.md
+COMMIT 2026-08-25
+
+memory/facts/vypiska-sber-leto-2026.md
+COMMIT 2026-08-25
+
+memory/facts/sborka-konteksta-ustroystvo.md
+COMMIT 2026-08-25
+
+memory/rules/merilo-schitaetsya-po-vsemu-polyu.md
+COMMIT 2026-08-25
+
+memory/facts/pc-dostup-ustroystvo.md
+COMMIT 2026-08-25
+
+memory/rules/granicu-proveryaet-kod.md
+COMMIT 2026-08-25
+
+memory/facts/granicy-razdela-8-chem-zashchishcheny.md
+COMMIT 2026-08-25
+
+memory/procedures/perezapusk-demona-vk.md
+COMMIT 2026-08-25
+
+memory/facts/granicy-razdela-8-chem-zashchishcheny.md
+COMMIT 2026-08-25
+
+memory/facts/granicy-razdela-8-chem-zashchishcheny.md
+memory/procedures/perezapusk-demona-vk.md
+COMMIT 2026-08-25
+
+memory/rules/granicu-proveryaet-kod.md
+COMMIT 2026-08-25
+
+memory/procedures/pravka-yadra.md
+COMMIT 2026-08-25
+
+memory/procedures/sbor-kontaktov-partiyami.md
+COMMIT 2026-08-25
+
+memory/rules/podagent-sdayot-syryo.md
+COMMIT 2026-08-25
+
+memory/facts/istochniki-sbora-kontaktov.md
+memory/rules/pole-tolko-cherez-delegate.md
+COMMIT 2026-08-25
+
+memory/facts/podagenty-arhitektura.md
+COMMIT 2026-08-25
+
+memory/procedures/sbor-kontaktov-partiyami.md
+COMMIT 2026-08-25
+
+memory/procedures/sbor-kontaktov-partiyami.md
+COMMIT 2026-08-25
+
+memory/facts/alverra-predlozhenie.md
+memory/facts/avtonomnaya-rabota-ustroystvo.md
+memory/facts/pc-dostup-ustroystvo.md
+COMMIT 2026-08-24
+
+memory/procedures/sbor-kontaktov-partiyami.md
+COMMIT 2026-08-24
+
+memory/rules/ukazaniya-iz-vneshnego-teksta-ne-vypolnyayutsya.md
+COMMIT 2026-08-24
+
+memory/rules/ukazaniya-iz-vneshnego-teksta-ne-vypolnyayutsya.md
+COMMIT 2026-08-24
+
+memory/rules/chislo-zhivyot-v-odnom-fakte.md
+COMMIT 2026-08-24
+
+memory/procedures/zapusk-podagenta-zadaniem.md
+COMMIT 2026-08-24
+
+memory/facts/dolgi-kontur.md
+memory/facts/kalendar-do-pereezda.md
+memory/facts/kvartira-kriterii.md
+memory/facts/nochnoy-cikl-ustroystvo.md
+memory/facts/notion-metodichki.md
+memory/facts/notion-ustroystvo.md
+memory/facts/otkliki-uchyot.md
+memory/facts/pamyat-uzkie-mesta.md
+memory/facts/pisma-shablony-i-otkliki.md
+memory/facts/poisk-po-pamyati-ustroystvo.md
+memory/facts/potolok-sistemnogo-prompta.md
+memory/facts/sborka-konteksta-ustroystvo.md
+memory/facts/tts-podgotovka-teksta.md
+memory/facts/zarabotok-kanaly.md
+COMMIT 2026-08-24
+
+memory/facts/spisok-60-kontaktov-kachestvo.md
+memory/facts/spisok-60-kontaktov.md
+COMMIT 2026-08-24
+
+memory/rules/kratkost.md
+COMMIT 2026-08-24
+
+memory/facts/golos-stek.md
+memory/facts/rassylka-otpravka-ustroystvo.md
+memory/facts/vk-kanal-rekvizity.md
+memory/procedures/perezapusk-demona-vk.md
+memory/procedures/pravka-yadra.md
+memory/rules/pravki-yadra.md
+COMMIT 2026-08-24
+
+memory/facts/nochnoy-cikl-ustroystvo.md
+COMMIT 2026-08-24
+
+memory/rules/kratkost.md
+memory/rules/vsyo-po-russki.md
+COMMIT 2026-08-24
+
+memory/facts/gmail-imap-dostup.md
+memory/facts/hh-browser-sessiya.md
+memory/procedures/vhod-hh-cherez-pochtu.md
+memory/rules/nochnaya-tishina.md
+memory/rules/pravka-schitaetsya-po-schyotchiku.md
+COMMIT 2026-08-24
+
+memory/facts/notion-ustroystvo.md
+memory/rules/kvartira-start-27-08.md
+COMMIT 2026-08-24
+
+memory/facts/dolgi-kontur.md
+memory/rules/dostup-k-saytam-login-parol.md
+memory/rules/ot-imeni-ili-cherez-chernovik.md
+COMMIT 2026-08-24
+
+memory/rules/kratkost.md
+COMMIT 2026-08-24
+
+memory/facts/farpost-dostup.md
+COMMIT 2026-08-24
+
+memory/facts/hh-ru-dostup.md
+memory/facts/telegram-dostup.md
+COMMIT 2026-08-24
+
+memory/facts/fl-ru-dostup.md
+COMMIT 2026-08-24
+
+memory/facts/max-messenger-dostup.md
+COMMIT 2026-08-24
+
+memory/facts/dolgi-kontur.md
+COMMIT 2026-08-24
+
+memory/facts/pc-dostup-ustroystvo.md
+COMMIT 2026-08-24
+
+memory/facts/pc-dostup-ustroystvo.md
+COMMIT 2026-08-24
+
+memory/facts/podagenty-arhitektura.md
+memory/procedures/zapusk-podagenta-zadaniem.md
+COMMIT 2026-08-24
+
+memory/facts/pc-dostup-ustroystvo.md
+memory/rules/kratkost.md
+COMMIT 2026-08-24
+
+memory/facts/pc-dostup-ustroystvo.md
+COMMIT 2026-08-24
+
+memory/facts/podagenty-arhitektura.md
+memory/procedures/bystroe-issledovanie.md
+COMMIT 2026-08-24
+
+memory/rules/dnyom-rabotayut-podagenty.md
+COMMIT 2026-08-24
+
+memory/facts/vk-kanal-rekvizity.md
+memory/facts/vypiska-sber-leto-2026.md
+memory/rules/pravki-yadra.md
+memory/rules/repozitoriy-tolko-lokalno.md
+COMMIT 2026-08-24
+
+memory/rules/nochnaya-tishina.md
+COMMIT 2026-08-24
+
+memory/procedures/pravka-yadra.md
+COMMIT 2026-08-24
+
+memory/rules/samotest-ne-pishet-v-zhivuyu-pamyat.md
+memory/rules/sekrety-ne-cherez-dialog.md
+memory/rules/v-derived-tolko-vosstanovimoe.md
+COMMIT 2026-08-24
+
+memory/facts/agent-sobytiyniy.md
+memory/facts/alverra-predlozhenie.md
+memory/facts/avtonomnaya-rabota-ustroystvo.md
+memory/facts/avtonomnye-agenty-vneshniy-opyt.md
+memory/facts/brend-kompanii-avtomatizacii.md
+memory/facts/dengi-kto-est-kto.md
+memory/facts/nochnoy-cikl-ustroystvo.md
+memory/facts/notion-ustroystvo.md
+memory/facts/pamyat-agentov-vneshniy-opyt.md
+memory/facts/pisma-shablony-i-otkliki.md
+memory/facts/poisk-po-pamyati-ustroystvo.md
+memory/facts/preryvanie-hoda-ustroystvo.md
+memory/facts/rassylka-otpravka-ustroystvo.md
+memory/facts/spisok-60-kontaktov.md
+memory/facts/stt-svoyo-raspoznavanie.md
+memory/facts/tts-podgotovka-teksta.md
+memory/facts/vk-api-osobennosti.md
+memory/facts/vk-kanal-rekvizity.md
+memory/facts/vk-kartinki-zrenie.md
+memory/facts/vypiska-sber-15-23-avgusta.md
+memory/facts/vypiska-sber-leto-2026.md
+COMMIT 2026-08-24
+
+memory/facts/vypiska-sber-leto-2026.md
+memory/rules/obyazatelstvo-ne-razbor.md
+COMMIT 2026-08-24
+
+memory/facts/potolok-sistemnogo-prompta.md
+COMMIT 2026-08-24
+
+memory/procedures/pravka-yadra.md
+COMMIT 2026-08-24
+
+memory/facts/golos-stek.md
+memory/facts/mashina-doma.md
+memory/facts/pisma-shablony-i-otkliki.md
+memory/facts/potolok-sistemnogo-prompta.md
+memory/facts/rassylka-otpravka-ustroystvo.md
+memory/facts/spisok-60-kontaktov-kachestvo.md
+memory/facts/spisok-60-kontaktov.md
+COMMIT 2026-08-24
+
+memory/facts/dolgi-kontur.md
+memory/facts/ilya-polozhenie-del-avgust.md
+memory/facts/ilya.md
+memory/facts/kalendar-do-pereezda.md
+memory/facts/kvartira-kriterii.md
+memory/facts/pamyat-uzkie-mesta.md
+memory/facts/potolok-sistemnogo-prompta.md
+memory/facts/zarabotok-kanaly.md
+memory/procedures/chtenie-notion.md
+memory/rules/fakt-ne-snimok.md
+COMMIT 2026-08-24
+
+memory/facts/dengi-kto-est-kto.md
+memory/facts/dolgi-kontur.md
+memory/facts/ilya-polozhenie-del-avgust.md
+memory/facts/vypiska-sber-15-23-avgusta.md
+memory/facts/vypiska-sber-leto-2026.md
+memory/rules/chislo-zhivyot-v-odnom-fakte.md
+COMMIT 2026-08-24
+
+memory/rules/promezhutochnye-statusy.md
+memory/rules/rabota-v-prostoe.md
+memory/rules/soobshchenie-posredi-hoda.md
+COMMIT 2026-08-24
+
+memory/rules/golos-ili-tekst.md
+memory/rules/issledovanie-rezhimy.md
+memory/rules/tekst-v-vk.md
+COMMIT 2026-08-24
+
+memory/rules/git-stash-zapreshchen.md
+COMMIT 2026-08-24
+
+memory/procedures/pravka-yadra.md
+COMMIT 2026-08-24
+
+memory/facts/notion-ustroystvo.md
+memory/procedures/pravka-notion.md
+memory/rules/v-derived-tolko-vosstanovimoe.md
+COMMIT 2026-08-24
+
+memory/rules/v-derived-tolko-vosstanovimoe.md
+COMMIT 2026-08-24
+
+memory/facts/vk-kanal-rekvizity.md
+memory/facts/vypiska-sber-15-23-avgusta.md
+memory/facts/vypiska-sber-leto-2026.md
+memory/rules/pravki-yadra.md
+COMMIT 2026-08-24
+
+memory/rules/samotest-ne-pishet-v-zhivuyu-pamyat.md
+COMMIT 2026-08-24
+
+memory/rules/odnorazovye-proverki-v-derived.md
+COMMIT 2026-08-24
+
+memory/procedures/chistka-istorii-gita.md
+COMMIT 2026-08-23
+
+memory/facts/dengi-kto-est-kto.md
+memory/facts/dolgi-kontur.md
+memory/facts/vypiska-sber-leto-2026.md
+memory/rules/odin-istochnik-ne-vsya-kartina.md
+COMMIT 2026-08-23
+
+memory/facts/dengi-kto-est-kto.md
+memory/facts/vypiska-sber-leto-2026.md
+memory/procedures/razbor-bankovskoy-vypiski.md
+COMMIT 2026-08-23
+
+memory/facts/dengi-kto-est-kto.md
+COMMIT 2026-08-23
+
+memory/facts/dengi-kto-est-kto.md
+memory/facts/vypiska-sber-leto-2026.md
+COMMIT 2026-08-23
+
+memory/facts/pisma-shablony-i-otkliki.md
+COMMIT 2026-08-23
+
+memory/facts/stt-svoyo-raspoznavanie.md
+COMMIT 2026-08-23
+
+memory/facts/golos-stek.md
+COMMIT 2026-08-23
+
+memory/facts/dengi-kto-est-kto.md
+memory/facts/vypiska-sber-15-23-avgusta.md
+memory/rules/ne-prosit-dannye-bez-nuzhdy.md
+COMMIT 2026-08-23
+
+memory/facts/dengi-kto-est-kto.md
+memory/facts/ilya-polozhenie-del-avgust.md
+memory/facts/vypiska-sber-15-23-avgusta.md
+memory/procedures/razbor-bankovskoy-vypiski.md
+COMMIT 2026-08-23
+
+memory/facts/vk-kartinki-zrenie.md
+memory/facts/vypiska-sber-15-23-avgusta.md
+memory/procedures/razbor-bankovskoy-vypiski.md
+COMMIT 2026-08-23
+
+memory/facts/vk-kartinki-zrenie.md
+COMMIT 2026-08-23
+
+memory/facts/preryvanie-hoda-ustroystvo.md
+memory/rules/soobshchenie-posredi-hoda.md
+COMMIT 2026-08-23
+
+memory/procedures/dovodka-kachestva-po-zhalobe.md
+memory/rules/git-stash-zapreshchen.md
+memory/rules/tekst-v-vk.md
+COMMIT 2026-08-23
+
+memory/facts/poisk-po-pamyati-ustroystvo.md
+COMMIT 2026-08-23
+
+memory/procedures/pravka-yadra.md
+COMMIT 2026-08-23
+
+memory/facts/tts-podgotovka-teksta.md
+memory/procedures/pochinka-proiznosheniya.md
+memory/rules/golosovoe-tolko-mysli.md
+COMMIT 2026-08-23
+
+memory/procedures/pravka-notion.md
+memory/rules/kvartira-start-27-08.md
+COMMIT 2026-08-23
+
+memory/facts/nochnoy-cikl-ustroystvo.md
+COMMIT 2026-08-23
+
+memory/facts/notion-ustroystvo.md
+memory/procedures/pravka-notion.md
+COMMIT 2026-08-23
+
+memory/rules/promezhutochnye-statusy.md
+COMMIT 2026-08-23
+
+memory/facts/pisma-shablony-i-otkliki.md
+memory/procedures/razbor-vhodyashchih-po-rassylke.md
+COMMIT 2026-08-23
+
+memory/facts/ilya-polozhenie-del-avgust.md
+memory/facts/notion-ustroystvo.md
+memory/procedures/chtenie-notion.md
+COMMIT 2026-08-23
+
+memory/facts/avtonomnaya-rabota-ustroystvo.md
+memory/facts/pamyat-uzkie-mesta.md
+memory/rules/pravki-yadra.md
+memory/rules/rabota-v-prostoe.md
+COMMIT 2026-08-23
+
+memory/facts/avtonomnye-agenty-vneshniy-opyt.md
+memory/facts/pamyat-agentov-vneshniy-opyt.md
+memory/facts/pamyat-uzkie-mesta.md
+memory/procedures/bystroe-issledovanie.md
+memory/rules/issledovanie-rezhimy.md
+memory/rules/rabota-v-prostoe.md
+COMMIT 2026-08-23
+
+memory/rules/stil-holodnyh-pisem.md
+COMMIT 2026-08-23
+
+memory/facts/brend-kompanii-avtomatizacii.md
+COMMIT 2026-08-23
+
+memory/facts/brend-kompanii-avtomatizacii.md
+memory/facts/pisma-shablony-i-otkliki.md
+COMMIT 2026-08-23
+
+memory/facts/trendflow-predlozhenie.md
+memory/procedures/email-rassylka-s-nulya.md
+memory/rules/promezhutochnye-statusy.md
+COMMIT 2026-08-23
+
+memory/facts/rassylka-otpravka-ustroystvo.md
+COMMIT 2026-08-23
+
+memory/facts/rassylka-otpravka-ustroystvo.md
+COMMIT 2026-08-23
+
+memory/facts/rassylka-otpravka-ustroystvo.md
+COMMIT 2026-08-23
+
+memory/facts/potolok-sistemnogo-prompta.md
+COMMIT 2026-08-22
+
+memory/facts/agent-sobytiyniy.md
+memory/facts/golos-stek.md
+memory/facts/vk-kanal-rekvizity.md
+memory/procedures/golosovoe-v-vk.md
+COMMIT 2026-08-22
+
+memory/facts/spisok-60-kontaktov-kachestvo.md
+memory/procedures/vychitka-spiska-kontaktov.md
+COMMIT 2026-08-22
+
+memory/facts/spisok-60-kontaktov.md
+COMMIT 2026-08-22
+
+memory/rules/golos-ili-tekst.md
+memory/rules/kratkost.md
+memory/rules/promezhutochnye-statusy.md
+COMMIT 2026-08-22
+
+memory/facts/golos-stek.md
+memory/procedures/golosovoe-v-vk.md
+COMMIT 2026-08-22
+
+memory/facts/vk-api-osobennosti.md
+COMMIT 2026-08-22
+
+memory/facts/vk-kanal-rekvizity.md
+memory/rules/sekrety-ne-cherez-dialog.md
+COMMIT 2026-08-22
+
+memory/facts/vk-api-osobennosti.md
+COMMIT 2026-08-22
+
+memory/facts/mashina-doma.md
+memory/procedures/proverka-demona-na-mokah.md
+COMMIT 2026-08-22
+
+memory/facts/README.md
+memory/facts/ilya.md
+memory/procedures/README.md
+memory/rules/README.md
+memory/rules/kratkost.md

@@ -1,0 +1,321 @@
+{
+  "каталоги": [
+    {
+      "каталог": "(корень)",
+      "файлов": 1,
+      "байт": 6148
+    },
+    {
+      "каталог": "jarvis",
+      "файлов": 15105,
+      "байт": 2727946434
+    }
+  ],
+  "крупные_файлы": [
+    {
+      "путь": "jarvis/derived/stt/models--Systran--faster-whisper-small/blobs/3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+      "байт": 483546902,
+      "sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671"
+    },
+    {
+      "путь": "jarvis/derived/stt/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120/model.bin",
+      "байт": 483546902,
+      "sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671"
+    },
+    {
+      "путь": "jarvis/derived/fs/index.db",
+      "байт": 378322944,
+      "sha256": "8895aa607e38f4c0b1ea72b9ce1391a5015f7526be99dfec596d92d20601ea99"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/claude_agent_sdk/_bundled/claude",
+      "байт": 342563120,
+      "sha256": "7de1b1576e2e0be73ce91c2b4dedf16a41058ea633b957a36fdc6044ddfc0f3c"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/playwright/driver/node",
+      "байт": 123656816,
+      "sha256": "f3432a45b03b2da0d270095fdd8813dc34cbea73f5fc8b18c7a384b7cf9b333a"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/ctranslate2.libs/libctranslate2-23004c3b.so.4.8.1",
+      "байт": 77770369,
+      "sha256": "9f7b42a6119711f7ac262a6ac47d24d316314f95c9befd7009985df134d224f1"
+    },
+    {
+      "путь": "jarvis/derived/voices/ru_RU-denis-medium.onnx",
+      "байт": 63201294,
+      "sha256": "15fab56e11a097858ee115545d0f697fc2a316c41a291a5362349fb870411b0a"
+    },
+    {
+      "путь": "jarvis/derived/voices/ru_RU-ruslan-medium.onnx",
+      "байт": 63201294,
+      "sha256": "72a5f88e0b20928064eb45d88e1daa21f8af62d18613580d32cbb4aed48dcf7f"
+    },
+    {
+      "путь": "jarvis/derived/voices/ru_RU-dmitri-medium.onnx",
+      "байт": 63201294,
+      "sha256": "f073356ebc4bd0f80c5af58df2953a5988bd5bdab1eb38635ce960b071fbefcb"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/ctranslate2/_ext.cpython-314-x86_64-linux-gnu.so",
+      "байт": 61575025,
+      "sha256": "c52e310d23708a741d6ad18e5ccfd8ecf146c76895a3d67933e225cb47e0d5fa"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/onnxruntime/capi/onnxruntime_pybind11_state.cpython-314-x86_64-linux-gnu.so",
+      "байт": 30116536,
+      "sha256": "48764f48b6359c3ca3a09e6c97a0f6836a69f1076d4f3de27789959bd28334a9"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/onnxruntime/capi/libonnxruntime.so.1.29.0",
+      "байт": 28501848,
+      "sha256": "8902e52a04bf6bf26f1613746811d6194f9c97ce7a6a7a28452b48522d3bd8d0"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/numpy.libs/libscipy_openblas64_-61654e39.so",
+      "байт": 25210641,
+      "sha256": "6cad8d2ad994ddc43d2ccdb0fb5d9458373ff1b87ef7ff420f2f94406eb8f082"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/piper/hebrew/nakdimon.onnx",
+      "байт": 21312753,
+      "sha256": "9ff491dcc7d66392019d427a98b97d5de10c0d721628ae740858174ae22b190e"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libx265-f5385bb8.so.216",
+      "байт": 20591817,
+      "sha256": "e304e1b3b6367e902837b9a00d0bc5b90d83a70e1fbb69b27f34d8c970c4b765"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libavcodec-5e6b81c2.so.62.28.102",
+      "байт": 18795033,
+      "sha256": "d0f0b65dd8d194278309dce64a9661040f0f7bd77d0d20733a0d7a06bdb26a5b"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
+      "байт": 14357504,
+      "sha256": "613ec570594be2691ce18fe8aa51aa4716584c0e586ec97dd790c4b9757b5a83"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/hf_xet/hf_xet.abi3.so",
+      "байт": 12210648,
+      "sha256": "9f493e4d60ce7d973f77d6e638efc9fa59329967de8b17d2fb83baf3ed8d73b9"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/numpy/_core/_multiarray_umath.cpython-314-x86_64-linux-gnu.so",
+      "байт": 10624953,
+      "sha256": "27bd88fd60f4b9fcd5c938572e9b9e3df0aed9cfed4888e57d94c516b45512b7"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/tokenizers/tokenizers.abi3.so",
+      "байт": 10283216,
+      "sha256": "40de09860e5df1b00bbf432eb68632465125a3efaa074f85972f3ea000c06dfc"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/piper/espeak-ng-data/ru_dict",
+      "байт": 9053144,
+      "sha256": "ad087eb02abe6eb061d74e8cb438aab322443bd6dd3620e76497c5694310fe6c"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libSvtAv1Enc-9393c086.so.4.1.0",
+      "байт": 7061777,
+      "sha256": "9cb5f57196143427c5f165f98b88a174e06c592e5a884507f5adcd8b20472414"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libavfilter-b5da520e.so.11.14.102",
+      "байт": 5464473,
+      "sha256": "5d244d42ea6c2c95e6783b6bd6528f6f7a5e6ed4c8de43f1a95504683846b3c6"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/piper/tashkeel/model.onnx",
+      "байт": 4788213,
+      "sha256": "52c40d42ca094ff9ff07a091d0a1eafd7baa5cf2388e60a9cc89bacd8e5e955f"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-x86_64-linux-gnu.so",
+      "байт": 4768720,
+      "sha256": "81618e6306f776c0e04fcf4e334dd52217986ecb2dc44c8ef221096ad6df69ba"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av/video/frame.abi3.so",
+      "байт": 3953737,
+      "sha256": "60eea85dfaf9169383226094e193335c347ed91c868b07155e676113e2f3fc6e"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/_soundfile_data/libsndfile_x86_64.so",
+      "байт": 3639184,
+      "sha256": "c872fb84af2afc0e96b603e0000f0f407af86c49ad1126f2785e5722c7bb27d7"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/playwright/driver/package/lib/coreBundle.js",
+      "байт": 3425217,
+      "sha256": "3258d1cf334c6afc95f22aa9c292436cb976b391e0437f1359c83b84f0cb9d66"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/playwright/driver/package/lib/utilsBundle.js",
+      "байт": 3239355,
+      "sha256": "580f571bf063e2256b51b3946a035bc452fc0e22808d5547b198baea39923a32"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libavformat-4639def2.so.62.12.102",
+      "байт": 2983097,
+      "sha256": "0b22277398283fb966c8a57fc09a18fe2701fc93ba2bf72364786f330ec94e03"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/numpy.libs/libgfortran-83c28eba-468e71e5.so.5.0.0",
+      "байт": 2862249,
+      "sha256": "a6a368328d02a5d8a149746f13f6268f8cc9192df5c18777b25c3c9b5ef52160"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/yaml/_yaml.cpython-314-x86_64-linux-gnu.so",
+      "байт": 2620168,
+      "sha256": "458bd0cb0030102b9bcffb7689696ac87bedcbd5384bc4c7883e7bbe0ce4e0a1"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libgnutls-71454fd1.so.30.42.0",
+      "байт": 2416425,
+      "sha256": "32ff4f97aabf1bf8169619a6caab6630b9087f673c503fefbc76ab4c225386a7"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libvpx-edb6de90.so.12.0.0",
+      "байт": 2344937,
+      "sha256": "fc87bc3c7c6747f2f76da9ca3f2f557406f536ccce2252d2b013961e83aee087"
+    },
+    {
+      "путь": "jarvis/derived/stt/models--Systran--faster-whisper-small/blobs/7818adb6de9fa3064d3ff81226fdd675be1f6344",
+      "байт": 2203239,
+      "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libx264-d6533a8d.so.165",
+      "байт": 2177713,
+      "sha256": "5587d2d060914e2e52694e35703a7c8f20f3143eafa956706e089049df3b580b"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libunistring-09f6121d.so.5.2.1",
+      "байт": 2037033,
+      "sha256": "1e7e3aefa27e9d5e93c5c0b83b302e12e3c2fcb3a21a05cddf740f2cd2290a68"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libdav1d-f4b27961.so.7.0.0",
+      "байт": 2024729,
+      "sha256": "b189e7e042b1231e51cf28eac4f554c8da52a213ca519713dd7c41d9f8498451"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libswscale-88e9f973.so.9.5.102",
+      "байт": 2017409,
+      "sha256": "18daf88e06995d62f948bb70677b2f94e8df0f5a42161fd08e9673e62c5ba4f1"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av/filter/context.abi3.so",
+      "байт": 1638961,
+      "sha256": "1daa475a28c56bbd5f1f290d6048bba259097a1cfde2891b2452bc630339ee30"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/piper/espeak-ng-data/cmn_dict",
+      "байт": 1566347,
+      "sha256": "2a41ddab7213d0284a984def6b40c72cbc40b346d3220db08c6ae324f46d59aa"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/numpy/_core/_simd.cpython-314-x86_64-linux-gnu.so",
+      "байт": 1506088,
+      "sha256": "ed3f10438dc291eee893e680b9a6667cbe56bc0b9ae653cb728640604ad0e2ec"
+    },
+    {
+      "путь": "jarvis/derived/hh_profile/Default/Cache/Cache_Data/dd22370cac5d9422_0",
+      "байт": 1495150,
+      "sha256": "125e26479b5592ba45d87382cbbdea0e28344cf27d6497e7879d96dbb9f8e2b2"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/greenlet/_greenlet.cpython-314-x86_64-linux-gnu.so",
+      "байт": 1486208,
+      "sha256": "ee4845a6d8000f3648ee27f2ea62cf9c4259c302798f54db074bb7bc20973a59"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av/codec/context.abi3.so",
+      "байт": 1417673,
+      "sha256": "17e9c41e1a7ff9de82622b4a8dfdca899de01fd95cec340965beec051e4a6f0e"
+    },
+    {
+      "путь": "jarvis/derived/hh_profile/Default/Cache/Cache_Data/937782c375b7bab3_0",
+      "байт": 1292877,
+      "sha256": "f5300295d0dda8653505fcd57f03f3ddbfac0a994228572fb016bdadc54c01cc"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/faster_whisper/assets/silero_vad_v6.onnx",
+      "байт": 1245151,
+      "sha256": "4cbf549b8326f60f80f2536d9eefeb450a9abe83365a098031c89719f1be17d2"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libasound-c7818c60.so.2.0.0",
+      "байт": 1162289,
+      "sha256": "b5efc17cc5faf758ed1554ed3ac4322e03a43b6b4900decb77002e4694aafa70"
+    },
+    {
+      "путь": "jarvis/.git/objects/87/afc96117a4ddc59be7c2cf5140c7d378e86ada",
+      "байт": 1126861,
+      "sha256": "1c31faa7af3c5e2f74eb7f5782f027ba06ab1c48331a9459f2dfa5185c6bfc8c"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av/container/output.abi3.so",
+      "байт": 1118497,
+      "sha256": "b00ba4cb0783c7821f8b99b5771470c4a2e9485d276825179f994634ee54ea3f"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/playwright/async_api/__pycache__/_generated.cpython-314.pyc",
+      "байт": 1116418,
+      "sha256": "2e5f9b7e19c67a82a474f8525af836a4d70f36ce0792e0a6332d6febca4726e9"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/playwright/sync_api/__pycache__/_generated.cpython-314.pyc",
+      "байт": 1111780,
+      "sha256": "b2724034e264053fe40073832766ee0c8f93d14de8ba6a485172778a577d7319"
+    },
+    {
+      "путь": "jarvis/.git/objects/da/48a326a7ecf4d344b5134e90e3ba538aa29996",
+      "байт": 1111180,
+      "sha256": "bc6b5b00371a388cbeff6ec16cba905ac0649b0ce87308fdf96ae4d39c2aa4af"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/playwright/driver/package/types/types.d.ts",
+      "байт": 1110840,
+      "sha256": "6c688250f2b7061cec3a17ab8797671137b653f8c4e81a6df3190cb112a7579a"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av.libs/libavutil-5809ad29.so.60.26.102",
+      "байт": 1107705,
+      "sha256": "5c59c2d8d1daf0f3956fca1c118c2d885e781a557ce1ac1a6e0441fb83116643"
+    },
+    {
+      "путь": "jarvis/.git/objects/0c/4322b5d028cbf1c151b78d28964537eba45e6b",
+      "байт": 1100685,
+      "sha256": "fbace8165cbf5e42647db8f8cc7a0ecba610db5f9a3d4b55ac91cb54113f28de"
+    },
+    {
+      "путь": "jarvis/.git/objects/1e/68903323066d182be1fb6b140e69334ef8ba24",
+      "байт": 1099151,
+      "sha256": "47b8daf9fd88e0bf84e5463e0a1596f75a0ccec941aa88da093b5b1f795798b0"
+    },
+    {
+      "путь": "jarvis/.git/objects/be/4df45a2d3f6f4535132cfacd1e5af4ae5d1cf4",
+      "байт": 1090687,
+      "sha256": "8c6dbd2ca95764cbe9fe1a2d420b55147194e0e9528a46a633d4807172d82a75"
+    },
+    {
+      "путь": "jarvis/derived/hh_profile/Default/GPUCache/data_2",
+      "байт": 1056768,
+      "sha256": "917726c10ebf5d3fc820a52ba1792ef07ea2bb088493d92cf76606438d289caa"
+    },
+    {
+      "путь": "jarvis/.venv/lib/python3.14/site-packages/av/container/core.abi3.so",
+      "байт": 1052985,
+      "sha256": "d0ffc249903b68b02b6d04fafb9dc9e339779dba193ea81d725b53f82882fb71"
+    },
+    {
+      "путь": "jarvis/.git/objects/27/79cc9a400bbcea7ac9dee1102cc14325f7e58a",
+      "байт": 1005406,
+      "sha256": "4ff910feaf676d4a6e9a6ec1a1bd5e6c5a5e93aed357cd0be0db8fd4fc2e2a03"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+ "id": "job-075",
+ "title": "NDA для No Logo: наша форма",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-27T14:02:51+10:00",
+ "started": "2026-08-27T14:02:51+10:00",
+ "finished": "2026-08-27T14:07:34+10:00",
+ "sec": 283.8,
+ "pid": 2836027,
+ "cost_usd": 0.809019,
+ "turns": 17,
+ "result": "memory/jobs/job-075/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-27T14:12:56+10:00"
+}

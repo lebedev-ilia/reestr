@@ -1,0 +1,21 @@
+{
+ "id": "job-036",
+ "title": "Доделать bl-100: машинные проверки на непокрытое",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-26T10:56:42+10:00",
+ "started": "2026-08-26T10:56:42+10:00",
+ "finished": "2026-08-26T11:07:10+10:00",
+ "sec": 628.9,
+ "pid": 1408097,
+ "cost_usd": 2.484432,
+ "turns": 58,
+ "result": "memory/jobs/job-036/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-26T11:07:42+10:00"
+}

@@ -1,0 +1,14 @@
+72804356	/home/ilya/Рабочий стол
+64930348	/home/ilya/Рабочий стол/TrendFlowML
+2264836	/home/ilya/Рабочий стол/Agent
+1692236	/home/ilya/Рабочий стол/site
+992132	/home/ilya/Рабочий стол/TrendFlowML_evac
+582076	/home/ilya/Рабочий стол/polza-companies
+450900	/home/ilya/Рабочий стол/tasks
+389272	/home/ilya/Рабочий стол/rb
+244748	/home/ilya/Рабочий стол/OctoBrowser.linux
+11396	/home/ilya/Рабочий стол/trendflow-docs-graf
+24	/home/ilya/Рабочий стол/Claude Skills
+20	/home/ilya/Рабочий стол/crm-lead
+12	/home/ilya/Рабочий стол/TrendFlow-site-screens
+12	/home/ilya/Рабочий стол/.claude

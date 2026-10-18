@@ -1,0 +1,32 @@
+{
+ "id": "t-001",
+ "project": "demo",
+ "title": "проверка подмены",
+ "teamlead": "jarvis",
+ "executor": "exec-1",
+ "created": "2026-08-30",
+ "planned_due": "2026-09-01",
+ "started": null,
+ "finished": null,
+ "accepted_at": null,
+ "accepted_by": null,
+ "status": "created",
+ "rounds": [],
+ "artifacts": [],
+ "criteria": [
+  {
+   "id": "c-01",
+   "text": "первый пункт",
+   "passes": false,
+   "checked_at": null,
+   "checked_by": null
+  },
+  {
+   "id": "c-02",
+   "text": "второй пункт",
+   "passes": false,
+   "checked_at": null,
+   "checked_by": null
+  }
+ ]
+}

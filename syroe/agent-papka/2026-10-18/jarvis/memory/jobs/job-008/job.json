@@ -1,0 +1,20 @@
+{
+ "id": "job-008",
+ "title": "seg4-partiya-AC: карточки T4 из кейсов СЭД, WMS и BPM",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T10:26:07+10:00",
+ "started": "2026-08-25T10:26:07+10:00",
+ "finished": "2026-08-25T10:41:04+10:00",
+ "sec": 897.3,
+ "pid": 72502,
+ "cost_usd": 4.6991338,
+ "turns": 137,
+ "result": "memory/jobs/job-008/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T10:50:20+10:00"
+}

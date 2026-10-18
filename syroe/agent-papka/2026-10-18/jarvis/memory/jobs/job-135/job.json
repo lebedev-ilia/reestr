@@ -1,0 +1,22 @@
+{
+ "id": "job-135",
+ "title": "t-003 карта дисков: доработка круга 2 и сдача",
+ "status": "empty",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "vnutrennii",
+ "created": "2026-08-31T08:05:38+10:00",
+ "started": "2026-08-31T08:05:38+10:00",
+ "finished": "2026-08-31T08:11:57+10:00",
+ "sec": 379.8,
+ "pid": 2081992,
+ "cost_usd": 1.481938,
+ "turns": 48,
+ "result": "memory/jobs/job-135/result.md",
+ "error": "обещанных файлов нет на диске: derived/vnutrennii/t-003/disk-report.md",
+ "delivered": true,
+ "delivered_at": "2026-08-31T08:12:13+10:00"
+}

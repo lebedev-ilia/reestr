@@ -1,0 +1,26 @@
+{
+ "id": "job-057",
+ "title": "critic:work по расписанию",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 25,
+ "timeout": 1800,
+ "origin": "schedule",
+ "zone": [
+  "memory/agents/critic/findings",
+  "memory/agents/critic/journal",
+  "memory/agents/critic/STATUS.md",
+  "memory/agents/critic/LESSONS.md"
+ ],
+ "created": "2026-08-27T00:04:17+10:00",
+ "started": "2026-08-27T00:04:17+10:00",
+ "finished": "2026-08-27T00:07:36+10:00",
+ "sec": 199.8,
+ "pid": 2084017,
+ "cost_usd": 0.645075,
+ "turns": 25,
+ "result": "memory/jobs/job-057/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-27T00:11:28+10:00"
+}

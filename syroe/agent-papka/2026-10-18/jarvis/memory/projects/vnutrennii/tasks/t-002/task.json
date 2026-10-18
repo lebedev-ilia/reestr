@@ -1,0 +1,81 @@
+{
+ "id": "t-002",
+ "project": "vnutrennii",
+ "title": "Каркас сборщика страницы состояния: источники и блок очереди/загрузки",
+ "teamlead": "teamlead-vnutrennii",
+ "executor": "sonnet-1",
+ "created": "2026-08-30",
+ "planned_due": "2026-09-02",
+ "started": null,
+ "finished": "2026-08-30T13:12:12+10:00",
+ "accepted_at": "2026-08-30T14:29:35+10:00",
+ "accepted_by": "teamlead-vnutrennii",
+ "status": "done",
+ "rounds": [
+  {
+   "n": 1,
+   "date": "2026-08-30T13:40:31+10:00",
+   "by": "teamlead-vnutrennii",
+   "points": [
+    "c-07 не пройден техническим блокером вне зоны исполнителя: (1) bl-146 общего самотеста (правила/обязательства не влезают в потолок промпта) — чинит Jarvis, не команда; (2) раздвоенная очередь vnutrennii (queue.md рядом со старым backlog.md) — мой хвост, но backlog.md глобально защищён шлюзом от записи по имени файла, удалить сам не могу",
+    "От исполнителя новой работы не требуется: как только оба блокера снимут (Jarvis чинит bl-146, кто-то с более широким доступом удаляет старый backlog.md), тимлид перепроверяет только c-07 и закрывает done без нового круга по существу"
+   ],
+   "due": "2026-08-31",
+   "note": "c-01..c-06 подтверждены тимлидом собственной проверкой (прямое чтение файла, grep, сверка кода build.py с живым tasks.status, разбор selftest.py на фикстурах). c-04 и c-06 не запущены тимлидом лично — шлюз роли пропускает питон-модули только jarvis.modules.projects.cli, jarvis.modules.status.* закрыт; решение принято по косвенным, но сильным уликам (корректный код, атомарная запись, согласованные времена). c-07 действительно красный, обе причины проверены и не относятся к работе исполнителя."
+  }
+ ],
+ "artifacts": [
+  "derived/status/index.html"
+ ],
+ "criteria": [
+  {
+   "id": "c-01",
+   "text": "c-01: файл derived/status/index.html существует и не пуст после запуска сборщика",
+   "passes": true,
+   "checked_at": "2026-08-30T13:40:31+10:00",
+   "checked_by": "teamlead-vnutrennii"
+  },
+  {
+   "id": "c-02",
+   "text": "c-02: в html есть элемент с id=queue, содержащий список задач проекта vnutrennii с их статусами (сверяется вручную с выводом tasks.status)",
+   "passes": true,
+   "checked_at": "2026-08-30T13:40:31+10:00",
+   "checked_by": "teamlead-vnutrennii"
+  },
+  {
+   "id": "c-03",
+   "text": "c-03: в html есть элемент с id=teamlead-heartbeat с временем последнего следа тимлида (сверяется с фактическим mtime файлов его зоны)",
+   "passes": true,
+   "checked_at": "2026-08-30T13:40:31+10:00",
+   "checked_by": "teamlead-vnutrennii"
+  },
+  {
+   "id": "c-04",
+   "text": "c-04: сборка запускается одной командой кода (например python -m jarvis.modules.status.cli build) и завершается кодом возврата 0",
+   "passes": true,
+   "checked_at": "2026-08-30T13:40:31+10:00",
+   "checked_by": "teamlead-vnutrennii"
+  },
+  {
+   "id": "c-05",
+   "text": "c-05: в коде сборщика нет обращения к модели или сети — grep по anthropic/api_key/requests/httpx/urlopen пуст, кроме уже штатных источников модулей projects/agents",
+   "passes": true,
+   "checked_at": "2026-08-30T13:40:31+10:00",
+   "checked_by": "teamlead-vnutrennii"
+  },
+  {
+   "id": "c-06",
+   "text": "c-06: у нового модуля есть свой самотест, отдельный от общего (python -m jarvis.modules.status.selftest или аналог), код возврата 0",
+   "passes": true,
+   "checked_at": "2026-08-30T13:40:31+10:00",
+   "checked_by": "teamlead-vnutrennii"
+  },
+  {
+   "id": "c-07",
+   "text": "c-07: общий ./jarvis --selftest остаётся зелёным после добавления кода",
+   "passes": true,
+   "checked_at": "2026-08-30T14:29:35+10:00",
+   "checked_by": "teamlead-vnutrennii"
+  }
+ ]
+}

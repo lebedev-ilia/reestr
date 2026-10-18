@@ -1,0 +1,2 @@
+aac0b809770ecaba8fb684ae3e3e3767  memory/obligations.md
+cde3cdf07f8016fd23b882f715cebfb1  memory/backlog.md

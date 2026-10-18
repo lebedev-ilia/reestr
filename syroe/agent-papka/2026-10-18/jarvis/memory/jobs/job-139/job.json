@@ -1,0 +1,22 @@
+{
+ "id": "job-139",
+ "title": "Починить check()/accept() в протоколе задач (ob-101, ob-084)",
+ "status": "done",
+ "model": "opus",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "",
+ "created": "2026-08-31T08:47:04+10:00",
+ "started": "2026-08-31T08:47:04+10:00",
+ "finished": "2026-08-31T09:02:06+10:00",
+ "sec": 902.0,
+ "pid": 2125364,
+ "cost_usd": 6.447121,
+ "turns": 69,
+ "result": "memory/jobs/job-139/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-31T09:12:30+10:00"
+}

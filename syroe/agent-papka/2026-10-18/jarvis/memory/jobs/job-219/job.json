@@ -1,0 +1,33 @@
+{
+ "id": "job-219",
+ "title": "teamlead-vnutrennii:work по расписанию",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 40,
+ "timeout": 3000,
+ "origin": "schedule",
+ "zone": [
+  "memory/agents/teamlead-vnutrennii/knowledge",
+  "memory/agents/teamlead-vnutrennii/journal",
+  "memory/agents/teamlead-vnutrennii/STATUS.md",
+  "memory/agents/teamlead-vnutrennii/LESSONS.md",
+  "memory/projects/vnutrennii/backlog.md",
+  "memory/projects/vnutrennii/tasks"
+ ],
+ "project": "vnutrennii",
+ "parent": null,
+ "depth": 0,
+ "maxed": false,
+ "continued": null,
+ "created": "2026-09-02T16:46:02+10:00",
+ "started": "2026-09-02T16:46:02+10:00",
+ "finished": "2026-09-02T16:46:49+10:00",
+ "sec": 47.1,
+ "pid": 786044,
+ "cost_usd": 0.360802,
+ "turns": 9,
+ "result": "memory/jobs/job-219/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-09-02T16:47:09+10:00"
+}

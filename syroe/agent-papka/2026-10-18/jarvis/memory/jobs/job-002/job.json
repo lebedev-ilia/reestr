@@ -1,0 +1,20 @@
+{
+ "id": "job-002",
+ "title": "seg4-partiya-X: 20 карточек T4 из кейсов интеграторов автоматизации",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T10:02:40+10:00",
+ "started": "2026-08-25T10:02:40+10:00",
+ "finished": "2026-08-25T10:22:11+10:00",
+ "sec": 1171.9,
+ "pid": 51199,
+ "cost_usd": 4.223445000000001,
+ "turns": 122,
+ "result": "memory/jobs/job-002/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T10:22:29+10:00"
+}

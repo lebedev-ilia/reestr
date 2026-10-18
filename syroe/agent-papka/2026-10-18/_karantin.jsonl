@@ -1,0 +1,13 @@
+{"путь": "jarvis/derived/scratch/2026-09-02-nologo-diadok/send_diadok.py", "причина": "редакция ломает синтаксис Python — файл не копирован"}
+{"путь": "jarvis/derived/scratch/2026-09-01-nologo-edo/send_edo.py", "причина": "редакция ломает синтаксис Python — файл не копирован"}
+{"путь": "jarvis/derived/scratch/2026-08-31-nologo-nda/send_nda.py", "причина": "редакция ломает синтаксис Python — файл не копирован"}
+{"путь": "jarvis/derived/scratch/2026-09-01-bl054/dates.py", "причина": "редакция ломает синтаксис Python — файл не копирован"}
+{"путь": "jarvis/derived/hh_profile/Default/Session Storage/000003.log", "причина": "не UTF-8"}
+{"путь": "jarvis/derived/hh_profile/Default/IndexedDB/https_khabarovsk.hh.ru_0.indexeddb.leveldb/000054.log", "причина": "не UTF-8"}
+{"путь": "jarvis/derived/hh_profile/Default/Service Worker/Database/000003.log", "причина": "не UTF-8"}
+{"путь": "jarvis/derived/hh_profile/Default/File System/Origins/000003.log", "причина": "не UTF-8"}
+{"путь": "jarvis/derived/hh_profile/Default/shared_proto_db/metadata/000003.log", "причина": "не UTF-8"}
+{"путь": "jarvis/derived/hh_profile/Default/Local Storage/leveldb/000006.log", "причина": "не UTF-8"}
+{"путь": "jarvis/modules/outbox/send.py", "причина": "редакция ломает синтаксис Python — файл не копирован"}
+{"путь": "jarvis/worktrees/agent__t-003-karta-diskov/modules/inbox/read.py", "причина": "редакция ломает синтаксис Python — файл не копирован"}
+{"путь": "jarvis/modules/inbox/read.py", "причина": "редакция ломает синтаксис Python — файл не копирован"}

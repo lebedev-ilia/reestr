@@ -1,0 +1,156 @@
+{
+ "day": "2026-09-02",
+ "built_at": "2026-09-02T00:00:05+10:00",
+ "items": [
+  {
+   "num": "1.34",
+   "batch": "A",
+   "name": "Digital Agency ST (SeoTemple)",
+   "email": "job@seotemple.ru",
+   "city": "Казань",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "1.98",
+   "batch": "W",
+   "name": "Augment",
+   "email": "outstaff@augment-tech.ru",
+   "city": "Москва",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "1.99",
+   "batch": "W",
+   "name": "TechCore",
+   "email": "info@techcoredev.ru",
+   "city": "Москва",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "1.101",
+   "batch": "W",
+   "name": "GO Digital",
+   "email": "hello@godigital.rocks",
+   "city": "Иннополис",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "1.102",
+   "batch": "W",
+   "name": "Tools",
+   "email": "work@toolsdev.org",
+   "city": "Пермь",
+   "tz_offset": 5,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+05:00"
+  },
+  {
+   "num": "1.104",
+   "batch": "W",
+   "name": "MobileUp",
+   "email": "hello@mobileup.ru",
+   "city": "Санкт-Петербург",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "1.105",
+   "batch": "W",
+   "name": "itWit",
+   "email": "info@itwit.io",
+   "city": "Пенза",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "1.106",
+   "batch": "W",
+   "name": "Aitiks",
+   "email": "aitiks.company.2023@mail.ru",
+   "city": "Москва",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "1.107",
+   "batch": "W",
+   "name": "UMAX",
+   "email": "info@umax.agency",
+   "city": "Ростов-на-Дону",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "1.108",
+   "batch": "W",
+   "name": "SoftJet",
+   "email": "info@softjet.ru",
+   "city": "Ижевск",
+   "tz_offset": 4,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+04:00"
+  },
+  {
+   "num": "1.109",
+   "batch": "W",
+   "name": "Creonit",
+   "email": "info@creonit.ru",
+   "city": "Москва",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "1.110",
+   "batch": "W",
+   "name": "IT-Implant",
+   "email": "info@it-implant.ru",
+   "city": "Москва",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "1.103",
+   "batch": "W",
+   "name": "2ДИТ",
+   "email": "contact@2dit.ru",
+   "city": "Омск",
+   "tz_offset": 6,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+06:00"
+  },
+  {
+   "num": "4.129",
+   "batch": "AE",
+   "name": "Торговый дом «Тула-Сталь»",
+   "email": "tdts@td.tula-steel.ru",
+   "city": "Москва",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  },
+  {
+   "num": "4.130",
+   "batch": "AE",
+   "name": "GRAVION",
+   "email": "hr@gravion.ru",
+   "city": "Москва",
+   "tz_offset": 3,
+   "tz_resolved": true,
+   "due": "2026-09-02T07:00:00+03:00"
+  }
+ ]
+}

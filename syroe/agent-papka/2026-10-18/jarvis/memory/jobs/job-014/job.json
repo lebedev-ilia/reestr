@@ -1,0 +1,20 @@
+{
+ "id": "job-014",
+ "title": "Партия AG: клиенты ERP/MES из кейсов внедрения (сегмент 4, id 4.99–4.116)",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T11:00:42+10:00",
+ "started": "2026-08-25T11:04:49+10:00",
+ "finished": "2026-08-25T11:30:18+10:00",
+ "sec": 1529.5,
+ "pid": 111116,
+ "cost_usd": 6.808325599999997,
+ "turns": 168,
+ "result": "memory/jobs/job-014/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T11:39:08+10:00"
+}

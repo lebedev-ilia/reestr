@@ -1,0 +1,15 @@
+121148396	/
+100824036	/home
+8861924	/usr
+6055500	/var
+1063248	/opt
+137728	/boot
+11536	/etc
+64	/snap
+16	/lost+found
+12	/backend
+4	/srv
+4	/root
+4	/mnt
+4	/media
+4	/cdrom

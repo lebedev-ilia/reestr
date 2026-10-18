@@ -1,0 +1,22 @@
+{
+ "id": "job-115",
+ "title": "bl-148 проверка изоляции проекта",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "vnutrennii",
+ "created": "2026-08-30T20:07:34+10:00",
+ "started": "2026-08-30T20:07:34+10:00",
+ "finished": "2026-08-30T20:11:27+10:00",
+ "sec": 233.5,
+ "pid": 1474741,
+ "cost_usd": 0.670477,
+ "turns": 46,
+ "result": "memory/jobs/job-115/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T20:26:41+10:00"
+}

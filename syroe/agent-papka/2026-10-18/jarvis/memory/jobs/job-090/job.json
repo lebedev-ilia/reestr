@@ -1,0 +1,22 @@
+{
+ "id": "job-090",
+ "title": "Этап 0-C: метка проекта в очереди и ветки agent/&lt;задача&gt; с слиянием тимлидом",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "",
+ "created": "2026-08-30T10:19:31+10:00",
+ "started": "2026-08-30T10:19:31+10:00",
+ "finished": "2026-08-30T10:27:49+10:00",
+ "sec": 498.1,
+ "pid": 940748,
+ "cost_usd": 2.439819,
+ "turns": 68,
+ "result": "memory/jobs/job-090/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T10:30:22+10:00"
+}

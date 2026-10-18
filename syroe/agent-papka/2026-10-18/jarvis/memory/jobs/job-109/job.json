@@ -1,0 +1,22 @@
+{
+ "id": "job-109",
+ "title": "этап 0: пункты 7 и 9 — сторож и расход по проекту",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 5400,
+ "origin": "vk",
+ "zone": [],
+ "project": "vnutrennii",
+ "created": "2026-08-30T16:48:19+10:00",
+ "started": "2026-08-30T16:48:19+10:00",
+ "finished": "2026-08-30T16:58:55+10:00",
+ "sec": 636.5,
+ "pid": 1301505,
+ "cost_usd": 2.958369,
+ "turns": 72,
+ "result": "memory/jobs/job-109/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T17:01:41+10:00"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "job-001",
+ "title": "счёт .md в memory/facts",
+ "status": "done",
+ "model": "haiku",
+ "max_turns": 12,
+ "timeout": 300,
+ "origin": "vk",
+ "created": "2026-08-24T13:53:37+10:00",
+ "started": "2026-08-24T13:53:37+10:00",
+ "finished": "2026-08-24T13:54:21+10:00",
+ "sec": 44.3,
+ "pid": 690736,
+ "cost_usd": 0.14498529999999998,
+ "turns": 8,
+ "result": "memory/jobs/job-001/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-24T13:54:34+10:00"
+}

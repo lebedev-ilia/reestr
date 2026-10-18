@@ -1,0 +1,20 @@
+{
+ "id": "job-017",
+ "title": "legal:learn Самозанятость и НПД в 2026 году: ставки, годовой л",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 40,
+ "timeout": 2700,
+ "origin": "role",
+ "created": "2026-08-25T22:49:53+10:00",
+ "started": "2026-08-25T22:49:53+10:00",
+ "finished": "2026-08-25T22:55:00+10:00",
+ "sec": 307.0,
+ "pid": 754143,
+ "cost_usd": 1.099534,
+ "turns": 30,
+ "result": "memory/jobs/job-017/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T22:57:14+10:00"
+}

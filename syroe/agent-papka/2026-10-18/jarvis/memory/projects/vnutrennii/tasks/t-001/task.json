@@ -1,0 +1,34 @@
+{
+ "id": "t-001",
+ "project": "vnutrennii",
+ "title": "Пробная задача протокола",
+ "teamlead": "jarvis",
+ "executor": "sonnet-1",
+ "created": "2026-08-30",
+ "planned_due": "2026-09-05",
+ "started": "2026-08-30T09:07:55+10:00",
+ "finished": "2026-08-30T09:08:00+10:00",
+ "accepted_at": "2026-08-30T09:08:07+10:00",
+ "accepted_by": "jarvis",
+ "status": "done",
+ "rounds": [],
+ "artifacts": [
+  "derived/scratch/probe.txt"
+ ],
+ "criteria": [
+  {
+   "id": "c-01",
+   "text": "файл derived/scratch/probe.txt существует и не пуст",
+   "passes": true,
+   "checked_at": "2026-08-30T09:08:07+10:00",
+   "checked_by": "jarvis"
+  },
+  {
+   "id": "c-02",
+   "text": "в файле есть слово готово",
+   "passes": true,
+   "checked_at": "2026-08-30T09:08:07+10:00",
+   "checked_by": "jarvis"
+  }
+ ]
+}

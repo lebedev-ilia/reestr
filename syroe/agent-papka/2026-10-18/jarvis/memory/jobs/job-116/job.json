@@ -1,0 +1,22 @@
+{
+ "id": "job-116",
+ "title": "bl-148 второй заход проверки изоляции",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "vnutrennii",
+ "created": "2026-08-30T20:14:58+10:00",
+ "started": "2026-08-30T20:14:58+10:00",
+ "finished": "2026-08-30T20:23:07+10:00",
+ "sec": 489.2,
+ "pid": 1483361,
+ "cost_usd": 1.217348,
+ "turns": 44,
+ "result": "memory/jobs/job-116/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T20:26:41+10:00"
+}

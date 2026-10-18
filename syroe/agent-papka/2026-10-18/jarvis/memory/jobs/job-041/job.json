@@ -1,0 +1,21 @@
+{
+ "id": "job-041",
+ "title": "bl-112: write_fact теряет sources и links при перезаписи факта",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-26T11:05:20+10:00",
+ "started": "2026-08-26T11:09:35+10:00",
+ "finished": "2026-08-26T11:20:21+10:00",
+ "sec": 647.0,
+ "pid": 1427476,
+ "cost_usd": 2.544607,
+ "turns": 82,
+ "result": "memory/jobs/job-041/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-26T11:20:24+10:00"
+}

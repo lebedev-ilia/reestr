@@ -1,0 +1,22 @@
+{
+ "id": "job-108",
+ "title": "этап 0: пункты 2 и 3 — шлюз, шелл, worktrees",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 5400,
+ "origin": "vk",
+ "zone": [],
+ "project": "vnutrennii",
+ "created": "2026-08-30T16:42:56+10:00",
+ "started": "2026-08-30T16:42:56+10:00",
+ "finished": "2026-08-30T17:00:21+10:00",
+ "sec": 1045.7,
+ "pid": 1295900,
+ "cost_usd": 3.57697,
+ "turns": 68,
+ "result": "memory/jobs/job-108/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T17:01:41+10:00"
+}

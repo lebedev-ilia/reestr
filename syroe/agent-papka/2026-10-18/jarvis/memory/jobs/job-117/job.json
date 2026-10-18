@@ -1,0 +1,22 @@
+{
+ "id": "job-117",
+ "title": "bl-148 третий заход проверки изоляции",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "vnutrennii",
+ "created": "2026-08-30T20:26:16+10:00",
+ "started": "2026-08-30T20:26:16+10:00",
+ "finished": "2026-08-30T20:34:26+10:00",
+ "sec": 490.9,
+ "pid": 1493528,
+ "cost_usd": 1.749993,
+ "turns": 51,
+ "result": "memory/jobs/job-117/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-30T20:36:47+10:00"
+}

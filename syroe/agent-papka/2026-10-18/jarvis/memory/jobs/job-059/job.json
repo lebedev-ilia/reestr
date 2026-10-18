@@ -1,0 +1,21 @@
+{
+ "id": "job-059",
+ "title": "bl-123-B: российские LLM с API — пригодность под агента-дизайнера",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-27T00:39:34+10:00",
+ "started": "2026-08-27T00:39:34+10:00",
+ "finished": "2026-08-27T00:44:10+10:00",
+ "sec": 276.2,
+ "pid": 2119848,
+ "cost_usd": 1.337356,
+ "turns": 39,
+ "result": "memory/jobs/job-059/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-27T00:55:20+10:00"
+}

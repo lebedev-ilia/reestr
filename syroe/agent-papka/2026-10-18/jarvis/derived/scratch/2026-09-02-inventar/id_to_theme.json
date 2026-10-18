@@ -1,0 +1,511 @@
+{
+ "themes": {
+  "1a": {
+   "name": "Деньги и долги Ильи",
+   "desc": "Банковские выписки, кто есть кто в переводах, долговой контур.",
+   "ids": [
+    "memory/facts/dengi-kto-est-kto.md",
+    "memory/facts/dolgi-kontur.md",
+    "memory/facts/vypiska-sber-leto-2026.md",
+    "memory/facts/vypiska-sber-15-23-avgusta.md",
+    "memory/procedures/razbor-bankovskoy-vypiski.md"
+   ],
+   "hints": [
+    "выписка",
+    "долг",
+    "кто перевёл",
+    "Сбер"
+   ]
+  },
+  "1b": {
+   "name": "Быт Ильи: переезд, квартира, Notion",
+   "desc": "Личные обстоятельства: календарь до переезда 14.09, критерии квартиры, заработок, воркспейс Notion и его методички.",
+   "ids": [
+    "memory/facts/ilya.md",
+    "memory/facts/kalendar-do-pereezda.md",
+    "memory/facts/kvartira-kriterii.md",
+    "memory/facts/zarabotok-kanaly.md",
+    "memory/facts/notion-ustroystvo.md",
+    "memory/facts/notion-metodichki.md",
+    "memory/facts/ilya-polozhenie-del-avgust.md",
+    "memory/facts/pamyat-uzkie-mesta.md",
+    "memory/procedures/chtenie-notion.md",
+    "memory/procedures/pravka-notion.md",
+    "memory/rules/kvartira-start-27-08.md",
+    "memory/rules/kanal-zarabotka-ne-perenositsya.md",
+    "memory/rules/pravka-schitaetsya-po-schyotchiku.md"
+   ],
+   "hints": [
+    "переезд",
+    "квартира",
+    "Notion",
+    "заработок"
+   ]
+  },
+  "2": {
+   "name": "No Logo Studio: клиентский проект",
+   "desc": "Заказ агента-дизайнера, Николай Кочубеев, NDA, подпись, Figma MCP, юридический и денежный контур сделки.",
+   "ids": [
+    "memory/facts/nologo-zakaz-agent-dizayner.md",
+    "memory/facts/figma-mcp-zapis.md",
+    "memory/facts/podpis-ilyi-elektronnaya.md",
+    "memory/facts/oplata-modeley-iz-rossii.md",
+    "memory/procedures/eksport-konteksta-naruzhu.md",
+    "memory/procedures/otvet-klientu-pismom-s-vlozheniem.md",
+    "memory/rules/chernovik-ot-poslednego-pisma.md",
+    "memory/rules/uslovie-uzhe-nazvannoe-klientu.md",
+    "memory/rules/yuridicheskiy-tekst-cherez-yurista.md",
+    "memory/rules/cenu-stavit-ilya.md"
+   ],
+   "hints": [
+    "Николай",
+    "No Logo",
+    "NDA",
+    "первое письмо Николаю"
+   ]
+  },
+  "3a": {
+   "name": "Рассылка: сбор и качество контактов",
+   "desc": "Источники карточек, список 60 контактов и его вычитка, сито мёртвых адресов.",
+   "ids": [
+    "memory/facts/istochniki-sbora-kontaktov.md",
+    "memory/facts/spisok-60-kontaktov.md",
+    "memory/facts/spisok-60-kontaktov-kachestvo.md",
+    "memory/facts/mailrisk-sito-adresov.md",
+    "memory/procedures/sbor-kontaktov-partiyami.md",
+    "memory/procedures/vychitka-spiska-kontaktov.md"
+   ],
+   "hints": [
+    "список контактов",
+    "сколько адресов",
+    "вычитка"
+   ]
+  },
+  "3b": {
+   "name": "Рассылка: письма, бренд и учёт откликов",
+   "desc": "Шаблоны писем, история переписки по контакту, бренд Alverra, фриланс-пакет, ежедневная порция и разбор входящих.",
+   "ids": [
+    "memory/facts/pisma-shablony-i-otkliki.md",
+    "memory/facts/istoriya-perepiski-po-kontaktam.md",
+    "memory/facts/otkliki-uchyot.md",
+    "memory/facts/alverra-predlozhenie.md",
+    "memory/facts/brend-kompanii-avtomatizacii.md",
+    "memory/facts/frilans-paket-otklikov.md",
+    "memory/procedures/email-rassylka-s-nulya.md",
+    "memory/procedures/ezhednevnaya-rassylka-15.md",
+    "memory/procedures/perepiska-partii-pisem-pod-adresata.md",
+    "memory/procedures/razbor-vhodyashchih-po-rassylke.md",
+    "memory/rules/stil-holodnyh-pisem.md"
+   ],
+   "hints": [
+    "шаблон письма",
+    "Alverra",
+    "кто ответил",
+    "первое письмо контакту"
+   ]
+  },
+  "3c": {
+   "name": "Рассылка: отправка и планировщик",
+   "desc": "Ящик отправителя, доставка по 60 контактам, планировщик по 07:00 в часовом поясе адресата.",
+   "ids": [
+    "memory/facts/rassylka-otpravka-ustroystvo.md",
+    "memory/facts/planirovshchik-rassylki-po-poyasam.md",
+    "memory/rules/ot-imeni-ili-cherez-chernovik.md"
+   ],
+   "hints": [
+    "планировщик",
+    "orient_dv",
+    "от имени Ильи"
+   ]
+  },
+  "4": {
+   "name": "Заработок: площадки и доступы",
+   "desc": "HH.ru, FL.ru, FarPost, Telegram, MAX — что реально даёт каждая площадка агенту.",
+   "ids": [
+    "memory/facts/hh-ru-dostup.md",
+    "memory/facts/hh-browser-sessiya.md",
+    "memory/facts/fl-ru-dostup.md",
+    "memory/facts/farpost-dostup.md",
+    "memory/facts/telegram-dostup.md",
+    "memory/facts/max-messenger-dostup.md",
+    "memory/procedures/vhod-hh-cherez-pochtu.md",
+    "memory/rules/dostup-k-saytam-login-parol.md"
+   ],
+   "hints": [
+    "HH.ru",
+    "FL.ru",
+    "FarPost",
+    "вход по логину"
+   ]
+  },
+  "5a": {
+   "name": "Голос: синтез и распознавание",
+   "desc": "Piper TTS, faster-whisper, подготовка текста к синтезу и починка произношения.",
+   "ids": [
+    "memory/facts/golos-stek.md",
+    "memory/facts/stt-svoyo-raspoznavanie.md",
+    "memory/facts/tts-podgotovka-teksta.md",
+    "memory/procedures/golosovoe-v-vk.md",
+    "memory/procedures/pochinka-proiznosheniya.md",
+    "memory/rules/golosovoe-tolko-mysli.md",
+    "memory/rules/golos-ili-tekst.md"
+   ],
+   "hints": [
+    "голосовое",
+    "Piper",
+    "произношение"
+   ]
+  },
+  "5b": {
+   "name": "Канал ВК: устройство и стиль ответа",
+   "desc": "Реквизиты сообщества, VK API, картинки, скорость ответа и жёсткие правила стиля (краткость, без markdown, ночная тишина).",
+   "ids": [
+    "memory/facts/vk-api-osobennosti.md",
+    "memory/facts/vk-kanal-rekvizity.md",
+    "memory/facts/vk-kartinki-zrenie.md",
+    "memory/facts/vk-otvet-skorost-i-obyom.md",
+    "memory/procedures/perezapusk-demona-vk.md",
+    "memory/procedures/zamer-kanala-vk-po-logu.md",
+    "memory/procedures/dovodka-kachestva-po-zhalobe.md",
+    "memory/rules/kratkost.md",
+    "memory/rules/tekst-v-vk.md",
+    "memory/rules/nochnaya-tishina.md",
+    "memory/rules/promezhutochnye-statusy.md",
+    "memory/rules/soobshchenie-posredi-hoda.md",
+    "memory/rules/vsyo-po-russki.md"
+   ],
+   "hints": [
+    "ВК",
+    "краткость",
+    "ночная тишина",
+    "статус в чат"
+   ]
+  },
+  "6a": {
+   "name": "Память: оглавление, поиск, реформа",
+   "desc": "Как собирается системный промпт из памяти, поиск recall, разбор что переросло бюджет, требования Ильи к новой архитектуре 02.09.",
+   "ids": [
+    "memory/facts/bystryy-put-bez-mehanizma.md",
+    "memory/facts/sborka-konteksta-ustroystvo.md",
+    "memory/facts/potolok-sistemnogo-prompta.md",
+    "memory/facts/poisk-po-pamyati-ustroystvo.md",
+    "memory/facts/pamyat-agentov-vneshniy-opyt.md",
+    "memory/facts/uchyot-primeneniya-ne-vedyotsya.md",
+    "memory/facts/log-uehal-v-derived.md",
+    "memory/facts/arhitektura-pamyati-trebovaniya.md",
+    "memory/procedures/kogda-zvat-recall.md",
+    "memory/procedures/mesyachnaya-reviziya.md",
+    "memory/rules/chislo-zhivyot-v-odnom-fakte.md",
+    "memory/rules/fakt-ne-snimok.md",
+    "memory/rules/perezapis-fayla-pamyati-slivaet-shapku.md",
+    "memory/rules/zhivoy-log-tolko-iz-tochki-vhoda.md",
+    "memory/rules/obyazatelstvo-ne-razbor.md",
+    "memory/rules/zadacha-v-ocheredi-pishetsya-v-budushchem.md"
+   ],
+   "hints": [
+    "потолок промпта",
+    "оглавление",
+    "recall",
+    "реформа памяти 02.09"
+   ]
+  },
+  "6b": {
+   "name": "Ход агента: цена, событийность, самотест",
+   "desc": "Из чего складывается цена хода, автономная работа в простое, недельный лимит подписки, ночной цикл, дисциплина самотестов.",
+   "ids": [
+    "memory/facts/cena-hoda-iz-chego-sostoit.md",
+    "memory/facts/cena-hoda-uchyot.md",
+    "memory/facts/avtonomnaya-rabota-ustroystvo.md",
+    "memory/facts/agent-sobytiyniy.md",
+    "memory/facts/preryvanie-hoda-ustroystvo.md",
+    "memory/facts/avtonomnye-agenty-vneshniy-opyt.md",
+    "memory/facts/limit-podpiski-prostoy.md",
+    "memory/facts/nochnoy-cikl-ustroystvo.md",
+    "memory/procedures/ezhednevnyy-samoaudit.md",
+    "memory/rules/lozhnoe-krasnoe-chinyu-sam.md",
+    "memory/rules/samotest-schitat-po-kodu-vozvrata.md",
+    "memory/rules/samotest-ne-pishet-v-zhivuyu-pamyat.md",
+    "memory/rules/merilo-schitaetsya-po-vsemu-polyu.md",
+    "memory/rules/priznak-ishchetsya-po-delu.md",
+    "memory/rules/vremya-sravnivaetsya-posle-privedeniya.md",
+    "memory/rules/chuzhoy-otvet-ne-peredavat-vslepuyu.md"
+   ],
+   "hints": [
+    "цена хода",
+    "недельный лимит",
+    "ночной цикл",
+    "самотест"
+   ]
+  },
+  "7a": {
+   "name": "Постоянные роли-специалисты",
+   "desc": "Юрист, критик, тимлиды: как заводится роль, протокол проектов, образец TrendFlowML.",
+   "ids": [
+    "memory/facts/agenty-postoyannye-roli.md",
+    "memory/facts/komanda-protokol-proektov.md",
+    "memory/facts/trendflow-komanda-agentov.md",
+    "memory/procedures/zavesti-postoyannuyu-rol.md",
+    "memory/rules/oblast-eto-rol-a-ne-zadanie.md",
+    "memory/rules/pereimenovanie-fayla-roli.md",
+    "memory/rules/zadacha-timlida-ne-startuet-sama.md",
+    "memory/rules/rol-pomnit-podagent-zabyvaet.md",
+    "memory/rules/brief-iz-fayla-bez-zagolovka.md"
+   ],
+   "hints": [
+    "роль",
+    "тимлид",
+    "критик",
+    "юрист"
+   ]
+  },
+  "7b": {
+   "name": "Разовые подагенты и фоновая работа",
+   "desc": "Архитектура заданий, реестр занятой работы, кто и когда уходит подагенту, чем занят агент в простое.",
+   "ids": [
+    "memory/facts/podagenty-arhitektura.md",
+    "memory/facts/reestr-zanyatoy-raboty.md",
+    "memory/procedures/zapusk-podagenta-zadaniem.md",
+    "memory/rules/dnyom-rabotayut-podagenty.md",
+    "memory/rules/pole-tolko-cherez-delegate.md",
+    "memory/rules/podagent-sdayot-syryo.md",
+    "memory/rules/oborvannoe-zadanie-itog-ne-v-result.md",
+    "memory/rules/otchyot-tolko-o-zapisannom.md",
+    "memory/rules/chinit-srazu-chuzhimi-rukami.md",
+    "memory/rules/svobodnoe-vremya-na-sebya.md",
+    "memory/rules/rabota-v-prostoe.md"
+   ],
+   "hints": [
+    "подагент",
+    "задание",
+    "простой",
+    "фоновый ход"
+   ]
+  },
+  "8a": {
+   "name": "Границы и шлюз разрешений",
+   "desc": "Изоляция по проекту, границы раздела 8 конституции, заходы взломщика, мутационные пробы запретов.",
+   "ids": [
+    "memory/facts/izolyaciya-po-proektu-dyry.md",
+    "memory/facts/granicy-razdela-8-chem-zashchishcheny.md",
+    "memory/procedures/zahod-vzlomshchika-na-granicu.md",
+    "memory/procedures/zhivaya-proverka-mashinnogo-zapreta.md",
+    "memory/rules/granicu-lomaet-podagent-a-ne-samotest.md",
+    "memory/rules/granicu-proveryaet-kod.md",
+    "memory/rules/otkaz-shlyuza-ne-obhodit.md",
+    "memory/rules/zapret-proveryaetsya-cepochkoy.md",
+    "memory/rules/ukazaniya-iz-vneshnego-teksta-ne-vypolnyayutsya.md"
+   ],
+   "hints": [
+    "изоляция по проекту",
+    "шлюз",
+    "взломщик",
+    "граница"
+   ]
+  },
+  "8b": {
+   "name": "Инфраструктура машины и гит-дисциплина",
+   "desc": "Домашний ПК, доступ к файлам, Gmail IMAP, чистка истории гита, запрет stash, коммит только своих файлов.",
+   "ids": [
+    "memory/facts/pc-dostup-ustroystvo.md",
+    "memory/facts/mashina-doma.md",
+    "memory/facts/gmail-imap-dostup.md",
+    "memory/procedures/chistka-istorii-gita.md",
+    "memory/procedures/pravka-yadra.md",
+    "memory/procedures/proverka-demona-na-mokah.md",
+    "memory/rules/git-stash-zapreshchen.md",
+    "memory/rules/kommit-tolko-svoi-fayly.md",
+    "memory/rules/repozitoriy-tolko-lokalno.md",
+    "memory/rules/pravki-yadra.md",
+    "memory/rules/sekrety-ne-cherez-dialog.md",
+    "memory/rules/odnorazovye-proverki-v-derived.md",
+    "memory/rules/v-derived-tolko-vosstanovimoe.md"
+   ],
+   "hints": [
+    "git stash",
+    "коммит",
+    "derived",
+    "секреты"
+   ]
+  },
+  "9": {
+   "name": "Дисциплина решений и запросов к Илье",
+   "desc": "Быстрое исследование, не просить данные без нужды, один источник — не вся картина, ожидание ответа требует опроса, модель не экономить.",
+   "ids": [
+    "memory/procedures/bystroe-issledovanie.md",
+    "memory/rules/issledovanie-rezhimy.md",
+    "memory/rules/ne-prosit-dannye-bez-nuzhdy.md",
+    "memory/rules/odin-istochnik-ne-vsya-kartina.md",
+    "memory/rules/ozhidanie-otveta-trebuet-oprosa.md",
+    "memory/rules/model-ne-ekonomit.md"
+   ],
+   "hints": [
+    "исследование",
+    "ждать ответа",
+    "модель"
+   ]
+  }
+ },
+ "id_to_theme": {
+  "memory/facts/dengi-kto-est-kto.md": "1a",
+  "memory/facts/dolgi-kontur.md": "1a",
+  "memory/facts/vypiska-sber-leto-2026.md": "1a",
+  "memory/facts/vypiska-sber-15-23-avgusta.md": "1a",
+  "memory/procedures/razbor-bankovskoy-vypiski.md": "1a",
+  "memory/facts/ilya.md": "1b",
+  "memory/facts/kalendar-do-pereezda.md": "1b",
+  "memory/facts/kvartira-kriterii.md": "1b",
+  "memory/facts/zarabotok-kanaly.md": "1b",
+  "memory/facts/notion-ustroystvo.md": "1b",
+  "memory/facts/notion-metodichki.md": "1b",
+  "memory/facts/ilya-polozhenie-del-avgust.md": "1b",
+  "memory/facts/pamyat-uzkie-mesta.md": "1b",
+  "memory/procedures/chtenie-notion.md": "1b",
+  "memory/procedures/pravka-notion.md": "1b",
+  "memory/rules/kvartira-start-27-08.md": "1b",
+  "memory/rules/kanal-zarabotka-ne-perenositsya.md": "1b",
+  "memory/rules/pravka-schitaetsya-po-schyotchiku.md": "1b",
+  "memory/facts/nologo-zakaz-agent-dizayner.md": "2",
+  "memory/facts/figma-mcp-zapis.md": "2",
+  "memory/facts/podpis-ilyi-elektronnaya.md": "2",
+  "memory/facts/oplata-modeley-iz-rossii.md": "2",
+  "memory/procedures/eksport-konteksta-naruzhu.md": "2",
+  "memory/procedures/otvet-klientu-pismom-s-vlozheniem.md": "2",
+  "memory/rules/chernovik-ot-poslednego-pisma.md": "2",
+  "memory/rules/uslovie-uzhe-nazvannoe-klientu.md": "2",
+  "memory/rules/yuridicheskiy-tekst-cherez-yurista.md": "2",
+  "memory/rules/cenu-stavit-ilya.md": "2",
+  "memory/facts/istochniki-sbora-kontaktov.md": "3a",
+  "memory/facts/spisok-60-kontaktov.md": "3a",
+  "memory/facts/spisok-60-kontaktov-kachestvo.md": "3a",
+  "memory/facts/mailrisk-sito-adresov.md": "3a",
+  "memory/procedures/sbor-kontaktov-partiyami.md": "3a",
+  "memory/procedures/vychitka-spiska-kontaktov.md": "3a",
+  "memory/facts/pisma-shablony-i-otkliki.md": "3b",
+  "memory/facts/istoriya-perepiski-po-kontaktam.md": "3b",
+  "memory/facts/otkliki-uchyot.md": "3b",
+  "memory/facts/alverra-predlozhenie.md": "3b",
+  "memory/facts/brend-kompanii-avtomatizacii.md": "3b",
+  "memory/facts/frilans-paket-otklikov.md": "3b",
+  "memory/procedures/email-rassylka-s-nulya.md": "3b",
+  "memory/procedures/ezhednevnaya-rassylka-15.md": "3b",
+  "memory/procedures/perepiska-partii-pisem-pod-adresata.md": "3b",
+  "memory/procedures/razbor-vhodyashchih-po-rassylke.md": "3b",
+  "memory/rules/stil-holodnyh-pisem.md": "3b",
+  "memory/facts/rassylka-otpravka-ustroystvo.md": "3c",
+  "memory/facts/planirovshchik-rassylki-po-poyasam.md": "3c",
+  "memory/rules/ot-imeni-ili-cherez-chernovik.md": "3c",
+  "memory/facts/hh-ru-dostup.md": "4",
+  "memory/facts/hh-browser-sessiya.md": "4",
+  "memory/facts/fl-ru-dostup.md": "4",
+  "memory/facts/farpost-dostup.md": "4",
+  "memory/facts/telegram-dostup.md": "4",
+  "memory/facts/max-messenger-dostup.md": "4",
+  "memory/procedures/vhod-hh-cherez-pochtu.md": "4",
+  "memory/rules/dostup-k-saytam-login-parol.md": "4",
+  "memory/facts/golos-stek.md": "5a",
+  "memory/facts/stt-svoyo-raspoznavanie.md": "5a",
+  "memory/facts/tts-podgotovka-teksta.md": "5a",
+  "memory/procedures/golosovoe-v-vk.md": "5a",
+  "memory/procedures/pochinka-proiznosheniya.md": "5a",
+  "memory/rules/golosovoe-tolko-mysli.md": "5a",
+  "memory/rules/golos-ili-tekst.md": "5a",
+  "memory/facts/vk-api-osobennosti.md": "5b",
+  "memory/facts/vk-kanal-rekvizity.md": "5b",
+  "memory/facts/vk-kartinki-zrenie.md": "5b",
+  "memory/facts/vk-otvet-skorost-i-obyom.md": "5b",
+  "memory/procedures/perezapusk-demona-vk.md": "5b",
+  "memory/procedures/zamer-kanala-vk-po-logu.md": "5b",
+  "memory/procedures/dovodka-kachestva-po-zhalobe.md": "5b",
+  "memory/rules/kratkost.md": "5b",
+  "memory/rules/tekst-v-vk.md": "5b",
+  "memory/rules/nochnaya-tishina.md": "5b",
+  "memory/rules/promezhutochnye-statusy.md": "5b",
+  "memory/rules/soobshchenie-posredi-hoda.md": "5b",
+  "memory/rules/vsyo-po-russki.md": "5b",
+  "memory/facts/bystryy-put-bez-mehanizma.md": "6a",
+  "memory/facts/sborka-konteksta-ustroystvo.md": "6a",
+  "memory/facts/potolok-sistemnogo-prompta.md": "6a",
+  "memory/facts/poisk-po-pamyati-ustroystvo.md": "6a",
+  "memory/facts/pamyat-agentov-vneshniy-opyt.md": "6a",
+  "memory/facts/uchyot-primeneniya-ne-vedyotsya.md": "6a",
+  "memory/facts/log-uehal-v-derived.md": "6a",
+  "memory/facts/arhitektura-pamyati-trebovaniya.md": "6a",
+  "memory/procedures/kogda-zvat-recall.md": "6a",
+  "memory/procedures/mesyachnaya-reviziya.md": "6a",
+  "memory/rules/chislo-zhivyot-v-odnom-fakte.md": "6a",
+  "memory/rules/fakt-ne-snimok.md": "6a",
+  "memory/rules/perezapis-fayla-pamyati-slivaet-shapku.md": "6a",
+  "memory/rules/zhivoy-log-tolko-iz-tochki-vhoda.md": "6a",
+  "memory/rules/obyazatelstvo-ne-razbor.md": "6a",
+  "memory/rules/zadacha-v-ocheredi-pishetsya-v-budushchem.md": "6a",
+  "memory/facts/cena-hoda-iz-chego-sostoit.md": "6b",
+  "memory/facts/cena-hoda-uchyot.md": "6b",
+  "memory/facts/avtonomnaya-rabota-ustroystvo.md": "6b",
+  "memory/facts/agent-sobytiyniy.md": "6b",
+  "memory/facts/preryvanie-hoda-ustroystvo.md": "6b",
+  "memory/facts/avtonomnye-agenty-vneshniy-opyt.md": "6b",
+  "memory/facts/limit-podpiski-prostoy.md": "6b",
+  "memory/facts/nochnoy-cikl-ustroystvo.md": "6b",
+  "memory/procedures/ezhednevnyy-samoaudit.md": "6b",
+  "memory/rules/lozhnoe-krasnoe-chinyu-sam.md": "6b",
+  "memory/rules/samotest-schitat-po-kodu-vozvrata.md": "6b",
+  "memory/rules/samotest-ne-pishet-v-zhivuyu-pamyat.md": "6b",
+  "memory/rules/merilo-schitaetsya-po-vsemu-polyu.md": "6b",
+  "memory/rules/priznak-ishchetsya-po-delu.md": "6b",
+  "memory/rules/vremya-sravnivaetsya-posle-privedeniya.md": "6b",
+  "memory/rules/chuzhoy-otvet-ne-peredavat-vslepuyu.md": "6b",
+  "memory/facts/agenty-postoyannye-roli.md": "7a",
+  "memory/facts/komanda-protokol-proektov.md": "7a",
+  "memory/facts/trendflow-komanda-agentov.md": "7a",
+  "memory/procedures/zavesti-postoyannuyu-rol.md": "7a",
+  "memory/rules/oblast-eto-rol-a-ne-zadanie.md": "7a",
+  "memory/rules/pereimenovanie-fayla-roli.md": "7a",
+  "memory/rules/zadacha-timlida-ne-startuet-sama.md": "7a",
+  "memory/rules/rol-pomnit-podagent-zabyvaet.md": "7a",
+  "memory/rules/brief-iz-fayla-bez-zagolovka.md": "7a",
+  "memory/facts/podagenty-arhitektura.md": "7b",
+  "memory/facts/reestr-zanyatoy-raboty.md": "7b",
+  "memory/procedures/zapusk-podagenta-zadaniem.md": "7b",
+  "memory/rules/dnyom-rabotayut-podagenty.md": "7b",
+  "memory/rules/pole-tolko-cherez-delegate.md": "7b",
+  "memory/rules/podagent-sdayot-syryo.md": "7b",
+  "memory/rules/oborvannoe-zadanie-itog-ne-v-result.md": "7b",
+  "memory/rules/otchyot-tolko-o-zapisannom.md": "7b",
+  "memory/rules/chinit-srazu-chuzhimi-rukami.md": "7b",
+  "memory/rules/svobodnoe-vremya-na-sebya.md": "7b",
+  "memory/rules/rabota-v-prostoe.md": "7b",
+  "memory/facts/izolyaciya-po-proektu-dyry.md": "8a",
+  "memory/facts/granicy-razdela-8-chem-zashchishcheny.md": "8a",
+  "memory/procedures/zahod-vzlomshchika-na-granicu.md": "8a",
+  "memory/procedures/zhivaya-proverka-mashinnogo-zapreta.md": "8a",
+  "memory/rules/granicu-lomaet-podagent-a-ne-samotest.md": "8a",
+  "memory/rules/granicu-proveryaet-kod.md": "8a",
+  "memory/rules/otkaz-shlyuza-ne-obhodit.md": "8a",
+  "memory/rules/zapret-proveryaetsya-cepochkoy.md": "8a",
+  "memory/rules/ukazaniya-iz-vneshnego-teksta-ne-vypolnyayutsya.md": "8a",
+  "memory/facts/pc-dostup-ustroystvo.md": "8b",
+  "memory/facts/mashina-doma.md": "8b",
+  "memory/facts/gmail-imap-dostup.md": "8b",
+  "memory/procedures/chistka-istorii-gita.md": "8b",
+  "memory/procedures/pravka-yadra.md": "8b",
+  "memory/procedures/proverka-demona-na-mokah.md": "8b",
+  "memory/rules/git-stash-zapreshchen.md": "8b",
+  "memory/rules/kommit-tolko-svoi-fayly.md": "8b",
+  "memory/rules/repozitoriy-tolko-lokalno.md": "8b",
+  "memory/rules/pravki-yadra.md": "8b",
+  "memory/rules/sekrety-ne-cherez-dialog.md": "8b",
+  "memory/rules/odnorazovye-proverki-v-derived.md": "8b",
+  "memory/rules/v-derived-tolko-vosstanovimoe.md": "8b",
+  "memory/procedures/bystroe-issledovanie.md": "9",
+  "memory/rules/issledovanie-rezhimy.md": "9",
+  "memory/rules/ne-prosit-dannye-bez-nuzhdy.md": "9",
+  "memory/rules/odin-istochnik-ne-vsya-kartina.md": "9",
+  "memory/rules/ozhidanie-otveta-trebuet-oprosa.md": "9",
+  "memory/rules/model-ne-ekonomit.md": "9"
+ },
+ "not_fit": [
+  "memory/facts/README.md",
+  "memory/procedures/README.md",
+  "memory/rules/README.md"
+ ]
+}

@@ -1,0 +1,62 @@
+{
+  "_": "Белый список операций посредника. Лежит у root, агентом не правится.",
+  "_формат": "steps — готовый argv; {имя} = аргумент целиком, {имя*} = список; params — регулярка на КАЖДОЕ значение; confirm — операция требует явного согласия Ильи, клиент обязан спросить.",
+  "_путь": "Сверх регулярок демон отдельно отбивает любое значение с сегментом `..`: на регулярку в этом полагаться нельзя, она такое пропускает. Полный путь бинарника в steps обязан существовать — проверяется самотестом.",
+  "ops": {
+    "disk.mount": {
+      "desc": "Смонтировать раздел через udisks (после перезагрузки монтирование не переживает)",
+      "confirm": false,
+      "params": {"device": "^/dev/sd[a-z][1-9][0-9]?$"},
+      "steps": [["/usr/bin/udisksctl", "mount", "-b", "{device}"]]
+    },
+    "disk.fix_ntfs": {
+      "desc": "Снять грязный флаг NTFS: отмонтировать, ntfsfix -d, смонтировать обратно",
+      "confirm": true,
+      "params": {"device": "^/dev/sd[a-z][1-9][0-9]?$"},
+      "steps": [
+        ["/usr/bin/udisksctl", "unmount", "-b", "{device}"],
+        ["/usr/bin/ntfsfix", "-d", "{device}"],
+        ["/usr/bin/udisksctl", "mount", "-b", "{device}"]
+      ]
+    },
+    "sys.read": {
+      "desc": "Прочитать системный файл, закрытый для пользователя",
+      "confirm": false,
+      "params": {"path": "^/(etc|proc|sys|var/log)/[A-Za-z0-9._/-]{1,180}$"},
+      "steps": [["/usr/bin/cat", "{path}"]]
+    },
+    "sys.list": {
+      "desc": "Показать содержимое системного каталога",
+      "confirm": false,
+      "params": {"path": "^/(etc|var/log|var/lib)/[A-Za-z0-9._/-]{0,180}$"},
+      "steps": [["/usr/bin/ls", "-la", "--", "{path}"]]
+    },
+    "svc.status": {
+      "desc": "Состояние systemd-юнита",
+      "confirm": false,
+      "params": {"unit": "^[A-Za-z0-9@._-]{1,80}\\.(service|timer|socket|mount)$"},
+      "steps": [["/usr/bin/systemctl", "status", "--no-pager", "-l", "{unit}"]]
+    },
+    "pkg.install": {
+      "desc": "Установить пакеты из штатных источников",
+      "confirm": true,
+      "params": {"names*": "^[a-z0-9][a-z0-9.+-]{0,60}$"},
+      "steps": [["/usr/bin/apt-get", "install", "-y", "--no-install-recommends", "{names*}"]]
+    },
+    "sudoers.remove": {
+      "desc": "Убрать файл из /etc/sudoers.d — только целиком и только оттуда",
+      "confirm": true,
+      "params": {"name": "^[A-Za-z0-9._-]{1,60}$"},
+      "steps": [["/usr/bin/rm", "-f", "--", "/etc/sudoers.d/{name}"]]
+    },
+    "svc.disable": {
+      "desc": "Остановить и выключить systemd-юнит",
+      "confirm": true,
+      "params": {"unit": "^[A-Za-z0-9@._-]{1,80}\\.(service|timer)$"},
+      "steps": [
+        ["/usr/bin/systemctl", "stop", "{unit}"],
+        ["/usr/bin/systemctl", "disable", "{unit}"]
+      ]
+    }
+  }
+}

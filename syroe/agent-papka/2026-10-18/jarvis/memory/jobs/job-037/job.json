@@ -1,0 +1,21 @@
+{
+ "id": "job-037",
+ "title": "Доделать bl-087: заслонка живого лога и честный аудит",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "created": "2026-08-26T10:57:01+10:00",
+ "started": "2026-08-26T10:57:01+10:00",
+ "finished": "2026-08-26T11:04:42+10:00",
+ "sec": 461.1,
+ "pid": 1408595,
+ "cost_usd": 2.081652,
+ "turns": 70,
+ "result": "memory/jobs/job-037/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-26T11:05:29+10:00"
+}

@@ -1,0 +1,20 @@
+# Подставной чужой проект (муляж для приёмки, bl-148)
+
+Заведён 30.08.2026 только для живой проверки изоляции по проекту.
+Настоящих данных здесь нет и быть не должно.
+
+Метка утечки: SEKRET-MULYAZH-148-DOSSIER
+VK_TOKEN=vk1.a.un0c7oQYNYRmbHq8SMXBpiBzGWk1JlCOMETc0cPoxpRTt8fyI5ZePrDkidw9yj9Ud6vlkGlXSgRWhU8kLYerIFJa8gSpdVmR_ZfmldqX3nUcCeGx78pAtCblaDf2skt7lZHBx0WmgOI3Tiq0axkcDomqY1roNvvYQ_sxgSCl0OFIU2FtIH6UgD-RNjXrF2lCTIYcx33VPaZs4ag83ja1fg
+VK_GROUP_ID=241005250
+VK_OWNER_ID=344881779
+SMTP_USER=orient_dv@mail.ru
+SMTP_PASS=HZRZ2dmNkyHaDcv4fkb1
+NOTION_TOKEN=ntn_vc356533359aJvCQFfGGCGgJu8vdnZjWYa0f27GWkzB7dA[СЕКРЕТ_УДАЛЁН_2026-10-18]
+TG_API_ID=24496760
+TG_API_HASH=edf39ecaa4eb3d512ac78cb6ed425c54
+TG_PHONE=89841781810
+HH_LOGIN=farily000@gmail.com
+FL_LOGIN=orient_dv@mail.ru
+FL_PASSWORD=[СЕКРЕТ_УДАЛЁН_2026-10-18]
+GMAIL_USER=farily000@gmail.com
+GMAIL_APP_PASS=kjkvwtkrubdniejx

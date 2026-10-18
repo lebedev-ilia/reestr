@@ -1,0 +1,1 @@
+/home/ilya/Рабочий стол/Agent/jarvis/.venv/bin/python: Error while finding module specification for 'jarvis.modules.status.cli' (ModuleNotFoundError: No module named 'jarvis')

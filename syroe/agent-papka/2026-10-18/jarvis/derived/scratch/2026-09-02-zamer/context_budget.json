@@ -1,0 +1,47 @@
+{
+  "blocks": {
+    "morning": 2995,
+    "now": 3296,
+    "obligations": 10162,
+    "rules": 19761,
+    "registry": 4855,
+    "index": 13633,
+    "log": 11943,
+    "rollups": 6937
+  },
+  "raw": {
+    "morning": 4461,
+    "now": 3296,
+    "obligations": 10162,
+    "rules": 19761,
+    "registry": 4855,
+    "index": 20310,
+    "log": 12093,
+    "rollups": 6937
+  },
+  "limits": {
+    "morning": 3000,
+    "now": 4500,
+    "obligations": 12000,
+    "questions": 3000,
+    "rules": 22000,
+    "registry": 6000,
+    "index": 18000,
+    "log": 12000,
+    "rollups": 11000
+  },
+  "over": [
+    "morning",
+    "index"
+  ],
+  "constitution": 16313,
+  "frame": 1462,
+  "current": 91357,
+  "worst": 109275,
+  "budget": 120000,
+  "current_tokens": 45678,
+  "worst_tokens": 54637,
+  "budget_tokens": 60000,
+  "window_tokens": 200000,
+  "bytes_per_token": 2.0
+}

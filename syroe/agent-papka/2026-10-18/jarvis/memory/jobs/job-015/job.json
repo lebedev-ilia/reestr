@@ -1,0 +1,20 @@
+{
+ "id": "job-015",
+ "title": "Партия AE: последние 8 карточек T4 (кейсы ЭДО/КЭДО), id 4.129–4.136",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "created": "2026-08-25T11:41:41+10:00",
+ "started": "2026-08-25T11:41:41+10:00",
+ "finished": "2026-08-25T11:50:56+10:00",
+ "sec": 555.9,
+ "pid": 147977,
+ "cost_usd": 2.8720594000000004,
+ "turns": 80,
+ "result": "memory/jobs/job-015/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-08-25T11:53:44+10:00"
+}

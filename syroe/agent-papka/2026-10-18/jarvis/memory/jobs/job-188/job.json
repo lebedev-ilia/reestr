@@ -1,0 +1,33 @@
+{
+ "id": "job-188",
+ "title": "teamlead-vnutrennii:work подъём сторожем",
+ "status": "done",
+ "model": "sonnet",
+ "max_turns": 40,
+ "timeout": 3000,
+ "origin": "watchdog",
+ "zone": [
+  "memory/agents/teamlead-vnutrennii/knowledge",
+  "memory/agents/teamlead-vnutrennii/journal",
+  "memory/agents/teamlead-vnutrennii/STATUS.md",
+  "memory/agents/teamlead-vnutrennii/LESSONS.md",
+  "memory/projects/vnutrennii/backlog.md",
+  "memory/projects/vnutrennii/tasks"
+ ],
+ "project": "vnutrennii",
+ "parent": null,
+ "depth": 0,
+ "maxed": false,
+ "continued": null,
+ "created": "2026-09-01T14:44:17+10:00",
+ "started": "2026-09-01T14:44:17+10:00",
+ "finished": "2026-09-01T14:45:08+10:00",
+ "sec": 52.0,
+ "pid": 3661348,
+ "cost_usd": 0.301296,
+ "turns": 7,
+ "result": "memory/jobs/job-188/result.md",
+ "error": null,
+ "delivered": true,
+ "delivered_at": "2026-09-01T14:45:24+10:00"
+}

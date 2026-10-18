@@ -1,0 +1,67 @@
+{
+ "id": "t-003",
+ "project": "vnutrennii",
+ "title": "Карта дисков: что занимает место, кандидаты на удаление и перенос",
+ "teamlead": "teamlead-vnutrennii",
+ "executor": "sonnet-1",
+ "created": "2026-08-30",
+ "planned_due": "2026-08-31",
+ "started": null,
+ "finished": null,
+ "accepted_at": null,
+ "accepted_by": null,
+ "status": "created",
+ "rounds": [],
+ "artifacts": [],
+ "criteria": [
+  {
+   "id": "c-01",
+   "text": "c-01: отчёт (файл в derived/, путь называет исполнитель) содержит топ каталогов системного диска по занимаемому месту с числами (МБ/ГБ)",
+   "passes": false,
+   "checked_at": null,
+   "checked_by": null
+  },
+  {
+   "id": "c-02",
+   "text": "c-02: отчёт делит находки на два списка — кандидаты на удаление и кандидаты на перенос, по каждому пункту оценка мегабайт",
+   "passes": false,
+   "checked_at": null,
+   "checked_by": null
+  },
+  {
+   "id": "c-03",
+   "text": "c-03: сумма мегабайт по всем пунктам отчёта сходится с общей занятостью системного диска (162 ГБ) в разумном допуске (не более 15% расхождения) — тимлид пересчитывает сам",
+   "passes": false,
+   "checked_at": null,
+   "checked_by": null
+  },
+  {
+   "id": "c-04",
+   "text": "c-04: каждый путь, названный в отчёте, действительно существует на диске — тимлид проверяет выборочно сам",
+   "passes": false,
+   "checked_at": null,
+   "checked_by": null
+  },
+  {
+   "id": "c-05",
+   "text": "c-05: скрипт переноса лежит отдельным файлом в derived/, не был запущен в ходе этой задачи (mtime файла не создаёт побочных файлов переноса), содержит явную проверку смонтированности целевого диска перед любым действием",
+   "passes": false,
+   "checked_at": null,
+   "checked_by": null
+  },
+  {
+   "id": "c-06",
+   "text": "c-06: ничего не удалено и не перемещено с диска в ходе выполнения задачи — состояние файловой системы Ильи не изменилось",
+   "passes": false,
+   "checked_at": null,
+   "checked_by": null
+  },
+  {
+   "id": "c-07",
+   "text": "c-07: работа велась в ветке agent/t-003-karta-diskov (modules/projects/branches.py branch-create), коммитов в master исполнитель не делал",
+   "passes": false,
+   "checked_at": null,
+   "checked_by": null
+  }
+ ]
+}

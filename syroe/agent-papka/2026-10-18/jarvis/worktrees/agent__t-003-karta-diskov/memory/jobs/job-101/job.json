@@ -1,0 +1,22 @@
+{
+ "id": "job-101",
+ "title": "t-003 заход 1: ветка и план проверки",
+ "status": "running",
+ "model": "sonnet",
+ "max_turns": 80,
+ "timeout": 3600,
+ "origin": "vk",
+ "zone": [],
+ "project": "",
+ "created": "2026-08-30T13:49:04+10:00",
+ "started": "2026-08-30T13:49:04+10:00",
+ "finished": null,
+ "sec": null,
+ "pid": 1144840,
+ "cost_usd": null,
+ "turns": null,
+ "result": null,
+ "error": null,
+ "delivered": false,
+ "delivered_at": null
+}
